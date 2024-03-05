@@ -1,0 +1,11 @@
+
+DATASET:
+    URL: https://www.kaggle.com/datasets/mrnabiz/detailed-airbnb-listing-data-london-sep-2022
+    DATADIR: dataset
+    USERNAME: albertonuzzaci
+    KEY: ee84f369d4fbdba6670725e9e0bc281b
+
+INDEX:
+    MAINDIR: indexdir
+    RECIPESDIR: recipesIndex
+    FILERECIPE: RAW_recipes.csv

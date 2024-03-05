@@ -1,0 +1,2 @@
+scarichiamo
+nltk.download('book')
