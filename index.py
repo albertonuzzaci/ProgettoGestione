@@ -12,11 +12,14 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
-class IndexRecipies():
+class Index():
     
     def __init__(self, forceBuildIndex=False):
-        self.schema = self.setupSchema()
-        self.ix = self.setupIndex(forceBuildIndex)
+        self.schemaAcc = self.setupSchemaAcc()
+        self.indexAcc = self.setupIndexAcc(forceBuildIndex)
+        
+        self.schemaRev = self.setupSchemaRev()
+        self.indexRev = self.setupIndexRev(forceBuildIndex)
             
     def setupSchema(self):
         schema = Schema(
