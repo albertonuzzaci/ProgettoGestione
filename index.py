@@ -1,6 +1,8 @@
 import yaml, os, shutil
 import pandas as pd
 from functools import reduce
+import json
+
 
 from whoosh.fields import Schema, TEXT, KEYWORD, ID, STORED, DATETIME, NUMERIC
 from whoosh import index, scoring
@@ -14,40 +16,49 @@ from nltk.stem.porter import PorterStemmer
 
 class Index():
     
-    def __init__(self, forceBuildIndex=False):
+    def __init__(self, forceBuildIndex=False, limit=None):
         self.schemaAcc = self.setupSchemaAcc()
-        self.indexAcc = self.setupIndexAcc(forceBuildIndex)
+        self.indexAcc = self.setupIndexAcc(forceBuildIndex, limit)
         
-        self.schemaRev = self.setupSchemaRev()
-        self.indexRev = self.setupIndexRev(forceBuildIndex)
+        #self.schemaRev = self.setupSchemaRev()
+        #self.indexRev = self.setupIndexRev(forceBuildIndex)
             
-    def setupSchema(self):
+    def setupSchemaAcc(self):
         schema = Schema(
-            recipe_name=TEXT(stored=True),
-            recipe_ID=ID(),
-            minutes = NUMERIC(stored=True),
-            contributor_ID = ID(),
-            date = DATETIME(),
-            tags = KEYWORD(stored=True, commas=True),
-            nutrions = NUMERIC(stored=True),
-            steps = TEXT(),
+            id = ID(stored=True, unique=True),
+            listing_url = TEXT(stored=True),
+            name = TEXT(stored=True),
             description = TEXT(stored=True),
-            description_preprocessed = KEYWORD(),
-            ingredients =  KEYWORD(stored=True, commas=True),
-            n_ing = NUMERIC() 
+            host_name = TEXT(stored=True),
+            host_id = ID(),
+            host_url = TEXT(stored=True),
+            host_picture_url = TEXT(stored=True),
+            neighbourhood_cleansed = TEXT(stored=True),
+            latitude = NUMERIC(stored=True, numtype=float),
+            longitude = NUMERIC(stored=True, numtype=float),
+            property_type = TEXT(stored=True),
+            room_type = TEXT(stored=True),
+            accomodates = NUMERIC(stored=True, numtype=float),
+            bathrooms = NUMERIC(stored=True, numtype=float),
+            bedrooms = NUMERIC(stored=True),
+            beds = NUMERIC(stored=True),
+            amenities = KEYWORD(stored=True, commas=True),
+            price = NUMERIC(stored=True, numtype=float),
+            numbers_of_review = NUMERIC(stored=True,numtype=float),
+            review_scores_rating = NUMERIC(stored=True, numtype=float)
         )
         return schema
     
-    def setupIndex(self, forceBuildIndex):
+    def setupIndexAcc(self, forceBuildIndex, limit):
         with open('config.yaml','r') as file:
             config_data = yaml.safe_load(file)
         
-        if not os.path.exists(f"{config_data['INDEX']['MAINDIR']}/{config_data['INDEX']['RECIPESDIR']}") or forceBuildIndex:
-            return self.createIndex()
+        if not os.path.exists(f"{config_data['INDEX']['MAINDIR']}/{config_data['INDEX']['ACCDIR']}") or forceBuildIndex:
+            return self.createIndexAcc(limit)
         else:
-            return index.open_dir(f"{config_data['INDEX']['MAINDIR']}/{config_data['INDEX']['RECIPESDIR']}")
+            return index.open_dir(f"{config_data['INDEX']['MAINDIR']}/{config_data['INDEX']['ACCDIR']}")
     
-    def createIndex(self):
+    def createIndexAcc(self, limit):
 
         with open('config.yaml','r') as file:
             config_data = yaml.safe_load(file)
@@ -55,34 +66,45 @@ class Index():
             if not os.path.exists(f"{config_data['INDEX']['MAINDIR']}"):
                 os.mkdir(f"{config_data['INDEX']['MAINDIR']}")
             
-            os.mkdir(f"{config_data['INDEX']['MAINDIR']}/{config_data['INDEX']['RECIPESDIR']}")
+            os.mkdir(f"{config_data['INDEX']['MAINDIR']}/{config_data['INDEX']['ACCDIR']}")
         except FileExistsError:
             pass        
             
-        data_dir = f"./{config_data['DATASET']['DATADIR']}/{config_data['INDEX']['FILERECIPE']}"
-        ix = index.create_in(f"{config_data['INDEX']['MAINDIR']}/{config_data['INDEX']['RECIPESDIR']}", self.schema)
+        data_dir = f"./{config_data['DATASET']['DATADIR']}"
+        ix = index.create_in(f"{config_data['INDEX']['MAINDIR']}/{config_data['INDEX']['ACCDIR']}", self.schemaAcc)
         writer = ix.writer()
         
-        df = pd.read_csv(data_dir)
         
-        for i, row in df.iterrows():
-            writer.add_document(
-                recipe_name=str((row['name'])),
-                recipe_ID=str(row['id']),
-                minutes = int(row['minutes']),
-                contributor_ID = str(row['contributor_id']),
-                date = str(row['submitted']),
-                tags = str(", ".join(eval(row['tags']))),
-                nutrions = float(eval(row['nutrition'])[0]),
-                steps = str(", ".join(eval(row['steps']))),
-                description = str(row['description']),
-                description_preprocessed = str(IndexRecipies.preprocessing(row['description'])),
-                ingredients =  str(", ".join(eval(row['ingredients']))),
-                n_ing = int(row['n_ingredients']) 
-            )
-            if i > 1000:
-                writer.commit()
-                return ix
+        for i, jsonFile in enumerate(os.listdir(data_dir)):
+            with open(u"{dir}/{file}".format(dir=data_dir, file=jsonFile), "r", encoding="utf-8") as f:
+                data = json.load(f)
+                print(u"{dir}/{file}".format(dir=data_dir, file=jsonFile))
+                writer.add_document(
+                    id = str(data["id"]),
+                    listing_url = str(data["listing_url"]),
+                    name = str(data["name"]),
+                    description = str(data["description"]),
+                    host_name = str(data["host_name"]),
+                    host_id = str(data["host_id"]),
+                    host_url = str(data["host_url"]),
+                    host_picture_url = str(data["host_picture_url"]),
+                    neighbourhood_cleansed = str(data["neighbourhood_cleansed"]),
+                    latitude = data["latitude"],
+                    longitude = data["longitude"],
+                    property_type = str(data["property_type"]),
+                    room_type = str(data["room_type"]),
+                    accomodates = data["accommodates"],
+                    bathrooms = data["bathrooms"],
+                    beds = data["beds"],
+                    bedrooms = data["bedrooms"],
+                    amenities = ",".join(data["amenities"]) if data["amenities"] != None else None,
+                    price = data["price"],
+                    numbers_of_review = data["numbers_of_review"],
+                    review_scores_rating = data["review_scores_rating"]
+                )
+                if limit != None and i > limit:
+                    writer.commit()
+                    return ix
             
     @staticmethod
     def preprocessing(text):
@@ -99,19 +121,19 @@ class Index():
         text_stemmed = " ".join(text_processed) 
         return text_stemmed
 
-def search(my_index: IndexRecipies):
+def search(my_index: Index):
     try:
-        s = my_index.ix.searcher()
+        s = my_index.indexAcc.searcher()
         #qp = qparser.QueryParser("recipe_name", schema=my_index.schema)
     
-        qp = qparser.MultifieldParser(['recipe_name','description'], schema=my_index.schema, group=qparser.OrGroup)
+        qp = qparser.MultifieldParser(['name','description'], schema=my_index.schemaAcc, group=qparser.OrGroup)
         while (True):
             print("Insert query-> ")
             q = input()
             
             parsedQ = qp.parse(q)
             print(f"Parsed query: {parsedQ}")
-            results = s.search(parsedQ, terms=True, limit=50)
+            results = s.search(parsedQ, terms=True, limit=5)
             if results.estimated_length() == 0:
                 print("Nothing found!")
             else:
@@ -120,12 +142,10 @@ def search(my_index: IndexRecipies):
                 
                 
                 for c, hit in enumerate(results):
-                    print(f"----------------HIT{c}-------------")
+                    print(f"----------------HIT{c}----------------")
                     print(hit.matched_terms())
-                    print(f'Recipe name: {hit["recipe_name"]}')
+                    print(f'Name: {hit["name"]}')
                     print(f'Description: {hit["description"]}')
-                    print(f'Ingredients: {hit["ingredients"]}')
-                    print(f'Tags: {hit["tags"]}')
                     print("\n")
                     #print(f"Contains: {hit.matched_terms()}")
                     #print("Doesn't contain:", query.all_terms().difference(set(hit.matched_terms())))
@@ -146,7 +166,7 @@ def search(my_index: IndexRecipies):
         s.close()
 
 if __name__ == '__main__':
-    my_index = IndexRecipies()
+    my_index = Index(forceBuildIndex=True, limit=100)
     search(my_index)
     '''
     s = my_index.ix.searcher()
