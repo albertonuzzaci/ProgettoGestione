@@ -1,2 +1,0 @@
-scarichiamo
-nltk.download('book')
