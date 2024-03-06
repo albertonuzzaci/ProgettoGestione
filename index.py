@@ -27,7 +27,7 @@ class Index():
         schema = Schema(
             id = ID(stored=True, unique=True),
             listing_url = TEXT(stored=True),
-            name = TEXT(stored=True),
+            name = TEXT(stored=True, field_boost=2.0),
             description = TEXT(stored=True),
             host_name = TEXT(stored=True),
             host_id = ID(),
