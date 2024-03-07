@@ -45,7 +45,7 @@ def onselect(evt, listbox, mainView):
     if selected_index:
         selected_item = listbox.get(selected_index)
         try:
-            newTab = mainView.add(f"{selected_item.strip()[:10]}{"..." if len(selected_item)>10 else ""}")
+            newTab = mainView.add(f'{selected_item.strip()[:10]}{"..." if len(selected_item)>10 else ""}')
         except ValueError:
             print("Pagina già aperta") # METTERSI D'ACCORDO SU COME GESTIRE IL CASO
         
@@ -200,34 +200,37 @@ class MyGUI():
         scrollable_checkbox_frame.grid(column=1, row=3,  padx=15, pady=15, sticky='NSWE')
         
          #---------------BEDS--------------------
-        bedsFrame = ctk.CTkFrame(lFrame, corner_radius=10)
-        MyGUI.addColumns(3, bedsFrame)
+        bedsBathsFrame = ctk.CTkFrame(lFrame, corner_radius=10)
+        MyGUI.addColumns(4, bedsBathsFrame)
         
-        bedsLabel = ctk.CTkLabel(master=lFrame, text="Beds", font=self.myfont)
-        bedsLabel.grid(column=0, row=4, padx=10, pady=10, sticky='NSWE')
+        bedsLabel = ctk.CTkLabel(master=bedsBathsFrame, text="Beds", font=self.myfont)
+        bedsLabel.grid(column=0, row=0, padx=10, pady=10, sticky='NSWE')
         
-        radioVar = ctk.StringVar(value="")
-        
-        btnBed1 = ctk.CTkRadioButton(master=bedsFrame, text="1", variable=radioVar, font=self.myfont, command=lambda: setResult(10),hover_color=["#d72545", "#d72545"],fg_color= ["#FF385C", "#FF385C"])
+        #radioVar = ctk.StringVar(value="")
+        beds_values = ["1","2","3+"]
+        bedsButton = ctk.CTkSegmentedButton(master=bedsBathsFrame, values=beds_values, corner_radius=80)
+        bedsButton.grid(column=1, row=0, padx=10, pady=10, sticky='NSWE')
+        '''
+        btnBed1 = ctk.CTkRadioButton(master=bedsBathsFrame, text="1", variable=radioVar, font=self.myfont, command=lambda: setResult(10),hover_color=["#d72545", "#d72545"],fg_color= ["#FF385C", "#FF385C"])
         btnBed1.grid(column=0, row=0, padx=10, pady=10, sticky='NSWE')
 
-        btnBed2 = ctk.CTkRadioButton(master=bedsFrame, text="2",variable=radioVar,font=self.myfont,  command=lambda: setResult(15),hover_color=["#d72545", "#d72545"],fg_color= ["#FF385C", "#FF385C"])
+        btnBed2 = ctk.CTkRadioButton(master=bedsBathsFrame, text="2",variable=radioVar,font=self.myfont,  command=lambda: setResult(15),hover_color=["#d72545", "#d72545"],fg_color= ["#FF385C", "#FF385C"])
         btnBed2.grid(column=1, row=0, padx=10, pady=10, sticky='NSWE')
 
         btnBed3 = ctk.CTkRadioButton(master=bedsFrame, text="3+", variable=radioVar, font=self.myfont, command=lambda: setResult(20),hover_color=["#d72545", "#d72545"],fg_color= ["#FF385C", "#FF385C"])
         btnBed3.grid(column=2, row=0,padx=10, pady=10, sticky='NSWE')
+        '''
         
-        
-        bedsFrame.grid(column=1, row=4, padx=10, pady=10, sticky="NSWE")
+        #bedsBathsFrame.grid(column=1, row=4, padx=10, pady=10, sticky="NSWE")
 
         #---------------BATHS--------------------
-        bathsFrame = ctk.CTkFrame(lFrame)
-        MyGUI.addColumns(3, bathsFrame)
+        #bathsFrame = ctk.CTkFrame(lFrame)
+        #MyGUI.addColumns(3, bathsFrame)
         
-        bathsLabel = ctk.CTkLabel(master=lFrame, text="Baths", font=self.myfont)
-        bathsLabel.grid(column=0, row=5, padx=10, pady=10, sticky='NSWE')
-        radioVar = ctk.StringVar(value="")
-        
+        bathsLabel = ctk.CTkLabel(master=bedsBathsFrame, text="Baths", font=self.myfont)
+        bathsLabel.grid(column=2, row=0, padx=10, pady=10, sticky='NSWE')
+        #radioVar = ctk.StringVar(value="")
+        '''
         btnBath1 = ctk.CTkRadioButton(master=bathsFrame, text="1", variable=radioVar, font=self.myfont, command=lambda: setResult(radioar),hover_color=["#d72545", "#d72545"],fg_color= ["#FF385C", "#FF385C"] )
         btnBath1.grid(column=0, row=0, padx=10, pady=10, sticky='NSWE')
 
@@ -236,10 +239,12 @@ class MyGUI():
 
         btnBath3 = ctk.CTkRadioButton(master=bathsFrame, text="3+", variable=radioVar, font=self.myfont, command=lambda: setResult(20),hover_color=["#d72545", "#d72545"],fg_color= ["#FF385C", "#FF385C"])
         btnBath3.grid(column=2, row=0,padx=10, pady=10, sticky='NSWE')
-        
-        
-        bathsFrame.grid(column=1, row=5, padx=10, pady=10, sticky="NSWE")
-            
+        '''
+        baths_values = ["1","2","3+"]
+        bathButton = ctk.CTkSegmentedButton(master=bedsBathsFrame, values=baths_values, corner_radius=150)
+        bathButton.grid(column=3, row=0, padx=10, pady=10, sticky='NSWE')
+        #bathsFrame.grid(column=1, row=5, padx=10, pady=10, sticky="NSWE")
+        bedsBathsFrame.grid(column=0,columnspan=3, row=4, padx=10, pady=10, sticky="NSWE")    
         return lFrame
 
     @staticmethod
