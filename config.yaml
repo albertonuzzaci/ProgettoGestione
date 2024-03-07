@@ -9,6 +9,3 @@ INDEX:
     MAINDIR: indexdir
     ACCDIR: accomodationIndex
     REVDIR: reviewsIndex
-
-GUI:
-    FONTSIZE: 15

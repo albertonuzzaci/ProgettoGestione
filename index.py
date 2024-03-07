@@ -103,8 +103,9 @@ class Index():
                     review_scores_rating = data["review_scores_rating"]
                 )
                 if limit != None and i > limit:
-                    writer.commit()
-                    return ix
+                    break
+        writer.commit()
+        return ix
             
     @staticmethod
     def preprocessing(text):
@@ -166,14 +167,5 @@ def search(my_index: Index):
         s.close()
 
 if __name__ == '__main__':
-    my_index = Index(forceBuildIndex=True, limit=100)
+    my_index = Index(forceBuildIndex=False, limit=100)
     search(my_index)
-    '''
-    s = my_index.ix.searcher()
-    results = s.search(query.Every(), terms=True)
-    print(results[0]["description"])
-    print(results[0]["ingredients"])
-    print(results[0]["tags"])
-    print(results[0]["minutes"])
-    print(results[0]["nutrions"])
-    '''
