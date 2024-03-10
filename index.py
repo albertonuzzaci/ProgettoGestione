@@ -122,50 +122,59 @@ class Index():
         text_stemmed = " ".join(text_processed) 
         return text_stemmed
 
-def search(my_index: Index):
+def searchAcc(my_index: Index, input: str, resLimit, peopleFilter = ""):
     try:
         s = my_index.indexAcc.searcher()
         #qp = qparser.QueryParser("recipe_name", schema=my_index.schema)
     
         qp = qparser.MultifieldParser(['name','description'], schema=my_index.schemaAcc, group=qparser.OrGroup)
-        while (True):
-            print("Insert query-> ")
-            q = input()
-            
-            parsedQ = qp.parse(q)
-            print(f"Parsed query: {parsedQ}")
-            results = s.search(parsedQ, terms=True, limit=5)
-            if results.estimated_length() == 0:
-                print("Nothing found!")
-            else:
-                print(f"Results scored lenght: {results.scored_length()}")
-                #print(reduce(lambda x,y: x+str(y)+'\n\n', results, ""))
-                
-                
-                for c, hit in enumerate(results):
-                    print(f"----------------HIT{c}----------------")
-                    print(hit.matched_terms())
-                    print(f'Name: {hit["name"]}')
-                    print(f'Description: {hit["description"]}')
-                    print("\n")
-                    #print(f"Contains: {hit.matched_terms()}")
-                    #print("Doesn't contain:", query.all_terms().difference(set(hit.matched_terms())))
-                
-            '''
-            found = results.scored_length()
-            if results.has_exact_length():
-                print("Scored", found, "of exactly", len(results), "documents")
-            else:
-                low = results.estimated_min_length()
-                high = results.estimated_length()
+        
+        input += f" accomodates:{peopleFilter}"
+        parsedQ = qp.parse(input)
+        
+        print(f"Parsed query: {parsedQ}")
+        results = s.search(parsedQ, terms=True, limit=resLimit)
+        resDict = {}
+        for i in results:
+            resDict[i["id"]] = i["name"]
+        
+        return resDict
+        
 
-                print("Scored", found, "of between", low, "and", high, "documents")
-            '''
+        '''
+        if results.estimated_length() == 0:
+            print("Nothing found!")
+        else:
+            print(f"Results scored lenght: {results.scored_length()}")
+            #print(reduce(lambda x,y: x+str(y)+'\n\n', results, ""))
+            
+            
+            for c, hit in enumerate(results):
+                print(f"----------------HIT{c}----------------")
+                print(hit.matched_terms())
+                print(f'Name: {hit["name"]}')
+                print(f'Description: {hit["description"]}')
+                print("\n")
+                #print(f"Contains: {hit.matched_terms()}")
+                #print("Doesn't contain:", query.all_terms().difference(set(hit.matched_terms())))
+            
+        found = results.scored_length()
+        if results.has_exact_length():
+            print("Scored", found, "of exactly", len(results), "documents")
+        else:
+            low = results.estimated_min_length()
+            high = results.estimated_length()
+
+            print("Scored", found, "of between", low, "and", high, "documents")
+        '''
     except Exception as e: 
         print(e)
     finally:
         s.close()
+    return results
+
 
 if __name__ == '__main__':
-    my_index = Index(forceBuildIndex=False, limit=100)
-    search(my_index)
+    my_index = Index(forceBuildIndex=False, limit=1000)
+    r = searchAcc(my_index, "camera", 10)
+    print(r)
