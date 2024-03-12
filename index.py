@@ -172,6 +172,6 @@ def searchAcc(my_index: Index, input: str, resLimit):
     return resDict
 
 if __name__ == '__main__':
-    my_index = Index(forceBuildIndex=False, limit=1000)
+    my_index = Index(forceBuildIndex=True, limit=1000)
     r = searchAcc(my_index, "camera AND accomodates:4", 10)
     print(r)

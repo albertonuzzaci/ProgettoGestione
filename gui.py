@@ -15,19 +15,17 @@ ctk.set_default_color_theme("blue")
 
 
 def searchFunction(valueList):
-    valueList.delete("all")
+    for i in valueList.get_children():
+        valueList.delete(i)
     
     lenTot = 90
     
     
     
     results = list(control.callSearch().values())
-  
+    print(results)
     for elem in results:
-        space = lenTot - len(elem[0]) - len(str(elem[1])) + 1
-        stringToPrint = f'{elem[0]}{' '*space}{elem[1]}€'
-        print(stringToPrint)
-        valueList.insert('end', stringToPrint)
+        valueList.insert("",'end', values=(elem[0],elem[1]))
         #f'{elem[0]}{elem[1]:>10} '
         #valueList.insert(c, elem)
 
@@ -118,7 +116,7 @@ class ScrollableCheckBoxFrame(ctk.CTkScrollableFrame):
         checkbox = ctk.CTkCheckBox(self, text=item, hover_color="#d72545",fg_color= [ "gray90","#FF385C"])
         if self.command is not None:
             checkbox.configure(command=self.command)
-        checkbox.grid(row=len(self.checkbox_list), column=0, pady=(0, 10))
+        checkbox.grid(row=len(self.checkbox_list), column=0, pady=(0, 10), sticky="nsew")
         self.checkbox_list.append(checkbox)
 
     def remove_item(self, item):
@@ -162,7 +160,7 @@ class MyGUI():
     def update(self):
         if control.inputSearch != self.searchField.get():
             control.updateInputSearch(self.searchField.get())
-            searchFunction(self.listbox)
+            searchFunction(self.tree)
         self.root.after(100, self.update)
         
     def setupTabView(self):
@@ -182,7 +180,7 @@ class MyGUI():
         MyGUI.addRows(2, rFrame)
         
         self.searchField = ctk.CTkEntry(master=rFrame, placeholder_text="Search destinations...", font=('Roboto', 18))
-        self.searchField.grid(column=0, row=0, sticky='nsew', pady=10, padx=10)
+        self.searchField.grid(column=0, row=0, columnspan=2, sticky='nsew', pady=10, padx=10)
         
         '''
         self.listbox = CTkListbox(master=rFrame, height=500,highlight_color="#FF385C", hover_color="#d72545", font=self.myfont)
@@ -200,39 +198,33 @@ class MyGUI():
         MyGUI.addColumns(2,treeFrame)
         # define columns
         s = ttk.Style()
-        columns = ('first_name', 'last_name', 'email')
-        tree = ttk.Treeview(master=treeFrame, selectmode="extended", columns=columns, show='')
-        s.configure('Treeview', rowheight=50)
+        columns = ('accomodation', 'price')
+        self.tree = ttk.Treeview(master=treeFrame, selectmode="extended", columns=columns, show='')
+        self.tree.column("accomodation", minwidth=500, width=500, stretch=False)
+        self.tree.column("price", minwidth=0, width=100, stretch=False)
+        s.theme_use("clam")
+        s.configure('Treeview', rowheight=50, fieldbackground='#333333', background='#333333', foreground="#DCE4EE", font=("Roboto",13))
         # define headings
     
         
-        tree.tag_configure('bg', background='#333333', font=('Roboto', 18))
-        # generate sample data
-        contacts = []
-        for n in range(1, 100):
-            tags=('fg', 'bg')
-            contacts.append((f'first {n}', f'last {n}', f'email{n}@example.com'))
-
-        # add data to the treeview
-        for contact in contacts:
-            tree.insert('', tk.END, values=contact, tags='bg')
+        #self.tree.tag_configure('bg', background='#333333',foreground='#DCE4EE', font=('Roboto', 18))
 
 
         def item_selected(event):
-            for selected_item in tree.selection():
-                item = tree.item(selected_item)
+            for selected_item in self.tree.selection():
+                item = self.tree.item(selected_item)
                 record = item['values']
                 # show a message
                 showinfo(title='Information', message=','.join(record))
 
 
-        tree.bind('<<TreeviewSelect>>', item_selected)
+        self.tree.bind('<<TreeviewSelect>>', item_selected)
 
-        tree.grid(row=0, column=0, sticky='nsew')
+        self.tree.grid(row=0, column=0, sticky='nsew')
 
         # add a scrollbar
-        scrollbar = ttk.Scrollbar(master=treeFrame, orient=tk.VERTICAL, command=tree.yview)
-        tree.configure(yscrollcommand=scrollbar.set)
+        scrollbar = ttk.Scrollbar(master=treeFrame, orient=tk.VERTICAL, command=self.tree.yview)
+        self.tree.configure(yscrollcommand=scrollbar.set)
         scrollbar.grid(row=0, column=1, sticky='nswe')
         treeFrame.grid(row=1, column=0)
         return rFrame
@@ -252,13 +244,13 @@ class MyGUI():
         
         radioVar = ctk.StringVar(value="")
         
-        btn10 = ctk.CTkRadioButton(master=resultsFrame, text="10", variable=radioVar, font=self.myfont, command=lambda: setResult(10, self.listbox),hover_color=["#d72545", "#d72545"],fg_color= ["#FF385C", "#FF385C"])
+        btn10 = ctk.CTkRadioButton(master=resultsFrame, text="10", variable=radioVar, font=self.myfont, command=lambda: setResult(10, self.tree),hover_color=["#d72545", "#d72545"],fg_color= ["#FF385C", "#FF385C"])
         btn10.grid(column=0, row=0, padx=10, pady=10, sticky='NSWE')
 
-        btn20 = ctk.CTkRadioButton(master=resultsFrame, text="15",variable=radioVar,font=self.myfont,  command=lambda: setResult(15, self.listbox),hover_color=["#d72545", "#d72545"],fg_color= ["#FF385C", "#FF385C"])
+        btn20 = ctk.CTkRadioButton(master=resultsFrame, text="15",variable=radioVar,font=self.myfont,  command=lambda: setResult(15, self.tree),hover_color=["#d72545", "#d72545"],fg_color= ["#FF385C", "#FF385C"])
         btn20.grid(column=1, row=0, padx=10, pady=10, sticky='NSWE')
 
-        btn30 = ctk.CTkRadioButton(master=resultsFrame, text="20", variable=radioVar, font=self.myfont, command=lambda: setResult(20, self.listbox),hover_color=["#d72545", "#d72545"],fg_color= ["#FF385C", "#FF385C"])
+        btn30 = ctk.CTkRadioButton(master=resultsFrame, text="20", variable=radioVar, font=self.myfont, command=lambda: setResult(20, self.tree),hover_color=["#d72545", "#d72545"],fg_color= ["#FF385C", "#FF385C"])
         btn30.grid(column=2, row=0,padx=10, pady=10, sticky='NSWE')
         
         btn10.select(True)
@@ -276,10 +268,10 @@ class MyGUI():
         valuePeopleLabel = ctk.CTkLabel(master=peopleFrame, text="0", font=self.myfont)
         valuePeopleLabel.grid(column=1, row=0, padx=10, pady=10, sticky='NSWE')
 
-        btnPeopleMinus = ctk.CTkButton(master=peopleFrame, text="-", font=self.myfont, command=lambda: decrease(valuePeopleLabel, self.listbox), fg_color="#FF385C", hover_color="#d72545")
+        btnPeopleMinus = ctk.CTkButton(master=peopleFrame, text="-", font=self.myfont, command=lambda: decrease(valuePeopleLabel, self.tree), fg_color="#FF385C", hover_color="#d72545")
         btnPeopleMinus.grid(column=0, row=0,padx=10, pady=10, sticky='NSWE')
 
-        btnPeoplePlus = ctk.CTkButton(master=peopleFrame, text="+", font=self.myfont, command=lambda: increase(valuePeopleLabel, self.listbox), fg_color="#FF385C", hover_color="#d72545")
+        btnPeoplePlus = ctk.CTkButton(master=peopleFrame, text="+", font=self.myfont, command=lambda: increase(valuePeopleLabel, self.tree), fg_color="#FF385C", hover_color="#d72545")
         btnPeoplePlus.grid(column=2, row=0, padx=10, pady=10, sticky='NSWE')
       
         peopleFrame.grid(column=1, row=1, padx=10, pady=10, sticky="NSWE")
@@ -297,7 +289,7 @@ class MyGUI():
         labelPriceSlider = ctk.CTkLabel(master=priceFrame, text=f"{round(max, 2)}€", font=self.myfont)
         priceSlider = ctk.CTkSlider(master=priceFrame, from_=float(min), to=float(max), button_hover_color=["#FF385C", "#FF385C"], button_color=["#d72545", "#d72545"])
         
-        priceSlider.bind("<ButtonRelease-1>", command=lambda evenet: slider_ev(priceSlider.get(), labelPriceSlider, priceLabel, self.listbox))
+        priceSlider.bind("<ButtonRelease-1>", command=lambda evenet: slider_ev(priceSlider.get(), labelPriceSlider, priceLabel, self.tree))
 
         priceSlider.grid(column=0, row=0,padx=10, pady=20, sticky='NSWE')
         labelPriceSlider.grid(column=1, row=0, sticky='NSWE')
@@ -312,7 +304,7 @@ class MyGUI():
         scoreLabel.grid(column=0, row=3, padx=10, pady=20, sticky='NSWE')
         
         labelScoreSlider = ctk.CTkLabel(master=scoreFrame, text="0☆", font=self.myfont)
-        scoreSlider = ctk.CTkSlider(master=scoreFrame, from_=0, to=5, command=lambda x: slider_ev(scoreSlider.get(), labelScoreSlider, scoreLabel),button_hover_color=["#FF385C", "#FF385C"], button_color=["#d72545", "#d72545"])
+        scoreSlider = ctk.CTkSlider(master=scoreFrame, from_=0, to=5, command=lambda x: slider_ev(scoreSlider.get(), labelScoreSlider, scoreLabel, self.tree),button_hover_color=["#FF385C", "#FF385C"], button_color=["#d72545", "#d72545"])
         
         scoreSlider.grid(column=0, row=0,padx=10, pady=20, sticky='NSWE')
         scoreSlider.set(0)
@@ -324,8 +316,10 @@ class MyGUI():
         #--------------NEIGH-----------------------
         neighLabel = ctk.CTkLabel(master=lFrame, text="Neighborhood", font=self.myfont)
         neighLabel.grid(column=0, row=4, padx=5, pady=20, sticky='NSWE')
-
-        scrollable_checkbox_frame = ScrollableCheckBoxFrame(master=lFrame, height=2, width=200, item_list=[f"item {i}" for i in range(50)])
+        
+        with open("./dataset/information.json", "r") as f:
+            data = json.load(f)
+            scrollable_checkbox_frame = ScrollableCheckBoxFrame(master=lFrame, height=2, width=200, item_list=sorted(data["neighbourhood"].keys()))
         scrollable_checkbox_frame.grid(column=1, row=4,  padx=15, pady=15, sticky='NSWE')
         
         #---------------BEDS & BATHS--------------------
