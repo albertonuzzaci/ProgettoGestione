@@ -122,25 +122,23 @@ class Index():
         text_stemmed = " ".join(text_processed) 
         return text_stemmed
 
-def searchAcc(my_index: Index, input: str, resLimit, peopleFilter = ""):
+def searchAcc(my_index: Index, input: str, resLimit):
+    resDict = {}
     try:
         s = my_index.indexAcc.searcher()
         #qp = qparser.QueryParser("recipe_name", schema=my_index.schema)
     
         qp = qparser.MultifieldParser(['name','description'], schema=my_index.schemaAcc, group=qparser.OrGroup)
         
-        input += f" accomodates:{peopleFilter}"
         parsedQ = qp.parse(input)
-        
+
         print(f"Parsed query: {parsedQ}")
         results = s.search(parsedQ, terms=True, limit=resLimit)
-        resDict = {}
         for i in results:
-            resDict[i["id"]] = i["name"]
+            print(i.matched_terms())
+            resDict[i["id"]] = [ i["name"], i["price"]]
         
         return resDict
-        
-
         '''
         if results.estimated_length() == 0:
             print("Nothing found!")
@@ -171,10 +169,9 @@ def searchAcc(my_index: Index, input: str, resLimit, peopleFilter = ""):
         print(e)
     finally:
         s.close()
-    return results
-
+    return resDict
 
 if __name__ == '__main__':
     my_index = Index(forceBuildIndex=False, limit=1000)
-    r = searchAcc(my_index, "camera", 10)
+    r = searchAcc(my_index, "camera AND accomodates:4", 10)
     print(r)

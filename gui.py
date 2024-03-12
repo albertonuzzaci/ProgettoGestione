@@ -1,10 +1,11 @@
+import tkinter as tk    
+from tkinter import ttk
 import customtkinter as ctk
-import tkinter, yaml
 from CTkListbox import *
-from tkinter import ttk, Menu
 from controller import Controller
 from index import Index
-import threading
+import json
+from tkinter.messagebox import showinfo
 
 index = Index()
 control = Controller(index)
@@ -12,29 +13,46 @@ control = Controller(index)
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 
-def searchFunction(input, valueList):
+
+def searchFunction(valueList):
     valueList.delete("all")
-    control.updateInputSearch(input)
+    
+    lenTot = 90
+    
+    
+    
     results = list(control.callSearch().values())
-    for c, elem in enumerate(results):
-        valueList.insert(c, elem)
+  
+    for elem in results:
+        space = lenTot - len(elem[0]) - len(str(elem[1])) + 1
+        stringToPrint = f'{elem[0]}{' '*space}{elem[1]}€'
+        print(stringToPrint)
+        valueList.insert('end', stringToPrint)
+        #f'{elem[0]}{elem[1]:>10} '
+        #valueList.insert(c, elem)
 
 
-def setResult(var):
+def setResult(var, valueList):
     control.updateResult(var)
+    searchFunction(valueList)
+
+def updateInputsearch(value, valueList):
+    control.updateInputSearch(value)
+    searchFunction(valueList)
+
     
 def increase(lbl, valueList):
     lbl.configure(text=int(lbl.cget("text"))+1)
     control.updatePeople(int(lbl.cget("text")))
     if(control.inputSearch != ""): 
-        searchFunction(control.inputSearch, valueList)
+        searchFunction(valueList)
     
 def decrease(lbl, valueList):
     if(int(lbl.cget("text"))>0):
         lbl.configure(text=int(lbl.cget("text"))-1)
         control.updatePeople(int(lbl.cget("text"))) 
         if(control.inputSearch != ""):
-            searchFunction(control.inputSearch, valueList)
+            searchFunction(valueList)
     
 def onselect(evt, listbox, mainView):
     selected_index = listbox.curselection()
@@ -45,12 +63,14 @@ def onselect(evt, listbox, mainView):
         except ValueError:
             print("Pagina già aperta") # METTERSI D'ACCORDO SU COME GESTIRE IL CASO
         
-def slider_ev(value, label, info):
-    print(info.cget("text"))
+def slider_ev(sliderValue, label, info, valueList):
+    print(sliderValue)
     if info.cget("text")=="Price Max":
-        label.configure(text=f"{int(value)}€")
+        label.configure(text=f"{round(sliderValue,2)}€")
+        control.updatePrice(round(sliderValue, 2))
+        searchFunction(valueList)
     else:
-        label.configure(text=f"{round(value,1)} ☆")
+        label.configure(text=f"{round(sliderValue,2)} ☆")
 
 def reset(*args):
     #RadioButton Results
@@ -116,7 +136,7 @@ class MyGUI():
         self.root = ctk.CTk()
         self.root.after(1000, self.update)
         
-        self.root.geometry("1200x780")
+        self.root.geometry("1300x750")
         self.root.resizable(False, False)
 
         self.myfont = ctk.CTkFont(family="Montserrat", size=15) # PER CAMBIARE FONT
@@ -125,25 +145,26 @@ class MyGUI():
         searchTab = self.mainView.add("Search Tab") # tab principale per effettuare la ricerca, contiene il mainFrame
     
         self.mainFrame = ctk.CTkFrame(searchTab, corner_radius=10)
-        self.mainFrame.pack(pady=20, padx=15, fill="both", expand=True)
+        self.mainFrame.pack(pady=20, padx=15, fill="both")
 
         MyGUI.addColumns(2, self.mainFrame)
         
         self.rightFrame = self.setupRightFrame()
-        self.rightFrame.grid(column=1, row=0)
+        self.rightFrame.grid(column=1, row=0, sticky='nsew',padx=30, pady=10)
         
         self.leftFrame = self.setupLeftFrame()
-        self.leftFrame.grid(column=0, row=0)
-
+        self.leftFrame.grid(column=0, row=0, sticky='nsew', padx=30, pady=10)
+        
+        
         
         self.root.mainloop()
 
     def update(self):
         if control.inputSearch != self.searchField.get():
-            searchFunction(self.searchField.get(), self.listbox)
+            control.updateInputSearch(self.searchField.get())
+            searchFunction(self.listbox)
         self.root.after(100, self.update)
         
-
     def setupTabView(self):
         mainView = ctk.CTkTabview(self.root,
                                   segmented_button_selected_color="#FF385C",
@@ -154,22 +175,66 @@ class MyGUI():
         mainView.pack(pady=20, padx=10, fill="both", expand=True)
         return mainView
 
-    
     def setupRightFrame(self):
 
         rFrame = ctk.CTkFrame(self.mainFrame, corner_radius=10)
-        MyGUI.addColumns(2, rFrame)
         
-        self.searchField = ctk.CTkEntry(master=rFrame, width=400, placeholder_text="Search destinations...", font=self.myfont)
+        MyGUI.addRows(2, rFrame)
+        
+        self.searchField = ctk.CTkEntry(master=rFrame, placeholder_text="Search destinations...", font=('Roboto', 18))
+        self.searchField.grid(column=0, row=0, sticky='nsew', pady=10, padx=10)
+        
+        '''
         self.listbox = CTkListbox(master=rFrame, height=500,highlight_color="#FF385C", hover_color="#d72545", font=self.myfont)
+        
         
         self.listbox.bind('<<ListboxSelect>>', lambda evt, lb=self.listbox, mv=self.mainView: onselect(evt, lb, mv))
 
         searchButton = ctk.CTkButton(master=rFrame, text="Search", font=self.myfont, command = lambda: searchFunction(self.searchField.get(), self.listbox), fg_color="#FF385C", hover_color="#d72545")
         
-        self.searchField.grid(column=0, row=0, sticky=ctk.W+ctk.E, padx=10, pady=10)
         searchButton.grid(column=1, row=0, sticky=ctk.W+ctk.E, padx=10, pady=10)
         self.listbox.grid(column=0,columnspan=2, row=1, sticky=ctk.W+ctk.E, padx=10, pady=20)
+        '''
+        
+        treeFrame = ctk.CTkFrame(master=rFrame)
+        MyGUI.addColumns(2,treeFrame)
+        # define columns
+        s = ttk.Style()
+        columns = ('first_name', 'last_name', 'email')
+        tree = ttk.Treeview(master=treeFrame, selectmode="extended", columns=columns, show='')
+        s.configure('Treeview', rowheight=50)
+        # define headings
+    
+        
+        tree.tag_configure('bg', background='#333333', font=('Roboto', 18))
+        # generate sample data
+        contacts = []
+        for n in range(1, 100):
+            tags=('fg', 'bg')
+            contacts.append((f'first {n}', f'last {n}', f'email{n}@example.com'))
+
+        # add data to the treeview
+        for contact in contacts:
+            tree.insert('', tk.END, values=contact, tags='bg')
+
+
+        def item_selected(event):
+            for selected_item in tree.selection():
+                item = tree.item(selected_item)
+                record = item['values']
+                # show a message
+                showinfo(title='Information', message=','.join(record))
+
+
+        tree.bind('<<TreeviewSelect>>', item_selected)
+
+        tree.grid(row=0, column=0, sticky='nsew')
+
+        # add a scrollbar
+        scrollbar = ttk.Scrollbar(master=treeFrame, orient=tk.VERTICAL, command=tree.yview)
+        tree.configure(yscrollcommand=scrollbar.set)
+        scrollbar.grid(row=0, column=1, sticky='nswe')
+        treeFrame.grid(row=1, column=0)
         return rFrame
     
     def setupLeftFrame(self):
@@ -187,13 +252,13 @@ class MyGUI():
         
         radioVar = ctk.StringVar(value="")
         
-        btn10 = ctk.CTkRadioButton(master=resultsFrame, text="10", variable=radioVar, font=self.myfont, command=lambda: setResult(10),hover_color=["#d72545", "#d72545"],fg_color= ["#FF385C", "#FF385C"])
+        btn10 = ctk.CTkRadioButton(master=resultsFrame, text="10", variable=radioVar, font=self.myfont, command=lambda: setResult(10, self.listbox),hover_color=["#d72545", "#d72545"],fg_color= ["#FF385C", "#FF385C"])
         btn10.grid(column=0, row=0, padx=10, pady=10, sticky='NSWE')
 
-        btn20 = ctk.CTkRadioButton(master=resultsFrame, text="15",variable=radioVar,font=self.myfont,  command=lambda: setResult(15),hover_color=["#d72545", "#d72545"],fg_color= ["#FF385C", "#FF385C"])
+        btn20 = ctk.CTkRadioButton(master=resultsFrame, text="15",variable=radioVar,font=self.myfont,  command=lambda: setResult(15, self.listbox),hover_color=["#d72545", "#d72545"],fg_color= ["#FF385C", "#FF385C"])
         btn20.grid(column=1, row=0, padx=10, pady=10, sticky='NSWE')
 
-        btn30 = ctk.CTkRadioButton(master=resultsFrame, text="20", variable=radioVar, font=self.myfont, command=lambda: setResult(20),hover_color=["#d72545", "#d72545"],fg_color= ["#FF385C", "#FF385C"])
+        btn30 = ctk.CTkRadioButton(master=resultsFrame, text="20", variable=radioVar, font=self.myfont, command=lambda: setResult(20, self.listbox),hover_color=["#d72545", "#d72545"],fg_color= ["#FF385C", "#FF385C"])
         btn30.grid(column=2, row=0,padx=10, pady=10, sticky='NSWE')
         
         btn10.select(True)
@@ -225,13 +290,18 @@ class MyGUI():
         priceLabel = ctk.CTkLabel(master=lFrame, text="Price Max", font=self.myfont)
         priceLabel.grid(column=0, row=2, padx=10, pady=20, sticky='NSWE')
         
-        labelPriceSlider = ctk.CTkLabel(master=priceFrame, text="100€", font=self.myfont)
-        priceSlider = ctk.CTkSlider(master=priceFrame, from_=0, to=100, command=lambda x: slider_ev(priceSlider.get(), labelPriceSlider, priceLabel),button_hover_color=["#FF385C", "#FF385C"], button_color=["#d72545", "#d72545"])
+        with open("./dataset/information.json", "r") as f:
+            data = json.load(f)
+            min = round(data["min"], 2)
+            max = round(data["max"], 2)
+        labelPriceSlider = ctk.CTkLabel(master=priceFrame, text=f"{round(max, 2)}€", font=self.myfont)
+        priceSlider = ctk.CTkSlider(master=priceFrame, from_=float(min), to=float(max), button_hover_color=["#FF385C", "#FF385C"], button_color=["#d72545", "#d72545"])
         
-        
+        priceSlider.bind("<ButtonRelease-1>", command=lambda evenet: slider_ev(priceSlider.get(), labelPriceSlider, priceLabel, self.listbox))
+
         priceSlider.grid(column=0, row=0,padx=10, pady=20, sticky='NSWE')
         labelPriceSlider.grid(column=1, row=0, sticky='NSWE')
-        priceSlider.set(100)
+        priceSlider.set(float(max))
         
         priceFrame.grid(column=1, row=2, padx=10, pady=10, sticky="NSWE")
         
@@ -278,8 +348,8 @@ class MyGUI():
         bedsBathsFrame.grid(column=0,columnspan=2, row=5, padx=10, pady=10, sticky="NSWE")    
         
         #---------------RESET------------------
-        resetButton = ctk.CTkButton(master=lFrame, text="RESET", font=self.myfont, command = lambda: reset(btn10,btn20,btn30,valuePeopleLabel,labelPriceSlider,priceSlider,scoreSlider,labelScoreSlider,scrollable_checkbox_frame,bedsButton,bathButton), fg_color="#FF385C", hover_color="#d72545")
-        resetButton.grid(column=0, columnspan=3, row=6, padx=10, pady=10, sticky="NSWE")
+        #resetButton = ctk.CTkButton(master=lFrame, text="RESET", font=self.myfont, command = lambda: reset(btn10,btn20,btn30,valuePeopleLabel,labelPriceSlider,priceSlider,scoreSlider,labelScoreSlider,scrollable_checkbox_frame,bedsButton,bathButton), fg_color="#FF385C", hover_color="#d72545")
+        #resetButton.grid(column=0, columnspan=3, row=6, padx=10, pady=10, sticky="NSWE")
         
         return lFrame
     

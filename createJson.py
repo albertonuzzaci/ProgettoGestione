@@ -31,7 +31,33 @@ def retPrice(var):
         return None
 if __name__ == "__main__":
     
+    information = {
+        "neighbourhood":{}
+    }
+    max = -1.0
+    min = 999.0
+    for i in os.listdir("./dataset/json/"):
+        with open(f'./dataset/json/{i}', "r") as f:
+            dati = json.load(f)
+            if dati["price"] != None:
+                if float(dati["price"]) >= max:
+                    max = dati["price"]
+                    if float(dati["price"]) == 999.0:
+                        print(f"./dataset/json/{dati["id"]}.json")
+                if float(dati["price"]) <= min:
+                    min = dati["price"]
+                    if float(dati["price"]) == 0:
+                        print(f"./dataset/json/{dati["id"]}.json")
+            if dati["neighbourhood_cleansed"] != None:
+                information["neighbourhood"][dati["neighbourhood_cleansed"]] = information["neighbourhood"].get(dati["neighbourhood_cleansed"], 0) + 1
+    
+    with open(f'./dataset/information.json','w') as f:
+        information["max"] = max
+        information["min"] = min
+        json.dump(information, f)
+        
 
+    '''
     
     counterLess5 = 0
     counterLess4 = 0
@@ -47,7 +73,6 @@ if __name__ == "__main__":
     
     
     
-    '''
     df = pd.read_csv("dataset/reviews.csv")
     for i, row in df.iterrows():
         try:
