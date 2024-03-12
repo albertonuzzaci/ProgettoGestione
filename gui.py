@@ -15,19 +15,12 @@ ctk.set_default_color_theme("blue")
 
 
 def searchFunction(valueList):
-    for i in valueList.get_children():
-        valueList.delete(i)
-    
-    lenTot = 90
-    
-    
+    valueList.delete(*valueList.get_children())
     
     results = list(control.callSearch().values())
     print(results)
     for elem in results:
         valueList.insert("",'end', values=(elem[0],elem[1]))
-        #f'{elem[0]}{elem[1]:>10} '
-        #valueList.insert(c, elem)
 
 
 def setResult(var, valueList):
@@ -37,7 +30,6 @@ def setResult(var, valueList):
 def updateInputsearch(value, valueList):
     control.updateInputSearch(value)
     searchFunction(valueList)
-
     
 def increase(lbl, valueList):
     lbl.configure(text=int(lbl.cget("text"))+1)
@@ -62,60 +54,79 @@ def onselect(evt, listbox, mainView):
             print("Pagina già aperta") # METTERSI D'ACCORDO SU COME GESTIRE IL CASO
         
 def slider_ev(sliderValue, label, info, valueList):
-    print(sliderValue)
     if info.cget("text")=="Price Max":
-        label.configure(text=f"{round(sliderValue,2)}€")
         control.updatePrice(round(sliderValue, 2))
         searchFunction(valueList)
     else:
         label.configure(text=f"{round(sliderValue,2)} ☆")
+        
+def changeLabel(value, label):
+    label.configure(text=f"{round(value,2)}€")
+        
+# def reset(*args):
+#     #RadioButton Results
+#     args[0].deselect()
+#     args[1].deselect()
+#     args[2].deselect()
+    
+#     #People Label
+#     args[3].configure(text="0")
+    
+#     #Price
+#     args[4].configure(text="")    
+#     args[5].set(50)
+    
+#     #Score
+#     args[6].set(2.5)
+#     args[7].configure(text="")
+    
+#     #CheckBox Neighborhood
+#     for check in args[8].get_checked_items():
+#         check.deselect()
+    
+#     #Beds
+#     args[9].set(None)
+    
+#     #Baths
+#     args[10].set(None)
 
-def reset(*args):
-    #RadioButton Results
-    args[0].deselect()
-    args[1].deselect()
-    args[2].deselect()
+def on_checkbutton_toggle(checkbutton_var, checkbox, valueList):
+    if checkbutton_var.get():
+        control.updateNeighborhood(f"\"{checkbox.cget("text")}\"")
+    else:
+        control.removeNeighborhood(f"\"{checkbox.cget("text")}\"")
+    searchFunction(valueList)
     
-    #People Label
-    args[3].configure(text="0")
-    
-    #Price
-    args[4].configure(text="")    
-    args[5].set(50)
-    
-    #Score
-    args[6].set(2.5)
-    args[7].configure(text="")
-    
-    #CheckBox Neighborhood
-    for check in args[8].get_checked_items():
-        check.deselect()
-    
-    #Beds
-    args[9].set(None)
-    
-    #Baths
-    args[10].set(None)
-    
-def bedsCommand(button):
-    print(button.get())
+def bedsCommand(button, valueList):
+    if button.get() != "None":
+        control.updateBeds(button.get())
+    else:
+        control.updateBeds()
+    searchFunction(valueList)
 
-def bathsCommand(button):
-    print(button.get())
+def bathsCommand(button, valueList):
+    
+    if button.get() != "None":
+        print(button.get() + "BAgni")
+        control.updateBaths(button.get())
+    else:
+        control.updateBaths()
+    searchFunction(valueList)
+
+
     
 class ScrollableCheckBoxFrame(ctk.CTkScrollableFrame):
-    def __init__(self, master, item_list, command=None, **kwargs):
+    def __init__(self, master, tree, item_list, **kwargs):
         super().__init__(master, **kwargs)
-
-        self.command = command
+        self.tree=tree
         self.checkbox_list = []
         for i, item in enumerate(item_list):
             self.add_item(item)
 
     def add_item(self, item):
-        checkbox = ctk.CTkCheckBox(self, text=item, hover_color="#d72545",fg_color= [ "gray90","#FF385C"])
-        if self.command is not None:
-            checkbox.configure(command=self.command)
+        checkbutton_var = tk.IntVar()
+        checkbox = ctk.CTkCheckBox(self, text=item, hover_color="#d72545",fg_color= [ "gray90","#FF385C"], variable=checkbutton_var)
+        checkbox.configure(command=lambda : on_checkbutton_toggle(checkbutton_var, checkbox, self.tree))
         checkbox.grid(row=len(self.checkbox_list), column=0, pady=(0, 10), sticky="nsew")
         self.checkbox_list.append(checkbox)
 
@@ -134,7 +145,7 @@ class MyGUI():
         self.root = ctk.CTk()
         self.root.after(1000, self.update)
         
-        self.root.geometry("1300x750")
+        self.root.geometry("1325x750")
         self.root.resizable(False, False)
 
         self.myfont = ctk.CTkFont(family="Montserrat", size=15) # PER CAMBIARE FONT
@@ -203,13 +214,10 @@ class MyGUI():
         self.tree.column("accomodation", minwidth=500, width=500, stretch=False)
         self.tree.column("price", minwidth=0, width=100, stretch=False)
         s.theme_use("clam")
-        s.configure('Treeview', rowheight=50, fieldbackground='#333333', background='#333333', foreground="#DCE4EE", font=("Roboto",13))
-        # define headings
+        s.configure('Treeview', rowheight=50, fieldbackground='#333333', background='#333333', foreground="#DCE4EE", font=("Roboto",20))
     
-        
         #self.tree.tag_configure('bg', background='#333333',foreground='#DCE4EE', font=('Roboto', 18))
-
-
+        
         def item_selected(event):
             for selected_item in self.tree.selection():
                 item = self.tree.item(selected_item)
@@ -219,9 +227,7 @@ class MyGUI():
 
 
         self.tree.bind('<<TreeviewSelect>>', item_selected)
-
         self.tree.grid(row=0, column=0, sticky='nsew')
-
         # add a scrollbar
         scrollbar = ttk.Scrollbar(master=treeFrame, orient=tk.VERTICAL, command=self.tree.yview)
         self.tree.configure(yscrollcommand=scrollbar.set)
@@ -287,9 +293,9 @@ class MyGUI():
             min = round(data["min"], 2)
             max = round(data["max"], 2)
         labelPriceSlider = ctk.CTkLabel(master=priceFrame, text=f"{round(max, 2)}€", font=self.myfont)
-        priceSlider = ctk.CTkSlider(master=priceFrame, from_=float(min), to=float(max), button_hover_color=["#FF385C", "#FF385C"], button_color=["#d72545", "#d72545"])
+        priceSlider = ctk.CTkSlider(master=priceFrame, command=lambda value: changeLabel(value,labelPriceSlider),from_=float(min), to=float(max), button_hover_color=["#FF385C", "#FF385C"], button_color=["#d72545", "#d72545"])
         
-        priceSlider.bind("<ButtonRelease-1>", command=lambda evenet: slider_ev(priceSlider.get(), labelPriceSlider, priceLabel, self.tree))
+        priceSlider.bind("<ButtonRelease-1>", command=lambda event: slider_ev(priceSlider.get(), labelPriceSlider, priceLabel, self.tree))
 
         priceSlider.grid(column=0, row=0,padx=10, pady=20, sticky='NSWE')
         labelPriceSlider.grid(column=1, row=0, sticky='NSWE')
@@ -319,7 +325,8 @@ class MyGUI():
         
         with open("./dataset/information.json", "r") as f:
             data = json.load(f)
-            scrollable_checkbox_frame = ScrollableCheckBoxFrame(master=lFrame, height=2, width=200, item_list=sorted(data["neighbourhood"].keys()))
+            scrollable_checkbox_frame = ScrollableCheckBoxFrame(master=lFrame, height=2, width=200, item_list=sorted(data["neighbourhood"].keys()), tree=self.tree)
+
         scrollable_checkbox_frame.grid(column=1, row=4,  padx=15, pady=15, sticky='NSWE')
         
         #---------------BEDS & BATHS--------------------
@@ -330,15 +337,18 @@ class MyGUI():
         bedsLabel.grid(column=0, row=0, padx=10, pady=10, sticky='NSWE')
         
         beds_values = ["None","1","2","3+"]
-        bedsButton = ctk.CTkSegmentedButton(master=bedsBathsFrame, command=lambda x: bedsCommand(bedsButton),  values=beds_values, corner_radius=80, selected_color="#FF385C", selected_hover_color="#d72545")
-        bedsButton.grid(column=1, row=0, padx=10, pady=10, sticky='NSWE')
+        bedsButton = ctk.CTkSegmentedButton(master=bedsBathsFrame, command=lambda x: bedsCommand(bedsButton, self.tree),  values=beds_values, corner_radius=150, selected_color="#FF385C", selected_hover_color="#d72545")
+        bedsButton.set("None")
+        bedsButton.grid(column=1, row=0, pady=10, sticky='NSWE')
+    
         
         bathsLabel = ctk.CTkLabel(master=bedsBathsFrame, text="Baths", font=self.myfont)
         bathsLabel.grid(column=2, row=0, padx=10, pady=10, sticky='NSWE')
 
-        baths_values = ["1","2","3+"]
-        bathButton = ctk.CTkSegmentedButton(master=bedsBathsFrame, command=lambda x: bathsCommand(bathButton), values=baths_values, corner_radius=150, selected_color="#FF385C", selected_hover_color="#d72545")
-        bathButton.grid(column=3, row=0, padx=10, pady=10, sticky='NSWE')
+        baths_values = ["None","1","2","3+"]
+        bathButton = ctk.CTkSegmentedButton(master=bedsBathsFrame, command=lambda x: bathsCommand(bathButton,  self.tree), values=baths_values, corner_radius=150, selected_color="#FF385C", selected_hover_color="#d72545")
+        bathButton.grid(column=3, row=0, pady=10, padx=10, sticky='NSWE')
+        bathButton.set("None")
         bedsBathsFrame.grid(column=0,columnspan=2, row=5, padx=10, pady=10, sticky="NSWE")    
         
         #---------------RESET------------------
@@ -364,5 +374,3 @@ class MyGUI():
 if __name__ == "__main__":
     
     gui = MyGUI()
-
-    

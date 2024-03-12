@@ -1,22 +1,28 @@
 from index import searchAcc
-
+from functools import reduce
 class Controller():
     
     nresult = 10
+    
     inputSearch = ""
+    
     people = None
+    
     resultsDict = {}
+    
     pricemax = None
-    #scoremin
-    #neighborhood
-    #beds
+    
+    beds = None
+    
+    bath = None
+    
+    neighborhood = []
     
     
     def __init__(self, index):
         self.index = index
         
     def callSearch(self):
-        print(f"{Controller.getInput()}")
         results = searchAcc(self.index, Controller.getInput(), Controller.nresult)
         Controller.resultsDict = results
         return results
@@ -30,6 +36,24 @@ class Controller():
             inputQuery += f' AND accomodates:{Controller.people}'
         if Controller.pricemax != None:
             inputQuery += f' AND price:[0 TO {Controller.pricemax}]'
+        if Controller.beds != None: 
+            if Controller.beds != "3+":
+                inputQuery += f' AND beds:{Controller.beds}'
+            else:
+                inputQuery += f' AND beds:[3 TO]'
+        if Controller.bath != None:
+            if Controller.bath == "1":
+                inputQuery += f' AND bathrooms:[1.0 TO 1.99]'
+            elif Controller.bath == "2":
+                inputQuery += f' AND bathrooms:[2.0 TO 2.99]'
+            elif Controller.bath == "3+":
+                inputQuery += f' AND bathrooms:[3.0 TO]'
+        
+        if len(Controller.neighborhood):
+            inputQuery += f' AND neighbourhood_cleansed:({" OR ".join(Controller.neighborhood)})'
+        
+        
+
         return inputQuery
         
     @staticmethod
@@ -48,3 +72,18 @@ class Controller():
     def updatePrice(val):
         Controller.pricemax = val
     
+    @staticmethod
+    def updateNeighborhood(val):
+        Controller.neighborhood.append(val)
+        
+    @staticmethod
+    def removeNeighborhood(val):
+        Controller.neighborhood.remove(val)
+
+    @staticmethod
+    def updateBeds(val=None):
+        Controller.beds = val
+    
+    @staticmethod
+    def updateBaths(val=None):
+        Controller.bath = val

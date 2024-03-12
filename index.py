@@ -131,7 +131,7 @@ def searchAcc(my_index: Index, input: str, resLimit):
         qp = qparser.MultifieldParser(['name','description'], schema=my_index.schemaAcc, group=qparser.OrGroup)
         
         parsedQ = qp.parse(input)
-
+        print(f"Input: {input}")
         print(f"Parsed query: {parsedQ}")
         results = s.search(parsedQ, terms=True, limit=resLimit)
         for i in results:
@@ -172,6 +172,6 @@ def searchAcc(my_index: Index, input: str, resLimit):
     return resDict
 
 if __name__ == '__main__':
-    my_index = Index(forceBuildIndex=True, limit=1000)
-    r = searchAcc(my_index, "camera AND accomodates:4", 10)
+    my_index = Index(forceBuildIndex=False, limit=1000)
+    r = searchAcc(my_index, "bed AND (neighbourhood_cleansed:(\"Westminster\" OR \"Waltham Forest\"))", 10)
     print(r)
