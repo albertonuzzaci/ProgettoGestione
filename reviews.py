@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 #url = "https://www.booking.com/reviewlist.en.html?cc1=al&pagename=virginia&dist=1&offset=0&rows=10"
-url = "https://www.airbnb.com/rooms/15400/reviews"
+url = "https://www.airbnb.it/rooms/13913"
 #originalUrl = "https://www.booking.com/reviewlist.it.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaHGIAQGYARS4ARfIAQzYAQHoAQH4AQuIAgGoAgO4AtDXka8GwAIB0gIkZjRmNTEzY2EtNjZhOC00ZDhkLWI2MDEtZTA4NzYyYjQxMmJm2AIG4AIB&;cc1=it&pagename=campo-di-marte-80&type=total&dist=1&offset=0&rows=100"
 
 payload = {}
@@ -35,25 +35,14 @@ headers = {
 
 response = requests.request("GET", url, headers=headers, data=payload)
 
-'''
+
 soup = BeautifulSoup(response.text, 'html.parser')
 
 
-reviews = []
-for i in soup.find_all("li", {"class":"review_list_new_item_block"}):
-	
-	reviewTxt = "Name " + i.find("span",{"class":"bui-avatar-block__title"}).get_text()
+imagesLink = []
+for i in soup.find_all("picture", {"class":"dir dir-ltr"}):
+  for k in i.findChildren("source"): 
+	  imagesLink.append(k.get('srcset'))
 
-	for k in i.find_all("span", {"class":"c-review__body"}):
-		reviewTxt += "\n"+ k.get_text() + " "
-	reviews.append(reviewTxt)
-
-for c, i in enumerate(reviews):
-	print(f"----------Recensione {c}----------")
-	print(i)
-	print("\n")
-
-print(len(reviews))
-'''
 with open("risposta.txt","w", encoding="utf-8") as f:
 	f.write(response.text)

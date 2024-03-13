@@ -1,5 +1,5 @@
 from index import searchAcc
-from functools import reduce
+
 class Controller():
     
     nresult = 10
@@ -26,6 +26,7 @@ class Controller():
         results = searchAcc(self.index, Controller.getInput(), Controller.nresult)
         Controller.resultsDict = results
         return results
+
     
     @staticmethod 
     def getInput():

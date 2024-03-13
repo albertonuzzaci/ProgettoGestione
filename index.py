@@ -4,6 +4,7 @@ from functools import reduce
 import json
 
 
+
 from whoosh.fields import Schema, TEXT, KEYWORD, ID, STORED, DATETIME, NUMERIC
 from whoosh import index, scoring
 from whoosh.index import open_dir
@@ -13,6 +14,7 @@ from whoosh import query
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
+
 
 class Index():
     
@@ -26,25 +28,25 @@ class Index():
     def setupSchemaAcc(self):
         schema = Schema(
             id = ID(stored=True, unique=True),
-            listing_url = TEXT(stored=True),
+            #listing_url = TEXT(stored=True),
             name = TEXT(stored=True, field_boost=2.0),
             description = TEXT(stored=True),
-            host_name = TEXT(stored=True),
-            host_id = ID(),
-            host_url = TEXT(stored=True),
-            host_picture_url = TEXT(stored=True),
+            #host_name = TEXT(stored=True),
+            #host_id = ID(),
+            #host_url = TEXT(stored=True),
+            #host_picture_url = TEXT(stored=True),
             neighbourhood_cleansed = TEXT(stored=True),
-            latitude = NUMERIC(stored=True, numtype=float),
-            longitude = NUMERIC(stored=True, numtype=float),
-            property_type = TEXT(stored=True),
-            room_type = TEXT(stored=True),
+            #latitude = NUMERIC(stored=True, numtype=float),
+            #longitude = NUMERIC(stored=True, numtype=float),
+            #property_type = TEXT(stored=True),
+            #room_type = TEXT(stored=True),
             accomodates = NUMERIC(stored=True, numtype=float),
             bathrooms = NUMERIC(stored=True, numtype=float),
-            bedrooms = NUMERIC(stored=True),
+            #bedrooms = NUMERIC(stored=True),
             beds = NUMERIC(stored=True),
-            amenities = KEYWORD(stored=True, commas=True),
+            #amenities = KEYWORD(stored=True, commas=True),
             price = NUMERIC(stored=True, numtype=float),
-            numbers_of_review = NUMERIC(stored=True,numtype=float),
+            #numbers_of_review = NUMERIC(stored=True,numtype=float),
             review_scores_rating = NUMERIC(stored=True, numtype=float)
         )
         return schema
@@ -173,5 +175,5 @@ def searchAcc(my_index: Index, input: str, resLimit):
 
 if __name__ == '__main__':
     my_index = Index(forceBuildIndex=False, limit=1000)
-    r = searchAcc(my_index, "bed AND (neighbourhood_cleansed:(\"Westminster\" OR \"Waltham Forest\"))", 10)
-    print(r)
+    #r = searchAcc(my_index, "bed AND (neighbourhood_cleansed:(\"Westminster\" OR \"Waltham Forest\"))", 10)
+
