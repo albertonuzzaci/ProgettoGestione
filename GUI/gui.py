@@ -95,7 +95,7 @@ class MyGUI():
         MyGUI.addRows(7, lFrame)
         MyGUI.addColumns(3, lFrame)
         #---------------RESULT--------------------
-        resFrame = resultFrame.ResultFrame(lFrame, self.control, self.myfont)
+        resFrame = resultFrame.ResultFrame(lFrame, self.tree, self.control, self.myfont)
         resLabel = ctk.CTkLabel(master=lFrame, text="#Results", font=self.myfont)
         resLabel.grid(column=0, row=0, padx=10, pady=10, sticky='NSWE')
         resFrame.grid(column=1, row=0, padx=10, pady=10, sticky="NSWE")
@@ -109,7 +109,9 @@ class MyGUI():
         accFrame.grid(column=1, row=1, padx=10, pady=10, sticky="NSWE")
 
         #---------------PRICE--------------------        
-        prFrame = priceFrame.PriceFrame(lFrame, self.tree, self.control, self.myfont)
+        priceLabel = ctk.CTkLabel(master=lFrame, text="Price Max", font=self.myfont)
+        priceLabel.grid(column=0, row=2, padx=10, pady=20, sticky='NSWE')
+        prFrame = priceFrame.PriceFrame(lFrame, self.tree, self.control, self.myfont, priceLabel)
         prFrame.grid(column=1, row=2, padx=10, pady=10, sticky="NSWE")
         
          #---------------SCORE--------------------

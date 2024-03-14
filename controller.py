@@ -12,6 +12,8 @@ class Controller():
     
     pricemax = None
     
+    scoremin = None
+    
     beds = None
     
     bath = None
@@ -37,6 +39,8 @@ class Controller():
             inputQuery += f' AND accomodates:{Controller.people}'
         if Controller.pricemax != None:
             inputQuery += f' AND price:[0 TO {Controller.pricemax}]'
+        if Controller.scoremin != None:
+            inputQuery += f' AND review_scores_rating:[{Controller.scoremin} TO 5]'
         if Controller.beds != None: 
             if Controller.beds != "3+":
                 inputQuery += f' AND beds:{Controller.beds}'
@@ -72,6 +76,10 @@ class Controller():
     @staticmethod
     def updatePrice(val):
         Controller.pricemax = val
+        
+    @staticmethod
+    def updateScore(val):
+        Controller.scoremin = val
     
     @staticmethod
     def updateNeighborhood(val):

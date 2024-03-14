@@ -4,7 +4,7 @@ from ..action import slider_ev
 import json
 
 class PriceFrame(ctk.CTkFrame):
-    def __init__(self, root, tree, control, myfont):
+    def __init__(self, root, tree, control, myfont, priceLabel):
         self.tree = tree
         self.control = control
         self.myfont = myfont
@@ -13,8 +13,7 @@ class PriceFrame(ctk.CTkFrame):
         for i in range(2):
             self.columnconfigure(i, weight=1)
             
-        priceLabel = ctk.CTkLabel(master=root, text="Price Max", font=self.myfont)
-        priceLabel.grid(column=0, row=2, padx=10, pady=20, sticky='NSWE')
+        
             
         with open('./dataset/information.json', "r") as f:
             data = json.load(f)

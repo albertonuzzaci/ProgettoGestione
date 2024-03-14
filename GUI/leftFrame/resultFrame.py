@@ -3,9 +3,10 @@ from ..action import setResult
 
 
 class ResultFrame(ctk.CTkFrame):
-    def __init__(self, root, control, myfont):
+    def __init__(self, root, tree, control, myfont):
         self.control = control
         self.myfont = myfont
+        self.tree = tree
         super().__init__(master=root)
         
         for i in range(3):

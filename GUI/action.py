@@ -41,9 +41,10 @@ def onselect(evt, listbox, mainView):
 def slider_ev(sliderValue, label, info, valueList, control):
     if info.cget("text")=="Price Max":
         control.updatePrice(round(sliderValue, 2))
-        searchFunction(valueList, control)
     else:
         label.configure(text=f"{round(sliderValue,2)} ☆")
+        control.updateScore(round(sliderValue, 2))
+    searchFunction(valueList, control)
         
 def changeLabel(value, label):
     label.configure(text=f"{round(value,2)}€")
@@ -51,9 +52,9 @@ def changeLabel(value, label):
 
 def on_checkbutton_toggle(checkbutton_var, checkbox, valueList, control):
     if checkbutton_var.get():
-        control.updateNeighborhood(f"\"{checkbox.cget("text")}\"")
+        control.updateNeighborhood(f'\"{checkbox.cget("text")}\"')
     else:
-        control.removeNeighborhood(f"\"{checkbox.cget("text")}\"")
+        control.removeNeighborhood(f'\"{checkbox.cget("text")}\"')
     searchFunction(valueList, control)
     
 def bedsCommand(button, valueList, control):
@@ -66,7 +67,6 @@ def bedsCommand(button, valueList, control):
 def bathsCommand(button, valueList, control):
     
     if button.get() != "None":
-        print(button.get() + "BAgni")
         control.updateBaths(button.get())
     else:
         control.updateBaths()

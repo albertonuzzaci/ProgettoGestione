@@ -3,7 +3,6 @@ from ..action import slider_ev
 
 class ScoreFrame(ctk.CTkFrame):
     def __init__(self, root, tree, control, myfont, scoreLabel):
-        self.scoreLabel = scoreLabel
         self.tree = tree
         self.control = control
         self.myfont = myfont
@@ -19,12 +18,18 @@ class ScoreFrame(ctk.CTkFrame):
                                     from_=0, to=5, 
                                     command=lambda x: slider_ev(scoreSlider.get(), 
                                                                 labelScoreSlider, 
-                                                                self.scoreLabel, 
+                                                                scoreLabel, 
                                                                 self.tree, 
                                                                 self.control),
                                     button_hover_color=["#FF385C", "#FF385C"], 
                                     button_color=["#d72545", "#d72545"])
     
+        scoreSlider.bind("<ButtonRelease-1>", command=lambda event: slider_ev(scoreSlider.get(), 
+                                                                            labelScoreSlider, 
+                                                                            scoreLabel, 
+                                                                            self.tree,
+                                                                            self.control))
+
         scoreSlider.grid(column=0, row=0,padx=10, pady=20, sticky='NSWE')
         scoreSlider.set(0)
 
