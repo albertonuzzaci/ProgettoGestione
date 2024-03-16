@@ -4,9 +4,11 @@ import io
 import requests
 import urllib.request
 from bs4 import BeautifulSoup
-import os
+
 import threading
-import time
+import ssl
+
+ssl._create_default_https_context = ssl._create_unverified_context 
 
 N_THREADS=3
 
@@ -26,16 +28,14 @@ class ImageFrame(ctk.CTkFrame):
         self.threads=[]
         
         imagesURL=self.getImages()
-        #emptyImage = ctk.CTkImage(Image.open("./assets/empty.png"),size=(300, 200))
+        emptyImage = ctk.CTkImage(Image.open("./assets/empty.png"),size=(300, 200))
         
         for i,img in enumerate(imagesURL):
             if i<N_THREADS:
                 self.threads.append(threading.Thread(target = self.readImages, args = (img, i)))
-                self.threads[i].start()
-                # emptyLabel=ctk.CTkLabel(self, image=emptyImage, text="")
-                # emptyLabel.grid(column=i, row=1, sticky="nsew", padx=5, pady=(0,10))
+                emptyLabel=ctk.CTkLabel(self, image=emptyImage, text="")
+                emptyLabel.grid(column=i, row=1, sticky="nsew", padx=5, pady=(0,10))
         
-        self.wait()    
 
         # imgLabel = ctk.CTkLabel(master=self, text="Show Images", font=ctk.CTkFont(family="Montserrat", size=15, weight="bold"),cursor="hand2")
         # imgLabel.bind("<Button-1>", lambda e: self.callback(imgs, imgLabel))
@@ -43,9 +43,13 @@ class ImageFrame(ctk.CTkFrame):
               
        
     def readImages(self,img,i):
+
         with urllib.request.urlopen(img) as u:
             self.imgDict[i] = u.read()
-        
+            
+        self.images.append(ctk.CTkImage(Image.open(io.BytesIO(self.imgDict[i])), size=(300,200)))
+        my_img = ctk.CTkLabel(self, image=self.images.pop() , text="")
+        my_img.grid(column=i, row=1, sticky="nsew", padx=5, pady=(5,5))
             
     def getImages(self):
         url = self.url
@@ -61,17 +65,8 @@ class ImageFrame(ctk.CTkFrame):
         return set(imagesLink)
     
     def wait(self):
-            
         for i in range(N_THREADS):
-            self.threads[i].join()
-            
-        imgs=[]
-        
-        for i in range(N_THREADS):
-            self.images.append(ctk.CTkImage(Image.open(io.BytesIO(self.imgDict[i])), size=(300,200)))
-            imgs.append(ctk.CTkLabel(self, image=self.images[i], text=""))
-            imgs[i].grid(column=i, row=1, sticky="nsew", padx=5, pady=(5,5))
- 
+            self.threads[i].start()
         
     # def downloadImages(self):
     #     os.mkdir(f'./assets/{self.id}images')

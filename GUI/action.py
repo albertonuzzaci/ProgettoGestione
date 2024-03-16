@@ -79,6 +79,8 @@ def item_selected(mainView, valueList):
         newTab = mainView.add(record[1])
         newFrame = AccomodationFrame(newTab, record[0],record[1], mainView)
         newFrame.pack()
+        newFrame.imgFrame.wait()
+        
         
         
     

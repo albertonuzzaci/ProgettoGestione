@@ -41,8 +41,8 @@ class AccomodationFrame(ctk.CTkFrame):
         AccomodationFrame.addRows(2, lFrame)
         
               
-        imgFrame = imageFrame.ImageFrame(lFrame, self.data["listing_url"], self.data["id"])
-        imgFrame.grid(row=0, column=0, sticky="NSEW", padx=10, pady=10)
+        self.imgFrame = imageFrame.ImageFrame(lFrame, self.data["listing_url"], self.data["id"])
+        self.imgFrame.grid(row=0, column=0, sticky="NSEW", padx=10, pady=10)
         iFrame = infoFrame.InfoFrame(lFrame, self.data["property_type"],self.data["room_type"], self.data["bedrooms"], self.data["bathrooms"], self.myfont)
         iFrame.grid(row=1, column=0, sticky="NSEW", padx=10, pady=10)
         
@@ -55,8 +55,8 @@ class AccomodationFrame(ctk.CTkFrame):
         map = mapFrame.MapFrame(rFrame, self.name, self.data["latitude"],self.data["longitude"])
         map.grid(row=1, column=1,sticky="nsew", padx=10, pady=10)
           
-        #hostF = hostFrame.HostFrame(rFrame,self.data["host_name"], self.data["host_picture_url"], self.data["host_url"], self.myfont)
-        #hostF.grid(row=2, column=1,sticky="nsew", padx=10, pady=10)
+        hostF = hostFrame.HostFrame(rFrame,self.data["host_name"], self.data["host_picture_url"], self.data["host_url"], self.myfont)
+        hostF.grid(row=2, column=1,sticky="nsew", padx=10, pady=10)
         return rFrame
     
     def delete(self):
