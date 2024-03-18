@@ -1,8 +1,9 @@
 import customtkinter as ctk
-from PIL import Image
+from PIL import Image, ImageDraw
 import io
 import webbrowser
 import urllib.request
+import numpy as np
 
 class HostFrame(ctk.CTkFrame):
     
@@ -23,7 +24,7 @@ class HostFrame(ctk.CTkFrame):
 
 		labelTitleHost = ctk.CTkLabel(self, text='Host\n', font=titleFont, cursor="hand2")
 		labelHost = ctk.CTkLabel(self, text=f'{self.name}\n', font=myfont, cursor="hand2")
-		hostImage = ctk.CTkImage(Image.open(io.BytesIO(self.readImage(self.imageURL))), size=(100, 100))
+		hostImage = ctk.CTkImage(self.toCircle(Image.open(io.BytesIO(self.readImage(self.imageURL)))), size=(100, 100))
 		labelImage = ctk.CTkLabel(self, image=hostImage, text="")
 
 		labelTitleHost.grid(row=0, column=0, sticky="s", padx=5, pady=(10,5))
@@ -44,7 +45,17 @@ class HostFrame(ctk.CTkFrame):
 	def callback(url):
 		webbrowser.open_new_tab(url)  
         
-        
+	@staticmethod  
+	def toCircle(img):
+		alpha = Image.new('L', img.size,0)
+		npImage=np.array(img)
+		h,w=img.size
+  
+		draw = ImageDraw.Draw(alpha)
+		draw.pieslice([0,0,h,w],0,360,fill=255)
+		npAlpha=np.array(alpha)
+		npImage=np.dstack((npImage,npAlpha))
+		return Image.fromarray(npImage)
 
             
 

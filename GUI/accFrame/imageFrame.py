@@ -1,5 +1,5 @@
 import customtkinter as ctk
-from PIL import Image, ImageTk
+from PIL import Image
 import io
 import requests
 import urllib.request
@@ -35,13 +35,13 @@ class ImageFrame(ctk.CTkFrame):
                 self.threads.append(threading.Thread(target = self.readImages, args = (img, i)))
                 emptyLabel=ctk.CTkLabel(self, image=emptyImage, text="")
                 emptyLabel.grid(column=i, row=1, sticky="nsew", padx=5, pady=(0,10))
-        
+
 
         # imgLabel = ctk.CTkLabel(master=self, text="Show Images", font=ctk.CTkFont(family="Montserrat", size=15, weight="bold"),cursor="hand2")
         # imgLabel.bind("<Button-1>", lambda e: self.callback(imgs, imgLabel))
         # imgLabel.grid(row=0, column=0, sticky="W", padx=10, pady=10)  
-              
-       
+
+
     def readImages(self,img,i):
 
         with urllib.request.urlopen(img) as u:
@@ -49,7 +49,7 @@ class ImageFrame(ctk.CTkFrame):
             
         self.images.append(ctk.CTkImage(Image.open(io.BytesIO(self.imgDict[i])), size=(300,200)))
         my_img = ctk.CTkLabel(self, image=self.images.pop() , text="")
-        my_img.grid(column=i, row=1, sticky="nsew", padx=5, pady=(5,5))
+        my_img.grid(column=i, row=1, sticky="nsew", padx=5, pady=5)
             
     def getImages(self):
         url = self.url
@@ -67,6 +67,8 @@ class ImageFrame(ctk.CTkFrame):
     def wait(self):
         for i in range(N_THREADS):
             self.threads[i].start()
+    
+   
         
     # def downloadImages(self):
     #     os.mkdir(f'./assets/{self.id}images')

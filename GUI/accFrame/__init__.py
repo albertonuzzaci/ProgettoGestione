@@ -1,2 +1,2 @@
-__all__ = ["imageFrame", "mapFrame", "infoFrame", "hostFrame"]
+__all__ = ["imageFrame", "mapFrame", "infoFrame", "hostFrame", "descriptionFrame", "reviewFrame"]
 
