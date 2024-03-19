@@ -36,8 +36,6 @@ class MyGUI():
         self.leftFrame = self.setupLeftFrame()
         self.leftFrame.grid(column=0, row=0, sticky='nsew', padx=30, pady=10)
         
-        
-        
         self.root.mainloop()
 
     def update(self):

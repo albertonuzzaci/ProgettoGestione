@@ -23,11 +23,11 @@ class AccomodationFrame(ctk.CTkFrame):
         nameLabel.bind("<Button-1>", lambda e: self.callback(self.data["listing_url"]))  #self.link
         nameLabel.grid(row=0, column=0, sticky="W", padx=10, pady=10)
 
-        #icon = PhotoImage(file="./assets/xIcon.png")
-        #icon = ctk.CTkImage(Image.open("./assets/xIconn.png"),size=(20, 20))
+       
+        icon = ctk.CTkImage(Image.open("./assets/xIcon.png"),size=(20, 20))
 
-        #btnClose= ctk.CTkButton(self, image=icon, command=lambda: self.delete(), fg_color="#FF385C", hover_color="#d72545")
-        #btnClose.grid(row=0, column=1, sticky="E", padx=10, pady=10)
+        btnClose= ctk.CTkButton(self, image=icon, command=lambda: self.delete(), text="", fg_color="#FF385C", hover_color="#d72545")
+        btnClose.grid(row=0, column=1, sticky="E", padx=10, pady=10)
         
         lFrame = self.setupLeftFrame()
         lFrame.grid(row=1, column=0, rowspan=2, sticky="NEW", padx=10, pady=10)

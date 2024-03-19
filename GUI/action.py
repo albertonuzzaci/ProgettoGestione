@@ -19,15 +19,15 @@ def updateInputsearch(value, valueList, control):
 def increase(lbl, valueList, control):
     lbl.configure(text=int(lbl.cget("text"))+1)
     control.updatePeople(int(lbl.cget("text")))
-    if(control.inputSearch != ""): 
-        searchFunction(valueList, control)
+    #if(control.inputSearch != ""): 
+    searchFunction(valueList, control)
     
 def decrease(lbl, valueList, control):
     if(int(lbl.cget("text"))>0):
         lbl.configure(text=int(lbl.cget("text"))-1)
         control.updatePeople(int(lbl.cget("text"))) 
-        if(control.inputSearch != ""):
-            searchFunction(valueList, control)
+        #if(control.inputSearch != ""):
+        searchFunction(valueList, control)
     
 def onselect(evt, listbox, mainView):
     selected_index = listbox.curselection()
