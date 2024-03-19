@@ -56,8 +56,6 @@ class Controller():
         
         if len(Controller.neighborhood):
             inputQuery += f' AND neighbourhood_cleansed:({" OR ".join(Controller.neighborhood)})'
-        
-        
 
         return inputQuery
         

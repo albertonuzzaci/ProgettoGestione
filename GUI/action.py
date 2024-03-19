@@ -76,7 +76,7 @@ def item_selected(mainView, valueList):
     for selected_item in valueList.selection():
         item = valueList.item(selected_item)
         record = item['values']
-        newTab = mainView.add(record[1])
+        newTab = mainView.add(record[1] if len(record[1])<10 else record[1][:15]+"...")
         newFrame = AccomodationFrame(newTab, record[0],record[1], mainView)
         newFrame.pack()
         newFrame.imgFrame.wait()

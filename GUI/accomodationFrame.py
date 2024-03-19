@@ -69,7 +69,7 @@ class AccomodationFrame(ctk.CTkFrame):
         return rFrame
 
     def delete(self):
-        self.mView.delete(self.name)
+        self.mView.delete(self.name if len(self.name)<15 else self.name[:15]+"...")
 
     @staticmethod
     def callback(url):
