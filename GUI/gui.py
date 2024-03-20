@@ -30,6 +30,7 @@ class MyGUI():
 
         MyGUI.addColumns(2, self.mainFrame)
         
+        
         self.rightFrame = self.setupRightFrame()
         self.rightFrame.grid(column=1, row=0, sticky='nsew',padx=30, pady=10)
         

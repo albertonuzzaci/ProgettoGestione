@@ -47,7 +47,10 @@ def slider_ev(sliderValue, label, info, valueList, control):
     searchFunction(valueList, control)
         
 def changeLabel(value, label):
-    label.configure(text=f"{round(value,2)}€")
+    if "€" in label.cget("text"):
+        label.configure(text=f"{round(value,2)}€")
+    else:
+        label.configure(text=f"{round(value,2)}☆")
         
 
 def on_checkbutton_toggle(checkbutton_var, checkbox, valueList, control):
@@ -73,13 +76,17 @@ def bathsCommand(button, valueList, control):
     searchFunction(valueList, control)
 
 def item_selected(mainView, valueList):
-    for selected_item in valueList.selection():
-        item = valueList.item(selected_item)
+    for selectedItem in valueList.selection():
+        item = valueList.item(selectedItem)
         record = item['values']
-        newTab = mainView.add(record[1] if len(record[1])<10 else record[1][:15]+"...")
-        newFrame = AccomodationFrame(newTab, record[0],record[1], mainView)
-        newFrame.pack()
-        newFrame.imgFrame.wait()
+        try:
+            newTab = mainView.add(str(record[0])+" "+record[1] if len(record[1])<15 else str(record[0])+" "+record[1][:15]+"...")
+            newFrame = AccomodationFrame(newTab, record[0],record[1], mainView)
+            newFrame.pack()
+            newFrame.imgFrame.wait()
+        except ValueError:
+            mainView.set(str(record[0])+" "+record[1]  if len(record[1])<15 else str(record[0])+" "+record[1][:15]+"...")
+        
         
         
         

@@ -65,21 +65,8 @@ class ImageFrame(ctk.CTkFrame):
         return set(imagesLink)
     
     def wait(self):
-        for i in range(N_THREADS):
-            self.threads[i].start()
-    
-   
-        
-    # def downloadImages(self):
-    #     os.mkdir(f'./assets/{self.id}images')
-        
-    #     imagesLink = self.getImages()
-        
-    #     for c, img in enumerate(imagesLink):
-    #         if c > 2:
-    #             break
-    #         img_data = requests.get(img).content
-    #         with open(f'./assets/{self.id}images/{c}.jpg', "wb") as f:
-    #             f.write(img_data)
+        if self.threads:
+            for th in self.threads:
+                th.start()
     
 

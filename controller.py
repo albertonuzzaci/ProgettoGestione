@@ -30,7 +30,7 @@ class Controller():
         return results
 
     
-    @staticmethod 
+    @staticmethod
     def getInput():
         inputQuery = ""
         if Controller.inputSearch != "":

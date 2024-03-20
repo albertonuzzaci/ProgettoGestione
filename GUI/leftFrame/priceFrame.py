@@ -1,6 +1,5 @@
 import customtkinter as ctk
-from ..action import changeLabel
-from ..action import slider_ev
+from ..action import changeLabel, slider_ev
 import json
 
 class PriceFrame(ctk.CTkFrame):
