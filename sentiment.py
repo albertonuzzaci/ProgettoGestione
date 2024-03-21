@@ -1,11 +1,11 @@
-from transformers import BertTokenizer, AutoModelForSequenceClassification, pipeline
+from transformers import RobertaTokenizer, AutoModelForSequenceClassification, pipeline
 
 
-class GoEmotionsClassifier:
+class ExtractEmotions:
 
     def __init__(self, model_name='original'):
-        self.tokenizer = BertTokenizer.from_pretrained(f"monologg/bert-base-cased-goemotions-{model_name}")
-        self.model = AutoModelForSequenceClassification.from_pretrained(f"monologg/bert-base-cased-goemotions-{model_name}", num_labels=28)
+        self.tokenizer = RobertaTokenizer.from_pretrained(f"j-hartmann/emotion-english-distilroberta-base")
+        self.model = AutoModelForSequenceClassification.from_pretrained(f"j-hartmann/emotion-english-distilroberta-base")
 
 
     def create_pipeline(self):
@@ -13,18 +13,20 @@ class GoEmotionsClassifier:
             model=self.model,
             tokenizer=self.tokenizer,
             task="text-classification",
-            top_k=3,
-            function_to_apply='sigmoid'
+            top_k=7,
+            function_to_apply='sigmoid',
+            max_length=512, 
+            truncation=True
         )
 
 
-    def classify_texts(self, texts):
+    def extract(self, texts):
         if not hasattr(self, 'goemotions'):
             self.create_pipeline()
         return self.goemotions(texts)
 
 if __name__=="__main__":
-	classifier = GoEmotionsClassifier()
-	texts = ["it's happened before?! love my hometown of beautiful new ken 😂😂"]
+	classifier = ExtractEmotions()
+	texts = ["Really welcoming hosts. The room is nice and cosy, the location is very quiet so you can get a good sleep. Kitchen is well stocked with equipment. Highly recommended! "]
 	results = classifier.classify_texts(texts)
 	print(results)

@@ -8,4 +8,7 @@ DATASET:
 INDEX:
     MAINDIR: indexdir
     ACCDIR: accomodationIndex
-    REVDIR: reviewsIndex
+
+REVIEWS:
+    DATADIR: dataset/json
+    FILE: dataset/reviews.pickle

@@ -1,4 +1,4 @@
-from index import searchAcc
+from model import search
 
 class Controller():
     
@@ -25,7 +25,7 @@ class Controller():
         self.index = index
         
     def callSearch(self):
-        results = searchAcc(self.index, Controller.getInput(), Controller.nresult)
+        results = search(self.index, Controller.getInput(), Controller.nresult)
         Controller.resultsDict = results
         return results
 

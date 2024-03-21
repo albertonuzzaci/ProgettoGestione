@@ -5,11 +5,8 @@ import json
 
 
 
-from whoosh.fields import Schema, TEXT, KEYWORD, ID, STORED, DATETIME, NUMERIC
-from whoosh import index, scoring
-from whoosh.index import open_dir
-from whoosh import qparser
-from whoosh import query
+from whoosh.fields import Schema, TEXT, ID, NUMERIC
+from whoosh import index
 
 import nltk
 from nltk.corpus import stopwords
@@ -21,9 +18,6 @@ class Index():
     def __init__(self, forceBuildIndex=False, limit=None):
         self.schemaAcc = self.setupSchemaAcc()
         self.indexAcc = self.setupIndexAcc(forceBuildIndex, limit)
-        
-        #self.schemaRev = self.setupSchemaRev()
-        #self.indexRev = self.setupIndexRev(forceBuildIndex)
             
     def setupSchemaAcc(self):
         schema = Schema(
@@ -124,54 +118,7 @@ class Index():
         text_stemmed = " ".join(text_processed) 
         return text_stemmed
 
-def searchAcc(my_index: Index, input: str, resLimit):
-    resDict = {}
-    try:
-        s = my_index.indexAcc.searcher()
-        #qp = qparser.QueryParser("recipe_name", schema=my_index.schema)
-    
-        qp = qparser.MultifieldParser(['name','description'], schema=my_index.schemaAcc, group=qparser.OrGroup)
-        
-        parsedQ = qp.parse(input)
-        print(f"Input: {input}")
-        print(f"Parsed query: {parsedQ}")
-        results = s.search(parsedQ, terms=True, limit=resLimit)
-        for i in results:
-            print(i.matched_terms())
-            resDict[i["id"]] = [ i["name"], i["price"]]
-        
-        return resDict
-        '''
-        if results.estimated_length() == 0:
-            print("Nothing found!")
-        else:
-            print(f"Results scored lenght: {results.scored_length()}")
-            #print(reduce(lambda x,y: x+str(y)+'\n\n', results, ""))
-            
-            
-            for c, hit in enumerate(results):
-                print(f"----------------HIT{c}----------------")
-                print(hit.matched_terms())
-                print(f'Name: {hit["name"]}')
-                print(f'Description: {hit["description"]}')
-                print("\n")
-                #print(f"Contains: {hit.matched_terms()}")
-                #print("Doesn't contain:", query.all_terms().difference(set(hit.matched_terms())))
-            
-        found = results.scored_length()
-        if results.has_exact_length():
-            print("Scored", found, "of exactly", len(results), "documents")
-        else:
-            low = results.estimated_min_length()
-            high = results.estimated_length()
 
-            print("Scored", found, "of between", low, "and", high, "documents")
-        '''
-    except Exception as e: 
-        print(e)
-    finally:
-        s.close()
-    return resDict
 
 if __name__ == '__main__':
     my_index = Index(forceBuildIndex=False, limit=1000)
