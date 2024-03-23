@@ -1,5 +1,4 @@
-import yaml, os, shutil
-import pandas as pd
+import yaml, os
 from functools import reduce
 import json
 
@@ -7,6 +6,8 @@ import json
 
 from whoosh.fields import Schema, TEXT, ID, NUMERIC
 from whoosh import index
+from sentiment import ExtractEmotions
+import pickle
 
 import nltk
 from nltk.corpus import stopwords
@@ -118,7 +119,41 @@ class Index():
         text_stemmed = " ".join(text_processed) 
         return text_stemmed
 
+def setupReviewDB():
+	SENTIMENTS= ["anger", "disgust", "fear", "joy", "neutral", "sadness", "surprise"] 
 
+	
+	sentiment = ExtractEmotions()
+
+	with open('config.yaml','r') as file:
+		config_data = yaml.safe_load(file)
+
+	dataDir = f"./{config_data['REVIEWS']['DATADIR']}" 
+	revF = open(f"./{config_data['REVIEWS']['FILE']}", mode='wb')
+	reviewsDict = {}
+		
+	for i,jsonFile in enumerate(os.listdir(dataDir)):
+		with open(u"{dir}/{file}".format(dir=dataDir, file=jsonFile), "r", encoding="utf-8") as f:				
+			
+			data = json.load(f)
+			reviewsDict[data["id"]]={}
+			nrReview=len(data["reviews"])
+			for s in SENTIMENTS:
+				reviewsDict[data["id"]][s]=0
+	
+			for review in data["reviews"]:
+				try:
+					sentiments = sentiment.extract(review["review"])
+				except Exception as e:
+					print(e)
+				for sent in sentiments:
+					for s in sent:
+						reviewsDict[data["id"]][s["label"]]+=(s["score"]/nrReview)
+
+		if i>1000:
+			break
+	pickle.dump(reviewsDict, revF)
+  
 
 if __name__ == '__main__':
     my_index = Index(forceBuildIndex=False, limit=1000)

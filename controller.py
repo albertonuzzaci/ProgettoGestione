@@ -1,4 +1,4 @@
-from model import search
+from model import IRModel
 
 class Controller():
     
@@ -21,11 +21,11 @@ class Controller():
     neighborhood = []
     
     
-    def __init__(self, index):
+    def __init__(self, index, model):
         self.index = index
-        
+        self.model = model
     def callSearch(self):
-        results = search(self.index, Controller.getInput(), Controller.nresult)
+        results = self.model.search(Controller.getInput(), Controller.nresult)
         Controller.resultsDict = results
         return results
 
