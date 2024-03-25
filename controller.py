@@ -20,12 +20,18 @@ class Controller():
     
     neighborhood = []
     
+    sentiments = []
+    
     
     def __init__(self, index, model):
         self.index = index
         self.model = model
     def callSearch(self):
-        results = self.model.search(Controller.getInput(), Controller.nresult)
+        if len(Controller.sentiments) == 0:
+            results = self.model.search(Controller.getInput(), Controller.nresult)
+        else:
+            results = self.model.search(Controller.getInput(), Controller.nresult, Controller.sentiments)
+
         Controller.resultsDict = results
         return results
 
@@ -94,3 +100,13 @@ class Controller():
     @staticmethod
     def updateBaths(val=None):
         Controller.bath = val
+
+    @staticmethod
+    def addSentiment(val):
+        Controller.sentiments.append(val)
+        print(Controller.sentiments)
+    
+    @staticmethod
+    def removeSentiment(val):
+        Controller.sentiments.remove(val)
+        print(Controller.sentiments)

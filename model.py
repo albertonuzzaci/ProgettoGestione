@@ -11,13 +11,14 @@ class IRModel:
 		self.index = index
 		self.model = weightingModel
   
-	def search(self, query: str, resLimit):
+	def search(self, query: str, resLimit, sentiments=None):
 		resDict = {}
 		try:
 			#! In un qualche modo dentro a self.model.set_user_sentiment bisogna passare i sentimenti recuperati dalla gui e
 			#! e decommentare le righe sotto
-			#if isinstance(self.model, SentimentWeightingModel):
-			#	self.model.set_user_sentiment()
+			if sentiments:
+				if isinstance(self.model, SentimentWeightingModel):
+					self.model.set_user_sentiment(sentiments)
 			s = self.index.indexAcc.searcher(weighting = self.model)
 			#qp = qparser.QueryParser("recipe_name", schema=my_index.schema)
 		

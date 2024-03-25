@@ -53,13 +53,20 @@ def changeLabel(value, label):
         label.configure(text=f"{round(value,2)}☆")
         
 
-def on_checkbutton_toggle(checkbutton_var, checkbox, valueList, control):
+def neighToggle(checkbutton_var, checkbox, valueList, control):
     if checkbutton_var.get():
         control.updateNeighborhood(f'\"{checkbox.cget("text")}\"')
     else:
         control.removeNeighborhood(f'\"{checkbox.cget("text")}\"')
     searchFunction(valueList, control)
     
+def sentimentToggle(checkbutton_var, checkbox, valueList, control):
+    if checkbutton_var.get():
+        control.addSentiment(f"{checkbox.cget("text")}")
+    else:
+        control.removeSentiment(f"{checkbox.cget("text")}")
+    searchFunction(valueList, control)
+
 def bedsCommand(button, valueList, control):
     if button.get() != "None":
         control.updateBeds(button.get())
@@ -88,6 +95,6 @@ def item_selected(mainView, valueList):
             mainView.set(str(record[0])+" "+record[1]  if len(record[1])<15 else str(record[0])+" "+record[1][:15]+"...")
         
         
-        
+
         
     

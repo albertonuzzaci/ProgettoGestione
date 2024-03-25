@@ -87,6 +87,7 @@ class MyGUI():
         scrollbar = ttk.Scrollbar(master=treeFrame, orient=tk.VERTICAL, command=self.tree.yview)
         self.tree.configure(yscrollcommand=scrollbar.set)
         scrollbar.grid(row=0, column=1, sticky='nswe')
+        
         treeFrame.grid(row=2, column=0)
         
         
@@ -94,14 +95,38 @@ class MyGUI():
         #sentimentLabel = ctk.CTkLabel(master=rFrame, text="Sentiments", font=self.myfont, justify="left")
         #sentimentLabel.grid(column=0, row=1, sticky="N")
         
-        
         sentimentFrame = scrollCheckBox.ScrollableCheckBoxFrame(master=rFrame,
                                                                 item_list=sorted(["anger", "disgust", "fear", "joy", "neutral", "sadness", "surprise"]), 
                                                                 tree=self.tree,
                                                                 orientation="horizontal",
-                                                                control=self.control)
+                                                                control=self.control,
+                                                                height=35,
+                                                                fg_color= "#333333")
 
-        sentimentFrame.grid(column=0, row=1, sticky='nwe')
+        sentimentFrame.grid(column=0, row=1, sticky='nsew')
+        '''
+        
+        sentimentFrame = ctk.CTkFrame(master=rFrame)
+        sentiments = ["anger", "disgust", "fear", "joy", "neutral", "sadness", "surprise"]
+        
+        MyGUI.addColumns(len(sentiments), sentimentFrame)
+        MyGUI.addRows(1, sentimentFrame)
+
+        check_var = tk.StringVar()
+
+        def checkbox_event():
+            print("checkbox toggled, current value:", check_var.get())
+            
+            
+        
+        for c, sentiment in enumerate(sentiments): 
+            checkbox = ctk.CTkCheckBox(master=sentimentFrame, text=f'{sentiment}', command=checkbox_event, variable=check_var, onvalue="on", offvalue="off")
+
+            checkbox.grid(column=c, row=0)
+            
+        
+        sentimentFrame.grid(column=0, row=1)
+        '''
         
         return rFrame
     
