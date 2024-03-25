@@ -2,7 +2,7 @@ from index import Index
 from GUI.gui import MyGUI
 from controller import Controller
 from model import IRModel
-from sentiment import SentimentWeightingModel
+from Sentiment.sentimentModel import SentimentWeightingModel
 
 def main() -> None:
     my_index = Index(forceBuildIndex=False, limit=1000)

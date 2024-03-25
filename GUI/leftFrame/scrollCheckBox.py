@@ -3,8 +3,15 @@ from GUI.action import on_checkbutton_toggle
 import tkinter as tk
 
 class ScrollableCheckBoxFrame(ctk.CTkScrollableFrame):
-    def __init__(self, master, tree, item_list, control, **kwargs):
-        super().__init__(master, **kwargs)
+    def __init__(self, master, tree, item_list, control, orientation="vertical", **kwargs):
+        
+        self.myorientation = orientation
+        
+        if self.myorientation == "horizontal":
+            super().__init__(master, orientation="horizontal", **kwargs)
+        else:
+            super().__init__(master, **kwargs)
+        
         self.tree=tree
         self.control = control
         self.checkbox_list = []
@@ -15,7 +22,10 @@ class ScrollableCheckBoxFrame(ctk.CTkScrollableFrame):
         checkbutton_var = tk.IntVar()
         checkbox = ctk.CTkCheckBox(self, text=item, hover_color="#d72545",fg_color= [ "gray90","#FF385C"], variable=checkbutton_var)
         checkbox.configure(command=lambda : on_checkbutton_toggle(checkbutton_var, checkbox, self.tree, self.control))
-        checkbox.grid(row=len(self.checkbox_list), column=0, pady=(0, 10), sticky="nsew")
+        if self.myorientation == "vertical":
+            checkbox.grid(row=len(self.checkbox_list), column=0, pady=(0, 10), sticky="nsew")
+        else:
+            checkbox.grid(column=len(self.checkbox_list), row=0, pady=(0, 10), sticky="ew")
         self.checkbox_list.append(checkbox)
 
     def remove_item(self, item):

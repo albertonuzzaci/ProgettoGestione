@@ -3,7 +3,7 @@ from whoosh import qparser
 from whoosh import query, scoring
 from whoosh.scoring import WeightingModel
 from whoosh.index import open_dir
-from sentiment import SentimentWeightingModel
+from Sentiment.sentimentModel import SentimentWeightingModel
 
 
 class IRModel:

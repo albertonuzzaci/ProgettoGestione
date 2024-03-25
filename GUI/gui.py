@@ -59,13 +59,18 @@ class MyGUI():
 
         rFrame = ctk.CTkFrame(self.mainFrame, corner_radius=10)
         
-        MyGUI.addRows(2, rFrame)
+        MyGUI.addRows(3, rFrame)
+        #MyGUI.addColumns(2, rFrame)
         
+        #-------------SEARCH----------------
         self.searchField = ctk.CTkEntry(master=rFrame, placeholder_text="Search destinations...", font=('Roboto', 18))
-        self.searchField.grid(column=0, row=0, columnspan=2, sticky='nsew', pady=10, padx=10)
+        self.searchField.grid(column=0, row=0, sticky='nsew', pady=10, padx=10)
         
+        
+        #-------------RESULTS----------------
         treeFrame = ctk.CTkFrame(master=rFrame)
         MyGUI.addColumns(2,treeFrame)
+        
         # define columns
         s = ttk.Style()
         columns = ('id','accomodation', 'price')
@@ -74,11 +79,7 @@ class MyGUI():
         self.tree.column("accomodation", minwidth=500, width=500, stretch=False)
         self.tree.column("price", minwidth=0, width=100, stretch=False)
         s.theme_use("clam")
-        s.configure('Treeview', rowheight=50, fieldbackground='#333333', background='#333333', foreground="#DCE4EE", font=("Roboto",15))
-    
-        #self.tree.tag_configure('bg', background='#333333',foreground='#DCE4EE', font=('Roboto', 18))
-        
-        
+        s.configure('Treeview', rowheight=50, fieldbackground='#333333', background='#333333', foreground="#DCE4EE", font=("Roboto",15))    
 
         self.tree.bind('<<TreeviewSelect>>', lambda x: item_selected(mainView=self.mainView, valueList=self.tree))
         self.tree.grid(row=0, column=0, sticky='nsew')
@@ -86,7 +87,22 @@ class MyGUI():
         scrollbar = ttk.Scrollbar(master=treeFrame, orient=tk.VERTICAL, command=self.tree.yview)
         self.tree.configure(yscrollcommand=scrollbar.set)
         scrollbar.grid(row=0, column=1, sticky='nswe')
-        treeFrame.grid(row=1, column=0)
+        treeFrame.grid(row=2, column=0)
+        
+        
+        #-------------SENTIMENT--------------
+        #sentimentLabel = ctk.CTkLabel(master=rFrame, text="Sentiments", font=self.myfont, justify="left")
+        #sentimentLabel.grid(column=0, row=1, sticky="N")
+        
+        
+        sentimentFrame = scrollCheckBox.ScrollableCheckBoxFrame(master=rFrame,
+                                                                item_list=sorted(["anger", "disgust", "fear", "joy", "neutral", "sadness", "surprise"]), 
+                                                                tree=self.tree,
+                                                                orientation="horizontal",
+                                                                control=self.control)
+
+        sentimentFrame.grid(column=0, row=1, sticky='nwe')
+        
         return rFrame
     
     def setupLeftFrame(self):
