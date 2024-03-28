@@ -23,21 +23,22 @@ class Controller():
     
     sentiments = []
     
+    correctedQuery = ""
     
     def __init__(self, index, model):
         self.index = index
         self.model = model
     def callSearch(self):
         if len(Controller.sentiments) == 0:
-            results = self.model.search(Controller.getInput(), Controller.nresult)
+            correctedQuery, results = self.model.search(Controller.getInput(), Controller.nresult)
         else:
-            results = self.model.search(Controller.getInput(), Controller.nresult, Controller.sentiments)
-
+            correctedQuery, results = self.model.search(Controller.getInput(), Controller.nresult, Controller.sentiments)
+        Controller.correctedQuery = correctedQuery
         Controller.resultsDict = results
-        rwInd = ReviewsIndex()
-        for k,v in Controller.resultsDict.items():
-            print(f"{int(k)} - {v[0]}")
-            print(rwInd.get_sentiments(int(k)))
+        #rwInd = ReviewsIndex()
+        #for k,v in Controller.resultsDict.items():
+        #    print(f"{int(k)} - {v[0]}")
+        #    print(rwInd.get_sentiments(int(k)))
 
         return results
 
@@ -70,7 +71,10 @@ class Controller():
             inputQuery += f' AND neighbourhood_cleansed:({" OR ".join(Controller.neighborhood)})'
 
         return inputQuery
-        
+
+    def getSuggestion(self):
+        return Controller.correctedQuery
+    
     @staticmethod
     def updateResult(val):
         Controller.nresult = val

@@ -12,6 +12,16 @@ def setResult(var, valueList, control):
     control.updateResult(var)
     searchFunction(valueList, control)
 
+def updateDidYouMean(label, control):
+    label.configure(text=f"Did you mean \'{control.getSuggestion()}\'?")
+
+def correctText(searchField, control):
+    searchField.delete(0, 'end')
+    searchField.insert(0,f"{control.getSuggestion()}")
+        
+    
+
+
 def updateInputsearch(value, valueList, control):
     control.updateInputSearch(value)
     searchFunction(valueList, control)

@@ -43,6 +43,7 @@ class MyGUI():
         if self.control.inputSearch != self.searchField.get():
             self.control.updateInputSearch(self.searchField.get())
             searchFunction(self.tree, self.control)
+            updateDidYouMean(self.didYouMeanLabel, self.control)
         self.root.after(100, self.update)
         
     def setupTabView(self):
@@ -59,8 +60,7 @@ class MyGUI():
 
         rFrame = ctk.CTkFrame(self.mainFrame, corner_radius=10)
         
-        MyGUI.addRows(3, rFrame)
-        #MyGUI.addColumns(2, rFrame)
+        MyGUI.addRows(4, rFrame)
         
         #-------------SEARCH----------------
         self.searchField = ctk.CTkEntry(master=rFrame, placeholder_text="Search destinations...", font=('Roboto', 18))
@@ -71,7 +71,6 @@ class MyGUI():
         treeFrame = ctk.CTkFrame(master=rFrame)
         MyGUI.addColumns(2,treeFrame)
         
-        # define columns
         s = ttk.Style()
         columns = ('id','accomodation', 'price')
         self.tree = ttk.Treeview(master=treeFrame, selectmode="extended", columns=columns, show='')
@@ -79,7 +78,7 @@ class MyGUI():
         self.tree.column("accomodation", minwidth=500, width=500, stretch=False)
         self.tree.column("price", minwidth=0, width=100, stretch=False)
         s.theme_use("clam")
-        s.configure('Treeview', rowheight=50, fieldbackground='#333333', background='#333333', foreground="#DCE4EE", font=("Roboto",15))    
+        s.configure('Treeview', rowheight=40, fieldbackground='#333333', background='#333333', foreground="#DCE4EE", font=("Roboto",15))    
 
         self.tree.bind('<<TreeviewSelect>>', lambda x: item_selected(mainView=self.mainView, valueList=self.tree))
         self.tree.grid(row=0, column=0, sticky='nsew')
@@ -88,13 +87,11 @@ class MyGUI():
         self.tree.configure(yscrollcommand=scrollbar.set)
         scrollbar.grid(row=0, column=1, sticky='nswe')
         
-        treeFrame.grid(row=2, column=0)
+        treeFrame.grid(row=3, column=0)
         
         
         #-------------SENTIMENT--------------
-        #sentimentLabel = ctk.CTkLabel(master=rFrame, text="Sentiments", font=self.myfont, justify="left")
-        #sentimentLabel.grid(column=0, row=1, sticky="N")
-        
+
         sentimentFrame = scrollCheckBox.ScrollableCheckBoxFrame(master=rFrame,
                                                                 item_list=sorted(["anger", "disgust", "fear", "joy", "neutral", "sadness", "surprise"]), 
                                                                 tree=self.tree,
@@ -103,31 +100,20 @@ class MyGUI():
                                                                 height=35,
                                                                 fg_color= "#333333")
 
-        sentimentFrame.grid(column=0, row=1, sticky='nsew')
-        '''
+        sentimentFrame.grid(column=0, row=2, sticky='nsew')
         
-        sentimentFrame = ctk.CTkFrame(master=rFrame)
-        sentiments = ["anger", "disgust", "fear", "joy", "neutral", "sadness", "surprise"]
+        #----------DID YOU MEAN--------------
+        self.didYouMeanLabel = ctk.CTkLabel(
+            master=rFrame,
+            text="Did you mean ...?",
+            anchor="w",
+            text_color="#a3a2a0",
+            cursor="hand2"
+        )
+        self.didYouMeanLabel.bind("<Button-1>", lambda v: correctText(self.searchField, self.control))
         
-        MyGUI.addColumns(len(sentiments), sentimentFrame)
-        MyGUI.addRows(1, sentimentFrame)
+        self.didYouMeanLabel.grid(column=0, row=1, sticky="ew", padx=(20,0))
 
-        check_var = tk.StringVar()
-
-        def checkbox_event():
-            print("checkbox toggled, current value:", check_var.get())
-            
-            
-        
-        for c, sentiment in enumerate(sentiments): 
-            checkbox = ctk.CTkCheckBox(master=sentimentFrame, text=f'{sentiment}', command=checkbox_event, variable=check_var, onvalue="on", offvalue="off")
-
-            checkbox.grid(column=c, row=0)
-            
-        
-        sentimentFrame.grid(column=0, row=1)
-        '''
-        
         return rFrame
     
     def setupLeftFrame(self):

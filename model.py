@@ -4,7 +4,7 @@ from whoosh import query, scoring
 from whoosh.scoring import WeightingModel
 from whoosh.index import open_dir
 from Sentiment.sentimentModel import SentimentWeightingModel
-
+from whoosh.searching import Searcher
 
 class IRModel:
 	def __init__(self, index: Index, weightingModel: WeightingModel):
@@ -19,19 +19,23 @@ class IRModel:
 
 			s = self.index.indexAcc.searcher(weighting = self.model)
 			#qp = qparser.QueryParser("recipe_name", schema=my_index.schema)
-		
 			qp = qparser.MultifieldParser(['name','description'], schema=self.index.schemaAcc, group=qparser.OrGroup)
 		
 			parsedQ = qp.parse(query)
-			print(f"Input: {query}")
+			print(f"Input: {query}")			
 			print(f"Parsed query: {parsedQ}")
+    
 			results = s.search(parsedQ, terms=True, limit=resLimit)
 			for i in results:
 				print(i.matched_terms())
 				resDict[i["id"]] = [ i["name"], i["price"]]
 				print(i.score)
 			
-			return resDict
+			corrected = s.correct_query(parsedQ, query)
+			if corrected.query != parsedQ:
+				return corrected.string, resDict
+			else:
+				return "", resDict
 		except Exception as e: 
 			print(e)
 		finally:
