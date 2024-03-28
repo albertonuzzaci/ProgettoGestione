@@ -3,6 +3,7 @@ from Sentiment.extractEmotions import ExtractEmotions
 import yaml
 import os
 import json
+import math
 
 class ReviewsIndex:
 	def __init__(self, path = "./dataset/reviews.pickle"):
@@ -13,18 +14,18 @@ class ReviewsIndex:
 
 	def get_sentiments(self, id):
 		return self.index.get(id)
- 
+
 	def setupReviewDB(self):
 		print("Building reviews pickle file... ")
 		SENTIMENTS= ["anger", "disgust", "fear", "joy", "neutral", "sadness", "surprise"] 
 
 		sentiment = ExtractEmotions()
 
-		with open('config.yaml','r') as file:
+		with open('./config.yaml','r') as file:
 			config_data = yaml.safe_load(file)
 
 		dataDir = f"./{config_data['REVIEWS']['DATADIR']}" 
-		revF = open(f"./{config_data['REVIEWS']['FILE']}", mode='wb')
+		
 		reviewsDict = {}
 			
 		for i,jsonFile in enumerate(os.listdir(dataDir)):
@@ -38,19 +39,21 @@ class ReviewsIndex:
 		
 				for review in data["reviews"]:
 					try:
-						sentiments = sentiment.extract(review["review"])
+						if not math.isnan(review["review"]):
+							sentiments = sentiment.extract(review["review"])
 					except Exception as e:
+						print(data["id"])
 						print(e)
 					for sent in sentiments:
 						for s in sent:
 							reviewsDict[data["id"]][s["label"]]+=(s["score"]/nrReview)
-
-			if i>1000:
-				break
-		pickle.dump(reviewsDict, revF)
-		print("Review pickle file created successfully! ")		
+		
+		with open(f"./{config_data['REVIEWS']['FILE']}", mode='wb') as revF:
+			pickle.dump(reviewsDict, revF)
+		
+		print("Review pickle file created successfully! ")
 
 if __name__ == "__main__":
     #setupReviewDB()
     rew = ReviewsIndex()
-    print(rew.index.get(10006571))
+    print(rew.index.get(10094145))

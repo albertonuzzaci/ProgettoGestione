@@ -1,4 +1,5 @@
 from model import IRModel
+from Sentiment.reviews import ReviewsIndex
 
 class Controller():
     
@@ -33,6 +34,11 @@ class Controller():
             results = self.model.search(Controller.getInput(), Controller.nresult, Controller.sentiments)
 
         Controller.resultsDict = results
+        rwInd = ReviewsIndex()
+        for k,v in Controller.resultsDict.items():
+            print(f"{int(k)} - {v[0]}")
+            print(rwInd.get_sentiments(int(k)))
+
         return results
 
     

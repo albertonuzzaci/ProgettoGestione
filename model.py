@@ -10,20 +10,18 @@ class IRModel:
 	def __init__(self, index: Index, weightingModel: WeightingModel):
 		self.index = index
 		self.model = weightingModel
-  
+
 	def search(self, query: str, resLimit, sentiments=None):
 		resDict = {}
 		try:
-			#! In un qualche modo dentro a self.model.set_user_sentiment bisogna passare i sentimenti recuperati dalla gui e
-			#! e decommentare le righe sotto
-			if sentiments:
-				if isinstance(self.model, SentimentWeightingModel):
-					self.model.set_user_sentiment(sentiments)
+			if isinstance(self.model, SentimentWeightingModel):
+				self.model.set_user_sentiment(sentiments)
+
 			s = self.index.indexAcc.searcher(weighting = self.model)
 			#qp = qparser.QueryParser("recipe_name", schema=my_index.schema)
 		
 			qp = qparser.MultifieldParser(['name','description'], schema=self.index.schemaAcc, group=qparser.OrGroup)
-			
+		
 			parsedQ = qp.parse(query)
 			print(f"Input: {query}")
 			print(f"Parsed query: {parsedQ}")
@@ -31,6 +29,7 @@ class IRModel:
 			for i in results:
 				print(i.matched_terms())
 				resDict[i["id"]] = [ i["name"], i["price"]]
+				print(i.score)
 			
 			return resDict
 		except Exception as e: 

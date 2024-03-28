@@ -55,16 +55,16 @@ def changeLabel(value, label):
 
 def neighToggle(checkbutton_var, checkbox, valueList, control):
     if checkbutton_var.get():
-        control.updateNeighborhood(f'\"{checkbox.cget("text")}\"')
+        control.updateNeighborhood(f"\"{checkbox.cget('text')}\"")
     else:
-        control.removeNeighborhood(f'\"{checkbox.cget("text")}\"')
+        control.removeNeighborhood(f"\"{checkbox.cget('text')}\"")
     searchFunction(valueList, control)
     
 def sentimentToggle(checkbutton_var, checkbox, valueList, control):
     if checkbutton_var.get():
-        control.addSentiment(f"{checkbox.cget("text")}")
+        control.addSentiment(f"{checkbox.cget('text')}")
     else:
-        control.removeSentiment(f"{checkbox.cget("text")}")
+        control.removeSentiment(f"{checkbox.cget('text')}")
     searchFunction(valueList, control)
 
 def bedsCommand(button, valueList, control):
@@ -92,9 +92,4 @@ def item_selected(mainView, valueList):
             newFrame.pack()
             newFrame.imgFrame.wait()
         except ValueError:
-            mainView.set(str(record[0])+" "+record[1]  if len(record[1])<15 else str(record[0])+" "+record[1][:15]+"...")
-        
-        
-
-        
-    
+            mainView.set(str(record[0])+" "+record[1]  if len(record[1])<15 else str(record[0])+" "+record[1][:15]+"...")    
