@@ -5,6 +5,7 @@ from whoosh.scoring import WeightingModel
 from whoosh.index import open_dir
 from Sentiment.sentimentModel import SentimentWeightingModel
 from whoosh.searching import Searcher
+from functools import reduce
 
 class IRModel:
 	def __init__(self, index: Index, weightingModel: WeightingModel):
@@ -13,6 +14,7 @@ class IRModel:
 
 	def search(self, query: str, resLimit, sentiments=None):
 		resDict = {}
+		correctedString = ""
 		try:
 			if isinstance(self.model, SentimentWeightingModel):
 				self.model.set_user_sentiment(sentiments)
@@ -33,11 +35,13 @@ class IRModel:
 			
 			corrected = s.correct_query(parsedQ, query)
 			if corrected.query != parsedQ:
-				return corrected.string, resDict
-			else:
-				return "", resDict
+				correctedString = reduce(
+        			lambda x,y: x+" "+str(y[1]),
+           			list(filter(lambda term: term[1] if term[0] == "name" else "", corrected.query.iter_all_terms())),
+					""
+              	).strip()
 		except Exception as e: 
 			print(e)
 		finally:
 			s.close()
-		return resDict
+		return correctedString, resDict

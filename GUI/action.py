@@ -13,11 +13,17 @@ def setResult(var, valueList, control):
     searchFunction(valueList, control)
 
 def updateDidYouMean(label, control):
-    label.configure(text=f"Did you mean \'{control.getSuggestion()}\'?")
+    if(len(control.getSuggestion()) > 0):
+        
+        label.configure(text=f"Did you mean \'{control.getSuggestion()}\'?", cursor="hand2")
+    else:
+        label.configure(text=f"Nothing to suggest.", cursor="")
+
 
 def correctText(searchField, control):
-    searchField.delete(0, 'end')
-    searchField.insert(0,f"{control.getSuggestion()}")
+    if(len(control.getSuggestion()) > 0):
+        searchField.delete(0, 'end')
+        searchField.insert(0,f"{control.getSuggestion()}")
         
     
 

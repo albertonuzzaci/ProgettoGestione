@@ -60,11 +60,15 @@ class MyGUI():
 
         rFrame = ctk.CTkFrame(self.mainFrame, corner_radius=10)
         
-        MyGUI.addRows(4, rFrame)
+        #MyGUI.addRows(4, rFrame)
+        rFrame.rowconfigure(0, weight=30)
+        rFrame.rowconfigure(1, weight=1)
+        rFrame.rowconfigure(2, weight=30)
+        rFrame.rowconfigure(3, weight=30)
         
         #-------------SEARCH----------------
         self.searchField = ctk.CTkEntry(master=rFrame, placeholder_text="Search destinations...", font=('Roboto', 18))
-        self.searchField.grid(column=0, row=0, sticky='nsew', pady=10, padx=10)
+        self.searchField.grid(column=0, row=0, sticky='nsew', pady=(10,0), padx=10)
         
         
         #-------------RESULTS----------------
@@ -97,7 +101,7 @@ class MyGUI():
                                                                 tree=self.tree,
                                                                 orientation="horizontal",
                                                                 control=self.control,
-                                                                height=35,
+                                                                height=30,
                                                                 fg_color= "#333333")
 
         sentimentFrame.grid(column=0, row=2, sticky='nsew')
@@ -105,14 +109,14 @@ class MyGUI():
         #----------DID YOU MEAN--------------
         self.didYouMeanLabel = ctk.CTkLabel(
             master=rFrame,
-            text="Did you mean ...?",
+            text="Type something for suggetions...",
             anchor="w",
             text_color="#a3a2a0",
-            cursor="hand2"
+            font=ctk.CTkFont(family="Roboto", size=12, weight="bold")
         )
         self.didYouMeanLabel.bind("<Button-1>", lambda v: correctText(self.searchField, self.control))
         
-        self.didYouMeanLabel.grid(column=0, row=1, sticky="ew", padx=(20,0))
+        self.didYouMeanLabel.grid(column=0, row=1, sticky="ew", padx=(18,0))
 
         return rFrame
     
