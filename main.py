@@ -5,7 +5,7 @@ from model import IRModel
 from Sentiment.sentimentModel import SentimentWeightingModel
 
 def main() -> None:
-    my_index = Index(forceBuildIndex=False, limit=1000)
+    my_index = Index(forceBuildIndex=False)
     sent = SentimentWeightingModel()
     my_model = IRModel(my_index, sent)
     control = Controller(my_index, my_model)

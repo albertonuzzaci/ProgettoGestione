@@ -1,6 +1,5 @@
-import pandas as pd
-import random, json
-import os, glob
+import json
+import os
 def floatConverter(var):
     try:
         return float(var)

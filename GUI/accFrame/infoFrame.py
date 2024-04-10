@@ -1,4 +1,5 @@
 import customtkinter as ctk
+import math
 from PIL import ImageTk, Image
 
 class InfoFrame(ctk.CTkFrame):
@@ -43,7 +44,7 @@ class RateFrame(ctk.CTkFrame):
 	def __init__(self, root, price,score, nReviews, guests, myfont):
 		self.guests=guests
 		self.price=price
-		self.score=score
+		self.score = score if not math.isnan(score) else "?"
 		self.reviews=nReviews
 		super().__init__(master=root)
   
@@ -55,7 +56,7 @@ class RateFrame(ctk.CTkFrame):
 		
 		titleFont=ctk.CTkFont(family="Montserrat", size=17, weight="bold")
 		labelScore = ctk.CTkLabel(self, text=f'{self.score}/5.0 ☆', font=titleFont)
-		labelReviews = ctk.CTkLabel(self, text=f'{self.reviews} reviews', font=myfont)
+		labelReviews = ctk.CTkLabel(self, text=f'{int(self.reviews)} reviews', font=myfont)
 		labelNight = ctk.CTkLabel(self, text=f'per night', font=myfont)
 		labelPrice = ctk.CTkLabel(self, text=f'{self.price}€', font=titleFont)
   

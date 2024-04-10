@@ -55,8 +55,10 @@ class HostFrame(ctk.CTkFrame):
 		draw.pieslice([0,0,h,w],0,360,fill=255)
 		npAlpha=np.array(alpha)
 		npImage=np.dstack((npImage,npAlpha))
-		return Image.fromarray(npImage)
-
+		try:
+			return Image.fromarray(npImage)
+		except TypeError:
+			return HostFrame.toCircle(Image.open("./assets/noimage.jpg"))
             
 
  

@@ -1,10 +1,7 @@
 from index import Index
 from whoosh import qparser
-from whoosh import query, scoring
 from whoosh.scoring import WeightingModel
-from whoosh.index import open_dir
 from Sentiment.sentimentModel import SentimentWeightingModel
-from whoosh.searching import Searcher
 from functools import reduce
 
 class IRModel:

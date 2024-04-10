@@ -1,5 +1,5 @@
 from model import IRModel
-from Sentiment.reviews import ReviewsIndex
+from index import Index
 
 class Controller():
     
@@ -25,7 +25,7 @@ class Controller():
     
     correctedQuery = ""
     
-    def __init__(self, index, model):
+    def __init__(self, index:Index, model:IRModel):
         self.index = index
         self.model = model
     def callSearch(self):
