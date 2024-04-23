@@ -13,8 +13,7 @@ def setResult(var, valueList, control):
     searchFunction(valueList, control)
 
 def updateDidYouMean(label, control):
-    if(len(control.getSuggestion()) > 0):
-        
+    if(len(control.getSuggestion()) > 0):   
         label.configure(text=f"Did you mean \'{control.getSuggestion()}\'?", cursor="hand2")
     else:
         label.configure(text=f"Nothing to suggest.", cursor="")

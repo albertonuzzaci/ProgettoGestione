@@ -2,11 +2,11 @@ from index import Index
 from GUI.gui import MyGUI
 from controller import Controller
 from model import IRModel
-from Sentiment.sentimentModel import SentimentWeightingModel
+from Sentiment.sentimentModel import AdvancedSentimentWeightingModel, SentimentWeightingModel
 
 def main() -> None:
     my_index = Index(forceBuildIndex=False)
-    sent = SentimentWeightingModel()
+    sent = AdvancedSentimentWeightingModel()
     my_model = IRModel(my_index, sent)
     control = Controller(my_index, my_model)
     MyGUI(control)

@@ -52,6 +52,19 @@ class SentimentWeightingModel(BM25F):
         sentiment_score = self.get_sentiment_score(id, self._user_sentiment)
         return (score*sentiment_score)
 
+class AdvancedSentimentWeightingModel(SentimentWeightingModel):
+    
+    def final(self, searcher, docnum, score):
+        score = super().final(searcher, docnum, score)
+        if not self._user_sentiment:
+            return score
+
+        id = searcher.stored_fields(docnum)['id']
+        sentiment_score = self.get_sentiment_score(id, self._user_sentiment)
+        #print(sentiment_score, score)
+        return (score*sentiment_score*self._reviews_index.get_sentiment_len_for(id))
+
+
 if __name__=="__main__":
 	classifier = ExtractEmotions()
 	text = "We had a great (3-week) stay. The house is exactly as presented in the photos, and is in an excellent location - the road itself is very quiet, but is just around the corner from the increasingly buzzing action of Parson's Green. Camilla was a great host - very quick to reply to any messages, and she made checking in and checking out extremely easy. Would definitely stay here again."

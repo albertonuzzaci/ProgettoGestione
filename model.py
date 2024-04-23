@@ -26,9 +26,9 @@ class IRModel:
     
 			results = s.search(parsedQ, terms=True, limit=resLimit)
 			for i in results:
-				print(i.matched_terms())
+				#print(i.matched_terms())
 				resDict[i["id"]] = [ i["name"], i["price"]]
-				print(i.score)
+				#print(i.score)
 			
 			corrected = s.correct_query(parsedQ, query)
 			if corrected.query != parsedQ:

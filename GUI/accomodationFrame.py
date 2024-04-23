@@ -47,7 +47,7 @@ class AccomodationFrame(ctk.CTkFrame):
       
         self.imgFrame = imageFrame.ImageFrame(lFrame, self.data["listing_url"], self.data["id"])
         self.imgFrame.grid(row=0, column=0, columnspan=2, sticky="nsew", padx=10, pady=10)
-        infoF = infoFrame.InfoFrame(lFrame, self.data["property_type"],self.data["room_type"], self.data["bedrooms"], self.data["bathrooms"],self.myfont)
+        infoF = infoFrame.InfoFrame(lFrame, self.data["property_type"],self.data["room_type"], self.data["beds"], self.data["bathrooms"],self.myfont)
         infoF.grid(row=1, column=0, sticky="nsew", padx=10, pady=10)
 
         rateF = infoFrame.RateFrame(lFrame, self.data["price"], self.data["review_scores_rating"],self.data["numbers_of_review"], self.data["accommodates"], self.myfont)
