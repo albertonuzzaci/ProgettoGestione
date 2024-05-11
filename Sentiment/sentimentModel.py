@@ -22,7 +22,7 @@ class SentimentWeightingModel(BM25F):
 
         #numeratore
         num = sum(doc[k]*query[k] for k in (doc.keys() & query.keys()))
-
+        print(doc,query)
         if denom:
             return num/denom
         return 0
