@@ -1,7 +1,7 @@
 import json
 import os
 
-        
+# Funzione per rimuovere un campo specifico da un JSON        
 def rimuovi_campo(json_data, campo_da_rimuovere):
     if campo_da_rimuovere in json_data:
         del json_data[campo_da_rimuovere]
@@ -9,7 +9,6 @@ def rimuovi_campo(json_data, campo_da_rimuovere):
             
 if __name__ == "__main__":
 
-    # Funzione per rimuovere un campo specifico da un JSON
 
     # Percorso della cartella contenente i file JSON
     cartella = "./dataset/json"
