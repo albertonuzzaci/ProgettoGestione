@@ -4,14 +4,15 @@ from whoosh.scoring import WeightingModel
 from Sentiment.sentimentModel import SentimentWeightingModel
 from Doc2Vec.doc2vec_model import Doc2VecModel
 from functools import reduce
+from whoosh.scoring import BM25F
 
 class IRModel:
-	def __init__(self, index: Index, weightingModel: WeightingModel):
+	def __init__(self, index: Index, weightingModel: WeightingModel = BM25F):
 		self.index = index
 		self.model = weightingModel
 		self.query = ""
 
-	def search(self, query: str, resLimit, sentiments=None):
+	def search(self, query: str, resLimit, sentiments=None, verbose=False):
 		resDict = {}
 		correctedString = ""
 		try:
@@ -25,8 +26,9 @@ class IRModel:
 
 			
 			parsedQ = qp.parse(query)
-			print(f"Input: {query}")			
-			print(f"Parsed query: {parsedQ}")
+			if(verbose):
+				print(f"Input: {query}")			
+				print(f"Parsed query: {parsedQ}")
     
 			results = s.search(parsedQ, terms=True, limit=resLimit)
 			for i in results:

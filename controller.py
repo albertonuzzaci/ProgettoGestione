@@ -25,9 +25,10 @@ class Controller():
     
     correctedQuery = ""
     
-    def __init__(self, index:Index, model:IRModel):
+    def __init__(self, index:Index, model: IRModel):
         self.index = index
         self.model = model
+        
     def callSearch(self):
         if len(Controller.sentiments) == 0:
             correctedQuery, results = self.model.search(Controller.getInput(), Controller.nresult)
