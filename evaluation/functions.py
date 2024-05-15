@@ -1,35 +1,16 @@
 #import external libraries
 import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
 from functools import reduce
 #import usefull classes
 from index import Index
 from model import IRModel
-
 #Import the models
-from whoosh.scoring import BM25F
-from Doc2Vec.doc2vec_model import Doc2VecModel
-from Sentiment.sentimentModel import SentimentWeightingModel, AdvancedSentimentWeightingModel
 
-models = [
-	BM25F(), 
- 	Doc2VecModel(),
-	SentimentWeightingModel(),
-	AdvancedSentimentWeightingModel()
-]
 
-query_test = {
-	"UIN" : "enjoyable double room",
-	"query" : "double room",
-	"sentiments" : ["joy", "surprise"],
-	"relevant_documents" : [8032080, 13763334, 19636343]
-}
 
-query_test_2 = {
-        "uin": "I need an apartment near st james park",
-        "query": "apartment near st james",
-        "sentiments":[],
-        "relevant_documents":[44652702,17989962,6430495,561569908310899814,541903175815998607,15336396,15954244,51592505,544034283385258902,584579738630287719,49478531,51592515,51677622]
-    }
+
 
 class Benchmark():
     
@@ -37,76 +18,101 @@ class Benchmark():
         self.query = query
         self.index = Index()
     
-    def getResults(self, nResult, model):
+    def getResults(self, nResult, model, verbose = False):
         my_model = IRModel(self.index, model)
-        corQuery, result = my_model.search(query=self.query["query"], resLimit=nResult, sentiments=self.query["sentiments"])
-        return [int(id) for id in result.keys()]
+        _, result = my_model.search(query=self.query["query"], resLimit=nResult, sentiments=self.query["sentiments"])
+        results = [int(id) for id in result.keys()]
+        if verbose:
+            print(f'Results: {results}\nRelevant documents: {self.query["relevant_documents"]}')
+            print(f'Relevant retrived: {set(results).intersection(set(self.query["relevant_documents"]))}')
+        return results
     
-    def getPrecisionValues(self, resultsDoc):
-        relevantDoc_retrieved = 0
+    def recall(self, R, A):
+        return round(len(set(R).intersection(set(A))) / len(R), 2) if len(R) > 0 else 0
+    
+    def precision(self, R, A):
+        return round(len(set(R).intersection(set(A))) / len(A), 2) if len(A) > 0 else 0
+
+    def getPrecisionValues(self, resultsDoc, verbose = False):
         precisionValues = []
-        for c, doc in enumerate(resultsDoc):
-            if doc in self.query["relevant_documents"]:
-                relevantDoc_retrieved += 1
-            precisionValues.append(round(relevantDoc_retrieved/(c+1),2))
-        return precisionValues
-  
-    def getRecallValues(self, resultsDoc): 
-        relevantDoc_retrieved = 0
-        recallValues = []
-        for c, doc in enumerate(resultsDoc):
-            if doc in self.query["relevant_documents"]:
-                relevantDoc_retrieved += 1
-            recallValues.append(round(relevantDoc_retrieved/len(self.query["relevant_documents"]),2)
-                                if len(self.query["relevant_documents"]) != 0 else 0)
-        return recallValues
-    
-    def getPRValues(self, model, nResult, verbose=False):
-        results = self.getResults(nResult, model)
-        p_val = self.getPrecisionValues(results)
-        r_val = self.getRecallValues(results)
+        
+        for c in range(1, len(resultsDoc)+1):
+            precisionValues.append(self.precision(self.query["relevant_documents"], resultsDoc[:c]))
         
         if verbose:
-            print(f"Results: {results}")
-            print(f'Relevant document: {self.query["relevant_documents"]}')
-            print(f"Recall: {r_val}")
-            print(f"Precision: {p_val}")
+            print(f'Precision values: {precisionValues}')
+            
+        return precisionValues
+  
+    def getRecallValues(self, resultsDoc, verbose = False): 
+        recallValues = []
+        for c in range(1, len(resultsDoc)+1):
+            recallValues.append(self.recall(self.query["relevant_documents"], resultsDoc[:c]))
+
+        if verbose:
+            print(f'Recall values: {recallValues}')
         
-        return list(zip(r_val, p_val))
+        return recallValues
+   
+   
+    def getSRLValues(self, precision, recall, verbose = False):
+        levels = [i / 10 for i in range(11)] # Livelli di richiamo standard: 0.0, 0.1, ..., 1.0
+        srlValues = []
+        
+        NRLvalues = zip(precision, recall)
+        
+        if verbose:
+            print(f'Natural Recall-Precision Values {list(NRLvalues)}')
+
+        for level in levels:
+            precisions = [p for p, r in NRLvalues if r >= level]
+            if precisions:
+                srlValues.append(max(precisions))
+            else:
+                srlValues.append(0.0)
+
+        srlValues = list(zip(levels, srlValues))
+        
+        if verbose:
+            print(f'Standard Recall-Precision Values {srlValues}')
+            
+        return srlValues
     
-    def plot(self, model, nResult):
-        prVal = self.getPRValues(model, nResult)
-        
-        prVal = reduce(lambda acc, punto: acc + [punto] if not acc or acc[-1][0] != punto[0] else acc, prVal, [])
-        #[(0.08, 1.0), (0.08, 0.5), (0.08, 0.33), (0.15, 0.5), (0.23, 0.6), 
-        # (0.23, 0.5), (0.31, 0.57), (0.38, 0.62), (0.38, 0.56), (0.46, 0.6)]
-		#[(0.0, ), (0.1, ),
-        print(prVal)
-        
-        x, y = zip(*prVal)
-        
-        plt.figure(figsize=(8, 6))
-        plt.plot(x, y, 'bo')  
-        
-        plt.xlim(0, 1)
-        plt.ylim(0, 1)
-        
-        plt.xlabel('Recall')
-        plt.ylabel('Precision')
-        plt.title(f'Query: {self.query["query"]}')
-        
 
 if __name__ == "__main__":
+    
     bench_test = Benchmark(query_test_2)
     
-    for i in models:
-        print("\n",i.__class__.__name__)
-        print(bench_test.getPRValues(i,10, True))
-        bench_test.plot(i, 11)
+    axes = ["standard recall levels", "precision"]
+    df = pd.DataFrame()
     
-    plt.show()
+    for model, model_name in models:
+        result = bench_test.getResults(10, model)
+        SRLValues = bench_test.getSRLValues(
+            bench_test.getPrecisionValues(result),
+            bench_test.getRecallValues(result)
+        )
+        
+        dfB = pd.DataFrame(SRLValues, columns = axes)
+        dfB["Version"] = f'{model_name}'
+        
+        df = pd.concat([df, dfB])
+
+    sns.set_theme()
+
+    # create a dataframe for Seaborn
+
+    # plot the line graph
+    pltP = sns.lineplot(data = df, x = 'standard recall levels', y = 'precision', marker='o', markersize=8, 
+                hue="Version", palette="colorblind")
+
+    # set fixed axes, the semicolon suppress the output
+    pltP.set_xlim([-0.05, 1.05])
+    pltP.set_ylim([-0.05, 1.05])
     
     
+
+   
 
 
 		
