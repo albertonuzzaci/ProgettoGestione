@@ -45,6 +45,7 @@ class AccomodationFrame(ctk.CTkFrame):
         AccomodationFrame.addColumns(2, lFrame)
         AccomodationFrame.addRows(3, lFrame)
       
+      
         self.imgFrame = image_frame.ImageFrame(lFrame, self.data["listing_url"], self.data["id"])
         self.imgFrame.grid(row=0, column=0, columnspan=2, sticky="nsew", padx=10, pady=10)
         infoF = info_frame.InfoFrame(lFrame, self.data["property_type"],self.data["room_type"], self.data["beds"], self.data["bathrooms"],self.myfont)
