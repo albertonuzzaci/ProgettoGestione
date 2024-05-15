@@ -32,7 +32,7 @@ def setupParser() -> list:
 
 
 def main(model: str) -> None:
-    my_index = Index(forceBuildIndex=True)
+    my_index = Index(forceBuildIndex=False)
 
     if model == 'B':
         customModel =  IRModel(my_index, BM25F())
