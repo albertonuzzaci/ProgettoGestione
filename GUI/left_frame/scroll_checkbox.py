@@ -1,6 +1,6 @@
 import customtkinter as ctk
-from GUI.action import neighToggle
-from GUI.action import sentimentToggle
+from gui.action import neighToggle
+from gui.action import sentimentToggle
 import tkinter as tk
 
 class ScrollableCheckBoxFrame(ctk.CTkScrollableFrame):

@@ -4,7 +4,7 @@ import customtkinter as ctk
 
 import json
 from gui.action import *
-from gui.left_frame import *
+from gui.left_frame import scroll_checkbox, price_frame, people_frame, score_frame, result_frame, bed_bath_frame
 
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
@@ -166,7 +166,7 @@ class MyGUI():
         neighFrame.grid(column=1, row=4,  padx=15, pady=15, sticky='NSWE')
         
         #---------------BEDS & BATHS--------------------
-        bbFrame = bed_bath_fFrame.BedsBathsFrame(lFrame, self.tree, self.control, self.myfont)
+        bbFrame = bed_bath_frame.BedsBathsFrame(lFrame, self.tree, self.control, self.myfont)
         bbFrame.grid(column=0,columnspan=2, row=5, padx=10, pady=10, sticky="NSWE")    
         
         return lFrame

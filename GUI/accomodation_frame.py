@@ -1,6 +1,6 @@
 import customtkinter as ctk
 import json
-from gui.acc_frame import *
+from gui.acc_frame import image_frame, info_frame, map_frame, review_frame, description_frame, host_frame
 import webbrowser
 from PIL import Image
 
