@@ -2,7 +2,7 @@ from index import Index
 from gui.main_gui import MyGUI
 from controller import Controller
 from model import IRModel
-from sentiment.sentimentModel import AdvancedSentimentWeightingModel, SentimentWeightingModel
+from sentiment.sentiment_model import AdvancedSentimentWeightingModel, SentimentWeightingModel
 from doc2vec.doc2vec_model import Doc2VecModel
 from model import IRModel
 from whoosh.scoring import BM25F
