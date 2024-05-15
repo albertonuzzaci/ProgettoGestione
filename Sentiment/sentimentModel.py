@@ -1,7 +1,7 @@
 from whoosh.scoring import BM25F
 import math
-from Sentiment.reviews import ReviewsIndex
-from Sentiment.extractEmotions import ExtractEmotions
+from sentiment.reviews import ReviewsIndex
+from sentiment.extract_emotions import ExtractEmotions
 
 class SentimentWeightingModel(BM25F):
     def __init__(self, *args, **kwargs):

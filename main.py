@@ -1,9 +1,9 @@
 from index import Index
-from GUI.gui import MyGUI
+from gui.main_gui import MyGUI
 from controller import Controller
 from model import IRModel
-from Sentiment.sentimentModel import AdvancedSentimentWeightingModel, SentimentWeightingModel
-from Doc2Vec.doc2vec_model import Doc2VecModel
+from sentiment.sentimentModel import AdvancedSentimentWeightingModel, SentimentWeightingModel
+from doc2vec.doc2vec_model import Doc2VecModel
 from model import IRModel
 from whoosh.scoring import BM25F
 import argparse

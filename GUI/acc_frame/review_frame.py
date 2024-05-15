@@ -1,6 +1,4 @@
-import customtkinter as ctk
-from tkinter import ttk
-import tkinter as tk   
+import customtkinter as ctk  
 
 class ReviewFrame(ctk.CTkFrame):
 	def __init__(self, root, reviews):

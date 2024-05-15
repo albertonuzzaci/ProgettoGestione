@@ -1,6 +1,6 @@
 import customtkinter as ctk
 import math
-from PIL import ImageTk, Image
+from PIL import Image
 
 class InfoFrame(ctk.CTkFrame):
 	def __init__(self, root, propType, roomType, beds, baths, myfont):

@@ -1,6 +1,6 @@
 import customtkinter as ctk
 import json
-from GUI.accFrame import *
+from gui.acc_frame import *
 import webbrowser
 from PIL import Image
 
@@ -34,7 +34,7 @@ class AccomodationFrame(ctk.CTkFrame):
         rFrame = self.setupRightFrame()
         rFrame.grid(row=1, column=1, rowspan=2, sticky="SEW", padx=10, pady=10)
         
-        reviewF = reviewFrame.ReviewFrame(self, self.data["reviews"])
+        reviewF = review_frame.ReviewFrame(self, self.data["reviews"])
         reviewF.grid(row=3, column=0, columnspan=2, sticky="SEW", padx=10, pady=10)
     # def setupTitleFrame(self):
     #     tFrame = ctk.CTkFrame(self)s
@@ -45,15 +45,15 @@ class AccomodationFrame(ctk.CTkFrame):
         AccomodationFrame.addColumns(2, lFrame)
         AccomodationFrame.addRows(3, lFrame)
       
-        self.imgFrame = imageFrame.ImageFrame(lFrame, self.data["listing_url"], self.data["id"])
+        self.imgFrame = image_frame.ImageFrame(lFrame, self.data["listing_url"], self.data["id"])
         self.imgFrame.grid(row=0, column=0, columnspan=2, sticky="nsew", padx=10, pady=10)
-        infoF = infoFrame.InfoFrame(lFrame, self.data["property_type"],self.data["room_type"], self.data["beds"], self.data["bathrooms"],self.myfont)
+        infoF = info_frame.InfoFrame(lFrame, self.data["property_type"],self.data["room_type"], self.data["beds"], self.data["bathrooms"],self.myfont)
         infoF.grid(row=1, column=0, sticky="nsew", padx=10, pady=10)
 
-        rateF = infoFrame.RateFrame(lFrame, self.data["price"], self.data["review_scores_rating"],self.data["numbers_of_review"], self.data["accommodates"], self.myfont)
+        rateF = info_frame.RateFrame(lFrame, self.data["price"], self.data["review_scores_rating"],self.data["numbers_of_review"], self.data["accommodates"], self.myfont)
         rateF.grid(row=1, column=1, sticky="nsew", padx=10, pady=10)
 
-        descF = descriptionFrame.DescriptionFrame(lFrame, self.data["description"], self.myfont)
+        descF = description_frame.DescriptionFrame(lFrame, self.data["description"], self.myfont)
         descF.grid(row=2, column=0, columnspan=2, sticky="nsew", padx=10, pady=10)
         return lFrame
 
@@ -61,10 +61,10 @@ class AccomodationFrame(ctk.CTkFrame):
         rFrame = ctk.CTkFrame(self)
         AccomodationFrame.addColumns(1, rFrame)
         
-        map = mapFrame.MapFrame(rFrame, self.name, self.data["latitude"],self.data["longitude"])
+        map = map_frame.MapFrame(rFrame, self.name, self.data["latitude"],self.data["longitude"])
         map.grid(row=1, column=1,sticky="nsew", padx=10, pady=10)
         
-        hostF = hostFrame.HostFrame(rFrame,self.data["host_name"], self.data["host_picture_url"], self.data["host_url"], self.myfont)
+        hostF = host_frame.HostFrame(rFrame,self.data["host_name"], self.data["host_picture_url"], self.data["host_url"], self.myfont)
         hostF.grid(row=2, column=1,sticky="nsew", padx=10, pady=10)
         return rFrame
 

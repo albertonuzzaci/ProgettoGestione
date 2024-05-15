@@ -1,7 +1,4 @@
 import customtkinter as ctk
-from tkinter import ttk
-import tkinter as tk   
-from functools import reduce
 
 class DescriptionFrame(ctk.CTkFrame):
 	def __init__(self, root, desc, myfont):

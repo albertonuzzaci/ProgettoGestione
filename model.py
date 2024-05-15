@@ -1,8 +1,8 @@
 from index import Index
 from whoosh import qparser
 from whoosh.scoring import WeightingModel
-from Sentiment.sentimentModel import SentimentWeightingModel
-from Doc2Vec.doc2vec_model import Doc2VecModel
+from sentiment.sentimentModel import SentimentWeightingModel
+from doc2vec.doc2vec_model import Doc2VecModel
 from functools import reduce
 from whoosh.scoring import BM25F
 

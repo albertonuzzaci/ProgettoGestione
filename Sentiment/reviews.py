@@ -1,9 +1,8 @@
 import pickle
-from Sentiment.extractEmotions import ExtractEmotions
+from sentiment.extract_emotions import ExtractEmotions
 import yaml
 import os
 import json
-import math
 
 class ReviewsIndex:
 	def __init__(self, path = "./dataset/reviews.pickle"):

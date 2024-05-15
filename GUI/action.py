@@ -1,4 +1,4 @@
-from GUI.accomodationFrame import AccomodationFrame
+from gui.accomodation_frame import AccomodationFrame
 
 def searchFunction(valueList, control):
     valueList.delete(*valueList.get_children())

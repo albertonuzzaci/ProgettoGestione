@@ -3,8 +3,8 @@ from tkinter import ttk
 import customtkinter as ctk
 
 import json
-from GUI.action import *
-from GUI.leftFrame import *
+from gui.action import *
+from gui.left_frame import *
 
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
@@ -96,7 +96,7 @@ class MyGUI():
         
         #-------------SENTIMENT--------------
 
-        sentimentFrame = scrollCheckBox.ScrollableCheckBoxFrame(master=rFrame,
+        sentimentFrame = scroll_checkbox.ScrollableCheckBoxFrame(master=rFrame,
                                                                 item_list=sorted(["anger", "disgust", "fear", "joy", "neutral", "sadness", "surprise"]), 
                                                                 tree=self.tree,
                                                                 orientation="horizontal",
@@ -125,13 +125,13 @@ class MyGUI():
         MyGUI.addRows(7, lFrame)
         MyGUI.addColumns(3, lFrame)
         #---------------RESULT--------------------
-        resFrame = resultFrame.ResultFrame(lFrame, self.tree, self.control, self.myfont)
+        resFrame = result_frame.ResultFrame(lFrame, self.tree, self.control, self.myfont)
         resLabel = ctk.CTkLabel(master=lFrame, text="#Results", font=self.myfont)
         resLabel.grid(column=0, row=0, padx=10, pady=10, sticky='NSWE')
         resFrame.grid(column=1, row=0, padx=10, pady=10, sticky="NSWE")
 
         #-------------ACCOMODATES----------------
-        accFrame = peopleFrame.PeopleFrame(lFrame, self.tree, self.control, self.myfont)
+        accFrame = people_frame.PeopleFrame(lFrame, self.tree, self.control, self.myfont)
         
         peopleLabel = ctk.CTkLabel(master=lFrame, text="People", font=self.myfont)
         peopleLabel.grid(column=0, row=1, padx=10, pady=10, sticky='NSWE')
@@ -141,13 +141,13 @@ class MyGUI():
         #---------------PRICE--------------------        
         priceLabel = ctk.CTkLabel(master=lFrame, text="Price Max", font=self.myfont)
         priceLabel.grid(column=0, row=2, padx=10, pady=20, sticky='NSWE')
-        prFrame = priceFrame.PriceFrame(lFrame, self.tree, self.control, self.myfont, priceLabel)
+        prFrame = price_frame.PriceFrame(lFrame, self.tree, self.control, self.myfont, priceLabel)
         prFrame.grid(column=1, row=2, padx=10, pady=10, sticky="NSWE")
         
          #---------------SCORE--------------------
         scoreLabel = ctk.CTkLabel(master=lFrame, text="Score Min", font=self.myfont)
         scoreLabel.grid(column=0, row=3, padx=10, pady=20, sticky='NSWE')
-        scFrame = scoreFrame.ScoreFrame(lFrame, self.tree, self.control, self.myfont, scoreLabel)
+        scFrame = score_frame.ScoreFrame(lFrame, self.tree, self.control, self.myfont, scoreLabel)
         scFrame.grid(column=1, row=3, padx=10, pady=10, sticky="NSWE")
         
         #--------------NEIGH-----------------------
@@ -156,7 +156,7 @@ class MyGUI():
         
         with open("./dataset/information.json", "r") as f:
             data = json.load(f)
-            neighFrame = scrollCheckBox.ScrollableCheckBoxFrame(master=lFrame, 
+            neighFrame = scroll_checkbox.ScrollableCheckBoxFrame(master=lFrame, 
                                                                 height=2, 
                                                                 width=200, 
                                                                 item_list=sorted(data["neighbourhood"].keys()), 
@@ -166,7 +166,7 @@ class MyGUI():
         neighFrame.grid(column=1, row=4,  padx=15, pady=15, sticky='NSWE')
         
         #---------------BEDS & BATHS--------------------
-        bbFrame = bedsBathsFrame.BedsBathsFrame(lFrame, self.tree, self.control, self.myfont)
+        bbFrame = bed_bath_fFrame.BedsBathsFrame(lFrame, self.tree, self.control, self.myfont)
         bbFrame.grid(column=0,columnspan=2, row=5, padx=10, pady=10, sticky="NSWE")    
         
         return lFrame
