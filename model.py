@@ -1,7 +1,7 @@
 from index import Index
 from whoosh import qparser
 from whoosh.scoring import WeightingModel
-from sentiment.sentiment_model import SentimentWeightingModel
+from sentiment.sentiment_model import SentimentWeightingModel, AdvancedSentimentWeightingModel
 from doc2vec.doc2vec_model import Doc2VecModel
 from functools import reduce
 from whoosh.scoring import BM25F
@@ -12,13 +12,13 @@ class IRModel:
 		self.model = weightingModel
 		self.query = ""
 
-	def search(self, query: str, resLimit, sentiments=None, verbose=False):
+	def search(self, query: str, resLimit, sentiments=None, verbose=True):
 		resDict = {}
 		correctedString = ""
 		try:
-			if isinstance(self.model, SentimentWeightingModel):
+			if isinstance(self.model, SentimentWeightingModel) or isinstance(self.model, AdvancedSentimentWeightingModel):
 				self.model.set_user_sentiment(sentiments)
-			if isinstance(self.model, Doc2VecModel):
+			elif isinstance(self.model, Doc2VecModel):
 				self.model.set_query(query)
 			s = self.index.indexAcc.searcher(weighting = self.model)
 			#qp = qparser.QueryParser("recipe_name", schema=my_index.schema)

@@ -44,7 +44,7 @@ def main(model: str) -> None:
         customModel = IRModel(my_index, AdvancedSentimentWeightingModel())
         
     control = Controller(my_index, customModel)
-    MyGUI(control)
+    MyGUI(control, model)
     
 
 if __name__ == "__main__":

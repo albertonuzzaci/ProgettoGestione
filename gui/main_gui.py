@@ -11,10 +11,13 @@ ctk.set_default_color_theme("blue")
 
 
 class MyGUI():
-    def __init__(self, control):
+    def __init__(self, control, mode):
         self.control = control
+        self.mode = mode
         self.root = ctk.CTk()
         self.root.after(1000, self.update)
+        
+        self.root.title(self.mode)
         
         self.root.geometry("1325x750")
         
@@ -77,7 +80,8 @@ class MyGUI():
         
         s = ttk.Style()
         columns = ('id','accomodation', 'price')
-        self.tree = ttk.Treeview(master=treeFrame, selectmode="extended", columns=columns, show='')
+        
+        self.tree = ttk.Treeview(master=treeFrame, selectmode="extended", columns=columns, show='', height = 10 if self.mode != 'B' and self.mode != 'D2V' else 13)
         self.tree["displaycolumns"] = ['accomodation', 'price']
         self.tree.column("accomodation", minwidth=500, width=500, stretch=False)
         self.tree.column("price", minwidth=0, width=100, stretch=False)
@@ -95,16 +99,17 @@ class MyGUI():
         
         
         #-------------SENTIMENT--------------
+        if self.mode != 'B' and self.mode != 'D2V':
+            sentimentFrame = scroll_checkbox.ScrollableCheckBoxFrame(master=rFrame,
+                                                                    item_list=sorted(["anger", "disgust", "fear", "joy", "neutral", "sadness", "surprise"]), 
+                                                                    tree=self.tree,
+                                                                    orientation="horizontal",
+                                                                    control=self.control,
+                                                                    height=30,
+                                                                    fg_color= "#333333")
 
-        sentimentFrame = scroll_checkbox.ScrollableCheckBoxFrame(master=rFrame,
-                                                                item_list=sorted(["anger", "disgust", "fear", "joy", "neutral", "sadness", "surprise"]), 
-                                                                tree=self.tree,
-                                                                orientation="horizontal",
-                                                                control=self.control,
-                                                                height=30,
-                                                                fg_color= "#333333")
-
-        sentimentFrame.grid(column=0, row=2, sticky='nsew')
+            sentimentFrame.grid(column=0, row=2, sticky='nsew')
+        
         
         #----------DID YOU MEAN--------------
         self.didYouMeanLabel = ctk.CTkLabel(

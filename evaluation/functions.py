@@ -1,10 +1,7 @@
-
 #import usefull classes
 from index import Index
 from model import IRModel
-
-
-
+from functools import reduce
 
 class Benchmark():
     
@@ -51,9 +48,8 @@ class Benchmark():
    
    
     def getSRLValues(self, precision, recall, verbose = False):
-        levels = [i / 10 for i in range(11)] # Livelli di richiamo standard: 0.0, 0.1, ..., 1.0
+        levels = [i / 10 for i in range(11)] 
         srlValues = []
-        
         
         if verbose:
             print(f'Natural Recall-Precision Values {zip(precision, recall)}')
@@ -72,5 +68,15 @@ class Benchmark():
             print(f'Standard Recall-Precision Values {srlValues}')
             
         return srlValues
+
+    def getIapAvgPrecision(self, SRLValues, verbose = False):
+        sumPrec = reduce(lambda x, y: x + y, [SRLValues[i][1] for i in range(len(SRLValues))], 0)
+        IapAvgPrec = round(sumPrec / len(SRLValues), 2)
+        
+        if verbose:
+            print(f"Interpolated Average precision {IapAvgPrec}")
+        
+        return IapAvgPrec
+        
 
 

@@ -24,7 +24,7 @@ class Doc2VecModel(BM25F):
     use_final = True
     
     def __init__(self):
-        super().__init__(B=0.75, K1=1.5)
+        super().__init__()
         self.model = Doc2Vec.load("./Doc2Vec/doc2vec.model")
         with open("./Doc2Vec/docs_vectors.json", "r") as f:
             self.docs = json.load(f)
