@@ -3,6 +3,14 @@ from index import Index
 from model import IRModel
 from functools import reduce
 
+
+### ! cancellare dopo
+from whoosh.scoring import BM25F
+from doc2vec.doc2vec_model import Doc2VecModel
+from sentiment.sentiment_model import SentimentWeightingModel, AdvancedSentimentWeightingModel
+import os, json
+### ! ----------------
+
 class Benchmark():
     
     def __init__(self, query):
@@ -11,7 +19,7 @@ class Benchmark():
     
     def getResults(self, nResult, model, verbose = False):
         my_model = IRModel(self.index, model)
-        _, result = my_model.search(query=self.query["query"], resLimit=nResult, sentiments=self.query["sentiments"])
+        _, result = my_model.search(query=self.query["query"], resLimit=nResult, sentiments=self.query["sentiments"], verbose=verbose)
         
         results = [int(id) for id in result.keys()]
         if verbose:
@@ -46,7 +54,6 @@ class Benchmark():
         
         return recallValues
    
-   
     def getSRLValues(self, precision, recall, verbose = False):
         levels = [i / 10 for i in range(11)] 
         srlValues = []
@@ -68,15 +75,81 @@ class Benchmark():
             print(f'Standard Recall-Precision Values {srlValues}')
             
         return srlValues
+    
+    def getNIapAvgPrecision(self, precision, recall, verbose = False):
+        NIapAvgP = [precision[i] for i in range(len(recall)) if i == 0 or recall[i] != recall[i-1]]
+        
+        if verbose:
+            print(NIapAvgP)
+            
+            
+        return round(sum(NIapAvgP)/len(self.query["relevant_documents"]),2) if len(self.query["relevant_documents"]) != 0 else 0
 
     def getIapAvgPrecision(self, SRLValues, verbose = False):
         sumPrec = reduce(lambda x, y: x + y, [SRLValues[i][1] for i in range(len(SRLValues))], 0)
         IapAvgPrec = round(sumPrec / len(SRLValues), 2)
         
         if verbose:
-            print(f"Interpolated Average precision {IapAvgPrec}")
+            print(f"Interpolated Average precision: {IapAvgPrec}")
         
         return IapAvgPrec
+
+    def getRPrecision(self, result, verbose = False):
+        relevantDocRetrivedFirstRPosition = set(result[:len(self.query["relevant_documents"])]).intersection(set(self.query["relevant_documents"]))
+        RPrec = round(len(relevantDocRetrivedFirstRPosition)/len(self.query["relevant_documents"]),2) if len(self.query["relevant_documents"]) != 0 else 0
         
+        if verbose:
+            print(f"R-Precision: {RPrec}") 
+            
+        return RPrec
+    
+    def getFMeasure(self, result, verbose = False):
+        r = self.recall(self.query["relevant_documents"], result)
+        p = self.precision(self.query["relevant_documents"], result)
+        
+        FMeasure = round((2*r*p)/(p+r),2)
+        
+        if verbose:
+            print(f"F-Measure: {FMeasure}")
+            
+        return FMeasure
+
+    
+    def getEMeasure(self, result, b, verbose = False):
+        r = self.recall(self.query["relevant_documents"], result)
+        p = self.precision(self.query["relevant_documents"], result)
+
+        EMeasure = round(1-((1+b**2)/((b**2)/r + 1/p)),2)
+        
+        if verbose:
+            print(f"E-Measure: {EMeasure}")
+        
+        return EMeasure
+    
+    def __str__(self) -> str:
+        return f'UIN: {self.query["UIN"]}\nQuery: {self.query["query"]}\nSentiments: {self.query["sentiments"]}\nRelevant documents: {self.query["relevant_documents"]} '
 
 
+if __name__ == "__main__":
+    # file containing benchmark queries
+    file_path = os.path.join("evaluation", "queries.json")
+
+    # loades the queries
+    with open(file_path) as f:
+        queries = json.load(f)
+
+    # Models that need to be tested. 
+    models = [
+        (BM25F(), "BM25F"),
+        (Doc2VecModel(), "Doc2Vec"),
+        (SentimentWeightingModel(), "Base Sentiment"),
+        (AdvancedSentimentWeightingModel(), "Advanced Sentiment" ) 
+    ]
+    
+    b = Benchmark(queries[1])
+    
+    for model, model_name in models:
+        result = b.getResults(20, model)
+        print(model_name)
+        #print(1-b.FMeasure(result))
+        print(b.getEMeasure(result,0.5))

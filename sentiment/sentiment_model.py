@@ -50,6 +50,7 @@ class SentimentWeightingModel(BM25F):
 
         id = searcher.stored_fields(docnum)['id']
         sentiment_score = self.get_sentiment_score(id, self._user_sentiment)
+
         return (score*sentiment_score)
 
 class AdvancedSentimentWeightingModel(SentimentWeightingModel):
@@ -62,6 +63,7 @@ class AdvancedSentimentWeightingModel(SentimentWeightingModel):
         id = searcher.stored_fields(docnum)['id']
         sentiment_score = self.get_sentiment_score(id, self._user_sentiment)
         #print(sentiment_score, score)
+        
         return (score*sentiment_score*self._reviews_index.get_sentiment_len_for(id))
 
 

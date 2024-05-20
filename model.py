@@ -16,7 +16,7 @@ class IRModel:
 		resDict = {}
 		correctedString = ""
 		try:
-			if isinstance(self.model, SentimentWeightingModel) or isinstance(self.model, AdvancedSentimentWeightingModel):
+			if isinstance(self.model, SentimentWeightingModel):
 				self.model.set_user_sentiment(sentiments)
 			elif isinstance(self.model, Doc2VecModel):
 				self.model.set_query(query)

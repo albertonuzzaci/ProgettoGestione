@@ -48,7 +48,7 @@ class Controller():
     def getInput():
         inputQuery = ""
         if Controller.inputSearch != "":
-            inputQuery += Controller.inputSearch
+            inputQuery += f'({Controller.inputSearch})'
         if Controller.people != None and Controller.people != 0:
             inputQuery += f' AND accomodates:{Controller.people}'
         if Controller.pricemax != None:
