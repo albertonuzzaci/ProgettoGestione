@@ -50,7 +50,7 @@
         ]
     },
     {
-        "UIN": "I'm frustrated with finding an affordable place. I need a low-cost apartment in Hillingdon for two people, with at least one bed and one bathroom. Max budget is €100.",
+        "UIN": "I'm searching an affordable place. I need a low-cost apartment in Hillingdon for two people, with at least one bed and one bathroom. Max budget is €100.",
         "query": "apartment AND neighbourhood_cleansed:\"Hillingdon\" AND accommodates:2 AND beds:1 AND bathrooms:1 AND price:[0 TO 100]",
         "sentiments": [
             "anger"
@@ -76,7 +76,7 @@
 
         ],
         "relevant_documents": [
-
+            8619605, 30591990, 37610047, 23315798, 11288078, 1056379, 72850003, 13309836
         ]
     },
     {
@@ -86,17 +86,17 @@
             "joy"
         ],
         "relevant_documents": [
-            
+            17242615, 601467517755771808, 31844876, 50410317, 50408941, 49622716, 21932875, 16699637, 28513020
         ]
     },
     {
-        "UIN": "I'm worried about staying in a safe and clean place. Looking for a budget-friendly room in Lewisham for one person, rated at least 3 stars. Max budget is €80.",
-        "query": "budget-friendly room AND neighbourhood_cleansed:\"Lewisham\" AND review_scores_rating:[3 TO 5] AND price:[0 TO 80]",
+        "UIN": "I'm searching a creepy and old place for an Halloween party. Looking for a budget-friendly place in Lewisham, rated at least 3 stars. Max budget is €80.",
+        "query": "budget-friendly AND neighbourhood_cleansed:\"Lewisham\" AND review_scores_rating:[3 TO 5] AND price:[0 TO 80]",
         "sentiments": [
-            "fear"
+            "fear", "disgust", "anger"
         ],
         "relevant_documents": [
-
+            585197554531046860, 53278672, 40759313, 52957422, 33673820, 559983777823694157, 33310272, 20163887, 17403777
         ]
     },
     {
@@ -110,10 +110,10 @@
         ]
     },
     {
-        "UIN": "I'm disgusted by dirty places. Need a very clean apartment in Westminster for three people, with two bedrooms and two bathrooms. Minimum rating of 4 stars.",
+        "UIN": "I need a dirty places for a video. Need an apartment in Westminster for three people, with two bedrooms and two bathrooms. Minimum rating of 4 stars.",
         "query": "apartment AND neighbourhood_cleansed:\"Westminster\" AND accommodates:3 AND beds:2 AND bathrooms:2 AND review_scores_rating:[4 TO 5]",
         "sentiments": [
-            "disgust"
+            "disgust", "fear"
         ],
         "relevant_documents": [
 
