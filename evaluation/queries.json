@@ -19,9 +19,10 @@
             45064897, 38117059, 32380350, 1786015, 640742764517662160, 29343901, 19362218, 652068305322889329
         ]
     },
-    {
+    {      
+        ##
         "UIN" : "I'm a student looking for a budget-friendly hostel in Kensington or Westminster. I don't care about having all kind of amenities.",
-        "query" : "hostel shared bath AND price:[0 TO 99.9] AND neighbourhood_cleansed:(\"Westminster\" OR \"Kensington and Chelsea\")",
+        "query" : "(hostel shared bath) AND price:[0 TO 99.9] AND neighbourhood_cleansed:(\"Westminster\" OR \"Kensington and Chelsea\")",
         "sentiments" : [
             "fear", "disgust", "sadness"
         ],
@@ -29,9 +30,10 @@
             14710355, 42663359, 45063091
         ]
     },
-    {
+    {   
+        ##
         "UIN": "I'm looking for a luxurious apartment in Kensington for a family of four, with two bathrooms and a beautiful view.",
-        "query": "apartment AND neighbourhood_cleansed:\"Kensington and Chelsea\" AND accommodates:4 AND bathrooms:2",
+        "query": "(luxurious apartment) AND neighbourhood_cleansed:\"Kensington and Chelsea\" AND accommodates:4 AND bathrooms:2",
         "sentiments": [
             "joy", "surprise"
         ],
@@ -49,9 +51,10 @@
             30460335, 628195701077105515, 33186629, 20422952, 43339571, 10705728
         ]
     },
-    {
+    {   
+        ##
         "UIN": "I'm searching an affordable place. I need a low-cost apartment in Hillingdon for two people, with at least one bed and one bathroom. Max budget is €100.",
-        "query": "apartment AND neighbourhood_cleansed:\"Hillingdon\" AND accommodates:2 AND beds:1 AND bathrooms:1 AND price:[0 TO 100]",
+        "query": "(apartment) AND neighbourhood_cleansed:\"Hillingdon\" AND accommodates:2 AND beds:1 AND bathrooms:1 AND price:[0 TO 100]",
         "sentiments": [
             "anger"
         ],
@@ -59,9 +62,10 @@
             42802816, 39853712, 624325481519589057, 14500973, 34269824, 21923107
         ]
     },
-    {
+    {   
+        ##
         "UIN": "My partner and I are looking for a romantic getaway in Richmond upon Thames. We want an apartment rated at least 4 stars.",
-        "query": "apartment AND neighbourhood_cleansed:\"Richmond upon Thames\" AND review_scores_rating:[4 TO 5] AND accommodates:2",
+        "query": "(romantic apartment) AND neighbourhood_cleansed:\"Richmond upon Thames\" AND review_scores_rating:[4 TO 5] AND accommodates:2",
         "sentiments": [
             "joy", "surprise"
         ],
@@ -69,9 +73,10 @@
             24725264, 1279313, 10860216, 10328522, 46129954, 651150602588881254, 51757148, 45855166, 14152736, 37358151, 38303080
         ]
     },
-    {
+    {   
+        ##
         "UIN": "I need a budget-friendly room in Hackney for one person, with access to a shared bathroom and a rating of at least 2 stars.",
-        "query": "room AND neighbourhood_cleansed:\"Hackney\" AND review_scores_rating:[2 TO 5] AND price:[0 TO 99.9]",
+        "query": "(room shared-bath) AND neighbourhood_cleansed:\"Hackney\" AND review_scores_rating:[2 TO 5] AND price:[0 TO 99.9]",
         "sentiments": [
 
         ],
@@ -81,7 +86,7 @@
     },
     {
         "UIN": "We are a group of friends looking for a large apartment in Tower Hamlets with at least 4 beds and 2 bathrooms. Budget is up to €500 per night.",
-        "query": "apartment AND neighbourhood_cleansed:\"Tower Hamlets\" AND beds:4 AND bathrooms:2 AND price:[0 TO 500]",
+        "query": "(apartment) AND neighbourhood_cleansed:\"Tower Hamlets\" AND beds:4 AND bathrooms:2 AND price:[0 TO 500]",
         "sentiments": [
             "joy"
         ],
@@ -89,9 +94,10 @@
             17242615, 601467517755771808, 31844876, 50410317, 50408941, 49622716, 21932875, 16699637, 28513020
         ]
     },
-    {
-        "UIN": "I'm searching a creepy and old place for an Halloween party. Looking for a budget-friendly place in Lewisham, rated at least 3 stars. Max budget is €80.",
-        "query": "budget-friendly AND neighbourhood_cleansed:\"Lewisham\" AND review_scores_rating:[3 TO 5] AND price:[0 TO 80]",
+    {   
+        ##
+        "UIN": "I'm searching a creepy and old place for an Halloween party. Looking for a budget-friendly place, rated at least 3 stars. Max budget is €80.",
+        "query": "(budget-friendly stay) AND review_scores_rating:[3 TO 5] AND price:[0 TO 80]",
         "sentiments": [
             "fear", "disgust", "anger"
         ],
