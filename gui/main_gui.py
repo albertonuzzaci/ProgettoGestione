@@ -81,7 +81,7 @@ class MyGUI():
         s = ttk.Style()
         columns = ('id','accomodation', 'price')
         
-        self.tree = ttk.Treeview(master=treeFrame, selectmode="extended", columns=columns, show='', height = 10 if self.mode != 'B' and self.mode != 'D2V' else 13)
+        self.tree = ttk.Treeview(master=treeFrame, selectmode="extended", columns=columns, show='', height = 10 if self.mode != 'Base Model' and self.mode != 'Doc 2 Vec' else 13)
         self.tree["displaycolumns"] = ['accomodation', 'price']
         self.tree.column("accomodation", minwidth=500, width=500, stretch=False)
         self.tree.column("price", minwidth=0, width=100, stretch=False)
@@ -99,7 +99,7 @@ class MyGUI():
         
         
         #-------------SENTIMENT--------------
-        if self.mode != 'B' and self.mode != 'D2V':
+        if self.mode != 'Base Model' and self.mode != 'Doc 2 Vec':
             sentimentFrame = scroll_checkbox.ScrollableCheckBoxFrame(master=rFrame,
                                                                     item_list=sorted(["anger", "disgust", "fear", "joy", "neutral", "sadness", "surprise"]), 
                                                                     tree=self.tree,

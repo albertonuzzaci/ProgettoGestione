@@ -20,7 +20,7 @@
         ]
     },
     {      
-        ##
+        
         "UIN" : "I'm a student looking for a budget-friendly hostel in Kensington or Westminster. I don't care about having all kind of amenities.",
         "query" : "(hostel shared bath) AND price:[0 TO 99.9] AND neighbourhood_cleansed:(\"Westminster\" OR \"Kensington and Chelsea\")",
         "sentiments" : [
@@ -31,7 +31,7 @@
         ]
     },
     {   
-        ##
+        
         "UIN": "I'm looking for a luxurious apartment in Kensington for a family of four, with two bathrooms and a beautiful view.",
         "query": "(luxurious apartment) AND neighbourhood_cleansed:\"Kensington and Chelsea\" AND accommodates:4 AND bathrooms:2",
         "sentiments": [
@@ -52,18 +52,18 @@
         ]
     },
     {   
-        ##
-        "UIN": "I'm searching an affordable place. I need a low-cost apartment in Hillingdon for two people, with at least one bed and one bathroom. Max budget is €100.",
-        "query": "(apartment) AND neighbourhood_cleansed:\"Hillingdon\" AND accommodates:2 AND beds:1 AND bathrooms:1 AND price:[0 TO 100]",
+        
+        "UIN": "I'm searching a place with a beautiful view. I need a bright apartment in Lambeth for two people",
+        "query": "(bright apartment with beatiful view) AND accommodates:2 AND neighbourhood_cleansed:\"Lambeth\"",
         "sentiments": [
-            "anger"
+            "joy", "neutral"
         ],
         "relevant_documents": [
             42802816, 39853712, 624325481519589057, 14500973, 34269824, 21923107
-        ]
+        ] 
     },
     {   
-        ##
+        
         "UIN": "My partner and I are looking for a romantic getaway in Richmond upon Thames. We want an apartment rated at least 4 stars.",
         "query": "(romantic apartment) AND neighbourhood_cleansed:\"Richmond upon Thames\" AND review_scores_rating:[4 TO 5] AND accommodates:2",
         "sentiments": [
@@ -74,7 +74,7 @@
         ]
     },
     {   
-        ##
+        
         "UIN": "I need a budget-friendly room in Hackney for one person, with access to a shared bathroom and a rating of at least 2 stars.",
         "query": "(room shared-bath) AND neighbourhood_cleansed:\"Hackney\" AND review_scores_rating:[2 TO 5] AND price:[0 TO 99.9]",
         "sentiments": [
@@ -95,7 +95,7 @@
         ]
     },
     {   
-        ##
+        
         "UIN": "I'm searching a creepy and old place for an Halloween party. Looking for a budget-friendly place, rated at least 3 stars. Max budget is €80.",
         "query": "(budget-friendly stay) AND review_scores_rating:[3 TO 5] AND price:[0 TO 80]",
         "sentiments": [

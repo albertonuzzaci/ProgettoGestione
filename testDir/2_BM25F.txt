@@ -1,0 +1,300 @@
+I'm a student looking for a budget-friendly hostel in Kensington or Westminster. I don't care about having all kind of amenities.
+BM25F
+	File: 42596722.json 
+  id: 42596722
+  name: Bed in 9-Bed Mixed Dorm with Shared Bathroom
+  description: **All guests must be between 18-40 years**<br /><br />Located in the most beautiful and charming neighbourhood in London, Astor Hyde Park is one minute away from Hyde Park and surrounded by the South Kensington Museums! The hostel is a short walk from London’s best transport connections, including direct trains to Heathrow Airport and all of London’s attractions. Iconic pubs, excellent shopping, amazing restaurants and occasional celebrity sighting make it the perfect place to live while in London!<br /><br /><b>The space</b><br />At our amazing hostel, you will have full access to:<br /><br />• Free Fast Wi-Fi throughout the building as well as Free PC Access<br /><br />• A staff member is available 24 hours a day for emergencies; a number will be provided if you have any issues<br /><br />• CCTV in operation 24 hours<br /><br />• Storage lockers for your valuables (laptops, cameras, phones, etc.) £2 per day<br /><br />• Luggage storage available before check-in (free) and after check
+REVIEWS:
+--------------------
+You get what you would expect from a hostel. If ur lucky with the people staying there with you it is good.
+Good value and great location
+I nice hostel that was what I was looking for for a single night in London
+The location is great, near Hyde park and a lot of museums. Very nice staff as well. But the pillow is so thin and uncomfortable, the bed also had some dirt.
+Location is good, close to bus station and Natural History Museum, 30min walk to Oxford Street. <br/>Unfortunately there was no one at the Check-In after midnight and no one answered the phone either.<br/>For the rooms, bring your own lock if you wanna lock your stuff away<br/>And unfortunately I happened to be in a room with 6 really unrespectful and loud spanish people so my experience wasnt the best
+O Hostel estava com bastante hospedes, tornando os espaços comuns bagunçados e não muito limpos. Em geral a localização é boa, e o quarto também.
+Only 2 min Walk to Hyde Park and Royal Albert Hall. Awesome Restaurants and Underground to reach by a walk. Super sympathic Hostst and entertaiment for the nights. As silent as a romm with several beds could be. Nice opportunity to have a cheap stay in awesome neighborhood
+Great staff. Amazing location!
+Great location and value for money!
+The explanation was also polite, and I was able to spend it.  The price was very reasonable and helpful.
+
+File: 42597690.json 
+  id: 42597690
+  name: Bed in 4-Bed Mixed Dorm with Shared Bathroom
+  description: **All guests must be between 18-40 years**<br /><br />Located in the most beautiful and charming neighbourhood in London, Astor Hyde Park is one minute away from Hyde Park and surrounded by the South Kensington Museums! The hostel is a short walk from London’s best transport connections, including direct trains to Heathrow Airport and all of London’s attractions. Iconic pubs, excellent shopping, amazing restaurants and occasional celebrity sighting make it the perfect place to live while in London!<br /><br /><b>The space</b><br />At our amazing hostel, you will have full access to:<br /><br />• Free Fast Wi-Fi throughout the building as well as Free PC Access<br /><br />• A staff member is available 24 hours a day for emergencies; a number will be provided if you have any issues<br /><br />• CCTV in operation 24 hours<br /><br />• Storage lockers for your valuables (laptops, cameras, phones, etc.) £2 per day<br /><br />• Luggage storage available before check-in (free) and after check
+REVIEWS:
+--------------------
+good place for rest
+Perfect place, amazing staff and great location!! ✨
+Great cleaning job in the toilet and shower. Furniture in bedroom was pleasant and bed sheets clean. Kindly attention from the staff. Place is great to reach easily Kensington Palace and Hyde Park.
+Muy bien ubicado , muy atentas y amables. No tiene ascensor y hay habitación en 4 plantas. Tiene para guardar las maletas después del check out . Las camas tienen usb y cargador en el cabecero lo que resulta muy cómodo <br/>Repetiría sin duda
+Best accommodations in London !!
+Nice clean and organized
+Lovely place
+Super<br/>Indico maravilhoso
+친절하고 깨끗한 숙소! 편하게 지내다가 갑니다!
+It was a really nice place to stay specially for people travelling together. The reception process was smooth and wonderfully warm. I’ll recommend this place to stay
+
+File: 42663424.json 
+  id: 42663424
+  name: 5 Bed Mixed Dorm Shared Bathroom
+  description: **All guests must be between 18-40 years**<br /><br />With Victoria Station and Buckingham Palace a few minutes’ walk away, Astor Victoria is the dream base in London! 24-hour transport to attractions, airports, coaches. The excellent local markets, restaurants, pubs, coffee shops and galleries, all within a 15-minute walk of Big Ben, will make you feel like a true Londoner! A knowledgeable staff who love the city and want it to share with you, there is no better place to stay in Central London!<br /><br /><b>The space</b><br />At our amazing hostel you will have full access to:<br /><br />• Free Fast Wi-Fi throughout the building.<br /><br />• A staff member is available 24 hours a day for emergencies, a number will be provided if you have any issues<br /><br />• CCTV in operation 24 hours<br /><br />• Storage lockers for your valuables (laptops, cameras, phones, etc) £2 per day<br /><br />• Luggage storage available before check-in (free) and after checkout (same day as check-out £2 
+REVIEWS:
+--------------------
+nice
+Super friendly reception. Amazing for a couple days out in London.
+Excelente atención! Si bien las habitaciones y los baños son pequeños, vale la pena! Muy limpio todo y la ubicación es excelente!
+Reception lady was super friendly. The shower is amazing and tomates were respectful.
+Friendly, clean, quiet hostel. Great value and location
+도착 당일 철도가 파업했는데 빅토리아 코치 스테이션이 가까이에 있어서 잘 도착했습니다. 욕실과 계단이 많이 좁지만 깨끗하고 스태프들이 의사소통이 잘 돼서 만족했어요.
+Good location and services.
+Friendly and helpful receptionists.  Clean hostel like bathrooms and rooms too.  recommend, good location.
+Great hostel, very friendly, room itself was very clean, comfy bed
+Sempre muito receptivos, não é a primeira vez que me hospedo aqui ! Vocês são incríveis ❤️
+
+File: 42663581.json 
+  id: 42663581
+  name: 8 Bed Dorm Female Shared Bathroom
+  description: **All guests must be between 18-40 years**<br /><br />With Victoria Station and Buckingham Palace a few minutes’ walk away, Astor Victoria is the dream base in London! 24-hour transport to attractions, airports, coaches. The excellent local markets, restaurants, pubs, coffee shops and galleries, all within a 15-minute walk of Big Ben, will make you feel like a true Londoner! A knowledgeable staff who love the city and want it to share with you, there is no better place to stay in Central London!<br /><br /><b>The space</b><br />At our amazing hostel you will have full access to:<br /><br />• Free Fast Wi-Fi throughout the building.<br /><br />• A staff member is available 24 hours a day for emergencies, a number will be provided if you have any issues<br /><br />• CCTV in operation 24 hours<br /><br />• Storage lockers for your valuables (laptops, cameras, phones, etc) £2 per day<br /><br />• Luggage storage available before check-in (free) and after checkout (same day as check-out £2 
+REVIEWS:
+--------------------
+Very nice !
+Buen lugar, destacó la limpieza de la cocina.
+Staff was kind and helpful and the hostel was easily accessible from station. There was a lack of outlet chargers within the room and as a remote worker, lack of dedicated quiet working space at the facility. Affordable hostel.
+Muy bien, estaría increíble si agregaran una cortina para tener más privacidad, en general la atención del equipo muy amable, hablan español e ingles y además puedes dejar tu equipaje antes de tu check in y lo guardan, muy amables.
+very good place to stay and walk through London
+위치도 좋고, 의사소통도 원활하고, 24체크인도 된다는 점, 아침 식사도 좋아보였습니다. 주방에서 음식을 어느 정도는 조리도 가능합니다. 가격 대비 좋은 방이였습니다. 하지만 먼지때문에 자고 일어나면 코가 안좋았습니다
+Cerca de la estación Victoria , excelente ubicación sin duda volvería a hospedarme aquí . Solo le falta un poco de limpieza a los baños pero no estaban tan mal .
+The staff where really nice :)
+Buen lugar si buscas un hostel económico en londres, ambiente tranquilo y seguro.<br/>Faltan enchufes y luz en cada cama, tuve que dejar mi celular lejos y en el suelo.<br/>El wc esta bien pero lejos del lavamanos, la ducha muy pequeña y falta un lugar donde poner tu ropa para que no se moje.
+Fácil de llegar, buena comunicación con el personal del hostel. Pero imposible comunicarse por Airbnb
+
+File: 42663359.json 
+  id: 42663359
+  name: 6-Bed Female Dorm Shared Bathroom
+  description: **All guests must be between 18-40 years**<br /><br />With Victoria Station and Buckingham Palace a few minutes’ walk away, Astor Victoria is the dream base in London! 24-hour transport to attractions, airports, coaches. The excellent local markets, restaurants, pubs, coffee shops and galleries, all within a 15-minute walk of Big Ben, will make you feel like a true Londoner! A knowledgeable staff who love the city and want it to share with you, there is no better place to stay in Central London!<br /><br /><b>The space</b><br />At our amazing hostel you will have full access to:<br /><br />• Free Fast Wi-Fi throughout the building.<br /><br />• A staff member is available 24 hours a day for emergencies, a number will be provided if you have any issues<br /><br />• CCTV in operation 24 hours<br /><br />• Storage lockers for your valuables (laptops, cameras, phones, etc) £2 per day<br /><br />• Luggage storage available before check-in (free) and after checkout (same day as check-out £2 
+REVIEWS:
+--------------------
+Nous avons passé un bon séjour à Astor Victoria Hostel. Staff très agréable.
+I loved it, everyone is so nice, you get to meet new people and the location is great.
+Great location and price. Cleanliness was adequate. Was just what I needed, not much more.
+Great location As far as hostiles go it’s acceptable. Be prepared to pay for towels, bring your own soap and a little cramped with six beds. Showers and bathrooms were small and were not in the room. Staff was friendly.
+A great place to stay in London for an affordable price. Everything you might need is included and the hostel is very close to the city center. There is also always someone available if you need anything.
+not enough showers
+Très bon accueil. Chek-in et chek-out rapides.
+가격 대비 괜찮음,, 우선 위치가 좋고 샤워실이 좀 구리긴 하지만 호스텔 자주 가는 사람이라면 괜찮게 할 수 있을꺼임
+You get what you pay for. However, it’s a good stay for a cheaper budget; staf we’re welcoming and the bed was comfy. If you’d like a place that is close to central London (10 mins on the tube from Pimlico which is 2 mins around the corner) then here is a good place.
+위치는 매우좋고 리셉션이 친절해요. 방은 사진과 같고, 런던 호스텔치고 가성비가 좋아요. 다만 화장실이 자주 고장나있고 샤워실에서 냄새가 납니다. 조식은 토스트와 커피정도 먹을 수 있어요
+
+File: 39855040.json 
+  id: 39855040
+  name: Bed in 4-Bed Female Dorm with Shared Bathroom
+  description: **All guests must be between 18-40 years**<br /><br />With three Underground Lines and 24hr buses, Astor Kensington is the perfect place to explore London. A short walk the neighbourhood will take you through the world famous Portobello Market, Kensington Gardens and London’s most expensive street! Hop on the tube or bus and within 10 minutes you’ll be in the heart of Oxford Street, Piccadilly Circus and Leicester Square!<br /><br /><b>The space</b><br />At our fantastic hostel, you will have full access to:<br /><br />> Free Fast Wi-Fi throughout the building<br />> 24-hour reception for anything you may need (including late check-in/early check-out)<br />> CCTV is in operation 24 hours a day<br />> Storage Lockers available for your valuables £2 per locker per day<br />> Laundry facilities are available 24 hours<br />> Hairdryers and ironing facilities free to use<br />> Beautiful lounge area with comfy sofas and an enormous projector screen for movies and sports! <br /><br /><br />R
+REVIEWS:
+--------------------
+Good location, near to bus and tube station. Hyde park just on the corner. <br/>Reception team very helpful and nice. <br/>Only 2 bathrooms / shower located on the floor below, that gets very dirty after someone use it. This might be a problem if you arrive late. <br/>It’s noisy to sleep as guests use the staircase and corridors to chat and use their phones.
+Good stay for travellers on a budget as it is located in central London.
+Nice and clean hostel. Would stay again.
+Amazing! Thank you guys, see you very soon
+I've never stayed at a hostel prior to Astor so I wasn't expecting much. I was pleasantly surprised because it was cleaner than I thought. Although the bathroom did have some issues depending on the time of day. It was great that there was a sink in the room which made getting ready easier and the sink was super clean. Bonus points for the provided toiletries like makeup wipes and sanitary products. <br/>Location is great too given it is more of a posh area. Made me feel really safe going to and from the hostel.
+I love you guyyyysss! See you soon!
+A nice place to stay if you're for a few days in London. The staff is very friendly and helpful.
+This’s my 4th review if I’m not wrong.<br/>Always glad I chose here as my London home, staffs and neighbours are friendly, great location and value for money, they try their efforts to keep the place clean everyday.<br/>If you like cooking, you’ll be happy, because there’re many grocery stores near the Airbnb, with every ingredients you want and make your own meal in the kitchen. <br/>In the past, I just grab my passport and check-in in the airport, almost prepare for nothing beforehand when I return to HK. But this time, their free printing service help me a lot, especially during the covid, must prepare for many documents of proof before get on the plane, so, thanks a lot.<br/>Would definitely come back when I come to London again.
+The hostel is located near Queensway, perfect place to be for me as I needed to catch the Heathrow Express!<br/>It is less than ten minutes from Hyde Park, which is lovely. <br/>The area has various supermarkets and restaurants!<br/>The hostel is easy to find, the reception staff is great and welcoming!<br/>The room are clean and under the beds you'll have cages to put luggages in all safety, you can even have a padlock for free (giving 5 pounds of deposit)<br/>I have been helped with printing documents and it was just perfect for me<br/>I also have been helped to leave my luggage in a safe spot when I needed!<br/>This hostel is amazing and I will surely come back when needed!
+great location and friendly staff!
+
+File: 39859449.json 
+  id: 39859449
+  name: Bed in 9-Bed Mixed Dorm Basic with Shared Bathroom
+  description: **All guests must be between 18-40 years**<br /><br />With three Underground Lines and 24hr buses, Astor Kensington is the perfect place to explore London. A short walk the neighbourhood will take you through the world famous Portobello Market, Kensington Gardens and London’s most expensive street! Hop on the tube or bus and within 10 minutes you’ll be in the heart of Oxford Street, Piccadilly Circus and Leicester Square!<br /><br /><b>The space</b><br />At our fantastic hostel, you will have full access to:<br /><br />> Free Fast Wi-Fi throughout the building<br />> 24-hour reception for anything you may need (including late check-in/early check-out)<br />> CCTV is in operation 24 hours a day<br />> Storage Lockers available for your valuables £2 per locker per day<br />> Laundry facilities are available 24 hours<br />> Hairdryers and ironing facilities free to use<br />> Beautiful lounge area with comfy sofas and an enormous projector screen for movies and sports! <br /><br /><br />R
+REVIEWS:
+--------------------
+좋습니당
+Simple thing of a place. The money worth. Get ready to know some of the greatest roommates!
+Es de lo mejor en London
+굳입니다 여기
+Location is really good! It was not far to famous sightseeing areas! And safety more than I expected around the hostel! There are supermarkets as well!
+Nice hostel in a cool old building
+Great place to stay, nice people on the reception. The breakfast is totally worth it. Excellent price-quality relation. I would gladly stay here again. Thank you!
+The location is great. Right next to Hyde Park and close to the museums and less than a 5 minute walk to 2 Underground stations. Everything is very clean and the front desk staff are very friendly.
+The location is very good; a lot of cafés and restaurants nearby, and the metro stop is 2 minutes away. The only problem is that the pillows are not comfortable because they are quite old and thin.
+Всё очень хорошо! 👍  Заходите, живите и радуйтесь!😎✌
+
+File: 39859724.json 
+  id: 39859724
+  name: Bed in 12-Bed Mixed Dorm with Shared Bathroom
+  description: **All guests must be between 18-40 years**<br /><br />With three Underground Lines and 24hr buses, Astor Kensington is the perfect place to explore London. A short walk the neighbourhood will take you through the world famous Portobello Market, Kensington Gardens and London’s most expensive street! Hop on the tube or bus and within 10 minutes you’ll be in the heart of Oxford Street, Piccadilly Circus and Leicester Square!<br /><br /><b>The space</b><br />At our fantastic hostel, you will have full access to:<br /><br />> Free Fast Wi-Fi throughout the building<br />> 24-hour reception for anything you may need (including late check-in/early check-out)<br />> CCTV is in operation 24 hours a day<br />> Storage Lockers available for your valuables £2 per locker per day<br />> Laundry facilities are available 24 hours<br />> Hairdryers and ironing facilities free to use<br />> Beautiful lounge area with comfy sofas and an enormous projector screen for movies and sports! <br /><br /><br />R
+REVIEWS:
+--------------------
+I hightly recommand this hotel! A friendly place, well located with a great staff!
+Nice place to crash and meet some interesting travellers.
+Everything was ok
+Astor Kensington is a great Hostel with the nicest persons working there I have seen for a long time. They are incredibly friendly and do everything that you feel comfortable at your stay. The rooms are nothing special but provide all the things one needs and are clean.
+Un extraordinario lugar para quedarse! Limpio,muy buen ubicado, con reglas claras y personal muy ameno! Sin duda, muy recomendable! Ha sido todo un placer!
+Such a great place with very nice people and good atmosphere!
+Una excelente opción para un viaje a Londres dentro de presupuesto. Excelente ubicación, personal muy agradable, mucho respeto y seguridad. Sin duda regresaría.
+위치가 최고에요. 하이드파크근처라 어딜 가든 금방 가고 정말 좋습니다. 다 좋은데...아무래도 호스텔이라 그런 것도 있지만 화장실이 비좁고 가끔 더럽습니다. 저는 12인 혼성 도미토리를 썼는데 혼성이란 것은 감안하세요! 조식은 그냥 시리얼에 빵인데 그렇게 훌륭하진 않습니다 가끔 음....당황스러운 일도 있었지만. 그래도 가격대비 위치가 좋고 무엇보다 호스트분들이 매우 친절하세요.  <br/>정리하자면 퍼펙트한 숙소는 아니지만 잠만 자고 다른 일정 소화하기엔 훌륭하다.
+First time staying in a dorm and enjoyed it. The location is great and public transport is just few minutes away.
+Bring your own soap and shampoo. Having your own slippers would also be very handy as sometimes the toilet floor is quite dirty as people get in with their shoes on. Other than that he place is very strategic. Very close to the kensington palace and hyde park. Less than 20 mins to the city of london
+
+File: 14439255.json 
+  id: 14439255
+  name: Bed in Male Shared 2 Bed Room (WiFi, Gym & B'fast)
+  description: Bed in a room shared with 1 other male resident. Room includes sink, a cupboard each & a desk/chair. High Speed Wi-Fi is available in the room for free.<br /><br />Image is indicative of room type, we have a number of this room type; all recently refurbished.<br /><br />Towels are not included, please bring your own.<br /><br />Please note we cannot accept anyone under the age of 18 and a passport or driving licence will be required upon checking in.<br /><br />Please bring with you a £30 returnable key deposit to check in.<br /><br /><b>The space</b><br />We provide a great space for students and young working people to live in with access to common areas, catering and shared toilets. Included in the price comes high speed Wi-Fi (accessible throughout building)  & contents insurance.<br /><br />We're located in the heart of Notting Hill, just a short walk from Hyde Park, Portabello Market and the cafe's and bars of Notting Hill. <br /><br />There are laundry facilities and we have an 
+REVIEWS:
+--------
+Everything was OK... But the coffee. I can't say much about facilities because I stayed mostly in the room. This one was nice, tidy and quiet. Shared bathrooms and toilets are standard. Chilly neighbourhood, and close to the city center with lines Central, District and Circle. Very close also to Kensington Gardens (10 min walk) and Holland Park (5 min). So I recommend to stay... If you don't worry much about coffee.
+As described. Location is fantastic, staff are friendly and very helpful - overall great value.
+Receptionist always helpful and the location is convenient due to the Tube stations being nearby. Besides that the accommodation is suitable if you just want to have a rest at night and stroll around London by day.
+For Airbnb homestay network travellers, you should know this is not an appartment as listed but a hostel. Not a bad one, but a hostel.<br/>If you're okay with this then location is London, that is a given great location, close to Portobello, far from main downtown tourist London attractions. Mind the maybe head of reception; harsh, not just cold in her communication but innacurate. Being in the reception lobby I was asked coldly and in a 19th century school manner to turn down a short whatsapp message on the grounds that this was a public space (I never knew it was not allowed to listen to a whatsapp message in a public space), and when I turned it down to a volume it was almost hard for me to hear (her tone had been so harsh I made a good effort not to call her attention again) she did call my attention again, when I realized that she had actually meant turn OFF. <br/>As well they wanted to keep my passport retained in reception, which I was not eager to comply with and at 11pm I had to stand for my rights under threat of not being allowed into my already paid for room.<br/>Lastly, the heating went out during more than 24 hours, and when I asked about it I was answered that that is the way it works since it is automatic. This was january with max 2 degrees celcious. And mind the showers on the ground floor, try finding the ones on the higher floors. Breakfast with no fruit, cereal is great, I just love British cereal.<br/>The cleaning staff is great energy.<br/>Cheers!
+
+File: 14364487.json 
+  id: 14364487
+  name: Bed in Female Shared 2 Bed Room (WiFi, Gym&B'fast)
+  description: Bed in a room shared with 1 other female resident. Room includes sink, a cupboard each & a desk/chair. High Speed Wi-Fi is available in the room for free.<br /><br />Image is indicative of room type, we have a number of this room type; all recently refurbished.<br /><br />Towels are not included, please bring your own.<br /><br />Please note we cannot accept anyone under the age of 18 and a passport or driving licence will be required upon checking in.<br /><br />Please bring with you a £30 returnable key deposit to check in.<br /><br /><b>The space</b><br />We provide a great space for students and young working people to live in with access to common areas, catering and shared toilets. Included in the price comes high speed Wi-Fi (accessible throughout building)  & contents insurance.<br /><br />We're located in the heart of Notting Hill, just a short walk from Hyde Park, Portabello Market and the cafe's and bars of Notting Hill. <br /><br />There are laundry facilities and we have a
+REVIEWS:
+----
+Overall I had a good experience. It was a bed to sleep in and access to the showers. The community feel is nonexistent. The breakfast was very meager. There was construction on the exterior of the building every single morning and there were guys walking outside of my window as I was changing. Other than that I would recommend if you're just looking for a bed and convenient location. 
+Very helpful and welcoming.
+
+File: 14440805.json 
+  id: 14440805
+  name: Bed in Female Shared 2 Bed Room w/WiFi, Gym&B'fast
+  description: Bed in a room shared with 1 other female resident. Room includes sink, a cupboard each & a desk/chair. High Speed Wi-Fi is available in the room for free.<br /><br />Image is indicative of room type, we have a number of this room type; all recently refurbished.<br /><br />Towels are not included, please bring your own.<br /><br />Please note we cannot accept anyone under the age of 18 and a passport or driving licence will be required upon checking in.<br /><br />Please bring with you a £30 returnable key deposit to check in.<br /><br /><b>The space</b><br />We provide a great space for students and young working people to live in with access to common areas, catering and shared toilets. Included in the price comes high speed Wi-Fi (accessible throughout building)  & contents insurance.<br /><br />We're located in the heart of Notting Hill, just a short walk from Hyde Park, Portabello Market and the cafe's and bars of Notting Hill. <br /><br />There are laundry facilities and we have a
+REVIEWS:
+------------
+Everything was as explained.
+I stayed with LHA for a week. It's very good value to stay in LHA. The location is perfect very close to Hyde park and to all the major attractions.  It's very safe and convenience. Most importantly, the room and all the public sharing space are super clean and spacious. I also like the breakfast very much. They serve very high quality free breakfast. I thought it will be very simple breakfast since it's very cheap to stay in such good location, zone 1. But, It's much much more exceed my expectation. I love this place very much. I'd recommend to anyone who is traveling to London.  The staff is very friendly and welcoming. All in all, I enjoy my stay very much.
+청소는 매일하지만 쓰레기통과 시트만 바꾸는 수준. 생각보다 청결하지 못한것이 아쉬웠음. 조식이 매일 제공된다는 점과 위치는 아주 좋음. 
+I had such a great night! I arrived to london a day early before my class from US got here. It was clean and quiet. I spent most of the day in four airports so I was really tired. I got to relax in the room. My roommate was from Italy. We just talked, got to know eachother and had a good time. I would recommend this place for a short visit as well as a long visit. The people are so nice and friendly. 
+This is pretty much a hostel. Very cheap, great location, fantastic if you are on a budget and won't be spending much time there.
+M
+
+File: 14364749.json 
+  id: 14364749
+  name: Bed in Male Shared 2 Bed Room w/WiFi, Gym & B'fast
+  description: Bed in a room shared with 1 other male resident. Room includes sink, a cupboard each & a desk/chair. High Speed Wi-Fi is available in the room for free.<br /><br />Image is indicative of room type, we have a number of this room type; all recently refurbished.<br /><br />Towels are not included, please bring your own.<br /><br />Please note we cannot accept anyone under the age of 18 and a passport or driving licence will be required upon checking in.<br /><br />Please bring with you a £30 returnable key deposit to check in.<br /><br /><b>The space</b><br />We provide a great space for students and young working people to live in with access to common areas, catering and shared toilets. Included in the price comes high speed Wi-Fi (accessible throughout building)  & contents insurance.<br /><br /><b>Guest access</b><br />Guests are free to use the gym, eat breakfast in the dining area (dinner is purchasable for £4 per night), TV room, Study room and Microwave room.<br /><br /><b>Other t
+REVIEWS:
+----------
+The staff were really helpful and welcoming, was up too early for breakfast but can't complain for the cost of the room. 
+The location in London was perfect, easy access to the trains and lots of stuff to do around. Communication was a little delayed but it's a very fine hostel for people on a budget like me. Very nice staff as well.
+Good but expensive... 
+位置很好，离海德公园很近。附近有很多超市和餐馆，还有一家电影院。早餐时间略短，不适合赖床，我在入住的时候等了将近半小时前台才珊珊而来，且中厅没有沙发可以坐。
+Very well situated in noting hill, this hostel is well-organised and fairly clean. The room was big enough to have a big luggage in. Close to public transport, this shared 2 bed room is more than good enough for the price of 20 euros. I recommend for any traveller on a tight budget. 
+
+File: 604080492420319332.json 
+  id: 604080492420319332
+  name: 8 Bed Mixed Dorm Lower Floors Shared Bathroom
+  description: **All guests must be between 18-40 years**<br /><br />With Victoria Station and Buckingham Palace a few minutes’ walk away, Astor Victoria is the dream base in London! 24-hour transport to attractions, airports, coaches. The excellent local markets, restaurants, pubs, coffee shops and galleries, all within a 15-minute walk of Big Ben, will make you feel like a true Londoner! A knowledgeable staff who love the city and want it to share with you, there is no better place to stay in Central London!<br /><br /><b>The space</b><br />At our amazing hostel you will have full access to:<br /><br />• Free Fast Wi-Fi throughout the building.<br /><br />• A staff member is available 24 hours a day for emergencies, a number will be provided if you have any issues<br /><br />• CCTV in operation 24 hours<br /><br />• Storage lockers for your valuables (laptops, cameras, phones, etc) £2 per day<br /><br />• Luggage storage available before check-in (free) and after checkout (same day as check-out £2 
+REVIEWS:
+--------------------
+A localização do hostel é excelente, fica em um bairro bem legal, pode se chegar a diversos restaurantes a pé. A estrutura interna é boa, equipada com todos os itens de cozinha que é preciso.
+It’s a hostel. Clean and in a good location
+Great location especially in central London. easy access to tube station. friendly staffas we check in and a lot of useful info and tips are given. would definitely come back again
+great hosts
+I enjoyed my stayed
+Great location and stay! One of the quieter hostels which attracted people older than 25.
+Good hostel in general. The staff is great! The bathrooms are so small.
+It’s a good place to stay for a short trip in London with convenient location and friendly staff
+Era lo que ofrecían en el anunciado. Todo Perfecto, limpio, oportuno, agradable, lo recomiendo!
+It's worth the money. Walkable distance from Victoria station. The staff are awesome. I will recommend
+
+File: 42662104.json 
+  id: 42662104
+  name: 10 Bed Mixed Dorm Basic Shared Bathroom
+  description: **All guests must be between 18-40 years**<br /><br />With Victoria Station and Buckingham Palace a few minutes’ walk away, Astor Victoria is the dream base in London! 24-hour transport to attractions, airports, coaches. The excellent local markets, restaurants, pubs, coffee shops and galleries, all within a 15-minute walk of Big Ben, will make you feel like a true Londoner! A knowledgeable staff who love the city and want it to share with you, there is no better place to stay in Central London!<br /><br /><b>The space</b><br />At our amazing hostel you will have full access to:<br /><br />• Free Fast Wi-Fi throughout the building.<br /><br />• A staff member is available 24 hours a day for emergencies, a number will be provided if you have any issues<br /><br />• CCTV in operation 24 hours<br /><br />• Storage lockers for your valuables (laptops, cameras, phones, etc) £2 per day<br /><br />• Luggage storage available before check-in (free) and after checkout (same day as check-out £2 
+REVIEWS:
+--------------------
+很小但是地理位置很棒！設備還算齊全，治安不錯，很晚回來也不擔心。
+Great stay and great location!  Staff is very friendly and someone was always there when I needed to speak to someone.  They were very helpful to give direction.  <br/>Clean and fun set up.   There are about 6 floors so be prepared if you have heavy luggage to carry it up stairs.  They have bag drop off before and after your stay (small fee for after your stay) which was so helpful. <br/>For directions, look for the name “Astor Victoria Hostel” labeled outside the building…. If you don’t see it keep going further,  there’s another #71 and “Victoria” hotels and hostels on the same street coming from Victoria Station.  The location is amazing. Lots of good restaurants, little convenient stores, and so close to Victoria Station which you can use to get to everywhere else in London.
+Precio adecuado a las instalaciones. Trabajadoras muy simpáticas y agradables
+Astor Victoria Hostel was the best option I could have ever asked for my visit to London. The location is incredible, the staff is extremely nice and helpful, and the entire hostel is always clean and tidy. I had the best time there; totally recommend it to anyone who wants to visit London.
+Staff - amazing and kind :) <3 u
+Thank you, Astor team.<br/>See you next time!
+not a huge fan of hostels but this one was okay.
+Great location and great stay, staff is extremely helpful and reliable for information. Bunkmates were very pleasant and polite and had no issues. First time at a hostel and enjoyed the atmosphere. Not too sure on the community events that hostels normally do but was given suggestions on what to do with free time as a new tourist to London. Overall amazing experience!
+This was such a handy last-minute hostel! Really handy location in a safe area 10 mins from a tube station. Staff were really nice and hostel had all the amenities you could need. Thank you so much!
+Buen lugar para quedarse, lo recomiendo, tiene una súper ubicación
+
+File: 43378787.json 
+  id: 43378787
+  name: 4 Bed Female Dorm Shared Bathroom Lower Floor-18+
+  description: **All guests must be between 18-40 years**<br /><br />With Victoria Station and Buckingham Palace a few minutes’ walk away, Astor Victoria is the dream base in London! 24-hour transport to attractions, airports, coaches. The excellent local markets, restaurants, pubs, coffee shops and galleries, all within a 15-minute walk of Big Ben, will make you feel like a true Londoner! A knowledgeable staff who love the city and want it to share with you, there is no better place to stay in Central London!<br /><br /><b>The space</b><br />At our amazing hostel you will have full access to:<br /><br />• Free Fast Wi-Fi throughout the building.<br /><br />• A staff member is available 24 hours a day for emergencies, a number will be provided if you have any issues<br /><br />• CCTV in operation 24 hours<br /><br />• Storage lockers for your valuables (laptops, cameras, phones, etc) £2 per day<br /><br />• Luggage storage available before check-in (free) and after checkout (same day as check-out £2 
+REVIEWS:
+--------------------
+Très bonne expérience si vous aimez la compagnie et rencontrer de nouvelles nationalité !<br/>L'accueil a été au top
+Great location and clean hostel, would definitely recommend!
+Limpieza y ubicación excelentes. Pone que el desayuno está incluido y NO ES VERDAD.<br/>Nos quedamos en una habitación de cuatro camas, y sólo habían DOS enchufes.
+Simple hostel with bunk beds in a great location.  Need to pay for locker and towel
+Had a great stay at Astor Victoria Hostel. Very clean and tidy environment. Love that they had a basin in the room I was staying at, toilets and showers were separated and there were plenty of it. There is also a kitchen and laundry facilities available, although I did not use these facilities it was a wonderful thought if I did need it.
+Nice hostel in great location, super friendly staff, you can meet really interesting people from all around the world, and chat about everything. Kitchen could be cleaner, and door in one shower didn't work.
+C’était super
+clean and good price
+The hostel room was very clean, staff were friendly. They're serving breakfast again (£3) so that's nice if you want it. This room is on a lower floor which is convenient. The room faces a busy road, so earplugs might be a good idea to sleep at night
+hot room
+
+File: 54001449.json 
+  id: 54001449
+  name: Lovely bedroom in a shared Notting Hill flat
+  description: Beautiful spacious flat with full access to one bedroom, shared bathroom and a shared living room and open kitchen. The flat boats a lot of natural light, is very centrally located in Notting Hill and only a stone’s throw from the lively Westbourne Grove.<br /><br />Fully equipped with a washer/dryer, and modern kitchen and bathroom. <br /><br />Cozy couch and living space - no cable TV, streaming only.
+REVIEWS:
+----
+I actually don't have to write much here (but for fun i'll do it anyway :p) because my stay was just perfect. thank you for that.<br/>For the first time I felt totally safe and at home! The reason for that is because first of all, Cassandra has a great and welcoming energy from the moment I arrived, together with her lovely little family.<br/>She had thought about the little details as a hostess ! which I liked a lot. Although I'm not a huge fan of sleeping over somewhere else because I struggle with some allergies; I love and need a certain level of cleanliness/hygiene and privacy -> for me All of it was ✨💯🔝.  <br/>Such a lovely room in a perfect neighbourhood ; price, experience,  ⭐️⭐️⭐️⭐️⭐️ !
+Cassandra was very welcoming and helpful from the moment I booked till I left. The flat is very close to a bunch of underground stations and in a pretty nice neighborhood, with plenty to do and see. The room is spacious and has lots of storage and the instructions for the check in were clear so I had no trouble getting settled in. I had a great stay, thanks again Cassandra!
+
+File: 10026158.json 
+  id: 10026158
+  name: Single bed, female, shared room
+  description: Quite, bed, desk and drawers free. Flat shared with 7. Nicely decorated, TV, very central - Westbourn Park (Circle line, 15min bus ride to Baker Street). Shopping area 3min. Kitchen, clothes and dishes washing machines, fast Internet
+REVIEWS:
+--
+I spent two pleasant days at Adélie's place. She is really nice and helpful (and my temporary roommate was friendly too). The house has a good lokation, it's about 1 hour walk from the center, but there is a bus what takes you directly to Trafalgar square. <br/>
+
+File: 51939539.json 
+  id: 51939539
+  name: Piccadilly Small Double bedroom w/shared bathrm.
+  description: Small Double Room (8'x8' or 2.4mx2.4m) with large, well lit desk and shared bathroom in centrally located flat.  2 mins. walk to Park 5 mins. walk Green Park Underground station and Buckingham Palace.<br />Perfect for West End shops, theatres, galleries, museums and restaurants.<br /><br /><b>The space</b><br />Comfortable rooms in house built in 1790.<br /><br /><b>Guest access</b><br />Comprehensive Public transport (tube, bus, rail, coach and airport) all within easy reach.<br /><br /><b>Other things to note</b><br />Not suitable for quarantine.<br />Lots of stairs in property
+REVIEWS:
+--------------------
+Jem is a terrific host, very kind and welcoming. The Airbnb is in an amazing location and the room was well equipped, very clean and all you need to visit london. Would definitely recommend!
+The most perfect location and wonderful amazing host. Jem is extremely friendly and thoughtful. I have nothing to complain about!! Thank you Jem :)!!
+I had such an incredible stay in Jen’s home! Such a central location, safe and clean. Room was cozy, can be tight for more then a couple nights/ if you are with another person. But Jem was so kind and a great host! Made us feel at home. Also- there are no mirrors in the room so the only way to use one to get ready was in the shared bathroom. Not a huge deal whatsoever but is a small inconvenience. Definitely recommend staying here though!!!
+Jem is a very nice and accommodating host, discreet and non intrusive. Communication is quick and easy. <br/>The room is small yet very clean and comfortable. Bathroom was shared with another guest and was clean too!<br/>The wooden floor can creak from time to time but that is what also makes the house charming! <br/>During my stay, there was construction work in the area, so expect some noise around 8 in the morning but it is not really annoying if you wake up not too late or bring some earplugs. <br/>The area is really safe and quiet at night anyway and the tube is within a 3 or 4 minute walk and will take you anywhere easily!<br/>I highly recommend this place! Thanks Jem!
+This was my 2nd time I stayed at Jems place! <br/>Everything was great.<br/>I will be back ;)
+Jem was really quick to reply to all my messages and is so friendly and welcoming! He has a lovely home and in an amazing location, perfect for exploring London. Highly recommend :)
+Ottima location e la stanza è adeguata se si è da soli. I suggerimenti di Jem sono preziosissimi se come me si è vegetariani e per le cose da poter fare nei dintorni. Jem è sempre gentilmente disponibile se hai delle necessità. La posizione è poi centralissima.
+I loved Jem's place. He was very welcoming and always made sure he was available for any questions. The location is incredible and the bed and linen were amazingly comfy !
+Amazing stay! Thanks Jem! So friendly and kind host!
+Jem is very pleasant company and an extraordinarily interesting person to talk to. I am glad that I had the privilege of meeting him and staying at his place, which is a rare jewel hidden in the middle of London. Carefully equipped with a comfortable bed and a very well chosen selection of books, and surrounded by a wide array of restaurants to choose from, it is the perfect place to enjoy London. I warmly recommend this place and wish Jem only the nicest guests.
+
+File: 22611037.json 
+  id: 22611037
+  name: Double room in Notting Hill
+  description: Amazing flat in Ladbroke Grove! Double room fully furnished in first floor flat. Really safe (most people don't notice the doorway). <br /><br />Location is perfect: Notting Hill - only 5 min walk from Portobello Road. There is a big  Sainsbury's 3 min away and a few corner shops just downstairs. 10 min walk or 4 min bus to Ladbroke Grove tube station. Kensal Rise Overground, Kensal Green and Notting Hill tube stations are also close.<br /><br /><b>The space</b><br />This is a small double room with furniture available to use. You will have a set of drawers and a wardrobe available. <br />The kitchen is fully equipped and the bathroom is shared.<br /><br />This is not a hotel/hostel, it is my actual home. I try my best to keep everything in order but it will not be as perfect as a hotel would be. I work full time so if you arrive during the day on weekdays I will probably not be home but will give you all the instructions you need to access the flat. Also, since I am leaving the flat s
+REVIEWS:
+------------
+Clean and friendly
+Juliana is an excellent host and super friendly. I needed to check in early and also extend my stay and she was super accommodating about it. The place also has everything you need from cooking appliances to ample bedroom space. Ideal for someone wanting a room to experience london or base yourself before finding something permanent. It's also conveniently located close to Ladbroke Grove Station as well as only a short walk to Portobello road. Buses also run regularly right out the front should you need to get to Notting Hill Gate Station. Highly recommend it.
+Very nice apartment in a good position for public transportation. A little bit cold, but definitely good place.<br/>Juliana is welcoming and very kind.<br/>We enjoyed the stay!
+Made us feel at home from the first day, check in and out were easy and unproblematic, even though she was at work. <br/>We had our privacy and she wasn't complicated about anything.<br/>Very nice stay overall.
+Super séjour chez Juliana, hôte super sympa et arrangeante. Quartier très sympa !
+Le logement correspond parfaitement aux photos et est très propre. De plus, il est très bien situé. Juliana a été très gentille et discrète. Le séjour s’est parfaitement bien passé !
+
+File: 42971431.json 
+  id: 42971431
+  name: Bed in 5-Bed Mixed Dorm with Ensuite Bathroom
+  description: **All guests must be between 18-40 years**<br /><br />Located in the most beautiful and charming neighbourhood in London, Astor Hyde Park is one minute away from Hyde Park and surrounded by the South Kensington Museums! The hostel is a short walk from London’s best transport connections, including direct trains to Heathrow Airport and all of London’s attractions. Iconic pubs, excellent shopping, amazing restaurants and occasional celebrity sighting make it the perfect place to live while in London!<br /><br /><b>The space</b><br />At our amazing hostel, you will have full access to:<br /><br />• Free Fast Wi-Fi throughout the building as well as Free PC Access<br /><br />• A staff member is available 24 hours a day for emergencies; a number will be provided if you have any issues<br /><br />• CCTV in operation 24 hours<br /><br />• Storage lockers for your valuables (laptops, cameras, phones, etc.) £2 per day<br /><br />• Luggage storage available before check-in (free) and after check
+REVIEWS:
+--------------------
+Good value for a one night stay. Location was excellent. Room generally good and bedding clean, although bathroom and general floors weren't great. Staff were lovely, super easy to check in and out.
+Very friendly staff, great clean hostel in a nice location!
+buena ubicación
+Ótimo custo/benefício. Localização excelente, próximo a parques e museus, estações de metrô e pontos de ônibus. Boa oferta de restaurantes, "padarias" e mercados. Galera jovem e animada. Voltaria e recomendo.
+The front desk staff were so kind and welcoming! They know all the places to go to eat and visit. A curtain in the bunks would have been nice for added privacy but overall a great place to stay for the price!
+Great venue, great location
+Great neighbourhood, great value
+A great place to stay!
+Very clean and best location, nice staffs
+Staff super decent and super helpful, bunks are very convenient for short stays, location is pretty central, literally walking distance from the heart of the city. You’ll always meet nice people in the common room 😊<br/>Honestly, this will definitely be my go to whenever I visit ❤️
+
+
+
