@@ -98,25 +98,5 @@
         "relevant_documents": [
             585197554531046860, 53278672, 40759313, 52957422, 33673820, 559983777823694157, 33310272, 20163887, 17403777
         ]
-    },
-    {
-        "UIN": "Looking for a child-friendly apartment in Lambeth with a playground nearby, rated at least 3 stars. Budget is up to €300.",
-        "query": "child-friendly apartment AND neighbourhood_cleansed:\"Lambeth\" AND review_scores_rating:[3 TO 5] AND price:[0 TO 300]",
-        "sentiments": [
-            "joy"
-        ],
-        "relevant_documents": [
-
-        ]
-    },
-    {
-        "UIN": "I need a dirty places for a video. Need an apartment in Westminster for three people, with two bedrooms and two bathrooms. Minimum rating of 4 stars.",
-        "query": "apartment AND neighbourhood_cleansed:\"Westminster\" AND accommodates:3 AND beds:2 AND bathrooms:2 AND review_scores_rating:[4 TO 5]",
-        "sentiments": [
-            "disgust", "fear"
-        ],
-        "relevant_documents": [
-
-        ]
     }
 ]
