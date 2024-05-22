@@ -4,15 +4,13 @@ import yaml
 import os
 import json
 
-'''
-with open('./config.yaml','r') as file:
-	config_data = yaml.safe_load(file)
- 
- path = f'./{config_data["REVIEWS"]["FILE"]}
-'''
 
 class ReviewsIndex:
-	def __init__(self, path = "./dataset/reviews.pickle"):
+	def __init__(self):
+		with open('./config.yaml','r') as file:
+			config_data = yaml.safe_load(file)
+		
+		path = f"./{config_data['REVIEWS']['FILE']}" 
 		if(not os.path.exists(path)):
 			self.setupReviewDB()
 		with open(path, "rb") as fp:
