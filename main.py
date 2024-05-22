@@ -33,18 +33,18 @@ def setupParser() -> list:
 
 def main(model: str) -> None:
     my_index = Index(forceBuildIndex=False)
+    
+    modelsDict = {
+        'B' : (BM25F(), "Base Model"),
+        'D2V' : (Doc2VecModel(), "Doc 2 Vec"),
+        'S' : (SentimentWeightingModel(), "Sentiment Weighting Model"),
+        'AS' : (AdvancedSentimentWeightingModel(),"Advanced Sentiment Weighting Model") 
+    }
 
-    if model == 'B':
-        customModel =  IRModel(my_index, BM25F())
-    elif model == 'D2V':
-        customModel = IRModel(my_index, Doc2VecModel())
-    elif model == 'S':
-        customModel = IRModel(my_index, SentimentWeightingModel())
-    elif model == 'AS':
-        customModel = IRModel(my_index, AdvancedSentimentWeightingModel())
+    customModel = IRModel(my_index, modelsDict[model][0])
         
     control = Controller(my_index, customModel)
-    MyGUI(control, model)
+    MyGUI(control, modelsDict[model][1])
     
 
 if __name__ == "__main__":

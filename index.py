@@ -18,25 +18,13 @@ class Index():
     def setupSchemaAcc(self):
         schema = Schema(
             id = ID(stored=True, unique=True),
-            #listing_url = TEXT(stored=True),
             name = TEXT(stored=True, field_boost=2.0, spelling=True),
             description = TEXT(stored=True),
-            #host_name = TEXT(stored=True),
-            #host_id = ID(),
-            #host_url = TEXT(stored=True),
-            #host_picture_url = TEXT(stored=True),
             neighbourhood_cleansed = TEXT(stored=True),
-            #latitude = NUMERIC(stored=True, numtype=float),
-            #longitude = NUMERIC(stored=True, numtype=float),
-            #property_type = TEXT(stored=True),
-            #room_type = TEXT(stored=True),
             accomodates = NUMERIC(stored=True, numtype=float),
             bathrooms = NUMERIC(stored=True, numtype=float),
-            #bedrooms = NUMERIC(stored=True),
             beds = NUMERIC(stored=True),
-            #amenities = KEYWORD(stored=True, commas=True),
             price = NUMERIC(stored=True, numtype=float),
-            #numbers_of_review = NUMERIC(stored=True,numtype=float),
             review_scores_rating = NUMERIC(stored=True, numtype=float)
         )
         return schema
@@ -73,25 +61,13 @@ class Index():
                 print(u"{dir}/{file}".format(dir=data_dir, file=jsonFile))
                 writer.add_document(
                     id = str(data["id"]),
-                    #listing_url = str(data["listing_url"]),
                     name = str(data["name"]),
                     description = str(data["description"]),
-                    #host_name = str(data["host_name"]),
-                    #host_id = str(data["host_id"]),
-                    #host_url = str(data["host_url"]),
-                    #host_picture_url = str(data["host_picture_url"]),
                     neighbourhood_cleansed = str(data["neighbourhood_cleansed"]),
-                    #latitude = data["latitude"],
-                    #longitude = data["longitude"],
-                    #property_type = str(data["property_type"]),
-                    #room_type = str(data["room_type"]),
                     accomodates = data["accommodates"],
                     bathrooms = data["bathrooms"],
-                    #bedrooms = data["bedrooms"],
                     beds = data["beds"],
-                    #amenities = ",".join(data["amenities"]) if data["amenities"] != None else None,
                     price = data["price"],
-                    #numbers_of_review = data["numbers_of_review"],
                     review_scores_rating = data["review_scores_rating"]
                 )
                 if limit != None and i > limit:

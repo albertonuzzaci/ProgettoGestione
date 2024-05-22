@@ -12,3 +12,6 @@ INDEX:
 REVIEWS:
     DATADIR: dataset/json
     FILE: dataset/reviews.pickle
+
+DOC2VEC:
+    DATADIR: doc2vec

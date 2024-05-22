@@ -4,6 +4,13 @@ import yaml
 import os
 import json
 
+'''
+with open('./config.yaml','r') as file:
+	config_data = yaml.safe_load(file)
+ 
+ path = f'./{config_data["REVIEWS"]["FILE"]}
+'''
+
 class ReviewsIndex:
 	def __init__(self, path = "./dataset/reviews.pickle"):
 		if(not os.path.exists(path)):

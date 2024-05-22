@@ -41,7 +41,7 @@
     },
     {
         "UIN": "I need a cheap place in Camden that allows dogs, ideally with a minimum rating of 3 stars.",
-        "query": "dog-friendly price:[0 TO 99.9] AND neighbourhood_cleansed:\"Camden\" AND review_scores_rating:[3 TO 5]",
+        "query": "dog-friendly AND price:[0 TO 99.9] AND neighbourhood_cleansed:\"Camden\" AND review_scores_rating:[3 TO 5]",
         "sentiments": [
             
         ],

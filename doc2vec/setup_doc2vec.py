@@ -7,11 +7,12 @@ import json, yaml, os
 # define a list of documents.
 
 def doc2vec_creation():
+    print("Creating the model...")
     docs=[]
-    with open('../config.yaml','r') as file:
+    with open('./config.yaml','r') as file:
         config_data = yaml.safe_load(file)
     
-    dataDir = f"../{config_data['REVIEWS']['DATADIR']}" 
+    dataDir = f"./{config_data['REVIEWS']['DATADIR']}" 
     
     for jsonFile in os.listdir(dataDir):
         with open(u"{dir}/{file}".format(dir=dataDir, file=jsonFile), "r", encoding="utf-8") as f:
@@ -27,8 +28,8 @@ def doc2vec_creation():
     tagged_docs = [TaggedDocument(words=[token.text for token in analyzer(doc)],tags=[str(i)]) for i, doc in enumerate(docs)]
 
     # train the Doc2vec model
-    model = Doc2Vec(vector_size=20,
-                    min_count=1, epochs=50, workers=8)
+    model = Doc2Vec(vector_size=50,
+                    min_count=1, epochs=100, workers=8)
     
     model.build_vocab(tagged_docs)
     
@@ -40,16 +41,20 @@ def doc2vec_creation():
     document_vectors = [model.infer_vector(
         word_tokenize(doc.lower())) for doc in docs] """
 
-    model.save("doc2vec.model")
+    model.save(f'./{config_data["DOC2VEC"]["DATADIR"]}/doc2vec.model')
+    print("Model created and stored succesfully!")
+
 
 def to_json():
-    model = Doc2Vec.load("doc2vec.model")  # load the model
+    print("Creating the json...")
+    with open('./config.yaml','r') as file:
+        config_data = yaml.safe_load(file)
+        
+        
+    model = Doc2Vec.load(f'./{config_data["DOC2VEC"]["DATADIR"]}/doc2vec.model')  # load the model
     docs_vector = {}
     
-    with open('../config.yaml','r') as file:
-        config_data = yaml.safe_load(file)
-    
-    dataDir = f"../{config_data['REVIEWS']['DATADIR']}" 
+    dataDir = f"./{config_data['REVIEWS']['DATADIR']}" 
     
     for i,jsonFile in enumerate(os.listdir(dataDir)):
         with open(u"{dir}/{file}".format(dir=dataDir, file=jsonFile), "r", encoding="utf-8") as f:
@@ -57,20 +62,23 @@ def to_json():
             docs_vector[data["id"]]=model.dv[i]
     
     serializable_docs_vector = {key: value.tolist() for key, value in docs_vector.items()}
-    json_path = 'docs_vectors.json'  # json file path
+    json_path = f'./{config_data["DOC2VEC"]["DATADIR"]}/docs_vectors.json'  # json file path
     with open(json_path, 'w') as json_file:
         json.dump(serializable_docs_vector, json_file)  
-
+    print("Json created and stored successfully!")
     
     
 if __name__ == "__main__":
+    with open('./config.yaml','r') as file:
+        config_data = yaml.safe_load(file)
+        
     try:
-        if not os.path.exists("doc2vec.model"):
+        if not os.path.exists(f'./{config_data["DOC2VEC"]["DATADIR"]}/doc2vec.model'):
             doc2vec_creation()
     except FileExistsError:
         pass 
     try:
-        if not os.path.exists("docs_vectors.json"):
+        if not os.path.exists(f'./{config_data["DOC2VEC"]["DATADIR"]}/docs_vectors.json'):
             to_json()
     except FileExistsError:
         pass
