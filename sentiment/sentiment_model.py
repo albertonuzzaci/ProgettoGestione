@@ -85,7 +85,7 @@ class SentimentWeightingModelWeightedAverage(SentimentWeightingModel):
 class AdvancedSentimentWeightingModelWeightedAverage(AdvancedSentimentWeightingModel):
     
     def getFinalScore(self, score, sentiment_score, nReviews):
-        return  ((score*80)+(sentiment_score*15)+(nReviews*5))/3
+        return  ((score*70)+(sentiment_score*20)+(nReviews*10))/3
 
 if __name__=="__main__":
     classifier = ExtractEmotions()
