@@ -53,9 +53,9 @@ class SentimentWeightingModel(BM25F):
         id = searcher.stored_fields(docnum)['id']
         sentiment_score = self.get_sentiment_score(id, self.user_sentiment)
 
-        return self.getFinalScore(score, sentiment_score)
+        return self.getFinalScoreBaseSent(score, sentiment_score)
     
-    def getFinalScore(self, score, sentiment_score):
+    def getFinalScoreBaseSent(self, score, sentiment_score, nReviews=None):
         return score*sentiment_score
 
 
@@ -68,23 +68,22 @@ class AdvancedSentimentWeightingModel(SentimentWeightingModel):
         score = super().final(searcher, docnum, score)
         if not self.user_sentiment:
             return score
-
         id = searcher.stored_fields(docnum)['id']
         sentiment_score = self.get_sentiment_score(id, self.user_sentiment)
         
-        return self.getFinalScore(score,sentiment_score,self.reviews_index.get_sentiment_len_for(id))
-
-    def getFinalScore(self, score, sentiment_score, nReviews):
+        return self.getFinalScoreAdvSent(score, sentiment_score, self.reviews_index.get_sentiment_len_for(id))
+    
+    def getFinalScoreAdvSent(self, score, sentiment_score, nReviews):
         return score*sentiment_score*nReviews
 
 class SentimentWeightingModelWeightedAverage(SentimentWeightingModel):
     
-    def getFinalScore(self, score, sentiment_score):
+    def getFinalScoreBaseSent(self, score, sentiment_score):
         return ((score*80)+(sentiment_score*20))/2
 
 class AdvancedSentimentWeightingModelWeightedAverage(AdvancedSentimentWeightingModel):
     
-    def getFinalScore(self, score, sentiment_score, nReviews):
+    def getFinalScoreAdvSent(self, score, sentiment_score, nReviews):
         return  ((score*70)+(sentiment_score*20)+(nReviews*10))/3
 
 if __name__=="__main__":

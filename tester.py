@@ -4,7 +4,7 @@ from functools import reduce
 import json, os
 from whoosh.scoring import BM25F
 from doc2vec.doc2vec_model import Doc2VecModel
-from sentiment.sentiment_model import SentimentWeightingModel, AdvancedSentimentWeightingModel
+from sentiment.sentiment_model import SentimentWeightingModel, AdvancedSentimentWeightingModel, SentimentWeightingModelWeightedAverage, AdvancedSentimentWeightingModelWeightedAverage
 def getResult(index, model, querytest, nResult):
     my_model = IRModel(index, model)
     _, result = my_model.search(query=querytest["query"], resLimit=nResult, sentiments=querytest["sentiments"])
@@ -37,12 +37,15 @@ def getCampi(result, campi):
 
 if __name__ == "__main__":
     i = Index()
+    # Models that need to be teste  d. 
     models = [
-	(BM25F(), "BM25F"),
- 	(Doc2VecModel(), "Doc2Vec"),
-	(SentimentWeightingModel(), "Base Sentiment"),
-	(AdvancedSentimentWeightingModel(), "Advanced Sentiment" ) 
-	]
+        (BM25F(), "BM25F"),
+        (Doc2VecModel(), "Doc2Vec"),
+        (SentimentWeightingModel(), "Base Sentiment"),
+        (AdvancedSentimentWeightingModel(), "Advanced Sentiment" ),
+        (SentimentWeightingModelWeightedAverage(), "Base Sentiment Weighted Average Based"),
+        (AdvancedSentimentWeightingModelWeightedAverage(), "Advanced Sentiment Weighted Average Based")
+    ]
     file_path = os.path.join("evaluation", "queries.json")
     
     with open(file_path) as f:

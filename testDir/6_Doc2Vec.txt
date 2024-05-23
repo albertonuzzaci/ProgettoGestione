@@ -1,4 +1,291 @@
-My partner and I are looking for a romantic getaway in Richmond upon Thames. We want an apartment rated at least 4 stars.
+My partner and I are looking for a romantic getaway. We want an apartment rated at least 4 stars.
 Doc2Vec
-	
+	File: 23998223.json 
+  id: 23998223
+  name: WINTER SALE  Romantic 1bed basement @ Notting Hill
+  description: Romantic 1bed flat with lots of natural light. (Private entrance) with a private patio in Prince's square W2 - Bayswater. Stone throws from Hyde park at a really reasonable price. Clean and safe spot in the heart of Central London. Quiet and peaceful atmosphere area.<br /><br /><b>The space</b><br />Bathroom ceiling is only 6'5 !!! Facility for up to 3 people. Single air bed provided for a 3rd guest. The apartment, which is fully furnished, consists of a large studio room with a comfy bed and a very comfy sofa, LARGE separated kitchen with dining area and a Tassimo coffee machine. Kitchen is fully equippedBEAR in mind that this is a basement flat and the bathroom ceiling is only 6'5 tall. Great size bathroom with a bath.<br />This wonderful property is in amazing location in the heart of Queensway/Bayswater, within a short walk of both Hyde park and  fashionable Portobello Road. <br />The nearest underground station is either Bayswater (Circle and District lines) or Queensway (Central 
+REVIEWS:
+
+->Just brilliant - stayed 4 nights, felt like home
+->Great location 
+->Excellent flat very close to hyde park. The place is good for couples - nice and a little bit small bedroom with TV, fully equipped kitchen, and bathroom. The shower is really low so has to pat attention. good heat, no noise in bedroom. 10 min walking from circle and central line so really good access to the center. there is tesco nearby and some nice pubs  in area. you also can go to portobello market - 15 min walking. Jihanne made it easy to check in and always available to help. Really good value for money.
+->The flat was really nice and cosy and the location is great and zentral, we could reach everything!
+->Very nice room and good facilities. Good quality of tissue paper.
+->Very cosy flat and very well situation to discover all you want ! I will come back <br/>Jihanne is very reactive to have us a good stay !
+->Stay from this inhuman and heartless host! I dont understand why this home is still in the listing. She cancelled the reservation and made me to move out in the middle of the stay without giving me any time to find another apartment. I had the worst time in London because of this Airbnb host but Airbnb is doing nothing to amend this. In order to prevent the same situation from happening, this home must be taken out immediateiy from Airbnb.
+
+File: 53030230.json 
+  id: 53030230
+  name: Romantic One Bedroom in busy Angel lovely views
+  description: This is a lovely one bedroom apartment in busy Angel with local bars and restaurants. Located centrally, the apartment is 3 stops from Oxford Circus. Here you will get the best views of London, literally all my friends pass by to take photos of the city from this highlevel.
+REVIEWS:
+
+->A very comfortable, warm apartment with great city views. Well equipped kitchen with lots of  condiments, teas and coffee etc. Easy access using the key safes.<br/>The parking was fine at the weekend and overnight but it is worth checking with Tina what the situation is on weekdays. <br/>Good communication from Tina who was always available on WhatsApp or Airbnb if we had any questions. <br/>We very much enjoyed our stay and were glad to be her first customers.
+->Great location-close to shops, tube and lovely parks. We will stay here again!
+->Great host, excellent location. Thank you.
+
+File: 53655087.json 
+  id: 53655087
+  name: Central & Romantic Room with Queen Bed & Open Bath
+  description: Beautifully presented throughout, this stunning 2 bedroom house benefits from generous bedrooms, 2 en-suites, well equipped open-plan kitchen and an excellent location. Step inside a well presented and modern home, perfect for a family or friends meeting in London. Located in well-connected Pimlico with generous private space as well as a charming living room.<br /><br />You will live in the  master suite with king bed and open plan sink and bath offering ultimate relaxation, and romantic atmosphere.<br /><br /><b>The space</b><br />LIVING AND EATING <br />The flat has been luxury and modern interior design to an extremely high standard. Personal touches and English charm set amongst a neutral palette design make for a light, welcoming living room. This room has an opened planed kitchen with full equipment and a dining table which can be seat for 6-8 people comfortably. It’s a perfect place for sociable cooking and dining . You will also find microwave, plates and cups, perfect for qui
+REVIEWS:
+
+->The absolute highlight of my AirBnB experience.<br/>The best choice for first-time visitors to London ( and of course if you are familiar with London there is no need to explain how convenient the place and how fair the price is ) Jiawei is a multilingual super host with an enthralling life story. This will undoubtedly be my top choice in the future  下次一定还来 ～～<br/>Overall <br/>- incredibly secure place,<br/> - close to everything in the city, 3 minutes' walking distance to metro <br/>- my favourite sainsbury nearby <br/>- a wonderful spot for outdoor exercise as well <br/>- most importantly, good design and vast inside space
+->Great location, easy check in, prompt replies from the host.
+->Joel are very kind and chatty, the house is clean and the space is large, the location is also very good, I feel very comfortable living here, I will want to stay here again next time, I think the price is very good than staying in a hotel!!!!!!
+->The host is very responsive and supportive，the location is great！<br/>Two things to keep in mind：1） There is no showing facility （only bathtub，and it's in the bedroom on the carpet）2. The temperature of the hot water from the tub i<br/>was not consistent，sometimes it became cold and last for a while （after only 11 minutes ）<br/>Overall happy with the location and service.
+->Y sitio tranquilo cómodo y muy bonito, el mejor lugar para hospedarse en Londres
+->Great stay
+->We’ve had an amazing 3 day stay and the room sounded almost too good (cheap) to be true. However everything was exactly like in the description and the hosts have been very responsive! Would totally stay here again!
+->위치가 좋았습니다.
+->Good
+->We really enjoyed our stay here. The location was great - able to travel to different places easily. The place was clean, homely and had everything we could possibly have needed. <br/>We would have been more comfortable with the stay if we had some cover for the bathtub to provide more privacy. <br/>On the whole, we really enjoyed our stay here and were grateful to our hosts!!<br/>Thank you!
+
+File: 19099079.json 
+  id: 19099079
+  name: Romantic getaway in Soho, in the heart of London
+  description: Cozy and elegant pied-à-terre, conveniently located in the very heart of central London, just a few steps away from major touristic attractions.<br /><br /><b>The space</b><br />The apartment features one bedroom, a kitchen/living room area and an en-suite bathroom. Amenities include 48'' Smart TV, 5.1 home theatre system, dishwasher, washing machine, dryer and complimentary wi-fi internet access.<br /><br /><b>Guest access</b><br />Ideal for a couple looking for a romantic getaway in one of the world’s most beautiful cities.
+REVIEWS:
+
+->Really nice, clean flat in v hip neighbourhood.  Great way to see the lively side of London.  And the double glazing keeps it quite if you don't like noise.
+->Great choice
+->Dario is an excellent host!  I loved the flat which is centrally located in Soho in the BEST location!  I was sad to leave.  Communication was great, flat is on the second floor and private.  Bright and lovely.  I would go back in a heartbeat.  I recommend this to anyone who is interested in experiencing Soho and wants to be in the true heart of it!  
+->Lovely place! Great location! Amazing and helpful host! Definitely recommending to all of my friends!) <br/> 
+->Dario's flat is wonderful. He has great communication and sorted out check-in and check-out easily. The location is incredible. I have been to London many times and would love to stay here again. Dario is a great host.
+->No way to stay more centre than in this nice cosy place. Convenient for two people and also if u wanna stay a night in with the kitchen to cook and the big TV. The communication with Dario was very quick and nice. I recommend this !
+->I had a great stay at Dario's place, the location is just incredible and I was really impressed with how central it was to everything I wanted to do. The apartment itself was fairly spacious as well, I would definitely stay here again!
+->Fantastic place, just right for a modern and stylishly clear romantic pad in the heart of Soho.
+->The location of this flat is amazing! Dario provided such great instruction on everything in and around his flat. He is a great host. We would definitely stay here again!
+->Great central location in the middle of soho. 
+
+File: 7455393.json 
+  id: 7455393
+  name: A rare mews apartment in Victoria
+  description: Come to London and stay in a mews 15 min away from Buckingham Palace! Tucked away down a cobbled street and a stone's throw from Sloane Square and Victoria station - this is modern open plan living with a romantic edge. 100 sqm., fully refurbished<br /><br /><b>Other things to note</b><br />We'll leave a bottle of champagne for you to enjoy in the fridge.
+REVIEWS:
+
+->From the original contact it has an amazing experience. Very prompt with replaying to emails and texts. The house was in great condition and was very central and easy to get to transportation routes. I would recommend this flat for anyone coming to London.  
+->Fantastic apartment in a fantastic location. Super super amazing. Evgeniya provided good tips for where to eat: we fell in love with Pimlico Fresh.<br/><br/>Don't stay here if you don't like cats since you will be cat-sitting as well. <br/><br/>And before you book make sure and get confirmation from Evgeniya that their flat has been de-fleed since we got cat flee bites.<br/>
+->What a Beautiful home, I felt like I was staying in a 5 star hotel! <br/>Evgeniya, was a friendly and accommodating host. I stay in London often, and this was definitely one of, if not the, nicest places I have stayed. It was also lovely to have their very friendly cat, Rita, purring around, as it made me feel quite at home.<br/>I look forward to going back.<br/>Thanks again :)
+
+File: 40894753.json 
+  id: 40894753
+  name: (BP) Deluxe One bedroom Apartment, Camden London
+  description: PLEASE READ BEFORE YOU BOOK -<br />We do not allow ANY PARTIES or GATHERINGS, NO additional visitors or guests are allowed into the apartment. This booking will be for 2 guests only.<br />(21 yrs and older booking restriction)<br /> <br />Our Deluxe 1 bed Apartments are spacious and comfortable.<br />Decorated with designer features & high end furniture, the decor is simple and slick to create a sense of comfort and style. <br /><br />The Bedrooms are large with build in cupboards, UK King size bed with ultra comfy bedding.<br /><br /><b>The space</b><br />Our Deluxe one bedroom apartments  large and are a stylish choice where decor & comfort are paramount. <br /><br />For 2 guests only - The apartment is perfect romantic birthday or couples Valentines day get away.<br /><br />Each apartment is uniquely decorated and laid out, so none look alike and each come with their own personality, quirks and distinct feel.<br /><br />Apartment 16 is the perfect romantic couples retreat - it is su
+REVIEWS:
+
+->Beautiful clean place
+->Had a fantastic stay!
+->Beautiful apartments, super clean fresh and modern! Great location but no outside noise atl
+->Better then what is pictured. <br/>Communication from Mirabilibs Apartments employees were extremely friendly: Kerrie, Wilson and one other gentleman (who helped us check in) were immediate to reply with a great attitude. <br/>The apartment is clean, sleek, modern and romantic. <br/>I was completely heartbroken to leave the shower and bed behind. <br/>Zero noise disturbance from having the windows open or using the air-con as well as a fully equipped kitchen, perfect dining table + chairs and a sofa with a excellent sized smart TV. <br/>Camden market, supermarkets, shopping and restaurants are all a short walk away making it perfect to stay in or go out whenever. <br/>Beautiful apartment, fantastic stay; I hope to be back
+->Nice clean easy
+->Great modern corner flat. Sparkling clean, very comfortable, unusually for London has air conditioning. Andrew the host was very attentive and helpful. Will consider for my next city stays for sure
+->Enjoyed my stay at Mirabilis, Andrew was a great host. Spotless and clean apartment.
+->My partner and I rented a Mirabilis Apartment to celebrate his 30th birthday. We had a fantastic stay! <br/>The apartment was sparkling clean which we appreciated during these troubling times. The apartment is modern with cool technology, access to a smart TV and very spacious. The apartment was cosy, safe and quiet. <br/>The apartment has a great location so it is easy to uber and get a tube around London. <br/>The hospitality was fantastic! Andrew was sooo helpful! He responded quickly and added a sweet and thoughtful touch to mark my boyfriends birthday. He was readily available and happy to help even with our frivolous requests! <br/>Definitely would come back and would recommend as a great place to stay!
+->Thoroughly enjoyed my stay at Mirabilis Apartments. The apartment was beautiful! Sparking clean and spacious throughout with modern amenities including a smart tv, Nespresso machine, waterfall shower and centralised lighting system. Despite the central location, there was no noise pollution and the apartment felt tranquil the entire stay. The hospitality is second to none, Andrew was absolutely fantastic providing quick communication and support to all our questions- even outside office hours. He kindly added a number of thoughtful touches to the apartment and was super friendly and helpful throughout. I would definitely recommend staying here and hope to stay again soon.
+->Great host! Very flexible, secure and clean!
+
+File: 51791303.json 
+  id: 51791303
+  name: Chic Studio Apartment in Pimlico & Westminster
+  description: Very traditional and stylish studio apartment within seconds from Pimlico Station with its great transport links. <br /><br />This beautifully refurbished studio apartment is an amazing choice for a short break in London, business trip or perhaps romantic gateway. <br /><br />The studio has recently been refurbished throughout and is extremely stylish. <br /><br />Very comfortable super king size bed, dining area for 2, kitchene, and very stylish bathroom with bath.
+REVIEWS:
+
+->Dimitry s flat is ideal for a long or short stay that s why I booked it in the past and I LL book it in the future. I like the flat because it has two parts: a small dining room and the bedroom adjacent. it is very clean and comfortable and has the added benefit if being 5 minutes from the station with a pub next door serving good food and drinks, two convenience shops that stay open latest night, a shop that sells alcoholic drinks and a cafe that opens early in the morning where you can have an English breakfast or just a coffee and a croissant. so you have all the comforts of home
+->Great location right outside pimlico underground station so was a dream to find and easy check in and out.
+->nice stay!!
+->The apartment is really cute. Great location, easiest check in and possibly the best shower!! . Dmitry is very friendly and everything went smoothly. The only problem is had was it’s on the fourth floor and not lift and lugging a baby, a travel cot a big handbag and a suitcase wasn’t the easiest. That aside, it was great! :)
+->Amazing stay for my one night trip. Very clean with cool additions like remote control skylight and bluetooth speaker in the bathroom mirrored cabinet. It was lovely and warm, close to the underground station and a pub & shops doors down from the apartment. Would definitely recommend.
+->Nice Victorian set up <br/>Right in the heart of London,  free street parking from 630pm to 830 am<br/>Self check-in and check out<br/>Nice heating.<br/>20 mins walk to the American embassy, where we had an appointment
+->After the first night here, I started itching and then when we returned to the room that next evening, the itching was very intense and my daughter and I saw a bed bug on the bed, we looked up what it was and quickly scooped up our belongings and went outside to then stand on the street and find a last minute booking at 11pm at night (with a child in tow). We checked in to another hotel and the itching became more intense and the bites became so huge and gathered together, and then my throat swelled up and I had trouble breathing. We called an ambulance and I ended up in a&e with an allergic reaction to a bed bug that had been biting me all night. I was there from 6am until 4pm and the doctors agreed I was bitten by a bed bug and I was having a severe allergic reaction and that had I not called an ambulance it could have been life threatening. The landlord has denied all responsibility and bearing in mind I live in a clean house and don’t travel, the bed bug came from this apartment and was brought in by one of the many travelers. I am traumatised. And just to add also, the towels are tiny and not big enough for an adult, there is no bath mat, the Matress protector had pubic hair and other dirt on it and there was no fitted sheet on top, just draped loosely over the protector. The carpet is filthy and the hospital said that bed bugs often live in the carpet of rental places. The landlord has denied all responsibility. He was told about it at 9pm at night so either had time to clean it, or didn’t look very well. But this is a bit of a horrid way to treat a victim and we certainly are shocked at the whole situation. Air bnb are also not taking this matter seriously. I’m traumatised not only by what has happened and what my daughter and I went through, and the fact that I was in a life threatening situation, but also by the way that this is not being Galen seriously and I am being blamed at bringing bed bugs in myself… don’t stay here because the landlord is really tricky and if anything happens you will have a big problem on your hands.
+->VERY good communication
+->The flat is small but in a very fun way! Great location right next to the tube with a wonderful little restaurant/pub next door! Be aware that the stairs on the way up are numerous and very skinny!
+->Very convenient location
+
+File: 49852638.json 
+  id: 49852638
+  name: (BP) Executive One Bedroom Apartment, Camden
+  description: PLEASE READ BEFORE YOU BOOK -<br />We do not allow ANY PARTIES or GATHERINGS, NO additional visitors or guests are allowed into the apartment. This booking will be for 2 guests only<br />(21 yrs and older booking restriction)<br /><br />We proudly present two tailor-made executive one-bedroom apartments, each perfect for the business traveller or a couple keen on a quirky place to chill before exploring the sites.<br /><br /> Individually designed either option comes with everything you need for that quick in and out trip.<br /><br /><b>The space</b><br />Each apartment is uniquely decorated and laid out, so none look alike and each come with their own personality, quirks and distinct feel.<br /><br />Apartment #16 is the perfect romantic couples retreat - it is super cozy and intimate and a great quirky space to cuddle up and forget the outside world, while still being a bright and light apartment throughout.<br /><br />The kitchen is a little smaller than the others so would be ideal
+REVIEWS:
+
+->The check in was warm, friendly and professional.<br/>The apartment was absolutely immaculate, with some lovely welcoming touches.<br/>Fantastic location close to the tube, Camden Lock and Camden Market.  Highly recommend it.
+->Lovely apartments. Great location would recommend.
+->We loved staying at this modern and stylish apartment for our weekend city break. Will definitely be back!
+->A beautiful modern apartment exactly as advertised.  Very well equipped and sparklingly clean. Comfortable bed and brilliant rain shower. I spent 3 days using the apartment as a base for work. Great location very close to the tube and nearby shops/restaurants. Support staff were very helpful. I plan to stay again.
+->It was an incredible stay at Mirabilis Apartments. Amazing quality, super convenient location and absolutely stunning apartment.
+->Second time I've stayed at the property: the location is ideal for my purposes, the apartments are quite attractive, immaculate, and very up-to-date: the bathroom in particular is stunning. Surprisingly quiet given the proximity to Camden High Street.
+->Clean , new feeling, well run - the whole building is serviced apartments. Comfortable, well located and very professional. Walking distance from st pancras. Quiet. Recommend for holiday or business travelers. Two minutes walk from the tube
+->Great location and clean flat.
+->Great location and friendly staff. Lovely interiors.
+->Amazing apartment. Spotlessly clean and well equipped. In a good location for exploring central London. Would definitely recommend
+
+File: 50430238.json 
+  id: 50430238
+  name: Beautiful 1-bedroom apartment in central London!
+  description: Enjoy a joyful experience at this centrally-located place. The apartment is located few minutes walk from the park and a minute away from the bus stop that will take you to Oxford street in a matter of 10-15 minutes! The place is amazingly located, close to coffee and bakery shop, restaurants in Notting Hill and walking distance to Portobello Road! Apartment is spacious with 4m ceilings!
+REVIEWS:
+
+->I absolutely loved Sophy's place: it's modern with beautiful touches, it has everything you might need during your stay including close distance to bars, restaurants, shops and public transport! Wifi is fast and reliable which is important when you work online. Sophy is a great host and her communication was amazing. I highly recommend Sophy's place.
+->Appartamento molto bello!funzionale ha tutto!Como alla metro e comunque non troppo lontano!
+->Sophy’s place was great. The apartment was nicely furnished, clean, and comfortable.  Close to a few grocery stores (Waitrose, Tesco, Sainsburys), lots of restaurants and pubs, and an easy walk to the Bayswater, Queensway, and Royal Oak stops. Sophy was easy to reach and added some personal touches that we appreciated.
+->We had a great time at Sophys place. The communication and check-in was great as well. The appartement is located in a nice area. Everything you‘d need is nearby and it‘s still calm. We would definitely come back a second time.
+->Great, thanks Sophy.
+->Had a really good time.<br/>The flat is really well located - Paddington is just a few minutes away. And it's really cozy there, too.
+->Loved my stay at Sophy’s place. Check-in was easy. The place felt like home. Clean, with a comfortable bed. The kitchen had everything I needed to cook good meals, and the living room felt spacious and bright. Sophy was very fast to respond and helpful.
+->Logement idéal et équipé parfaitement pour séjourner sur Londres !
+->We loved the area and the unit was roomy with enough space for the duration of our stay. We were grateful to share this lovely little spot in such a great area of the city.
+
+File: 25762666.json 
+  id: 25762666
+  name: Spacious One bedroom apartment in Fitzrovia
+  description: Spacious one bedroom apartment located on the 1st floor of a brand new development in the heart of Fitzrovia. The apartment is very modern and has all the latest gadgets and comfort, it is ideal for someone looking for a nice,clean and modern place to stay. <br />The apartment is located in the center on a very quiet street, it is perfect for someone visiting London as it is very well connected to all main transport hubs and within walking distance to Regents park and many other touristic attractions
+REVIEWS:
+
+->Fantastic property (newly renovated) in a great location. Thomas was very responsive to anything requested. Perfect for a business trip.
+->Loved this place so much I booked it again. Same superb experience as last time with Thomas always available whenever needed.
+->Loved this apartment so much, I didn’t want to leave. Highly recommended.
+->Uma palhaçada, não indico esses apartamentos, estava hospedada e caiu o teto segundo o anfitrião em decorrência de um vazamento no apartamento. Caiu o teto o mesmo solicitou para que eu saísse do apartamento , pois poderia morrer electrocutada, logo em saída me transferiu para um apartamento horrorosa em outro prédio e que não estava na plataforma.<br/>Não indico! Já fiquei em vários apartamentos Airbnb. Além de não ter cortinas na sala muito sol, secador de cabelo que não funciona para quem tem cabelo.<br/>A pior experiência de Londres e olha que viajo o mundo inteiro.
+->Amazing location. Close to few tube stations... very easy to get from 3 airports and reach all touristic attractions...many good restaurants and pubs around ... we came in december and outside was cold, but appartment very warm.. small, but comfortable  bed...in the night you hear ambulances as UCL hospital is near..so if someone has sleeping problems could be an issue...but central London is always noisy ... 3rd floor with narrow stears...so with a  big luggage and if obese person could be chalenging to get  in... we didn't use kitchen, but it seemed that has evrything...wifi very good. Shower's pressure could be better.. overall perfect place for a short stay... would come back again... exactly as on the pictures...ussually on airnb the  hosts make place to look bigger as in reality and this flat in reality looks bigger.. <br/>thanks Thomas!
+->Great location, friendly host.
+
+File: 32876772.json 
+  id: 32876772
+  name: Elegant Central Holborn Apartment with Porter
+  description: Newly listed, this bright and elegant apartment is in the vibrant heart of the literary and legal districts with Covent Garden, St Paul's and historic pubs and walks minutes away. A truly stunning central oasis  in a very desirable part of London. Located near Chancery Lane tube station, the apartment is exceptionally clean, quiet and safe with video intercom, cctv and a porter. With free high speed WIFI, the perfect base for a wonderful stay in London. A rare find.<br /><br /><b>The space</b><br />Video intercom entry, porter, cctv, with 24 hour shops, pharmacies, restaurants and takeaways steps away.<br />The open plan layout allows the sunlight to flow through the apartment making it very bright and spacious. The apartment has everything you need for your stay including<br /> ✓ Queen size bed <br />✓ Double Sofabed (sleeps 2) <br /> ✓ FREE high speed WIF<br />✓Dining Table <br /> ✓ Modern bathroom with bath and shower<br /> ✓ Dishwasher <br />✓ Washing machine and dryer <br />✓ Heat
+REVIEWS:
+
+->I stayed here for a month and was very glad I chose this apartment. Very conveniently located right in front of a tube stop and many bus stops, but also central enough to walk to most places if you prefer. The apartment is in a lovely quiet building and is outfitted with everything you need. Jen is an amazing host and I’m glad I got to know her while I stayed here.
+->Very nice and stylish apartment in the heart of London directly at Chancery Lane tube station. Very quiet as well as apartment goes to the back of the building. 100% recommendation.
+
+File: 12462198.json 
+  id: 12462198
+  name: Ilford Apartment for 2
+  description: A nice and cozy apartment for 2 people.
+REVIEWS:
+
+->Apartment is based in a hotel, good service. 15 mins drive from Sheesh restaurant, 5 min drive to Faces Nightclub.
+->A good value for money place to stay. Comfortable and clean. Good location for local sights e.g. Valentine's Mansion.
+->Good place within a hotel, good proximity to places to eat and relatively close to an overground connection to central London. We would stay here again as great value for money. 
+->Thank you for stay, great host.
+->Perfect Stay.
+->Great place for short stays! Thumbs up. 
+->Fantastic stay 
+->Had a lovely stay. Only problem we had was no curtains or blinds for the sunshine shining through the room. Apart from that it was great.
+->Nice enough hotel room. Didn't realise the kitchen was shard. But pleasant enough
+->Great service
+
+File: 693300.json 
+  id: 693300
+  name: Professionally Cleaned Aircon Apartment Earls Ct.
+  description: For non-smokers and maximum of two people only at all times, no pets, no guests, no parties. This wonderful bright apartment is very conveniently located for exploring London. With a high standard of modern fixtures and fittings, low voltage lighting throughout and offers a good standard of decor and stylish design.<br /><br /><b>The space</b><br />An exquisite apartment, with location to match in The Royal Borough of Kensington and Chelsea, central London.<br /><br />Transportation near the apartment: Bus, Train and Metro: Earls Court. 5 minutes walk (Piccadilly & district lines), West Brompton, 3 minutes walk. <br /><br />Super fast Wifi from a 100mbps fibre optic connection. Free and unlimited usage. <br /><br />This apartment accommodates two people sleeping in one bedroom with one 'Kingsize' memory foam mattress (150x200cm). The bed has no footboard.<br /><br />Bed linen for the sofa bed will only provided for bookings of three people. <br />There will be an additional charge for 
+REVIEWS:
+
+->an excellent apartment in a great location. well equipped and very comfy bed.<br/>ideal home form home.  <br/>    
+->This is a great option for a busy person (two).  The apartment is located 2-5 minutes  walk from 3 underground stops, major UK exhibit hall, plenty of restaurants and all sorts of shops and very cool pubs.  A Virgin Gym is 7 minute walk.  <br/>Peter was a caring host, after my inquiry about organic shops in the neighborhood, he had all the welcome basics for a snack and tea - organic!  That was very thoughtful!<br/>Apartment is minimalistic and stylish, but after all you have everything one needs for a long stay in London.<br/>
+->My three week stay was comfortable. The apartment was quiet. Being on the top floor there were no overhead footsteps. The kitchen was adequate with the necessary dishes, pans and utensils for quick and light cooking. The bed was comfortable with plenty of storage space. The heating worked well. The lighting is decorative, but would have liked more functionality especially at the dining table and in the bathroom where small pot lights don't provide bright general lighting. The living room is large, good for entertaining. Peter is terrific as a host. He is quick to respond to all questions. When we had a mechanical problem, Peter had it fixed within a few hours even though it was a Sunday and a repairman had to be called in. One drawback to this apartment is the stairs. Being on the top floor makes it quiet, but it also requires using the stairs to go up and down. The area is close to perfect with plenty of services and shops, including 24 hour shops, pubs, restaurants and one of the best locations in the city for tube and bus transportation connections especially if you're arriving from Heathrow.
+->We had a fabulous stay at Peter's lovely London apartment. We needed accommodation for around a month when arriving in London, before finding something more permanent.<br/><br/>The apartment is in a fantastic location and is an excellent base for exploring the sights of London. The local area is gorgeous, there are heaps of restaurants and cafes, a number of local supermarkets and excellent bus and tube links within easy walking distance. <br/><br/>Peter was a good host and accommodated our very early morning arrival time, had fresh croissants awaiting us and also provided a bottle of wine. He also kindly forwarded on some mail that arrived for us after we had vacated. <br/><br/>The quality of furnishings is high, the flat is light and the bed very comfortable. The kitchen has everything you need for basic food preparation. Because we enjoy cooking a lot we had to adjust to not having a dishwasher (not necessarily common-place in all London flats because of size) and not having a large oven. Peter has a good combi microwave oven which does the job - and we were still able to cook a full Christmas dinner! <br/><br/>The flat is exactly as it appears in the photos - modern, clean and welcoming.<br/><br/>Would definitely recommend a stay at Peter's place!   
+->I stayed in Peter's flat for three months and it was a good place to come home to. The first pic you see, the living room, is a great room to hang out in. It's half a block down from the main street so it's quiet, but there's a Starbucks on one corner and a classic English pub, the Pembroke, on the other, as well as a music venue, the Troubadour, just next to it. A brand new high-end supermarket, Marks & Spencer, is on the 5 min walk home from the Earl's Court tube station.<br/>Peter is a good host and never failed to have a quick response to my concerns. He would check in periodically and schedule a maid service if I wanted it. The kitchen is adequate, a four-burner electric stovetop and a powerful microwave oven. The mattress is comfortable. It's nice being on the top floor. The stairway is recently painted and remodeled.
+->We stayed in Peters apartment for 2 weeks during our visit to London in September.<br/><br/>We found the apartment to be great for our stay. Fast, reliable wifi, a comfortable bed and a washer / dryer combination machine were the aspects of the apartment which we valued the most.<br/><br/>The proximity to the Earls Court tube station, as well as grocery stores was also great.<br/><br/>Apart from a minor mix up with some lost mail and a spare set of keys Peter was a good host.<br/><br/>I would recommend anyone travelling to London to consider this apartment for their stay.
+->We had a wonderful time in this flat, which was very comfortable and located in a great neighborhood close to great pubs, a wonderful Italian restaurant, Starbucks, and a great little pastry shop. The Earls Court tube station is a 10 minute walk and connects very conveniently to all the major lines. The flat is roomy, tastefully decorated, and very comfortable. There is lots storage space.  Peter was very helpful and accommodating. The only drawbacks that we found, minor in comparison to the positives, are that there is no oven and not much lighting in the living room. Overall, we were very happy and would recommend the flat to others. 
+->Peter was very helpful in showing me around the apartment as well as being very detailed with the appliances throughout the apartment, such as the how to use the washing machine, the T.V, and the wifi. The apartment was very accurate to what the description. The neighbourhood is very quiet and is only a two minute walk away from earls court road where you can enjoy a number of places to visit. 
+->Peter me recebeu super bem no começo, foi super prestativo com tudo e esteve sempre presente. Apenas no fim fiquei com o sentimento de ter sido convidado a me retirar do apartamento, lembrei um pouco aquela época que ficava em hotéis. Três pontos de atenção que considero importante para uma pessoa que irá ficar neste apartamento: você terá bastante escada para subir com mala pesada (assim como a maioria dos prédios em Londres mas tem que ser lembrado), minha impressão é que o apartamento nas fotos parece maior do que realmente é, por fim, não tive uma boa experiencia com a região de Earls Court, tive minha carteira roubada no caminho do metro Earls Court até o apartamento, o policial falou que esta região tem muito pickpocket.  Pontos positivos, uma cozinha super bem equipada, uma sala confortável com boa televisão e som, internet wifi rápida para quem precisa trabalhar é excelente, tabua e ferro para passar rouba disponível,  uma Starbucks do lado (para os viciados em café como eu... )
+->Peter was a fantastic host and very helpful throughout my stay.<br/><br/>I was given detailed instructions on the apartment and its appliances upon arrival and even had a bottle of wine waiting for me in the fridge! The flat was also in a great location, only a couple of minutes walk from the nearest station. <br/><br/>My experience was so great in fact that I extended my stay for a few more weeks. Having moved to London for a new job, Peter and his apartment definitely relieved some of the stress of moving to a new city. 
+
+File: 45279545.json 
+  id: 45279545
+  name: Modern and bright Stoke Newington flat with a view
+  description: Lovely modern and bright flat on a quiet street in the heart of Stoke Newington! Located on the top floor of a renovated building, you will enjoy stunning views of London. The flat is on the corner of Church Street with all its hip cafés, restaurants and shops. 7-min walk to the beautiful Clissold park, 1-min from the romantic Abney Park. It is 7-min walk from Stoke Newington Station where you can reach Liverpool Street Station in 15 minutes.<br /><br /><b>The space</b><br />-Extremely bright with large windows in each room that you can fully open<br />-Modern flat with new home appliances<br />-Large living room <br />-Large bedroom<br />-Bathroom with bathub
+REVIEWS:
+
+->I loved Jean-Loup's place! A modern 1 bedroom apartment, with gorgeous views of London and a spacious kitchen/living area.  Very clean and well kept! There's lots of lovely cafes in the area too, I would definitely stay again.
+
+File: 4238813.json 
+  id: 4238813
+  name: Romantic flat near central London zone 2
+  description: Beautiful flat in Willesden Green on the Jubilee line and 20 minutes to centre of town. Access to large garden shared with friendly neighbours. Old four-poster bed in bedroom. Cosy book lined living room. Child friendly (but cot not included!)<br /><br />A very sweet and gentle cat lives in the house so cat lovers only!
+REVIEWS:
+
+->Perfect location on the fast jubilee line into town. Beautiful secluded spot with a brilliant garden space. Charlie bailed me out last minute when another Airbnb cancelled last minute. Hugely accommodating and excellent communication. Thanks Charlie!
+->Lovely stay at Charlie's flat - she was really helpful in advance of my visit and provided all the details I needed, including helping with parking.  The flat is lovely and in a great location - Charlie even called to check everything was ok.  I would definitely stay there again and would highly recommend it! 
+->Charlie was a fantastic host! She spent time recommending restaurants for my boyfriend and I, she gave us easy to follow directions and when we arrived were given the keys by a very friendly and welcoming neighbour! Charlie took the time by making us feel very welcome with a personalised note and chocolates and giving me a call to ensure everything was okay for us! The flat was beautiful and advertised exactly right- very romantic and cosy! I loved the four poster bed and the decor is quirky and fun making me wish I could stay longer! Thankyou Charlie for a wonderful stay and making my birthday very special! 
+->Had a great week in Charlie's flat. It is exactly as listed and was lovely inside. Great transport links into central London, had a supermarket, pub and a couple of cafés within walking distance too. Charlie was kind enough to leave us some milk and made contact on the arrival day to ensure all was ok. Loved having a cat as a visitor, made it feel even more homely. Would definitely recommend a stay here to anyone. Thanks 
+->Charlie made us feel truly welcome with milk and tea and a brilliant, concise and personalised listing of how everything worked and where everything was. The apartment itself is stunning. Beautifully decorated  and clearly loved. It is easily found and in a gorgeous old building. The private gardens are wonderfully calm and well-kept and it's just a stone's throw from the Tube and loads of bus routes. Charlie was extremely flexible with arrival and departure times which is always a relief. My only regret is that Whisper the cat didn't pop in for a visit! Thank you Charlie for sharing. Emeline & Adrian
+->My boyfriend and I had a brilliant stay at this apartment and was made so special with Charlie's help. The apartment is well looked after and really does provide a little romantic getaway. The location is great for seeing the city and getting to nearby restaurants. Charlie did ask if we minded if her cat was around and we said that was fine which was lovely to receive a little wake up call each morning. Overall really good experience with a very helpful host! 
+->We had a wonderful weekend in London! Charlie was really accomodating and went above and beyond to help with the booking, our stay and tips for the area, even though we didn't get to meet. Distance to the centre is great (I'd say you get everywhere in half an hour), tube nearby. We flew in to Luton, which has a direct trainconnection to Chricklewood, approx 10 min walk from the house. The appartement is romantic/cosy and a pleasant place to stay. The cat kept sort of a respectful distance, just came in for a curious glance, probably sensing we're not catpeople. Charlie made it clear we could lock her out if we wished, but we rather enjoyed her presence in the end :)
+->Had a great stay at Charlie's place and would highly recommend it for a genuine airbnb experience.  The property description is accurate and Charlie was a competent and thoughtful host especially as she was hosting at a distance.  The flat has been lovingly decorated, is supplied with essentials, and is a comfortable home away from home.  Whisper the cat was well behaved but Charlie did make clear she is an optional visitor.  The flat is close to local amenities, including a great Indian restaurant, and good transport links.  Perfect for a romantic get-away or comfortable short-stay in London.
+->Beautiful flat! Warm and cosy, and charlie really made us feel at home. We didnt get to meet but she gve perfect directions and checked up to make sure things were going well. Highly recommend this airbnb flat!
+->My expectations were surpassed when I arrived at Charlie's lovely flat in the Alexandra Mansions. It's a truly unique space with interesting pieces throughout, and a fabulously stocked wall of books!<br/>Charlie was a really relaxed host and made sure me and my boyfriend had all the information and reassurances we needed to facilitate an easy stay.
+
+File: 33605274.json 
+  id: 33605274
+  name: Brand new luxurious 2-bed apartment (entire space)
+  description: This brand new, luxuriously styled 2-bedroom apartment offers perfect comfort for a couple or friends traveling together. <br /><br />Situated in a newly completed (2019) residential apartment block, only a 10 minute walk from nearest metro (Colindale - Northern Line).<br /><br />Free parking on premises.<br /><br />Ideally located within easy reach of Central London:<br />20 min metro ride to King's Cross. <br />20 min drive to Regent's Park / Marylebone<br /><br />Airports (by car):<br />Luton - 30 min<br />Heathrow - 45 min<br />Stansted - 45 min<br /><br /><b>The space</b><br />This brand new apartment offers ideal living comfort in a luxurious setting. Situated in a new residential complex, completed in 2019. Easy reach to Central London by public transport and car. Located in a residential area, combining best of both worlds: easy reach to airports and city centre, while providing residential living conditions and lively neighbourhood community.<br /><br />Amenities:<br />- Nespr
+REVIEWS:
+
+->Svetlana is the best host ever!!! She responded quickly to every msg. She made everything so easy for me and my newborn baby. The apartment is squicky clean, and beautifully styled. I recommend 💯... cldnt have picked a better place!!!👌 thank you Svetlana! Miss your home already 😂
+->Excellent host, and lovely property. Everything was as expected. we only had to arrange for parking which we expected to be available in the package according to the property description, however, that was not the case when we checked in as building parking circumstances had changed more recently but the property description had not. All alternative options were not suitable due to guest mobility issues but we were able to make alternative, private parking arrangements with the hosts assistance. The host was gracious enough to add complimentary maid services for the misunderstanding and that was very much appreciated. Thank you Sven! I wouldn't hesitate to book this property again in future visits.
+
+File: 7898874.json 
+  id: 7898874
+  name: 1 bed flat - 2 min from Kings Cross/Saint  Pancras
+  description: Clean, stylish and v.comfortable. Brand new flat with a spacious bedroom, kitchen, bathroom & living room.<br /><br />The apartment is located at the heart of central London i.e. 2 min walking distance to Kings Cross St Pancras. 2 minutes walking distance to Tesco and Sainsbury's. A lot of restaurants, cafes & shops around (Pizza Union, Five Guys, Burrito Cafe, Starbucks, Pret)! 5 minutes to the British Library. 8 minutes walk to Euston/ Angel. 15 minutes to the Brunswick Shopping Centre/ Russell Square.<br /><br /><b>The space</b><br />Our stunning Victorian apartment is on the ground floor of the residence. It offers a spacious bedroom with high ceilings, a romantic and modern bathroom with a bathtub, a modern kitchen with integrated appliances and a smart and comfortable living room.<br /><br />As for bedding arrangements, our apartment has a one bedroom with a double bed for two people. In the reception room there is a sofa.<br /><br />Synopsis:<br /><br />★ Our stylish flat is sit
+REVIEWS:
+
+->I really enjoyed Rama&Alioune's apartment. Located near King's Cross station you can easily get to anywhere you want. The place itself is very cozy and feels like home. The neighbourhood is very lively with many restaurants and cafes located near the flat.
+->My stay has been great! I've not met Rama & Alioune, but they gave clear instructions on to where to get the keys so there were no problems whatsoever. The flat was at a perfect location, clean and it had everything we needed for our stay over the weekend. It is located at quite a busy area, but we did not experience any noice disturbance at night. I would definitely recommend it. 
+->Nice location, very central, with supermarkets around.
+->Very good experience. Many thanks both.
+
+File: 16063133.json 
+  id: 16063133
+  name: Holborn - Red Lion Street - 1  bedroom apartment
+  description: This fine London accommodation features fully-fitted kitchens, wooden flooring, handsome leather furniture, spa-style bathrooms and plush bedding. All apartments have a shower and bathtub. Free Wi-Fi, in addition to 42” Smart TVs, are standard across all of our serviced apartments. Photos are representative of a typical 1 bedroom apartment.<br /><br /><b>Other things to note</b><br />Photos are representative of a typical 1 bedroom apartment.
+REVIEWS:
+
+->Great central location. Very functional and clean apartment. While it was not a problem for us at all you should be aware that this particular apartment #6 is on the 5th floor with no elevator. Again, we were fine with it.
+->nice and cosy apartment ! <br/>the down side is just there is no lift inside the building.
+->Nice 2 bedroom apt in great location.
+->A convenient and comfortable apartment in Holborn, much recommended!
+->Thank you for the great room.<br/>Near by the central, very clean and quiet.
+->The flat had plenty of space with 2 double bedrooms and an open lounge. My favorite was the wall of windows in the lounge/kitchen, which let in lots of natural light and fresh air. It was easy to get in and out of the building and apartment with codes instead of a key, wifi was fast, and the dishwasher & washer/dryer were nice to have for my longer stay. Regina was a bit slow in communication, but the Flying Butler team, who manages the flat, were very responsive once they were in touch the week before my stay. It was also nice to have cleaners come mid-week! Overall, a great flat, and I would stay there again.
+->エレベーターはありません。<br/>荷物の受取は可能です、チェックインは机の上の端末で行います。シャンプー・リンス等は数日分はあります。オーブンを使うと、火災報知器がなる可能性がありますので、必ず換気扇を付けた状態で行いましょう。
+->Great location: central enough to be near the main attractions and subway lines while quiet enough to enjoy your stay in the apartment
+->I booked the one bedroom which happened to be Flat 4. I did not know at the time that the online pictures were a representive of multiple suites. So, the suite was not what I expected. After voicing my concerns, they moved me to another flat the next day, Flat5. The representitve who came to check me in to the other flat was very nice and helpful. They have cleaners who come once a week on a specific day. <br/>The apartment is in a great location close to the Holborn tube station. There are also plenty of restaurants on the street.
+->这个公寓非常好，设施完善干净，空间足够宽敞，非常建议入住，但是没有电梯，如果行李重，需要费很大力气提上去。
+
+File: 44585797.json 
+  id: 44585797
+  name: NOX Kensington, Double Apartment
+  description: Double Apartment with one Double for two people.
+REVIEWS:
+
+->A great stay!
+->Very nice, very good value for money and easy check in
+->Such lovely and clean place, we loved it 😊
+->Great stay
+->Outstanding stay! Staff were lovely and the apartment was everything we needed. Highly recommend! Great location too!
+->Excellent place
+->We enjoyed our stay at 88 Studios. It was ideally placed for our visit to Kensington Palace and to explore Notting Hill. The room was as described, clean and well equipped.
+->Nice.
+->Room was very small, not at all like the pictures, was supposed to check in at 10am but was told we’d have to come back for 1pm because our room was occupied but was not told anything about it prior. The room is alright, was clean and modern but wouldn’t be able to stay more than a night. Very much like university accommodation.
+->Amazing location, the place is better in person! Definitely recommend
+
+File: 50841384.json 
+  id: 50841384
+  name: The Chelsea Apartment by House of Kip
+  description: When it comes to elegance and grace, one bijou home stands apart – and it’s slap bang in the middle of everything! Tucked in a private gated development on the King’s Road, The Chelsea Apartment is stylish and reassuringly serene. There’s a suggestion of blue's to the sitting room, while the crisp white walls and Scandinavian contemporary wall art lend effortless flair. So, lie back and let those shopping bags drop, or slip on your Manolos and make the most of a truly sparkling location.
+REVIEWS:
+
+->Great location. Small but functional and aesthetically pleasing pad.
+->Place quite small, but clean and visually appeasing. Good communication and all, no problem on that end. The water pressure in the shower was quite bad. Also, the unit is located right on top of the courtyard entrance to the street so it catches a lot of noise with movement and closing and opening of the entrance door. Also on the first level facing the street, catching some of that street noise. Not ideal if you don't want to wake up early in the morning.
+->Great location.  Bus stop close to studio which was great for getting around. Short walk to Victoria and Knightsbridge. Wonderful walks up and down Kings Road. So many restaurants and coffee shops to choose from. Lots of places to do exercise classes. Studio has everything anyone would need, very modern & peaceful location and safe. Washing machine was brilliant. Communication with House of Kip was great. Chelsea in bloom was on so Kings road looked amazing. Would highly recommend staying in this studio.
+->Cute & clean. Loved it!
+->A very attractive place to stay, it’s small but very well designed. It’s position on kings road is useful, and communication with the owner were good.<br/>I look forward to staying there on my trips to london.
+->The apartment was too cold at night.
+->Good location on King's Road, but a bit far from the supermarket and the underground station. Luckily there are several buses at the doorstep.<br/>The apartment is generally good and clean, but the shower didn't work properly, even after being fixed twice, only drizzle water out of the showerhead. The quality of the show kit isn't good. A reminder to the next customer: ask the host if the show kit works properly before you check-in. <br/>The washbasin is very tiny, and could only use for washing hands. <br/>The response from the host is quick and prompt.
+->Great location and great space.  Would totally go back.
+->Place was overall really nice, just had issues with the check-in which is why we rate 4 stars instead of 5.
+->The location was great, however:<br/>1. There were used underwear by the side of the bed (still there when we left) which heavily questions the cleanliness of the place. <br/>2. There was a lot of dust/chimney debree by the chimney when we checked in. <br/>3. There was hair in the shower. <br/>4. The toilet sink was clogged. <br/>5. The garbage bin was broken (permanently open) so the room smelled badly unless trash was taken out daily. <br/>6. The shower did not function properly. <br/>7. The apartment is located right over the main gate of the block. The other tenants were not carefully closing the gate, allowing it to slam loudly and continuously waking us up over the night. The door mechanism must be adapted if one is to sleep in peace. <br/>While the apartment location is nice, for the price we paid we expected significantly more and are overall disappointed.
+
+
 

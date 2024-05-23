@@ -51,19 +51,6 @@ REVIEWS:
 ->I didn’t want to leave…and that’s the best sign of a great stay. Sam’s place offered everything important to me: central city location near a tube stop, comfy bed and sheets, spotless cleanliness, strong Wi-Fi, a soaking tub, and a kitchen with coffee. He is an excellent and thoughtful host; in fact he thought of everything before you need it. Top notch.
 ->The apartment is great and have a superb location. Sam was highly responsive and solved every issue we had.
 
-File: 22977389.json 
-  id: 22977389
-  name: 1-bedroom flat in Islington for 4, near St Pancras
-  description: Really nice one bedroom apartment in the nice Islington neighbourhood, calm and bright with a sunny balcony. Easy connections with central London (15 minutes walk from King's Cross/St Pancras station, one minute walk from Caledonian road and Barnsbury overground station, 10-15 minutes walk from Caledonian road and Highbury and Islington underground stations).
-REVIEWS:
-
-->Florence est une hôte attentive et disponible. L'appartement est très agréable, fonctionnel et à proximité de nombreux transports en commun pour rayonner dans toute la ville. Je recommande cette adresse.
-->Appartement très sympathique et confortable, idéalement situé et avec des hôtes attentionnés et prévenants. Propreté irréprochable.
-->Lovely and clean space, wonderful location!  Florence is lovely as well!Would definitely go back!
-->Lovely flat in a great neighborhood. Quiet for sleeping but near to buses, underground and overground. Florence went out of her way to respond to our requests. Would definitely stay there again.
-->The apartment is very nice and cozy! It lies in a perfect spot: it's within reach of the underground, overground, buses and lies within a walking distance to King's Cross station. The apartment lies also in a quiet neighborhood.  Florence was very nice and helpful. We would always choose her apartment again!
-->Lovely flat in Islington. Very clean and in good location close to public transport. Very quiet inside. We stayed with our kids and had a great stay.
-
 File: 46037429.json 
   id: 46037429
   name: Small Cosy room Near central London (Females only)
@@ -79,6 +66,19 @@ REVIEWS:
 ->Space is very clean and cozy, reflecting accuracy of the listing. Buse was friendly and accommodating!
 ->An extremely welcoming host... Very comfortable house... I felt at home... Surrounded by care and attention...<br/>I felt very comfortable, I had my privacy and they took care of me in a very kind and discreet way...<br/>The house is in a great location for transport and in my case it was convenient for the proximity to my work ... Quiet environment where you can find relaxation and tranquility<br/>The house has everything you need to feel comfortable
 ->Buse and her mother were very kind. The communication was very reliable and quick. I checked in in the middle of the night, and this was no problem. Wonderful was the turkisch breakfast to which I was invited very kindly. I felt almost like a family member.
+
+File: 22977389.json 
+  id: 22977389
+  name: 1-bedroom flat in Islington for 4, near St Pancras
+  description: Really nice one bedroom apartment in the nice Islington neighbourhood, calm and bright with a sunny balcony. Easy connections with central London (15 minutes walk from King's Cross/St Pancras station, one minute walk from Caledonian road and Barnsbury overground station, 10-15 minutes walk from Caledonian road and Highbury and Islington underground stations).
+REVIEWS:
+
+->Florence est une hôte attentive et disponible. L'appartement est très agréable, fonctionnel et à proximité de nombreux transports en commun pour rayonner dans toute la ville. Je recommande cette adresse.
+->Appartement très sympathique et confortable, idéalement situé et avec des hôtes attentionnés et prévenants. Propreté irréprochable.
+->Lovely and clean space, wonderful location!  Florence is lovely as well!Would definitely go back!
+->Lovely flat in a great neighborhood. Quiet for sleeping but near to buses, underground and overground. Florence went out of her way to respond to our requests. Would definitely stay there again.
+->The apartment is very nice and cozy! It lies in a perfect spot: it's within reach of the underground, overground, buses and lies within a walking distance to King's Cross station. The apartment lies also in a quiet neighborhood.  Florence was very nice and helpful. We would always choose her apartment again!
+->Lovely flat in Islington. Very clean and in good location close to public transport. Very quiet inside. We stayed with our kids and had a great stay.
 
 File: 12750168.json 
   id: 12750168
@@ -123,20 +123,6 @@ REVIEWS:
 ->Fantastic location next to many of the monuments London is known for, Nerea and Mika are absolutely amazing hosts
 ->Nerea was fantastic! I would 100% stay there again. The location was great- 10 min walk to Big Ben and close to coffee shops and food. Nerea was so helpful with directions and places to go. Such an ideal location. The room was very clean and provided everything I needed :)
 
-File: 17989962.json 
-  id: 17989962
-  name: Ivy | St James' | Pro-Managed
-  description: We are proud to present this beautifully designed and finished home in the secret heart of London. Being our most centrally located vacation rental, this charming apartment is perfect for couples wishing to explore our great capital.<br /><br /><b>The space</b><br />Living & Eating<br /><br />A very comfortable sitting room with dining table overlooks the art and antiques galleries of Bury St below. This room is very tastefully and comfortably furnished, and leads onto a beautiful marble-floored kitchen with all essential appliances.<br /><br />Bedrooms & Bathrooms<br /><br />This home has one bedroom with a UK king-size bed (5ft wide) and plentiful storage and closet space. Adjacent to this room via the hallway is the marble bathroom, intelligently and elegantly designed, with large shower stall and underfloor heating.<br /><br />Layout & Access<br /><br />The apartment is located on the second floor of the block, with elevator and stairs access. The home is set out over a single floo
-REVIEWS:
-
-->This is a beautiful, well-appointed, and comfortable flat on a rather quiet one-way street (amenities are quite nice and include a heated towel bar in the bathroom, lovely kitchen, plenty of closet space, very comfortable bed). The location is fantastic! - easy walks to Piccadilly, Covent Garden, St. James Park, Green Park, Buckingham Palace, Trafalgar Square, and close to Green Park metro stop and a Marks & Spencer grocer. The only issue we had was that the two buildings directly across the street are under construction so there was a cacophony of noise from erecting scaffolding, hammering, sawing, etc. but on most days we were out of the flat from pretty early in the morning until evening. I'd rent this flat again. 
-->Beautiful flat in quiet, secure building.   Outstanding location.  Small kitchen but suitable for breakfast and lunch or light dinner, if you want to take a break from all the excellent restaurants in the area.
-->My husband and I found the apartment just as depicted in the photographs. It was beautifully furnished, updated, recently remodeled kitchen and bath. Very clean. Ideally located. Guy and his team responded immediately to the few emails I sent during our stay (we requested additional towels and a late check out)--very professional. One draw back, the building across the street is under construction and work starts at 8am, six days a week.  We'd stay here again.
-->This cozy flat is a home away from home; carefully designed and appointed, beautifully decorated, clean, comfortable and secure. The amenities I most appreciated were the underfloor heating in kitchen and bath, the heated towel rail, comfy bed, miniaturized (only to those who haven’t lived in NY) but fully equipped and functional kitchen, and the building security (double locked entry, for women traveling alone). The flat is convenient to transport (tube and buses), a short walk to many landmarks and attractions, central to shopping, an excellent array of restaurants, handy local groceries (Sainsbury and M&S) and entertainment. It’s location is ideal. John, the resident caretaker, will look after you, offering help with suitcases, directions, the best local pubs, as well as stories of famous residents past! The Ivy Team were friendly, professional and responsive. Queries were answered promptly, instructions were always clear. They obviously took very good care of the property, and of me during my stay there. <br/>I’m renowned for my unfortunate timing, and this was no different. Building works were brought forward, the entire building was plastic wrapped, builders were on-site from 7am every day except Sunday. I’ve never met a quiet builder, and I still haven’t. However, when they are done the property will be even more appealing than it is already.
-->Beautiful apartment.
-->This was the perfect London experience! Beautiful apartment with great amenities and centrally located in the city. We had great communication with the staff and found the flat to be very well kept and clean with lovely accents. So happy to have stayed here!
-->Great location and lovely flat.<br/>Perfect size for two people in an incredible location.<br/>Could have used more towels and mornings were a bit noisy<br/>with delivery trucks, but overall a great place!
-
 File: 10609252.json 
   id: 10609252
   name: St Peter's Close - Near St. George's Hospital
@@ -153,6 +139,20 @@ REVIEWS:
 ->Wir haben uns in dem Appartement sehr wohl gefühlt. Es ist sehr gut ausgestattet und bietet ausreichend Platz für vier Erwachsene. Die Ausstattung ist hochwertig und relativ neu. Alles ist sehr sauber. Die Wohnung liegt in einer ruhigen Wohngegend im Süden von London. Die Anbindung an des öffentliche Verkehrsnetz ist relativ gut. Zur nächsten Metrostation sind es etwa 10min. Fußweg, mit dem Bus ca. 5min. Die Fahrt mit der U-Bahn in die City (Westminster oder Piccadilly Circus) dauert etwa 40min. Wer ohne Auto anreist sollte sich am besten eine Oystercard oder Travelcard zulegen. In der Umgebung gibt es einige größere Supermärkte und Geschäfte. Auch Restaurants und Bars findet man in der näheren Umgebung. Die Wohnung können wir auf jeden Fall weiterempfehlen.
 ->Apartamento limpio y confortable.A 5 minutos del autobus  que a su vez te dejaba este a dos paradas en la estación de metro Barrio tranquilo y lejos del bullicio
 ->Entorno tranquilo, ideal para el regreso de dias de vista a tope por Londres ciudad.
+
+File: 17989962.json 
+  id: 17989962
+  name: Ivy | St James' | Pro-Managed
+  description: We are proud to present this beautifully designed and finished home in the secret heart of London. Being our most centrally located vacation rental, this charming apartment is perfect for couples wishing to explore our great capital.<br /><br /><b>The space</b><br />Living & Eating<br /><br />A very comfortable sitting room with dining table overlooks the art and antiques galleries of Bury St below. This room is very tastefully and comfortably furnished, and leads onto a beautiful marble-floored kitchen with all essential appliances.<br /><br />Bedrooms & Bathrooms<br /><br />This home has one bedroom with a UK king-size bed (5ft wide) and plentiful storage and closet space. Adjacent to this room via the hallway is the marble bathroom, intelligently and elegantly designed, with large shower stall and underfloor heating.<br /><br />Layout & Access<br /><br />The apartment is located on the second floor of the block, with elevator and stairs access. The home is set out over a single floo
+REVIEWS:
+
+->This is a beautiful, well-appointed, and comfortable flat on a rather quiet one-way street (amenities are quite nice and include a heated towel bar in the bathroom, lovely kitchen, plenty of closet space, very comfortable bed). The location is fantastic! - easy walks to Piccadilly, Covent Garden, St. James Park, Green Park, Buckingham Palace, Trafalgar Square, and close to Green Park metro stop and a Marks & Spencer grocer. The only issue we had was that the two buildings directly across the street are under construction so there was a cacophony of noise from erecting scaffolding, hammering, sawing, etc. but on most days we were out of the flat from pretty early in the morning until evening. I'd rent this flat again. 
+->Beautiful flat in quiet, secure building.   Outstanding location.  Small kitchen but suitable for breakfast and lunch or light dinner, if you want to take a break from all the excellent restaurants in the area.
+->My husband and I found the apartment just as depicted in the photographs. It was beautifully furnished, updated, recently remodeled kitchen and bath. Very clean. Ideally located. Guy and his team responded immediately to the few emails I sent during our stay (we requested additional towels and a late check out)--very professional. One draw back, the building across the street is under construction and work starts at 8am, six days a week.  We'd stay here again.
+->This cozy flat is a home away from home; carefully designed and appointed, beautifully decorated, clean, comfortable and secure. The amenities I most appreciated were the underfloor heating in kitchen and bath, the heated towel rail, comfy bed, miniaturized (only to those who haven’t lived in NY) but fully equipped and functional kitchen, and the building security (double locked entry, for women traveling alone). The flat is convenient to transport (tube and buses), a short walk to many landmarks and attractions, central to shopping, an excellent array of restaurants, handy local groceries (Sainsbury and M&S) and entertainment. It’s location is ideal. John, the resident caretaker, will look after you, offering help with suitcases, directions, the best local pubs, as well as stories of famous residents past! The Ivy Team were friendly, professional and responsive. Queries were answered promptly, instructions were always clear. They obviously took very good care of the property, and of me during my stay there. <br/>I’m renowned for my unfortunate timing, and this was no different. Building works were brought forward, the entire building was plastic wrapped, builders were on-site from 7am every day except Sunday. I’ve never met a quiet builder, and I still haven’t. However, when they are done the property will be even more appealing than it is already.
+->Beautiful apartment.
+->This was the perfect London experience! Beautiful apartment with great amenities and centrally located in the city. We had great communication with the staff and found the flat to be very well kept and clean with lovely accents. So happy to have stayed here!
+->Great location and lovely flat.<br/>Perfect size for two people in an incredible location.<br/>Could have used more towels and mornings were a bit noisy<br/>with delivery trucks, but overall a great place!
 
 File: 18656953.json 
   id: 18656953
@@ -286,13 +286,22 @@ REVIEWS:
 ->A very disgusting experience. I booked an apartment months in advance with a very nice looking and location .<br/>The host (initially Samer) did not reply my messages one week before the check-in date. Later, a new host appeared as contact, Mo, with the same results.<br/>The day before, in the morning, I called directly by phone for instructions, and Mo told me there was no problem and he would provide them at 7pm. What I got then was an automatic message via the APP cancelling my reservation and offering another one in the same building. The appearance was considerably worse. I contacted AirBnB but, with good manners, they offered no solution at all. So, imagine my situation just hours before taking the plane with my whole family. Obviously, we had to take the new apartment offered (with a small discount),<br/>which was definitely very poor, and quite dirty. We did not even touch the kitchen.<br/>The only good aspect was the last contact offered, Nada, for the check in/out procedures.
 ->-
 
-File: 561569908310899814.json 
-  id: 561569908310899814
-  name: 1-bedroom apartment near Big Ben and the Thames
-  description: The apartment is located in a building just behind Tate Britain on the River Thames. It has a large open plan living area, a bedroom and a bathroom. There is a large private garden for the apartment as well as secure underground parking. The apartment is ideally located in Westminster, only 10 minutes from St James's Park, just a 5 minutes walk to Tate Britain, 15 mins walk to The Palace of Westminster & 5 mins walk to Pimlico Tube Station.<br /><br /><b>The space</b><br />There is a scaffolding around the apartment (some roof works until the end of June)<br /><br />This beautiful, modern apartment is the perfect size for a couple. It has all the amenities you would expect, including a comfortable double bed, TV, dishwasher, washing machine and shower bathroom. The apartment is on the ground floor. As you enter the property you are immediately struck by the combination of unique design and modern functionality. Walk into the open plan kitchen/dining/living room and you will not want to
+File: 15981821.json 
+  id: 15981821
+  name: Beautiful 2 bedroom apartment near Central London
+  description: This beautiful and bright apartment is in the heart of St John's Wood, which has a vibrant high street and is close to Central London! You will love the natural light that comes in through the tall windows from each room. With 2 bedrooms and 2 bathrooms, it's perfect for couples, families, a group of friends, or business travelers.<br /><br /><b>Guest access</b><br />Full access to apartment.<br /><br /><b>Other things to note</b><br />Travel cot is available - just let us know you need one when you book.
 REVIEWS:
 
-->The apartment is in an ideal location..close to big ben, and pimlico tube. Its very clean and has all the modern appliances , safe and secure.
+->Lovina is an exceptional host who has gone out of her way to make sure my parents were well looked after. 
+->Thank you, the extra time to get ourself organised with our kids was a huge help!<br/>Thanking you again and again....
+->The flat was lovely, right on top of the St Johns Wood tube station and close to the bus stop. Also close to St Johns Wood High Street. The Flat was clean and cosy. But the highlight were both Lovina and Derek - from the check in to the check out they were perfect! One day i lost the keys to the flat, it was late at night and we were wet, standing outside with the kids. Derek came over to let us in less than 10 mins!!!!
+->Lovina's place is perfect for a London visit. We were incredibly comfortable in her spacious, clean, light-filled apartment. The location is ideal, directly above the St. John's Wood tube station with easy access to the city and a lovely neighborhood to enjoy in its own right. Lovina greeted us upon arrival and explained everything we needed to know, and was very responsive when questions arose. Thank you and we hope to return! 
+->A lovely 2 bedroom apartment in a very convenient location.  We chose this location as it is in a lovely neighborhood with just the right balance of residential, availability of restaurants, and great access to bus and Underground. It is a wonderful neighborhood to come back to after a busy touring day.  The apartment is bright and lovely with great big windows for a wonderful breeze.  Lovina and Derek were superb before and during our visit; very responsive. <br/>Highly recommended and we would love to return one day!
+->Lovina's place is in a superb location, right next to St Johns Wood tube and a few minutes walk to lovely Regents Park. The flat is spacious airy and has everything you would need to make your stay extremely comfortable. Highly recommended!! 
+->What a great place to stay! Great apartment with lots of amenities. This place had every thing we needed and more. Great kitchen with washer/dryer. Had a few US/UK adapters as I forgot mine. very easy to communicate with before and during our stay. Lovina responded very quickly text. Easy access as keys were left in lock down. Great location, literally on top of tube stop. Nice quiet neighborhood within walking distance of shops and groceries. Be sure to eat at the Ivy! On Jubilee line with easy access to central London. If you ride Jubilee to Baker Street, there is a very easy change to Piccadilly line. I will definitely stay here again if available.
+->The flat was spacious and clean, just as advertised. Lovina was a great host - very responsive and friendly. She and Derek made things easy for us throughout the process from booking to check out. The proximity to St. Johns Wood tube station cannot be beat. It was so easy to get around to tourist attractions, and the High Street made for a great local neighborhood. Thanks Lovina and Derek!
+->Lovina’s apartment was perfect to explore London. The apartment was cosy and so convenient siting on top of the tube station on the Jubilee line. The apartment had everything in it we needed. I would highly recommend this apartment to others.
+->.
 
 
 

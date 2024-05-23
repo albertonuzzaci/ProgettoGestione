@@ -166,6 +166,31 @@ REVIEWS:
 ->Amazing host, very friendly, fast responses, thank you very much for hosting us.
 ->Even though we've never seen the main host Grzegorz, we lived together with friendly and hospitable family. :) <br/>Our room was clean and tidy, had towels and space in the fridge. Location is quite good - next to the bus stop and max 10 minutes to metro. The bathroom was shared but it didn't make any difficulties. The neighborhood also wasn't bad, we were very happy about big store next to the house. <br/>To sum up, we recommend this place for those who don't want big luxury and are looking for calm, clean, not expensive place to stay. In the end, it was even sad to leave this place :(
 
+File: 42263932.json 
+  id: 42263932
+  name: Small double room with double bed
+  description: Small double room well equipped
+REVIEWS:
+
+->Zaklina is a very nice and welcoming person. Her daughter was also really great with me. I recommend.
+->You'll have a small room there but it's absolutely enough for everything you need for a trip to London. Most of the time you have your own bathroom and everything is very clean!
+->Zaklina's home is super beautiful, comfortable and cozy. She is an amazing host and extremely kind. She immediately makes you feel at home and does everything in her power to make your stay as enjoyable and comfortable as possible. It is super easy to communicate with Zaklina and she is very helpful, very warm and very quick to respond. The neighbourhood is also lovely and beautiful, and easily connected to Central London by public transport. The Tube station is within walking distance and the area is full of great restaurants, cafes and shops. Even though my room was small, I very much enjoyed my stay, as I had access to an almost private bathroom, the entire living room and the kitchen (which included a dishwasher and a coffee machine with free coffee). It was also very easy to use the washing machine and the dryer (for free), which was very convenient. Overall, I loved Zaklina's home and will definitely try to stay there again in the future. I absolutely and very strongly recommend Zaklina's place to everyone who wants to visit London, for both short and long stays. Thank you very much, Zaklina, for being such a wonderful host!
+->Zaklina is a really kind host. Her smile is infectious. She also helped me a lot in different aspects of my daily life. The room is very clean, with tasteful furnitures. There is another equipped room in the garden if you prefer. It is 2 min walk from tesco and bus station, and 10 min walk from tube station. Will always miss her and recommend to all of you.<br/>Richard
+->Beautiful and comfortable house. Provided of everything you need. Zaklina is nice and welcoming, always available and ready to help. It was a good experience.
+->Jaklina is fantastic host, I enjoyed my stay in her house and felt very comfortable,the room has great space, kitchen is full of equipment and the house is super clean, Thank you jaklina for kindness.<br/>I hope to visit you soon.
+->Perfect house in great location, close to shops, restaurants, supermarkets, pharmacies, tube and bus stations and beautiful parks, with very hospitable and organized host. I truly recommend you will leave good memories for this place.
+->Zaklina was an excellent host. I recommend staying in her house.
+->I would give it a six out of five. A lovely and comfortable room, walking distance to the underground station, surrounded by supermarkets and shops, you couldn't ask for more. Zaklina became a good friend with me during my stay, she is beautiful, friendly, and very helpful. I highly recommend this house for however long you stay in London. You will experience a feeling of home here!
+
+File: 19636343.json 
+  id: 19636343
+  name: Double bed room with amazing view
+  description: Nice double bed room in a 2 double bed flat with amazing view of the city of London
+REVIEWS:
+
+->Very good place to stay in between Whtiechapel (good for transport connections) and Bethnal Green (good for bars/restaurants/parks)
+->Couldn’t fault it. Made me feel very welcome for my short stay. Would stay again
+
 File: 29759435.json 
   id: 29759435
   name: Warm friendly home with gorgeous modern room
@@ -182,31 +207,6 @@ REVIEWS:
 ->I would recommend Josephine's place to anyone looking for a reasonable room in a convenient location!
 ->This is a very good place to stay at during a weekend. I had a yoga workshop nearby so the location was perfect. The room is part of a nice big house.
 ->Comfortable room in a quiet house near the centre of Dalston.
-
-File: 19636343.json 
-  id: 19636343
-  name: Double bed room with amazing view
-  description: Nice double bed room in a 2 double bed flat with amazing view of the city of London
-REVIEWS:
-
-->Very good place to stay in between Whtiechapel (good for transport connections) and Bethnal Green (good for bars/restaurants/parks)
-->Couldn’t fault it. Made me feel very welcome for my short stay. Would stay again
-
-File: 42263932.json 
-  id: 42263932
-  name: Small double room with double bed
-  description: Small double room well equipped
-REVIEWS:
-
-->Zaklina is a very nice and welcoming person. Her daughter was also really great with me. I recommend.
-->You'll have a small room there but it's absolutely enough for everything you need for a trip to London. Most of the time you have your own bathroom and everything is very clean!
-->Zaklina's home is super beautiful, comfortable and cozy. She is an amazing host and extremely kind. She immediately makes you feel at home and does everything in her power to make your stay as enjoyable and comfortable as possible. It is super easy to communicate with Zaklina and she is very helpful, very warm and very quick to respond. The neighbourhood is also lovely and beautiful, and easily connected to Central London by public transport. The Tube station is within walking distance and the area is full of great restaurants, cafes and shops. Even though my room was small, I very much enjoyed my stay, as I had access to an almost private bathroom, the entire living room and the kitchen (which included a dishwasher and a coffee machine with free coffee). It was also very easy to use the washing machine and the dryer (for free), which was very convenient. Overall, I loved Zaklina's home and will definitely try to stay there again in the future. I absolutely and very strongly recommend Zaklina's place to everyone who wants to visit London, for both short and long stays. Thank you very much, Zaklina, for being such a wonderful host!
-->Zaklina is a really kind host. Her smile is infectious. She also helped me a lot in different aspects of my daily life. The room is very clean, with tasteful furnitures. There is another equipped room in the garden if you prefer. It is 2 min walk from tesco and bus station, and 10 min walk from tube station. Will always miss her and recommend to all of you.<br/>Richard
-->Beautiful and comfortable house. Provided of everything you need. Zaklina is nice and welcoming, always available and ready to help. It was a good experience.
-->Jaklina is fantastic host, I enjoyed my stay in her house and felt very comfortable,the room has great space, kitchen is full of equipment and the house is super clean, Thank you jaklina for kindness.<br/>I hope to visit you soon.
-->Perfect house in great location, close to shops, restaurants, supermarkets, pharmacies, tube and bus stations and beautiful parks, with very hospitable and organized host. I truly recommend you will leave good memories for this place.
-->Zaklina was an excellent host. I recommend staying in her house.
-->I would give it a six out of five. A lovely and comfortable room, walking distance to the underground station, surrounded by supermarkets and shops, you couldn't ask for more. Zaklina became a good friend with me during my stay, she is beautiful, friendly, and very helpful. I highly recommend this house for however long you stay in London. You will experience a feeling of home here!
 
 File: 35362639.json 
   id: 35362639

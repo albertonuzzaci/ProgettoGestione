@@ -1,4 +1,4 @@
-I need a budget-friendly room in Hackney for one person, with access to a shared bathroom and a rating of at least 2 stars.
+I need a budget-friendly room in Hackney, with access to a shared bathroom and a rating of at least 2 stars.
 Doc2Vec
 	File: 34851966.json 
   id: 34851966
@@ -42,6 +42,14 @@ REVIEWS:
 ->Communication was easy and the lockbox was easily located with photos. The room itself was clean. The front door key however was difficult and took a few tries to open each time as the door was quiet flimsy. You also had to lock it after you and in the event of a fire would have been difficult to exit quickly. The room itself is the hosts room and he stays on a sofa bed with a partition in the shared living area. I know that this is how some airbnbs are, but I do not feel that this was made clear in the description and we may not have booked it had we known. There was a lock on the outside of the door to the bedroom for when you leave but no lock on the inside. This did not feel safe and had I been a lone female traveller would have felt more comfortable if there was a lock on the inside for when sleeping, and if I couldn't be locked in from the outside. The surrounding area isn't great either so again probably isn't ideal if you were a single female. <br/>In general, if you need just a bed to sleep in for the night it is a cheap stay in London and the room is clean and towels were provided. Otherwise the advert needs to be clearer on the set up and I felt it doesn't meet the basic standards I would expect from an airbnb.
 ->Rafael is a very nice host. Great communication.
 
+File: 7754866.json 
+  id: 7754866
+  name: Cosy double room in Hackney Central
+  description: Cosy room in the heart of Hackney. A stones throw away from busy bars and restaurants in Hackney central itself, or a 15 minute walk or 5 minute train journey into Dalston. All local amenities, cafes, newsagents etc are all right on your doorstep.<br /><br /><b>The space</b><br />Small, cosy and clean room in a shared flat with my 3 best friends. All male, between the ages of 22-25. We are very busy and out a lot of the time, so you will have free reign of the property most of the time. All very friendly, social people, with keen interests in music, so don't be afraid to come and hang out or ask for any tips for things to do or places to go in the local area.<br /><br /><b>Guest access</b><br />You will have access to your room and the rest of the flat. Feel free to use anything in the kitchen if you want to stay in and cook etc. We have a bathroom upstairs, next to the kitchen, with the bath and shower room being downstairs, next to the room that you would be staying in.
+REVIEWS:
+
+->Everything was great!
+
 File: 15885957.json 
   id: 15885957
   name: 1 bedroom shared in fun hackney apartment
@@ -52,13 +60,13 @@ REVIEWS:
 ->Richelle and Josh are nice hosts. The flat is nice, but smaller than what is shown in the pictures. Close to public transit options and shops in Hackney. Has some corner store markets close by.
 ->Richelle and Josh are incredible hosts. They will make you feel at home and keep you up to date about all the cool events happening in the area.
 
-File: 7754866.json 
-  id: 7754866
-  name: Cosy double room in Hackney Central
-  description: Cosy room in the heart of Hackney. A stones throw away from busy bars and restaurants in Hackney central itself, or a 15 minute walk or 5 minute train journey into Dalston. All local amenities, cafes, newsagents etc are all right on your doorstep.<br /><br /><b>The space</b><br />Small, cosy and clean room in a shared flat with my 3 best friends. All male, between the ages of 22-25. We are very busy and out a lot of the time, so you will have free reign of the property most of the time. All very friendly, social people, with keen interests in music, so don't be afraid to come and hang out or ask for any tips for things to do or places to go in the local area.<br /><br /><b>Guest access</b><br />You will have access to your room and the rest of the flat. Feel free to use anything in the kitchen if you want to stay in and cook etc. We have a bathroom upstairs, next to the kitchen, with the bath and shower room being downstairs, next to the room that you would be staying in.
+File: 8032080.json 
+  id: 8032080
+  name: Spacious Double Room
+  description: Spacious double room in a large shared house 5 minutes walk from Dalston Kingsland.
 REVIEWS:
 
-->Everything was great!
+->That was amazing weekend in London! House is really nice and our room was very clean, guys are friendly and will always help if you have any questions or just want to know any nice places feel free to ask them! 
 
 File: 6781059.json 
   id: 6781059
@@ -68,14 +76,6 @@ REVIEWS:
 
 ->Very nice room in the london's suburb. Sam's roommate are really nice and your futur host will make everything for your have à good stay :-) <br/>Around 45min from the city and the tower of London by bus.
 ->Cool and nice! It was my first day of the trip in Europe in that I felt tired, but Sam prepared stuffs for us and his friend Brendan helped us a lot. The station Hackney Central is not far, and there are shops near the house so that people buy things well.
-
-File: 8032080.json 
-  id: 8032080
-  name: Spacious Double Room
-  description: Spacious double room in a large shared house 5 minutes walk from Dalston Kingsland.
-REVIEWS:
-
-->That was amazing weekend in London! House is really nice and our room was very clean, guys are friendly and will always help if you have any questions or just want to know any nice places feel free to ask them! 
 
 File: 9732483.json 
   id: 9732483
@@ -99,14 +99,6 @@ REVIEWS:
 ->Very good!
 ->Ivan and Nicole's place is located in a quiet neighbourhood, very cute and lovely markets and restaurants around the area. The room is a good size and Ivan and Nicole are very welcoming and easy to talk to. Oh and they have a lovely puppy that will make anyone smile.
 
-File: 13652979.json 
-  id: 13652979
-  name: Great double room in Dalston with sofa bed
-  description: Room in a shared flat just off Kingland road, right by all the bars and restaurants in Dalston. Very easy to get to central London as well.<br /><br />Room comes with shared bathroom and access to a kitchen. The double room also has a pull out sofa bed meaning it can host three or four people on a budget.
-REVIEWS:
-
-->Eine gemütliche, kleine Wohnung mit allem was man braucht in einem interessanten, sich gentrifizierenden Hipster Nachbarschaft. Sehr angenehm!
-
 File: 427936.json 
   id: 427936
   name: Boutique Room w/ Private Bath and Breakfast
@@ -124,46 +116,13 @@ REVIEWS:
 ->This was the best Airbnb experience so far! Carmen and her family were extremely nice and thoughtful. Room was perfectly prepared. Amazing separate bathroom (with fresh towels every morning), full breakfast, any imaginable snacks etc — every tiny detail was already considered, so we just felt us at home. Gorgeous apartment as well as the building and area itself... Well, this is just the finest Airbnb representation! 
 ->It was my first experience in airbnb. Excellent housting for my mum and sister.<br/>Carmen, Volker  and their children are welcoming, friendly and warm people. Carmen is really nice, funny and considered. <br/>My Mum and sister didn´t have any problem communicating with them  even though my family didn´t speak any english. (there were some funny situation)<br/>They made us feel at home, in confidence.<br/>My family really enjoyed and rested very confortably there, in a beautiful room with batroom (fresh towels every day) The flat is clean,spacious and brightly.<br/>The Location is perfect and easy acces to all areas of the city.<br/>100% recommend 
 
-File: 32341924.json 
-  id: 32341924
-  name: Master room in Shoreditch (Diss st 2)
-  description: Summary <br />Summary <br />This 'Large Double room in this newly decorated hous in the heart of shoreditch. Fully furnished to a very high standard. behind the famous Columbia flower market, 7 minutes to Old street and 10 minutes to Liverpool street. Moment's walk from BRICK LANE. If you're visiting London for holiday & you wish to tour around London this community will offer you the traditional English culture. we have arranged all our guest rooms with Towels, Crockery & Cutleries, and fast Wifi<br /><br /><b>Guest access</b><br />Guest access <br />Guest access <br />Guest will have access to a spacious fully equipped kitchen:- "washing machine, microwave, kettle, toaster, gas cooker with oven and grill, pots and pans. Large bathroom with bath and bath top powered shower, hand base and WC. All above is shared with other guest. The maximum guests will be no more than 1 or 2. All our guests house communal areas are only shared by 1 or 2 other guests<br /><br /><b>Other things to note<
+File: 13652979.json 
+  id: 13652979
+  name: Great double room in Dalston with sofa bed
+  description: Room in a shared flat just off Kingland road, right by all the bars and restaurants in Dalston. Very easy to get to central London as well.<br /><br />Room comes with shared bathroom and access to a kitchen. The double room also has a pull out sofa bed meaning it can host three or four people on a budget.
 REVIEWS:
 
-->This is a nice place and Jubel is a great host. The flat has everything you need to fell home for a few days. You cannot go wrong booking with Jubel!
-->Thanks Jubel, good stay
-->Quick response to messages, kind and careful host! The flat is a bit and the room are a bit old and small but the most important parts are kept in a good condition and are very clean! It was worth the price!
-->Everything was done by agreement. Jubel provided us with a description of the trip including photos before arrival. The communication was elastic and immediate.
-->Jubel was a very nice host; he sent very detailed directions in advance to help us find the place, and was very helpful with an earlier check-in. The room is very clean, and also very quiet for London standards. Would definitely book again if I come back to the city!
-->Exactly what you can expect when booking one of the cheapest airbnb in town. Somewhat run down, furniture partially broken. Never met the host in person, just other travellers.<br/>Fine if you are travelling on a budget.
-->Amazing host, nice room where is everything you need with perfect location. Highly recommend
-->It is a nice room. Good position, 5 minutes walk from overground station.
-->I lived in London for 9 years, and stayed here on a recent visit back. I must say that for the price, you can't beat this location. Room was clean and spacious. Highly recommended.
-->Clean, very good location, responsive host. Was perfect for my short stay.
-
-File: 23480616.json 
-  id: 23480616
-  name: Lovely Double Room in Hackney Downs
-  description: We have a bright and airy double room with shared bathroom available. The living space is a converted warehouse, the open plan living room-kitchen is spacious, exposed brick walls, high ceilings and original hard wood flooring. The location is great, 10 min walk to Dalston, and 5 min walk to the Hackney Downs or Hackney Central station. We are next door to Hackney Downs park and a quick bus ride to Stokey and London Fields.
-REVIEWS:
-
-->Fabulous, great warehouse loft and great vibe, friendly, was made to feel at home and enjoyed stay.
-
-File: 8095346.json 
-  id: 8095346
-  name: En-suite bedroom, shared house
-  description: Large bedroom with en-suite bathroom (shower, sink and toilet) and king-sized bed available until 11th October 2015.<br /><br />The room is in a shared house in a quiet (for London!) location. It is within 1 minutes walk of a bus stop and 6 minutes walk to nearest overground, Stoke Newington (not currently a disabled access station).  There are lots of restaurants and bars close by.<br /><br />Other info:<br />There is a kettle in the room with tea and coffee provided. <br />Bedding and towels can be provided.<br /><br /><b>The space</b><br />The room is one of three in a friendly household. My housemates both work full time and are very nice.<br /><br /><b>Guest access</b><br />You'll have sole access to the room and en-suite. <br /><br />There is a shared kitchen (with washing machine, dishwasher, cooker, microwave and table plus chairs).<br /><br />There is also a shared living room area with sofas and space to hang any laundry out (you will also have space to do this in the room if
-REVIEWS:
-
-->Cute room, has everything I needed.
-
-File: 12270658.json 
-  id: 12270658
-  name: Bright modern room, central Hoxton!
-  description: Simply furnished, clean and bright double room in Hoxton. Excellent location, with lots of markets and independent shops nearby. Also very quick getting into central London.<br /><br /><b>The space</b><br />Bright and spacious double room in Hoxton/Shoreditch, with balcony overlooking the city. My apartment is shared with 3 others, all masters students and extremely friendly and happy to offer advice on things to see and do in London.<br /><br /><b>Guest access</b><br />We have a big modern kitchen and living area, with a shared bathroom and toilet.
-REVIEWS:
-
-->I very much enjoyed my stay. <br/>The room was spacious and clean (as was the rest of the house) and Ines's flatmates were friendly and quiet, so no-one got in anybody's way. <br/>Ines was very accomodating, as I had to make some last minute changes to my booking and I arrived at the apartment a little later than expected.<br/>Overall a great stay, and I would definitely recommend Ines as a host!
+->Eine gemütliche, kleine Wohnung mit allem was man braucht in einem interessanten, sich gentrifizierenden Hipster Nachbarschaft. Sehr angenehm!
 
 File: 22306984.json 
   id: 22306984
@@ -173,16 +132,6 @@ REVIEWS:
 
 ->Host was kind. The place needs a lot of tidying up, for the price of £19 it was in bad condition. £10 would be right.
 ->Hannah place is very artistic great people made very welcome
-
-File: 25455213.json 
-  id: 25455213
-  name: Private room in Modern, bright flat in Hackney
-  description: Lovely flat near Haggerston - 15 min walk from Shoreditch. It is also a 10 minute walk to Dalston and right by Regents Canal.<br /><br />This is my home and I’ll be staying in the house during your stay. There’ll be all the amenities you need. Spacious private room with king size bed. <br /><br />Location:<br />The property is 4 min walk from Haggerston station (overground to Shoreditch, Highbury & Islington, Canada Water, Clapham Junction). Great connections by bus to Liverpool Street, Old Street and London Bridge.<br /><br /><b>The space</b><br />Shared living space and back yard
-REVIEWS:
-
-->Hollie and Harley were super accommodating and made me feel very welcome in their home. The room is beautiful, as is the rest of the house. They left me to do my thing,  so I often had the house to myself! The house is in a really great location, close to everything you need, as well as transport, and the house was very secure. Hollie and Harley were both really quick on  communication when I needed something. Would 100% stay here again - highly recommended! 😃
-->Hollie was lovely, really made us feel welcome in her home. Great location and the room was very spacious and comfortable. Thanks x
-->Great stay!
 
 File: 566652929432078709.json 
   id: 566652929432078709
@@ -201,6 +150,41 @@ REVIEWS:
 ->Ruth’s place was beautiful! We had such a comfortable stay, and Ruth was an incredibly accommodating host. Great communication made check in a breeze and we really felt at home whilst we were there. Would 100% stay here again!
 ->Loved our stay at Ruth’s place. It has a great feel about it and is perfectly equipped. Would highly recommend.
 
+File: 14371715.json 
+  id: 14371715
+  name: Lovely and quiet double room in vibrant Clapton
+  description: Hi! Our place is a small and cosy 2 bed flat very close to Clapton station (6 min) and Hackney Downs park (2 min) and the many pubs of Clapton - The Mermaid, The Clapton Hart, The Star of Hackney Downs, The Crooked Billet plus various newly opened great restaurants! You’ll love our place because of our love of music, cats, vintage furniture and Clapton's vibrant night life. Great for laid back music lovers who need a place to rest their head - not suitable for daytime stays.<br /><br /><b>The space</b><br />One double room is available for your use in this 2 bedroom flat. A wardrobe inc. coat hangers for your use. Fresh towels and bedding for your arrival. The radiator can be turned on / off by you in the room. Shared use of bathroom. Kitchen accessible in the mornings.<br /><br /><b>Guest access</b><br />Bathroom - 1 bath, 1 shower, 1 toilet, 1 sink<br /><br />Kitchen (for breakfast use only) - kettle, electric oven, grill & hob, washing machine, mircrowave, toaster, panini maker, jui
+REVIEWS:
+
+->Perfect spot. Janine and Matt were great—kind and friendly. Would stay anytime :)
+->We had a very nice stay at Janine's flat. She and her boyfriend where very welcoming and flexible - which meant a great deal to us since our plane was delayed. The flat was very clean and tidy, bath and kitchen facilities where great, in fact everything was exactly as stated in the description. We can definitely recommend staying there.
+->Janice place is cosy and beautiful, it' def over our expectations.<br/>We only stayed there one night and we met Matt who is really friendly and relaxed.<br/>The place is full of culture and music, I def recommend it, super cosy and cute.<br/> 
+->Janine and Matt are really nice, the room is pretty and everything was clean. We had a good time and highly recommend Janines room! Thanks again ;)
+->The room was really nice. Both bathroom and bedroom were clean and we could freely use the kitchen. Janine was really nice and made us felt like at home. I totally recommend it!
+->Our flight was delayed and our luggage was left in Abu Dhabi, and with no data or wifi we struggled getting into contact with our hosts until late in the evening. Janine, though, was still incredibly accommodating and saw we had had a rough time, she made sure we had clean towels, toiletries and some clothes we could borrow to sleep in. Janine also made sure to let us know the airport had contacted and our bags were being delivered. Great first stop after a terrible period of flying, a run of bad luck and jet lag! Thanks Janine! 
+->Very good stay in London.<br/>Matt was very welcomming <br/>We recommend them !!!
+->My partner and I had a great stay at Janine's place. It's located in a nice trendy area of East London close to some nice restaurants, cafes and shops, with easy access to buses and trains to get anywhere around London. Highly recommended, thanks Janine and Matt.
+->Lovely and spacious it is. Close to tube station. Lots of trendy places around. Janine and Matt are very cool, though not as cool as their cat Mary :)<br/>Highly recommended, especially for young couples.
+->My stay with Janine could not have been nicer. She and Matt (and Mary, their sweet cat!) are lovely and super helpful hosts. The flat is beautiful, clean, convenient to shops, restaurants, and transportation, and even has stunning views of the city skyline. I hope I'll get to stay there again soon!
+
+File: 23480616.json 
+  id: 23480616
+  name: Lovely Double Room in Hackney Downs
+  description: We have a bright and airy double room with shared bathroom available. The living space is a converted warehouse, the open plan living room-kitchen is spacious, exposed brick walls, high ceilings and original hard wood flooring. The location is great, 10 min walk to Dalston, and 5 min walk to the Hackney Downs or Hackney Central station. We are next door to Hackney Downs park and a quick bus ride to Stokey and London Fields.
+REVIEWS:
+
+->Fabulous, great warehouse loft and great vibe, friendly, was made to feel at home and enjoyed stay.
+
+File: 25455213.json 
+  id: 25455213
+  name: Private room in Modern, bright flat in Hackney
+  description: Lovely flat near Haggerston - 15 min walk from Shoreditch. It is also a 10 minute walk to Dalston and right by Regents Canal.<br /><br />This is my home and I’ll be staying in the house during your stay. There’ll be all the amenities you need. Spacious private room with king size bed. <br /><br />Location:<br />The property is 4 min walk from Haggerston station (overground to Shoreditch, Highbury & Islington, Canada Water, Clapham Junction). Great connections by bus to Liverpool Street, Old Street and London Bridge.<br /><br /><b>The space</b><br />Shared living space and back yard
+REVIEWS:
+
+->Hollie and Harley were super accommodating and made me feel very welcome in their home. The room is beautiful, as is the rest of the house. They left me to do my thing,  so I often had the house to myself! The house is in a really great location, close to everything you need, as well as transport, and the house was very secure. Hollie and Harley were both really quick on  communication when I needed something. Would 100% stay here again - highly recommended! 😃
+->Hollie was lovely, really made us feel welcome in her home. Great location and the room was very spacious and comfortable. Thanks x
+->Great stay!
+
 File: 550534337552162502.json 
   id: 550534337552162502
   name: DBL room w/ private bath Hackney Wick canalside
@@ -218,22 +202,47 @@ REVIEWS:
 ->Deze plaats is een beetje verder van het centrum. Maar de buurt is zeker het bezoeken waard. De woning was heel rustig, het ligt op een gezellig pleintje vlakbij het water. De verhuurder deed er alles aan om ons verblijf zo vlot mogelijk te laten verlopen en geeft tevens heel wat tips. Er was tevens een zeer vlotte communicatie. 1 klein minpuntje was voor ons het bed. Een beetje aan de kleine kant en het piepte nogal. Daarnaast was alles in orde en zeker proper!
 ->Joe was friendly and helpful from start to finish. We'd not been to this part of London before and loved it! Definitely hope to be back.
 
-File: 14371715.json 
-  id: 14371715
-  name: Lovely and quiet double room in vibrant Clapton
-  description: Hi! Our place is a small and cosy 2 bed flat very close to Clapton station (6 min) and Hackney Downs park (2 min) and the many pubs of Clapton - The Mermaid, The Clapton Hart, The Star of Hackney Downs, The Crooked Billet plus various newly opened great restaurants! You’ll love our place because of our love of music, cats, vintage furniture and Clapton's vibrant night life. Great for laid back music lovers who need a place to rest their head - not suitable for daytime stays.<br /><br /><b>The space</b><br />One double room is available for your use in this 2 bedroom flat. A wardrobe inc. coat hangers for your use. Fresh towels and bedding for your arrival. The radiator can be turned on / off by you in the room. Shared use of bathroom. Kitchen accessible in the mornings.<br /><br /><b>Guest access</b><br />Bathroom - 1 bath, 1 shower, 1 toilet, 1 sink<br /><br />Kitchen (for breakfast use only) - kettle, electric oven, grill & hob, washing machine, mircrowave, toaster, panini maker, jui
+File: 668688069474935116.json 
+  id: 668688069474935116
+  name: Private double room available in Clapton
+  description: Hi, <br /><br />I'm Ian and I welcome you to share my two bedroom flat in Clapton with me. The room that's available is spacious with a double bed and a desk area too. There's also plenty of storage space.  You would have shared use of the kitchen/dining area and the bathroom. <br /><br />The flat is at the end of Southwold Road, so no through traffic! It's right next Millfields Park and the canal. Clapton station is at the other end of the road, just under a 10 minute walk away.
 REVIEWS:
 
-->Perfect spot. Janine and Matt were great—kind and friendly. Would stay anytime :)
-->We had a very nice stay at Janine's flat. She and her boyfriend where very welcoming and flexible - which meant a great deal to us since our plane was delayed. The flat was very clean and tidy, bath and kitchen facilities where great, in fact everything was exactly as stated in the description. We can definitely recommend staying there.
-->Janice place is cosy and beautiful, it' def over our expectations.<br/>We only stayed there one night and we met Matt who is really friendly and relaxed.<br/>The place is full of culture and music, I def recommend it, super cosy and cute.<br/> 
-->Janine and Matt are really nice, the room is pretty and everything was clean. We had a good time and highly recommend Janines room! Thanks again ;)
-->The room was really nice. Both bathroom and bedroom were clean and we could freely use the kitchen. Janine was really nice and made us felt like at home. I totally recommend it!
-->Our flight was delayed and our luggage was left in Abu Dhabi, and with no data or wifi we struggled getting into contact with our hosts until late in the evening. Janine, though, was still incredibly accommodating and saw we had had a rough time, she made sure we had clean towels, toiletries and some clothes we could borrow to sleep in. Janine also made sure to let us know the airport had contacted and our bags were being delivered. Great first stop after a terrible period of flying, a run of bad luck and jet lag! Thanks Janine! 
-->Very good stay in London.<br/>Matt was very welcomming <br/>We recommend them !!!
-->My partner and I had a great stay at Janine's place. It's located in a nice trendy area of East London close to some nice restaurants, cafes and shops, with easy access to buses and trains to get anywhere around London. Highly recommended, thanks Janine and Matt.
-->Lovely and spacious it is. Close to tube station. Lots of trendy places around. Janine and Matt are very cool, though not as cool as their cat Mary :)<br/>Highly recommended, especially for young couples.
-->My stay with Janine could not have been nicer. She and Matt (and Mary, their sweet cat!) are lovely and super helpful hosts. The flat is beautiful, clean, convenient to shops, restaurants, and transportation, and even has stunning views of the city skyline. I hope I'll get to stay there again soon!
+->The bed was comfortable, the room and flat is spartan but clean. The neighbourhood might not suit everyone, especially if arriving late.  It was quite noisy until late at night. <br/>A reasonable budget room
+->Nice location, and nice host…
+->Great place!
+->la estancia fue agradable. Las fotos muestran adecuadamente el estado de la casa y la habitación. La habitación esmuy austera y la camada es muy cómoda. el baño estaba limpio y ordenado. la zona es tranquila y agradable. Resulta un tanto lejana para hacer turismo aunque Hackney queda algo más cerca.
+->We spent a whole month in Ian's flat. It was not a spacious one but we got everything we needed. Very cozy.  Ian and Shannon were responsive. <br/>There are bus stops and overground station nearby. Also, I felt quite safe even when I got back very late at night. It was a really wonderful experience.
+->Exactly what I needed for the night. Good communication; and very easy check-in. Had a comfortable sleep and felt well rested. Fantastic value in the city.
+->The place is simple but very spaceous and clean. Ian is quick to respond and accommodating to our requests. We have the entire place for ourselves most of the time. There are a few small groceries stores nearby as well. Though it takes about 8-10mins walk to the nearest Overground station (Overground train frequency is around 15mins ). Overall, it’s been a pleasant stay.
+->We had a great stay, the room is big and has everything you need, the apartment is not perfect, but that's what we expected in London.
+->We only met Ian briefly but he seemed like a nice host. We could use coffee, tea and the milk in the fridge and he left us some bread as well. The room is like in the pictures very basic but clean. However, the shower was a bit filthy and the kitchen floor looks like it has never been cleaned. The whole flat is extremely run-down which maybe does not matter to people if they just want a roof over their head but I think they should be aware of that when booking. If we would’ve known the state of the place we might’ve spent a bit more money on something else. It also would’ve been helpful to get a heads-up on how difficult the front door lock opens, we spent several minutes trying and low-key panicked that we might not get in at all. Also, we didn’t get wifi access until the next morning which was stressful since we couldn’t use our phone data and my friend needed to get in touch with someone back home urgently. In the future you could just leave a note in the room with the wifi password.
+->We enjoyed our stay
+
+File: 32341924.json 
+  id: 32341924
+  name: Master room in Shoreditch (Diss st 2)
+  description: Summary <br />Summary <br />This 'Large Double room in this newly decorated hous in the heart of shoreditch. Fully furnished to a very high standard. behind the famous Columbia flower market, 7 minutes to Old street and 10 minutes to Liverpool street. Moment's walk from BRICK LANE. If you're visiting London for holiday & you wish to tour around London this community will offer you the traditional English culture. we have arranged all our guest rooms with Towels, Crockery & Cutleries, and fast Wifi<br /><br /><b>Guest access</b><br />Guest access <br />Guest access <br />Guest will have access to a spacious fully equipped kitchen:- "washing machine, microwave, kettle, toaster, gas cooker with oven and grill, pots and pans. Large bathroom with bath and bath top powered shower, hand base and WC. All above is shared with other guest. The maximum guests will be no more than 1 or 2. All our guests house communal areas are only shared by 1 or 2 other guests<br /><br /><b>Other things to note<
+REVIEWS:
+
+->This is a nice place and Jubel is a great host. The flat has everything you need to fell home for a few days. You cannot go wrong booking with Jubel!
+->Thanks Jubel, good stay
+->Quick response to messages, kind and careful host! The flat is a bit and the room are a bit old and small but the most important parts are kept in a good condition and are very clean! It was worth the price!
+->Everything was done by agreement. Jubel provided us with a description of the trip including photos before arrival. The communication was elastic and immediate.
+->Jubel was a very nice host; he sent very detailed directions in advance to help us find the place, and was very helpful with an earlier check-in. The room is very clean, and also very quiet for London standards. Would definitely book again if I come back to the city!
+->Exactly what you can expect when booking one of the cheapest airbnb in town. Somewhat run down, furniture partially broken. Never met the host in person, just other travellers.<br/>Fine if you are travelling on a budget.
+->Amazing host, nice room where is everything you need with perfect location. Highly recommend
+->It is a nice room. Good position, 5 minutes walk from overground station.
+->I lived in London for 9 years, and stayed here on a recent visit back. I must say that for the price, you can't beat this location. Room was clean and spacious. Highly recommended.
+->Clean, very good location, responsive host. Was perfect for my short stay.
+
+File: 8095346.json 
+  id: 8095346
+  name: En-suite bedroom, shared house
+  description: Large bedroom with en-suite bathroom (shower, sink and toilet) and king-sized bed available until 11th October 2015.<br /><br />The room is in a shared house in a quiet (for London!) location. It is within 1 minutes walk of a bus stop and 6 minutes walk to nearest overground, Stoke Newington (not currently a disabled access station).  There are lots of restaurants and bars close by.<br /><br />Other info:<br />There is a kettle in the room with tea and coffee provided. <br />Bedding and towels can be provided.<br /><br /><b>The space</b><br />The room is one of three in a friendly household. My housemates both work full time and are very nice.<br /><br /><b>Guest access</b><br />You'll have sole access to the room and en-suite. <br /><br />There is a shared kitchen (with washing machine, dishwasher, cooker, microwave and table plus chairs).<br /><br />There is also a shared living room area with sofas and space to hang any laundry out (you will also have space to do this in the room if
+REVIEWS:
+
+->Cute room, has everything I needed.
 
 
 

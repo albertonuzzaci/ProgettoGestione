@@ -1,84 +1,167 @@
 [
     {
-        "UIN":"I need an apartment near st james park",
-        "query":"apartment near st james",
-        "sentiments":[
-
-        ],
-        "relevant_documents":[
-            44652702,17989962,6430495,561569908310899814,541903175815998607,15336396,15954244,51592505,544034283385258902,584579738630287719,49478531,51592515,51677622
+        "UIN": "I need an apartment near st james park",
+        "query": "apartment near st james",
+        "sentiments": [],
+        "relevant_documents": [
+            44652702,
+            17989962,
+            6430495,
+            22977389,
+            561569908310899814,
+            541903175815998607,
+            15336396,
+            15954244,
+            51592505,
+            544034283385258902,
+            584579738630287719,
+            49478531,
+            51592515
         ]
     },
     {
-        "UIN" : "enjoyable double room where i could stay with my dog.",
-        "query" : "double room dog-friendly",
-        "sentiments" : [
-            "joy", "surprise"
+        "UIN": "enjoyable double room where i could stay with my dog.",
+        "query": "double room dog-friendly",
+        "sentiments": [
+            "joy",
+            "surprise"
         ],
-        "relevant_documents" : [
-            45064897, 38117059, 32380350, 1786015, 640742764517662160, 29343901, 19362218, 652068305322889329
+        "relevant_documents": [
+            45064897,
+            38117059,
+            32380350,
+            1786015,
+            640742764517662160,
+            29343901,
+            19362218,
+            652068305322889329
         ]
     },
-    {      
-        
-        "UIN" : "I'm a student looking for a budget-friendly hostel in Kensington or Westminster. I don't care about having all kind of amenities.",
-        "query" : "(hostel shared bath) AND price:[0 TO 99.9] AND neighbourhood_cleansed:(\"Westminster\" OR \"Kensington and Chelsea\")",
-        "sentiments" : [
-            "fear", "disgust", "sadness"
+    {
+        "UIN": "I'm a student looking for a budget-friendly hostel in Kensington or Westminster. I don't care about having all kind of amenities.",
+        "query": "(hostel shared bath) AND price:[0 TO 99.9] AND neighbourhood_cleansed:(\"Westminster\" OR \"Kensington and Chelsea\")",
+        "sentiments": [
+            "fear",
+            "disgust",
+            "sadness"
         ],
-        "relevant_documents" :  [42596722, 42597690, 42663424, 42663581, 42663359, 39855040, 39859449, 39859724, 604080492420319332, 42662104, 43378787, 7917989, 29702113, 5995648, 22611037, 34456203, 23707314, 46083892, 18446403, 16426265, 13183092]
+        "relevant_documents": [
+            42596722,
+            42597690,
+            42663424,
+            42663581,
+            42663359,
+            39855040,
+            39859449,
+            39859724,
+            604080492420319332,
+            42662104,
+            43378787,
+            7917989,
+            29702113,
+            5995648,
+            22611037,
+            34456203,
+            23707314,
+            46083892,
+            18446403,
+            16426265,
+            13183092
+        ]
     },
-    {   
-        
+    {
         "UIN": "I'm looking for a luxurious apartment in Kensington for a family of four, with two bathrooms and a beautiful view.",
         "query": "(luxurious apartment) AND neighbourhood_cleansed:\"Kensington and Chelsea\" AND accommodates:4 AND bathrooms:2",
         "sentiments": [
-            "joy", "surprise"
+            "joy",
+            "surprise"
         ],
         "relevant_documents": [
-            51459295, 38659470, 710546079779664701, 583099393972148384, 597698539833715856, 653262566819815391, 8564444, 16152793, 12539741, 17136801
+            51459295,
+            38659470,
+            710546079779664701,
+            583099393972148384,
+            597698539833715856,
+            653262566819815391,
+            8564444,
+            16152793,
+            12539741,
+            17136801
         ]
     },
     {
         "UIN": "I need a cheap place in Camden that allows dogs, ideally with a minimum rating of 3 stars.",
         "query": "dog-friendly AND price:[0 TO 99.9] AND neighbourhood_cleansed:\"Camden\" AND review_scores_rating:[3 TO 5]",
-        "sentiments": [
-            
-        ],
+        "sentiments": [],
         "relevant_documents": [
-            30460335, 628195701077105515, 33186629, 20422952, 43339571, 10705728
+            28069023,
+            30460335,
+            628195701077105515,
+            33186629,
+            20422952,
+            43339571,
+            10705728
         ]
     },
-    {   
-        
+    {
         "UIN": "I'm searching a place with a beautiful view. I need a bright apartment in Lambeth for two people",
         "query": "(bright apartment with beatiful view) AND accommodates:[2 TO 2.99] AND neighbourhood_cleansed:\"Lambeth\"",
         "sentiments": [
-            "joy", "neutral"
+            "joy",
+            "neutral"
         ],
         "relevant_documents": [
-            42802816, 39853712, 624325481519589057, 14500973, 34269824, 21923107
-        ] 
+            42802816,
+            39853712,
+            624325481519589057,
+            14500973,
+            34269824,
+            21923107
+        ]
     },
-    {   
+    {
         "UIN": "My partner and I are looking for a romantic getaway. We want an apartment rated at least 4 stars.",
         "query": "(romantic apartment) AND review_scores_rating:[3.5 TO 5] AND accomodates:[2 TO 2.99]",
         "sentiments": [
-            "joy", "surprise"
+            "joy",
+            "surprise"
         ],
         "relevant_documents": [
-            19099079, 33870155, 23998223,53655087,7928538,51791303,53030230,341714580,8168705,40894753,49852638,16331881, 137922116, 12925678,12038023,30722148, 11373658
+            19099079,
+            33870155,
+            23998223,
+            53655087,
+            7928538,
+            51791303,
+            53030230,
+            341714580,
+            8168705,
+            40894753,
+            49852638,
+            16331881,
+            137922116,
+            12925678,
+            12038023,
+            30722148,
+            11373658
         ]
     },
-    {   
-        
+    {
         "UIN": "I need a budget-friendly room in Hackney, with access to a shared bathroom and a rating of at least 2 stars.",
         "query": "(room shared-bath) AND neighbourhood_cleansed:\"Hackney\" AND review_scores_rating:[2 TO 5] AND price:[0 TO 99.9]",
-        "sentiments": [
-
-        ],
+        "sentiments": [],
         "relevant_documents": [
-            29988518,34851966,28713051,22306984,6781059,30952199,15885957,7754866,34900165,660005584660145845,8032080
+            29988518,
+            34851966,
+            28713051,
+            22306984,
+            6781059,
+            30952199,
+            15885957,
+            7754866,
+            34900165,
+            660005584660145845,
+            8032080
         ]
     },
     {
@@ -88,16 +171,41 @@
             "joy"
         ],
         "relevant_documents": [
-            17242615, 601467517755771808, 31844876, 50410317, 50408941, 49622716, 21932875, 16699637, 28513020
+            17242615,
+            601467517755771808,
+            31844876,
+            50410317,
+            50408941,
+            49622716,
+            21932875,
+            16699637,
+            28513020
         ]
     },
-    {   
+    {
         "UIN": "I'm searching a creepy and old place for an Halloween party. Looking for a budget-friendly place, rated at least 3 stars. Max budget is €80.",
         "query": "(cheap stay) AND review_scores_rating:[3 TO 5] AND price:[0 TO 80]",
         "sentiments": [
-            "fear", "disgust", "anger"
+            "fear",
+            "disgust",
+            "anger"
         ],
-        "relevant_documents": [446634,11849717,13629023,23852405,27424000,3960209,7164812,13512792,20223450,21449444,22970356,23991020,27107894,27848700,29419602
+        "relevant_documents": [
+            446634,
+            11849717,
+            13629023,
+            23852405,
+            27424000,
+            3960209,
+            7164812,
+            13512792,
+            20223450,
+            21449444,
+            22970356,
+            23991020,
+            27107894,
+            27848700,
+            29419602
         ]
     }
 ]

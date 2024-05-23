@@ -282,22 +282,22 @@ REVIEWS:
 ->He disfrutado de la habitación de Carolin estos días y me ha resultado muy acogedora. Carolin se ha encargado que estuviese lo mas cómoda posible, ya que ella estaba de viaje. Su compañera ha sido una excelente anfitriona. <br/>La casa se encuentra en un barrio residencial a unos minutos del metro.<br/>Londres no es barato, por lo que la relación calidad precio está bien.
 ->Everything was as expected. The flat was very nice and the bedroom very confortable. <br/>The flat is well located in a nice and residential area and very close to the tube. <br/>Recommanded to anyone spending few days in London !
 
-File: 22169636.json 
-  id: 22169636
-  name: Bright Double Room at Kensington/Notting Hill Gate
-  description: Space is a Double room for a single guest.<br />There is a single male host living in the flat.<br />Location is Kensington Church St, famous for its fine art & gallery shops:<br />- short walks of 5-10 mins to Portobello St Market, Kensington Gardens & Hyde Park, Kensington Palace, Holland Park, High St Kensington<br />- rows of eateries & shops of all types<br />- two mins walk to Notting Hill Gate tube staion (Central, Circle, District)<br />- London's attractions reachable on foot or a few bus stops with no change<br /><br /><b>The space</b><br />Space is a Double bedroom (Double in Central London standards) for a single guest with access to a shared bathroom.<br />Flat itself is extremely bright with high ceilings, on 1st floor of a Georgian period conversion.<br /><br /><b>Guest access</b><br />Guest will have access to the Double Bedroom and Bathroom. Pls note that it is not the entire flat being let.
+File: 613590145616870400.json 
+  id: 613590145616870400
+  name: Lovely Single room in flat Prime Queensway!
+  description: Keep it simple at this peaceful and centrally-located place.<br /><br />A well presented single room in a basement flat, situated in the prime location of Queensway, directly opposite Bayswater and Queensway station within seconds of the amenities of Bayswater, Sainsburys and Tesco and local restaurants. <br /><br />The property comprises 3 bedrooms, 2x WC, separate shower room and kitchen. Shared amenities.<br /><br /><b>The space</b><br />Private bedroom with lock. Communal areas are shared between 3 rooms
 REVIEWS:
 
-->Great location, Really nice host
-->Ali is really a great host, very friendly.  I loved everything .. the room was perfect! Comfortable and clean. The Location is amazing , very close to the tube station , shops , in the heart of Notting Hill Gate . For sure I will come back .
-->Ali's is an amazing host and has an excellent place. He has been very professional and prompt with his responses.<br/>The place is very well located and literally less than a minute walk from Notting Hill Gate station. The room was very clean and all the amenities were provided, as mentioned. <br/>Ali was available at the time of check in and check out. 
-->Ali is very kind and helpful. The room is in his apartment. He stays there as well. The apartment is well located for Notting Hill very close the Notting Hill Gate station.
-->The location is very convenient with lots of amenities around. Ali is very clear with his communication and very helpful.
-->It was very nice to meet Ali and stay in his apartment....i will stay there again for sure on my next trip to london .
-->Ali is a great host and respects your privacy but is also in for a nice chat. Apartment is very clean. Bed is comfortable. Around the corner from Notting Hill Gate subway so location is very central and convenient. 
-->The location is superb - just near Notting Hill Gate station and all stores on the main road. Lovely room and very clean. Ali was exceptionally hospitable and it was an enjoyable stay. Highly recommend this apartment.
-->It was a pleasant stay. The appartment is very clean. Everything needed was provided at the arraval and I never felt bothered by the host. On a windy day the room might feel a bit chilly.
-->Ali was a great host. The room was really nice - awesome stay.
+->A great place to stay if you’re travelling on a budget. All as expected, with helpful and clear communication from the host. Way more private, secure and convenient than hostels at similar price points! Would recommend!
+->Really enjoyed my stay here. It's a basement flat, with no windows, so I was a little unsure at first. But the air filtration system made the flat very comfortable, and with no outside light or street sounds, I had the best sleep EVER!  <br/>The flat is located right in the heart of Bayswater, across the street from two Tubes, two minutes from Kensington Gardens. The road is well-served by markets and eateries and pubs. <br/>Bear in mind, there is a microwave, but no fridge. The flat was very clean and warm, the bed was comfortable, the Wifi worked well, etc. Sohail is a nice host and very nearby. For the price and the location, this place is really a great deal.  I'd stay here again.
+->I love the location! The 3 minute walk to Kensington Garden/ Hyde Park made my stay so relaxed. It was the perfect way to start or end the day. Conveniently right next to the apartment are two metro stations as well as two supermarkets which also made life super easy. And Sohail was a great host.
+->Nice flat for a short stay in London. Just 30sec to go to the subway "Bayswater".  Grocery stores even close to the flat.
+->Nice, quiet little basement flat, great location, easy check in, good value. Can't fault it.
+->Fantastic amount of space for the money, separate bedroom, shower, toilet and kitchen for the same price as a hostel. Check in was collecting the key from shop above, I was running a bit late but got a swift reply. Was mainly using as a base after a gig overnight and only five mins from Queensway station. Was a busy high street at night but was quiet and secure downstairs. Bedroom could have fitted a double bed without the wardrobe. <br/>Was a bit noisy with fan/ventilation systems from above and in the morning with business adjacent to the accommodation banging and talking. Also the floors/surfaces etc weren't cleaned too well but on balance I'd happily stay again.
+->Great place- just a minute from the Bayswater station…clean and cozy…will definitely recommend.
+->value for money
+->Excellent location near transportation and parks.
+->Ideal for a single traveller, fantastic transport links, Bayswater station is 30 secs away with connections to the circle & district lines.<br/>Hyde park is a minute away.<br/>Check in info is clear & Sohail has great communication & msg response.<br/>Great value for money, the only thing that lets it down is cleanliness, the toilets & shower area need a thorough deep clean.
 
 
 

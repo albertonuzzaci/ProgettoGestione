@@ -12,27 +12,43 @@ import argparse
 def setupParser() -> list: 
     parser = argparse.ArgumentParser(description='Choose the model.')
     
+    parser.add_argument('--build-index', action='store_true', 
+                help='Force a new build of the index.')
+    
     group = parser.add_mutually_exclusive_group()
     
+    group.add_argument('-B', required=False, action='store_true',
+            help='Sentiment Weighting Model based on 7 sentiments.')
+    
     group.add_argument('-S', required=False, action='store_true',
-                    help='Sentiment Weighting Model based on 7 sentiments.')
+                help='Sentiment Weighting Model based on 7 sentiments.')
     
     group.add_argument('-AS', required=False, action='store_true',
-                    help='Advancend Sentiment Weighting model based on 7 sentiments and on recentness of reviews.')
+                help='Advancend Sentiment Weighting model based on 7 sentiments and on recentness of reviews.')
     
     group.add_argument('-D2V', required=False, action='store_true',
                 help='Document To Vector model.')
     
-    model = [k for k, v in vars(parser.parse_args()).items() if v]
+    args = parser.parse_args()
 
-    if len(model) == 0: 
-        return 'B'
-    else: 
-        return model[0]
+    if not any([args.B, args.S, args.AS, args.D2V]):
+        args.B = True
+            
+    active_arg = None
+    if args.B:
+        active_arg = 'B'
+    elif args.S:
+        active_arg = 'S'
+    elif args.AS:
+        active_arg = 'AS'
+    elif args.D2V:
+        active_arg = 'D2V'
+
+    return (args.build_index, active_arg)
 
 
-def main(model: str) -> None:
-    my_index = Index()
+def main(buildInd, model: str) -> None:
+    my_index = Index(forceBuildIndex=buildInd)
     
     modelsDict = {
         'B' : (BM25F(), "Base Model"),
@@ -48,6 +64,6 @@ def main(model: str) -> None:
     
 
 if __name__ == "__main__":
-    model = setupParser()
-    main(model)
+    forceBuildIndex, model = setupParser()
+    main(forceBuildIndex, model)
 

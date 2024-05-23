@@ -1,4 +1,4 @@
-I need a budget-friendly room in Hackney for one person, with access to a shared bathroom and a rating of at least 2 stars.
+I need a budget-friendly room in Hackney, with access to a shared bathroom and a rating of at least 2 stars.
 BM25F
 	File: 25777767.json 
   id: 25777767

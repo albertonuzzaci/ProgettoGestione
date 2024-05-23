@@ -1,4 +1,4 @@
-We are a group of friends looking for a large apartment in Tower Hamlets with at least 4 beds and 2 bathrooms. Budget is up to €500 per night.
+We are a group of friends looking for a large apartment in Tower Hamlets with at least 3 beds and 2 bathrooms. Budget is up to €500 per night.
 Advanced Sentiment
 	File: 17242615.json 
   id: 17242615
@@ -16,6 +16,57 @@ REVIEWS:
 ->Everything was just perfect. The apartment is well located,perfectly furnished and clean. <br/>and, above all, Amit is an excellent host.
 ->Excelent :)
 ->Had a wonderful stay! Finding the house and check-in was really convenient. House was properly cleaned and no complaints whatsoever.
+
+File: 18871461.json 
+  id: 18871461
+  name: Waterfront view Luxury apartment
+  description: A 2 bedroom with 2 bathroom modern apartment located on the 9th floor (with elevator)  overlooking the Dome(02 Arena) from one side and the Canary Wharf from the other side, with a DLR station outside the apartment, with 2 Balconies to relax and enjoy the view! Perfect for business travellers as it's only 8 min taxi ride from London city airport , or for a  family seeking a relaxing weekend in London.<br /><br /><b>The space</b><br />The relaxing view from the river Thames and the 02 Arena and it's located right by east India DLR station,8 min drive from city airport,<br /><br /><b>Guest access</b><br />Entire apartment
+REVIEWS:
+
+->This is the perfect Airbnb. Easy to book, great communication from host and a place that exceeds expectations. We would stay again in a heartbeat. 
+->Wonderful apartment. Great hosting. Everything I expected and more. Would definitely stay there again if I had he choice !
+->Couldn't rate this apartment and lazer as a host highly enough! Will definitely stay again! Beautiful Veiws and a beautiful apartment.
+->If you want a really clean, modern place to stay, with amazing views of the River Thames, then this is it! We really enjoyed our stay here! We consider it family friendly, although our kids are a bit older. It is very close to public transport and very secure.
+->Fantastic flat, with stunning views and very close to the DLR (but not too close!). Lazer was a truly great host and checked regularly to  make sure everything was ok.
+->This apartment was fantastic! It's new, clean and beautiful and is located on the Prime Meridian Line on the bank of the Thames River and across from the O2. Such a beautiful view! The closest DLR station is just a block away, as is a grocery store that had everything we needed. Lazer responded extremely quickly to any question or comment we had - before, during and after our stay. We'd love to stay here again!
+->Made a great last minute holiday - the east end us like a whole new city we'd never explored and the apartment made all it really accessible. DLR so much nicer to use than the tube. The apartment gave us affordable luxury with the self catering we needed for a family. Lazer was always in the end of a phone so we didn't need to worry about s thing. The view and balcony was amazing. Big flat screen to great for the kids. Lots of fun.
+->This apartment is in a fabulous location with great views of the Thames and a short walk from Canary Wharf.  The apartment was super clean and comfortable; not a cheap stay but worth it.
+->Great place and location.
+->The apartment was every bit as shown and described. New, clean and stylish with quality fittings.<br/>The views were spectacular ( especially from the balcony at night )  and the television offered multiple channels for a bit of relaxation at the end of the day.<br/>London is a big sprawling city ( compared to other European capitals ) so need to be mindful transportation is required for most sites, attractions and restaurants ) <br/>Communication with Lazer was excellent. This is very important when in a foreign country and a little unsure before settling in.  <br/>We very much enjoyed the apartment and would recommend to airbnb users.<br/>Dragan
+
+File: 53928199.json 
+  id: 53928199
+  name: Lovely 2-bedroom apartment in Docklands, E14
+  description: We are proud to present to you this well maintained 2 double bedroom apartment in Docklands.<br />This property is situated within a popular development, comprising of 2 bathrooms - 1 family bathroom and 1 ensuite with shower.<br />Modern neutral decor throughout, modern kitchen and is offered furnished <br />with white goods and much more.<br />Close to all local amenities and Canary Wharf - closest station is South Quay DLR.<br /><br />Note: minimum age restriction applies.
+REVIEWS:
+
+->Great apartment and a great host, showed us everything in the flat when he let us in then was very happy for us to ring if we had any issues.
+->A lovely place in a great location to get on and off the DLR so into the city. Plenty of room and set up with everything you may need for a short or longer stay. The beds were comfy and it was clean and tidy. We would definitely stay again in the future. Ali is very helpful and communication was fantastic. Thank you!
+->Everything was perfectly clean and lovely. The location is stunning and was incredible for working in Canary Wharf (which I was). Check in was simple, the kitchen was gorgeous, the host was very kind and welcoming. Our stay was incredibly comfortable and everything with the location, cleanliness, ease, etc. really made it a lovely few nights
+->Place is nice and area is great. Landlord communication wasn’t good, quite aggressive and didn’t really make us feel welcomed, more rushed. Amenities could be better, very little toilet roll.
+->Host sounds intimidating at first, but actually a very lovely guy. He warmly welcomed us and showed us everything in the accommodation. I will definitely book his accommodation, whenever I’m in London.
+->Great location!
+->Good space and a great host , would definitely recommend to anyone staying in London
+->The host was great and property was good value for money.
+->Great location and nice space!!
+->A great flat, perfect for a stay in London. Everything was as described and Ali made the picking up the key very easy despite our flight being delayed. We will repeat the experience.
+
+File: 32765053.json 
+  id: 32765053
+  name: City living apartment
+  description: Modern 3 bedroom, 2.5 bath duplex apartment in the heart of the city. The apartment is a couple of mins walk from Aldgate East station and a short walk to Tower bridge and bars and restaurants of Shoreditch & Brick Lane.<br />It's a great location for travelling or commuting to the city.<br /><br /><b>The space</b><br />Welcome to an ultra-modern and spacious flat which is only a couple of minutes walk from Aldgate and Aldgate East (Zone 1) stations.<br /><br /><b>Guest access</b><br />Guests will have exclusive access to the apartment.
+REVIEWS:
+
+->Excellent location, great host. Will love to comeback.
+->Great host! Modern, clean and well equipped apartment. 1 minute walk to the underground and bus stop.
+->Host very helpful and great communication, apartment was easy to get into, very clean and was better than we expected 👍🏽
+->A lovely clean and spacious place to stay in London
+->Great space and great location!!! Walking distance to so many awesome sight seeing landmarks. Very close to a metro stop. And Amit was wonderful!!! Spacious and multiple bathrooms which was a huge plus!!!!
+->Great apartment. Very clean and well thought out. Amit a brilliant host, very responsive and helpful.
+->This is a beautiful flat in a great location, especially the proximity to Brick Lane. It is clean and well maintained with plenty of room for our 5 person group. We unfortunately had an experience with the power going out in the flat for about 9 daytime hours during our 2 day stay. Amit was able to have the power restored as quickly as what was within his control as it required an engineer to come and fix. We overall enjoyed our stay!
+->I can only recommend the apartment and the host! 10/10.<br/>Super convenient check-in.<br/>Clean apartment. Everything was as described.<br/>Fast internet connection.<br/>Clear and exceptionally swift communication with the host. He was really helpful whenever we had a question.<br/>This was not a real problem for us, but the internet connection was a little bit unstable upstairs as the router is located downstairs. It did work upstairs too but video calls may be a bit laggy if you are in one of the bedrooms upstairs.<br/>All in all great experience. Thank you.
+->Really clean and well presented apartment. It was spacious and welcoming. Amit was easy to get in touch with and checked up on us during our stay to make sure we was ok. It is a stones throw away from the tube station. Would recommend to others looking to stay and would happily stay again if the opportunity presented itself.
+->Easy checkin, very clean, host was really flexible and kind to let us check in early
 
 File: 17818933.json 
   id: 17818933
@@ -51,22 +102,22 @@ REVIEWS:
 ->Great apartment
 ->Very nice, stylish and comfortable place. Would recommend for that area.
 
-File: 24671835.json 
-  id: 24671835
-  name: Two Bedroom Apt in the Heart of Shoreditch
-  description: A bright two bedroom apartment in the heart of the action! Shoreditch boasts an array of flare with plenty of street art, interesting shops, restaurants, bars and the famous Sunday Brick Lane Market that attracts tourists from around the world. <br />You won’t be short of places to see and do in East London or jump on a train or bus into the centre to visit the West End, Oxford Circus, River Thames and Buckingham Palace.<br /><br /><b>The space</b><br />This second floor apartment is situated just off Brick Lane close to transport, shops and restaurants. The apartment accommodates up to 8 guests with two bedrooms with a double bed in each, a living space with two double sofa beds, TV and free wifi, two bathrooms (1 is ensuite) and kitchen that comes ready to use with oven, stove top, fridge (freezer unavailable), microwave, kettle, toaster, pots and pans, crockery, glassware, cutlery and complimentary tea/coffee. <br />This apartment is centrally located so some street and surrounding 
+File: 38999282.json 
+  id: 38999282
+  name: Spacious East London apartment - short & Long let
+  description: Bring the whole family to this great place with lots of room for fun. Welcome to our home which can become yours for a weekend or longer!<br /><br />We have a superking en-suite and a double room with a family bathroom. The lounge also has a very comfortable double sofa bed. The living area is open plan with a dining table that seats 6. We have a large balcony overlooking canary wharf which is lovely in the evening to sit and have a drink.<br />Location is great, in East London close  Central, Jubilee and DLR.
 REVIEWS:
 
-->Great location & host
-->Great apartment at a top location
-->Great roomy apartment, lovely and clean. Great location with loads to do locally. If you are looking for a quiet apartment this might not be for you as on Saturday night it was quite noisy into the small hours, closing the windows did block out a lot of the noise though. 
-->This is a great location and starting point for your stay in London.  The flat is well kept with responsive hosts and everything you need to enjoy work or play in London.
-->Location very good close to the Main Street and bars/pubs. Apartment a bit worse for wear. Just needs a bit of TLC. Wardrobe wonky and looks like it’s going to fall on you , walls stained, toilet flusher not working, floors shredded and shower stained. Host did not reply to my message on the day but easy to pick up the key and staff in bell boi are friendly and answer all your questions. Overall, everything ran smoothly but I would not stay here if you are looking for a quiet nights sleep as it’s outside a bar on the Main Street and very loud even if the windows are closed (this was stated in the description) . Despite all the minor problems I would still stay here again as it’s good value for money and still modern and perfect for what I booked for. 
-->Notre séjour s'est bien déroulé.<br/>Le quartier est vivant mais nous étions prévenus.<br/>Nous recommandons ce logement.
-->It was a great place in London, especially for Young people
-->Great Location and space, couldn't have asked for anything more!
-->The accommodation was exactly as we expected, a great space for a group of 8 of us. The kitchen was well equipped for its size and did us well. The sofa beds and beds were comfy and easy to make up. <br/>The area is super noisy so take ear plugs if you want to sleep soundly. <br/>The apartment is in an awesome area, jammed packed full of bars, restaurants and interesting people! <br/>Great value for a night in London!
-->Me and my co-workers had a great stay in the apartment. The location is perfect. We stayed with 4 people in the apartment and had enough space and beds for each. The communication was great! Would happily suggest this place to everyone coming to London for work or leisure.
+->We had a wonderful time in Antoinette’s home, we couldn’t ask for a better place to stay: clean, well optimized, well decorated and a good location<br/>I strongly recommend Antoinette’s appartement. :)
+->Antionnette and her husband were so welcoming and lovely and helpful. <br/>Their place was beautiful and very clean and homely. I would recommend for anyone wanting a place to stay in London! Thank you Antionnette!! X
+->Antoinette's flat was really nice, spacious and comfy with great views of canary wharf. Antoinette and her partner were really lovely and accommodating too. We had a great weekend in London, thanks ☺️
+->Antoinette was very welcoming. Had a lovely stay here. Very clean and mattresses were so comfortable!
+->Waren sehr zufrieden, ideal für Familien mit Kindern.
+->Antoinette is an amazing host and the house is very spacious. I had my family of 4 staying there for over a month and it felt very comfortable and safe. The flat is very new and the beds were comfortable. The living room is ideal for a small family and the balcony is huge. The kitchen is fully equipped and had lots of pots and pans to use.<br/>There is no parking on site but they kindly gave me their parking spot which was 10-15 mins down the road. I was also offered cleaning services twice during our long stay at the place.<br/>The flat is easily accessible via tubes and buses.<br/>The hosts were very accommodating and was just a text away, that made it very safe and relaxing for us.<br/>Would highly recommend this place!
+->Merci infiniment à Antoinette et Sally pour ce séjour qui était magnifique et plus qu’à la hauteur de nos espérances. Un lieu parfait et des gens accueillants et chaleureux, merci pour tout
+->It was very easy to communicate with Antoinette and she, as well as her mother were really kind and welcoming. We felt right at home. <br/>The apartment was very clean and had a nice view towards the city. Would definitely recommend.
+->Antoinette was very helpful with suggestions for local fare and delivery service.  She left us some fresh eggs and a loaf of bread as a welcome gift which we found very thoughtful.
+->Antoinette was very accommodating, welcoming us to check in early so we could leave our luggage at the apartment meaning we had more freedom to explore London that day! <br/>The apartment was beautiful, very homely, clean and in a great location, not too far from the Mile End tube station. This made it easy to commute to and from the centre of the city. <br/>On our last day our flight wasn’t due to depart London until 8:30pm at night and again, Antoinette let us leave our luggage at the apartment all day so we could make the most of our last day. When we returned to collect our bags she and her family were very friendly and made us feel very welcome. <br/>Thank you very much for your kindness! We thoroughly enjoyed our stay and would definitely recommend to others!
 
 File: 50408941.json 
   id: 50408941
@@ -85,39 +136,56 @@ REVIEWS:
 ->Although this apartment is two floors above a street just off Brick Lane, it's really pretty quiet as Fashion Street itself is narrow with little traffic. The most we heard were the guys delivering food on bikes, who hang out next door in their breaks.<br/>We didn't like the fact that the main bathroom door doesn't fully close (though it's manageable. What we really DID appreciate was something that doesn't feature in the listing - the little outdoor seating area! The view's not great, but it was a lovely surprise to find it.<br/>We would probably go back on another trip to London.
 ->Very spacious place, well located, just as advertised. Also has a balcony overlooking the back of the flat.<br/>Instructions were very clear.
 
-File: 24671466.json 
-  id: 24671466
-  name: Two bedroom Apt, off Redchurch st & Brick Lane
-  description: Spacious two bedroom apartment with balcony right in the heart of the action! Shoreditch boasts an array of colour and flare with plenty of street art, interesting shops, restaurants, bars and the famous Sunday Brick Lane Market that attracts tourists from around the world. <br />You won’t be short of places to see and do in East London or jump on a train or bus into the centre to visit the West End, Oxford Circus, River Thames and Buckingham Palace.<br /><br /><b>The space</b><br />Third floor apartment with balcony is perfect for 4 guests or can accommodate up to 8 using the sofa beds. Situated just off Redchurch Street which is close to transport, boutique shops and restaurants. <br />It comprises of two bedrooms with a double bed in each, a living space with two double sofa beds, balcony, TV and free wifi, two bathrooms and kitchen that comes ready to use with oven, stove top, fridge, microwave, kettle, toaster, pots and pans, crockery, glassware, cutlery and complimentary tea/coff
+File: 24694046.json 
+  id: 24694046
+  name: Brick Lane Shoreditch 2BR 2Bath Flat by HAPPYGUEST
+  description: HAPPYGUEST STAYDIRECTLY welcome you to this modern & bright apartment.<br /><br />Perfect location for many famous destinations: <br />- Aldgate East station 1 min walk, Liverpool street station 9 min walk<br />- City of London & financial centre 10 min walk<br />- Vibrant Shoreditch area for trendy bars & restaurants 10 min walk<br />- Tower of London and Tower Bridge 15 min walk<br />- Spitalfields, Gherkin, Sky Garden are also very near<br />Hotel quality amenities and free Wifi.<br /><br /><b>The space</b><br />*** BRAND NEW HOME ***<br />Recently completely renovated apartment in a centrally located building with 2 lifts. <br /><br />2 spacious bedrooms with comfortable king (163cm W x 223cm D) and double (149cm W x 212cm D) beds. Fresh, white beddings, towels, toiletries, coffee tea are provided.<br /><br />Bright open plan living room with a sofa bed, balcony, and TV with Netflix. <br /><br />Fully furnished kitchen with dishwasher and washer/dryer, coffee machine, toaster.<br /
 REVIEWS:
 
-->Hayley and Luke are very accommodating and kind with their flat. It was a beautiful place in an up and coming part of town with plenty of food and nightlife. The flat was clean and we were provided lots of towels and toiletries. All was wonderful! Thank you for a wonderful stay in London!
-->Hayley and Luke’s flat was an excellent place to stay. It was clean, very spacious, in a brilliant location and had everything we needed for our stay. <br/>Would definitely stay here again and highly recommend anyone else to do to! 
-->An amazing place
-->Very much enjoyed our stay here. Great apartment and great location
-->Great place to stay!
-->A very nice Place to stay for a few days in London. Everything was clean and the Check-in very comfortable. Thanks for having us!
-->Everything was perfect and exactly how expected. The location is awesome in Shoreditch, close to cool restaurants and bars, the place spotless and very well equipped. Would stay again immediately. Thank you Hayley!
-->L’appartement est bien agencé, propre et amenagé avec goût. Le quartier est très sympa avec plein de petits restaurant à des prix abordables.
-->On two floors. Spacious and bright. Two nice bathrooms.  Extremely central and close to Shoreditch Station.
-->Great flat in a great district !
+->Carina and her Happyguest staff were awesome, thus honoring the goal and purpose embedded in their name. I had a wonderful experience along with my co-workers, who decided to come to London at the last minute for an off-site. Everything went smoothly, the location is fantastic, just a couple of minutes from the Aldgate East station, and the apartment was brand new and in pristine condition. I highly recommend Carina and the Happyguest team, and this particular flat. 
+->Muy bien localizado, limpio y bien equipado, a solo una cuadra de estación del sub.
+->We had a lovely stay. They went above and beyond to provide all amenities needed including toiletries and snacks. The space was beautiful and clean. Highly recommend. Thanks!
+->Such a clean and lovely place for me and my family! The tube station is so near to the apartment, just a 1-2 minutes walk, making the transport to everywhere so convenient! There’s also a supermarket just beside the apartment. Overall we had a great stay and will highly recommend this place! :)
+->Really nice flat, everything you need and more! Clean, taken care of, nicely furnished. The communication was great, Carina and her team responded really fast! Thanks again!
+->HappyGuest knows how to host! They helped us find a place when our first Airbnb choice was taken. The apartment was clean, and new, and in a really hip neighborhood (with fun restaurants, bars, street art, etc). Near the Underground too, a great metro line that took us direct to all the major sites without changing trains. We enjoyed interacting with Andrei (our sitter) upon arrival. We appreciated the great communication (from before booking through the whole process).  The apartment was brand new, which of course meant there were some kinks to be worked out (a broken bathroom lock, for example) but by the time the next guest arrives I am sure the whole place will be ready to roll. I would recommend this apartment, or any HappyGuest propriety for that matter. 
+->We had a wonderful time at this clean, modern & convenient flat. This was my first time using Airbnb and I'm very happy I did. My family of 5 had plenty of room to relax and unwind after long days spent exploring London. Phil & Carina were kind and accommodating.
+->My family (two adults and two youngish children) really enjoyed are stay at this flat. Its location within a short walk from the Liverpool Street underground station made it great for our arrival via Stansted airport, and the close proximity to the Aldgate East station gave us good access to many of the sights around the city.<br/>The flat itself was very clean, with all necessities provided.<br/>One thing that we really appreciated was the quietness of the flat.  Even though the building itself is located on a fairly busy street, because the flat doesn't overlook the street but instead overlooks an inner garden area we were insulated from the street noise.<br/>Carina and the Happyguest team were also extremely accommodating with our late arrival and departure times. All of our communications with them were responded to politely and promptly.<br/>I would certainly recommend this flat to family/friends who visit London.
+->Nice place！
+->I would highly recommend this place. New, spotless and lose to all amenities and tube. 
 
-File: 16748384.json 
-  id: 16748384
-  name: Shoreditch
-  description: I am thrilled to offer my modern 3 bedroom Luxury apartment located in the heart of Shoreditch! Designed to the highest standard, this 1500+ sq ft flat will make an ideal space for your London holiday! Located in vibrant and exciting area of Shoreditch, my place is perfect if you are looking to have great transport links to all of Central London's sites & attractions!  Have the trip the of your dreams by staying at my place, you will have an amazing time here! <br /><br />Longer term rental considered.<br /><br /><b>The space</b><br />Comprising of three double bedrooms, two plush bathrooms, master with walk in wardrobe, en-suite and direct access to a private balcony. Benefitting from Sonos connect sound system in bedrooms, bathrooms and living room and a 65" wall mounted TV, downstairs TV room/3rd bedroom and upstairs entertaining space. There is also two extra sofas to sleep two extra people if needed. Fully equipped wood & stainless designer kitchen with built in coffee maker and w
+File: 547676698246135870.json 
+  id: 547676698246135870
+  name: Two Bedroom, Serviced Apartment in Aldgate East
+  description: Fully serviced two bedroom apartment minutes walk from Aldgate East Station. Property is in a safe and friendly neighbourhood with plenty of Restaurants, cafes and stores on your doorstep. Property has everything you need, all you need to bring is your toothbrush!
 REVIEWS:
 
-->What an amazing place! Such coo decor, furnished to such a high standard and Serg was great at making sure we felt at home. I would 100% recommend 
-->Flat was really cool and trendy. Lots of space and was well take care of by our host.
-->The flat was amazing! Thank you to Serg and Max for the easy way to deal with! The flat is in the middle of shoreditch, 2 min away from the tube. The flat is so beautiful, 2 big balcony, 2 floor! It was just perfect! Thx for this little paradise
-->Me and my family stayed at Max's place for 2 weeks and the whole place was lovely. Great spaces to hang out in the living room, spacious rooms and lovely atmosphere. Flat is in the heart of Shoreditch so is great if you are looking for some bars as well.  Would definitely recommend it to anyone. 
-->Awesome apartment and great location for cool bars and restaurants. The apartment is exactly as described, if not then better! Will be booking this place again without hesitation next time I'm in London. 
-->Great family stay in this Shoreditch spacious apartment.  We were a group of 6 and there was plenty of room for everyone. Beautifully decorated, clean and couldn't get better for location.  Very convenient to bus and overground transport, but a bit far from tube.  Endless restaurants and nightlife nearby.  The apartment itself has all the important amenities plus , coffee and teas , plush towels!  All around a great and comfortable stay.  I would love to come back and rent again!
-->Amazing flat at s great location 
-->Amazing flat!!<br/>Everything and more that I could have hoped for, will definitely stay again if it is available!<br/>
-->A very cool place in a fantastic area of London. Some problems with warm water which probably could have been avoided with more info. Still we had a great time. The place was quiet yet situated on an excellent location!
-->Was in town with two friends for a 'boys weekend' and had a great experience.  Shoreditch is a fantastic neighborhood and Max's place is situated perfectly to experience everything local and beyond.  The condo is very nice, modern, and roomy.  You can stay here for months.  Would 100% stay here again.  
+->I came to london with 2 to of my girlfriends to celebrate my birthday weekend. This flat is located in a lovely hood with lots of restaurants, coffee shops, bars. The apartment was clean and cozy, except it did have cigarette smell that was hard for us to digest. We left windows wide open when we were out to get the fresh air but it still didn't help. I hope the owner will be able to take care of this for future bookings. The owner is really helpful and communicated very well with us. The bedding was clean. I stayed on the pull out sofa, which wasn't the most comfortable to sleep on but it was fine for 3 nights (probably wouldn't be able to sleep for longer than that). The bathrooms and the kitchen were clean and had all necessary accessories for us (shampoo, soup, etc). Overall - we had a great time and I would recommend this place.
+->The Host of this property was fantastic, from jumping on a facetime with me when I first arrived, to responding to each of my messages in minutes. We had a situation that needed his attention, and in the middle of Eid, he stepped about to help me. The place was clean and the attention to detail was awesome. I'd mentioned I was brining my kids and an Easter Egg was hidden so the girls could have an egg hunt when we arrived. I do think there is a smoker downstairs, which is unfortunate as we had to open  the windows when we returned to the apartment but aside from that, it was great, plenty of space, even for four, well stocked kitchen to cook in, close to transit and a bunch of great food places within walking distance. It was practical as I needed to be close to the city, but accessible for London adventures.
+->Great location and comfortable apartment
+->The host is very responsive and accommodating
+->Clean, large apartment is the centre of Aldgate. Stayed here whilst on a business trip and had everything I needed. Very close to Aldgate East (5 mins) and a short walk (12 mins) to Liverpool St station. Only small comment would be that the apartment got a little hot during a London heatwave. It was absolutely fine with the windows open during the day, but too noisy to sleep with them open given proximity to the main road. A small fan would have been a welcome addition! Thanks for a great stay though. Would definitely stay again!
+->A comfortable, welcoming, bright home with amenities that work well. The location is quite good, we were able to hit favorite spots along Brick Lane. The London Museum isn't too far away. Victoria Park... Burough Market.. The building has a lobby with an attendant on duty. The host makes you feel welcome from the start. and check in was easy.
+->Good and nice apartment
+->The apartment had a nice layout with two bedrooms and two bathrooms with a spacious lining area. The location isn’t in the nicest part of town.
+->Very disappointed overall. Very old building and not so clean apartment, so much for 440£ per night.
+->Nice and clean apartment quite close to Tower and Sky Garden. Hence, perfect for our stay. Thank you!
+
+File: 617296561622933898.json 
+  id: 617296561622933898
+  name: In the heart of financial district of London
+  description: Perfect for a business trip, stay-cation , or a get-away.<br />Located in the heart of the financial district in London, this apartment offers plenty restaurants, entertainment venues and what so on, and all within the walking distance of 5-10 minutes.<br />4 min walk from the South Quay Station and 10 min walk from the Jubilee Station.<br /><br /><b>The space</b><br />This space offers 3 bedrooms 2.5 bathrooms furnished with modern appliances, fixtures, and furniture. Bedroom n1 is en-suite , and Bedroom n2 besides the bed, also has a desk to be utilized for office related purposes. <br />Kitchen has full of upscale appliances serving all the needs of the guests. Living room is very spacious and can host 6-7 people at the same time. <br />Living room comes with a TV with cable subscription. <br />Wi-fi is fibre optic , and super fast.<br /> Windows in the living room are up to the ceiling that brings a breath-taking view of the city while preserving our guests’ privacy.
+REVIEWS:
+
+->What an amazing place to stay. The balcony is gigantic and you get the most awesome sweeping views of so much of London. The apartment itself is beautifully modern and Eleonora is an absolute credit to Airbnb - her communication is out of this world. Can't wait to come back.
+->The flat itself is beautiful, the views of London are stunning. However, our check-in experience ruined the entire weekend for us. I was told to collect the keys from concierge by stating my name. Even though I did this, the man refused to give them to us because the previous guests had told him upon checking out and dropping off the keys, that the flat was an AirBnB. According to him, this (subletting) is against the building policy hence why he put the keys into the mailbox and reported the situation to the site manager that morning, and consequently refused us access when we tried to check-in at 4pm. I informed the host who at first accused me for stating to concierge that we were an AirBnB booking (which I didn’t), and then said she’d call concierge to resolve the situation (as she was out of the country) as what they were doing was not allowed. She could not resolve the situation with concierge, and instead, together with the help of her co-host, organised for someone to drop us off the keys. We had to wait for 2.5 hours (they arrived at 6:35pm), and were told 3 times that the person with they key would be 5 minutes when we followed up when in actual fact it was 40 minutes, 25 minutes, and 10 minutes respectively. Before checking in, we were told we had 1 free parking space in the car park and could pay for additional parking spaces - this would have to be sorted with concierge. Instead, we were sent to another concierge who refused us access to the car park as we were not residents, and we had to pay for parking spaces on the road. We asked for reassurance from the host, co-host and AirBnB that we’d have no issue over the weekend with concierge given what they’d previously said, and whilst they didn’t say anything to us, we were stared at intimidatingly when we walked past us - we didn’t feel welcome or comfortable. It was a bit unnerving given we were 6 girls, one of whom is pregnant. Whilst the host and co-host were very responsive when this all happened, and were able to send a friend to the flat the same evening to let us in, I would encourage them to organise a better check-in process for future guests and ensure concierge do not make their guests feel unwelcome.
+->Exciting view from balcony!<br/>Very easy access to London city Centre.
+->This was bt far the best experience I've ever had staying in London. <br/>The Apartment was spotless and kept to a very high standard.  The views of London made each evening as relaxing as being anywhere in the world. <br/>The comfort of the apartment made the trip feel more like a holiday than the Business trip it was.<br/>the host was very quick to communicate with me, the checknin process was as easy as walking into my own home. <br/>I would highly recommend this host and I can not wait for my next trip to London and hopefully being able to stay at this apartment again.
+->A fantastic apartment- amazing value, clean, comfortable, spacious with outstanding views over London. Eleonora is a great host, responsive, helpful and very professional, a true credit to Airbnb! I will definitely be staying here again..
+->The views from the patio were outstanding!! Could see all of the London skyline! Our family loved the time we spent in the flat. Having the doors open while eating dinner at the dining room table overlooking the city will be a memory we will keep forever. The closeness to the tube made going to different parts of the city so very accessible!
+->this has to be one of the best air bnb I ever rented, the apartment is simply gorgeous, very spacious, clean, modern and comfortable,  the view is just breath-taking especially at night. contacting the host via the app was super wasy and fast. I will 100% recommend booking this listing
+->Absolutely stunning place, the balcony is like something out of a Disney movie. Eleonora is an amazing host, always available with great communication!
+->This apartment is modern and spacious with nice views on the river. The area feels secure and close to mini markets, local restaurants and coffee shops.<br/>The apartment contain 3 bedrooms which can practically sleep 4 adults. We were 5 so one had to sleep on the ground. Unfortunately the manager did not consider my request for a mattress. Kitchen area can be improved as well. Glasses and Mugs are insufficient. I also found dirty plastics in the cupboard.<br/>No iron so I bought my own, No coffee maker and no water boiler. The managers' execuse was safety. She suggested to use Dolce Gusto machine as waterboiler.<br/>The sofa was very dirty and stained.<br/>Overall very modern apartment but lack of attention to details.
+->Lovely apartment.  Stunning view
 
 File: 21932944.json 
   id: 21932944
@@ -136,40 +204,6 @@ REVIEWS:
 ->The apartment is beautiful, very nice, clean and with views from the neighbourhood. I went with a group of students and they really loved the place and the location of the apartment. Really good! The check in and check out were easy and very simple. 
 ->Perfect for an affordable place to sleep at night, the beds were comfy. Hot tap in the en suite shower was broken which was a nuesance as there were 8 of us that wanted showers every night but the shower in the main bathroom that worked was lovely! <br/>There was already an array of essentials in the kitchen, coffee tea sugar jam salt spices etc. <br/>The washing machine door was broken so we couldn't use it but there is a dishwasher which saved us doing the washing up!!<br/>All in all, it was a pleasant stay :-)
 
-File: 50410093.json 
-  id: 50410093
-  name: Fantastic Two Bedroom Apt in Shoreditch!
-  description: Amazing location, two bedroom apartment on the 1st floor in the centre of vibrant Shoreditch filled with colourful bars & restaurants amongst art spaces and active graffiti scene.<br /><br />Free wifi, 1 towel per guest and linen are included.<br /><br />Shoreditch is lively at night so street noise is to be expected but you are situated in the heart of the action with plenty to offer right on your doorstep!<br /><br /><b>The space</b><br />The apartment is completely private and sleeps 8 with 2 bedrooms, 1 living space with 2 double sofa beds, 2 bathrooms (1 en-suite), TV, free wifi and a fully functional kitchen that comes complete with oven, stove top, fridge (no freezer), kettle, toaster, pots & pans, glassware, crockery and cutlery.  <br /><br />Please note: Infants must be included as a child when you are searching/booking as we charge per person regardless of age. <br /><br />In an attempt to limit our carbon footprint we provide: <br />- 1 towel per guest <br />- Toilet paper p
-REVIEWS:
-
-->Highly recommend. Lovely flat to a very high standard. Would book again.
-->Let me make this clear to everyone that is thinking of coming to this place it’s a PARTY BLOCK straight drinking and party vibes only do not think your going to get an easy sleep here! Right by Shoreditch overground so easy to get to Central grate cocktail bars right outside your door.
-->Had a great stay here, easy contactless check in & check out- overall a good place to stay with quick access to the tube
-->The place is huge and spacious for 4 guests as there are two bed rooms w huge beds. However, with more people staying. Others have to sleep on the couch. <br/>The overall living room area is very spacious and comfortable. Really loved it. <br/>The toilets and showers are pretty great as well. Except the shower in the master bedroom does not have a door to it and water splashes out. The shower head can also be replaced for more comfort.<br/>However, an overall great place to stay.
-->I would like a refund please the apartment was disgusting. Stains on the walls. There was stains on the chairs. The bed wasn’t done properly. Water on the floor..
-->An excellent place to stay, located very centrally in shoreditch, would 100% recommend and will definitely be returning!
-->Great location and the flat was spacious.
-->Mihaly was an excellent host, communication was great and the location is in a beautiful place next to various restaurants and bars. Definitely recommend this place to anyone wanting to stay in London!
-->Definitely would stay again, really good location and Mihaly was very helpful. 100% would recommend
-->My colleague and I stayed at Mihaly's wonderful Airbnb as we were working nearby. It was the ideal location, right amongst the action and a short walk from the station, plus plenty of restaurants, bars and shops - you're practically on top of Boxpark!<br/>The flat was clean and towels were provided. Check-in was easy, and Mihaly was speedy with responses.<br/>The accommodation was great value for money in comparison to the other Airbnb's in the area, even those that aren't as centrally located. <br/>Thanks for having us Mihaly!
-
-File: 7272749.json 
-  id: 7272749
-  name: Central London Olympic Park Zone 2
-  description: 90 DAY OR MORE BOOKINGS ONLY<br />LOCATION • LOCATION • LOCATION: Zone 2 Central London:<br />1. VISITORS: Excellent quick travel links for all Central London attractions.<br />2. WORKERS: Very short commute to City of London & Canary Wharf & Docklands.<br />5* SUPERIOR DESIGNER LUXURY WATERSIDE AP<br /><br /><b>The space</b><br />90 NIGHT OR MORE BOOKINGS ONLY<br />---<br />Apartment Features<br />• HUGE: 1000sq ft – 35% larger than a standard London 2bed apartment.<br />• BOUTIQUE LIVING: Contemporary 'boutique hotel' style living designed with aesthetics and function in mind – light & airy, over-sized living space.<br />• INTERIOR STYLED: lavish open-plan lounge/dining/kitchen space and extensive storage areas. Innovative interior design, wooden-floored & fitted with 'designer’ furnishings.<br />• MODERN CONVENIENCES: Fully equipped – free Wi-Fi, sat TV, Blueray, DeLonghi coffee machine, PS3, Zeppelin AIR (top-end wireless music system), hair salon professional hairdryer & more.<br 
-REVIEWS:
-
-->John's place was wonderful, closer than we expected it to be, to what we need. Extremely comfortable, and well decorated,  we would have stayed longer if the place was still available 
-->This is the first time we've used airbnb and I can't see how it could of been a better experience, about 5 minutes after registering I was talking to John on the phone, with all the details done and dusted. I felt like I was chatting with a long lost brother! John met us at the flat which was absolutely as advertised if not better,it was warm and comfortable with an easy walk to DLR and Westfield shopping centre. The flat had everything you could need including secure private parking, there were lovely views across the canal and the Olympic park. There's lots of stylish glass walls in kitchen/siting room area, so the only thing I would bring next time is my dressing gown so that I don't frighten any canal walkers whilst making tea first thing in the morning.
-->Great host. Great place. Highly recommendable. 
-->John's place was perfect... We felt really comfortable; The beds were great. John was really helpful with giving advice for getting around London and even offered us a late check out. A great host. I would highly recommend his place. Thanks John.<br/>Rob
-->We were 3 persons with disability,<br/>Nice view with clean flat and thanks John for the shower chair .<br/>Very far from the center we used to pay the cap 35-40£ in each way .<br/>One of the two bathrooms was under repairing for two days .. There was a problem in the heater we had cold showers  ..<br/>The cleaner(Sevetlana) came in to the flat with out a permition when we were out .. Then John send me a long message saying Sevetlana didn't found the bins while it was in the other room and there was a broken chair in the main room and I said it was already broken when we arrived .. I didn't like the way of checking . After a week from the check out John send me a bill to pay for a blocked sink that I don't know any thing about it . 
-->We stayed at John's fabulous flat for my daughter's birthday with 4 of her friends. We had an amazing time - the flat is fantastic, really luxurious, spotlessly clean, lovely décor - the pictures do not do justice! John was a great host, really quick to respond and very helpful, even organising a taxi for us with a singing cabbie! Thanks for a great stay, we'll be back!  
-->Fantastic place in an amazing location. Apartment was extremely clean with fabulous views across the Olympic park. John as very easy to deal with and always quick to respond.  Would definitely stay here again and recommend - thanks John it was perfect 
-->John var väldigt trevlig och tillmötesgående. Har ansträngt sig för att ge en bra upplevelse och gav många bra tips och råd om området  och vad som fanns att se och göra. Lägenheten fungerade fint för våra behov. Väldigt ljus och fräsch med fin utsikt i ett intressant område. 
-->Great apartment with beautiful views of the river and and across the Olympic park. Apartment was just as listed, clean and easily accessed from Stratford station. John was always quick to respond and easy to deal with, a great host. Would recommend this apartment.
-->Beautiful luxurious apartment with two bathrooms and a nice view on the Olympic park in a cozy neighborhood. The subway is quite a distance walking.
-
 File: 32017126.json 
   id: 32017126
   name: City living apartments
@@ -187,6 +221,23 @@ REVIEWS:
 ->Beautiful, clean apartment, host is very quick to respond and thoughtful, great location with links to London literally minutes away. Perfect experience.
 ->Amit and his flat were amazing. The location is wonderful and the space was fresh and clean. Beds were comfortable with lots of room. Even before we arrived he was clear and communicated well and quickly. More than anything, he was so accommodating to our travels. We are so thankful and regret not staying with him in Whitechapel longer!
 
+File: 5925429.json 
+  id: 5925429
+  name: Modern 2 bedroom flat in Limehouse, London
+  description: Family friendly 2 bedroom, 2 bathroom apartment in Limehouse (3 mins walk from Limehouse DLR, which provide excellent links into Central London, Canary Wharf, Tower Hill, London City Airport, Excel London. <br /><br />The property comprises:<br />a spacious open-plan reception room with floor to ceiling windows and access onto a private balcony;<br />a master bedroom with en suite bathroom and a walk-in wardrobe;<br />a second bedroom and a family bathroom.<br />High-speed fibre optic internet, two TVs and 24-hour concierge.<br /><br /><b>The space</b><br />We have a private balcony overlooking a quiet courtyard where you can have breakfast and enjoy the fresh air.<br />The property also benefits two TVs (65" Ultra HD, and 42" Full HD), coffee machine, cot bed, high chair, microwave, hairdryer, iron, oven, hob, washing machine.<br />The famous Narrow Street with The Narrow - Gordon Ramsay is 1 min walk away. Private parking is available for bookings of 10 nights or more.<br /><br /><b>
+REVIEWS:
+
+->Thank you for making our 8 days stay very comfortable and stress free with uninterrupted wifi connection which is vital for us when we need to attend meetings virtually. <br/>The unit is very spacious and clean. Walking distance to Limehouse DLR station, Tesco Express and  Canary Wharf. <br/>Rustam is very responsive and attentive to our request. He spoilt us with loads of chocolates and we love them. <br/>We look forward to staying at this place again.
+->Beautiful appartment and very nice environment ! Everything was new and well preserved ! The host was excellent and helpful with everything that had to do with the house. Its definitely a very good choice for someone who wants to have an excellent stay in London.
+->I booked three weeks at Rustam's place. It was exactly as described and a short walk to the Limehouse DLR. Good value for money and Rustam was accommodating.
+->Very clean house with an amazing host. Rustam is an honest person and we had enjoyable experience. Would recommend.
+->A kind and welcoming host. The apartment is clean spacious and makes you feel that you are at home. I enjoyed having a fresh brew of coffee when I wanted. Highly recommend the place.
+->Rustam is an excellent host. He made my stay so pleasant and easy. He organised parking, answered every query I had and handled everything so smoothly. The apartment is amazing- the location is great too- very easy to get in to central London and the Thames is a short walk away. I'll definitely be rebooking whenever I am visiting London.
+->Overall great, matched listing.  Fast internet.
+->Rustam is an excellent host, very friendly and considerate. We had a great time in his flat (2 adults, 2 kids), which is in a fantastic location, very central — we really recommend this place to explore London by river boat as it is just a short walk from Canary Wharf pier. The kitchen is perfectly equipped and Rustam has stocked it with all the essentials and more. The flat is all in all very comfortable and convenient for both short and longer stays. We hope to be able to stay at Rustam’s again soon!
+->One of my bet AirBnB experiences so far. Location is perfect for exploring London. Facilities and kitchen all well-stocked. Host was helpful and communicated well. Highly recommended, would stay again.
+->Nice, well maintained, large apartment with two bedrooms and two bedrooms.
+
 File: 31846515.json 
   id: 31846515
   name: City Living Apartments
@@ -202,6 +253,40 @@ REVIEWS:
 ->Thanks Aarav for having us. It was a nice appartment with 3 bedrooms, not far away from shops, restaurants etc.
 ->Absolutely worth it. We had a fantastic stay and would definitely stay again. It was spotless too.
 ->Great location and spotlessly clean.
+
+File: 20298321.json 
+  id: 20298321
+  name: Flat for 4 With Amazing View of Thames in London
+  description: *Great monthly discount for 3+ months stays* <br />A converted warehouse with original metal poles and exposed brick walls looking out over the Thames. The apartment has a balcony to sit out on and enjoy the river view, it is complete with all the necessary amenities, and provides 4 guests with the perfect home away from home. <br />The view includes Canary Wharf which is particularly spectacular at night. <br />Wapping is an old riverside area with attractive cobbled streets.<br /><br /><b>The space</b><br />Found within the tranquil and picturesque area of St. Katharine’s & Wapping is this cozy 2-bedroom flat offers an amazing view of the River Thames & Canary Wharf. It has a king sized bed, two single beds, two bathrooms (one with bathtub and one with walk-in shower) and all the essential amenities ready to provide guests with comfortable lodging. For a wide selection of restaurants, bars and cafe, both Wapping High Street and St. Katharine Docks are within walking distance of the f
+REVIEWS:
+
+->We rented the flat for four days and found the accommodation excellent in terms of location, facilities and views over the Thames. The view to Canary wharf really made our stay given we were limited to staying in each night with a ten month old. The secure parking was also a massive plus given the volume of stuff babies need required us to travel by car. This was our first time using air BnB and have come away with a really positive view of the service based on our experience staying in this flat
+->This was a great place for me enjoyed it
+->Great place to stay with my wife and in-laws. Close to Wapping station, a great deli, good pub and restaurants. Incredible views of the river. A perfect base to explore the city
+->The house is beautifully decorated and comfortable.  Location was good next to Thames river but through tube station was 10 min away and needed 2 more tube to get to the main attraction.<br/>The house was clean and we'll aquiped. <br/>The thing that bothered us the most is the treasure hunt we had to do to get/drop the house key. That's the last thing anyone  want to do at 5am. Comunication with the management was poor. Took them 18 hours to respond to a problem and not to our satisfaction. 
+->What a fantastic apartment in an interesting, little-visited part of London. The views and layout are superb and the apartment is warm, clean and quiet. We will be back.
+->Sue is a very nice host, her flat is fashionable, clean and convenient, don’t hesitate to book it!
+->Très bel appartement avec une vue exceptionnelle<br/>Très confortable<br/>Literie super<br/>2 salle de bain<br/>Manque de la vaisselle en cuisine<br/>Attention pas de cafetière
+->Il mio soggiorno è stato a dir poco meraviglioso. <br/>Posto splendido, location tranquilla lontana dal traffico ma al tempo stesso DENTRO IL CUORE DI LONDRA, quella vera. Vicino a tutto ed a tutti i servizi più importanti (trasporti, supermercati, attrazioni).... elegantissima ed appoggiata sul Tamigi, di cui la sera e la mattina si sente il leggero rumore...<br/>DAlle finestre sul fiume SKYLINE DA URLO...... insomma, sto già riprenotando!
+->i was visiting the UK to spend time with my daughters who live in North and South of England, Sue's place proved to be the very best choice of a central meeting place for a few days of exploring London. <br/>on entering the home it took my breath away as to the immediate uninterrupted view of the Thames and the city skyline... the words and photos on the promotional side simply do not prepare you for the incredible sights and sounds.<br/>in terms of comfort and amenities we could find nothing lacking, superbly comfortable and open spaces, for 4 adults and my little Grandchild we had plenty room.<br/>an easy walk to train / tube / bus routes and a stroll to St Katherine's wharf from where we took a boat ride to Westminster... Canary wharf in the opposite direction and hop on hop off tube rides to all the main touristy sights of London. fantastic.<br/>just next door is a tremendous historical pub for a relaxed meal and a beer overlooking the river.<br/>a memorable trip indeed and I highly recommend Sue's place. if we ever get the opportunity we will definitely be back.
+->Sue's flat is lovely, spacious, & furnished with taste, & the view from the living room is magnificent, especially when the sun comes in in the morning, but even on a foggy day. You can enjoy it like a home, as it leaves you free to impose your own style on it. The only disadvantages I can see is the distance from grocery shopping, but if you want to stock up, the bus will take you to a Waitrose supermarket in 10 minutes, no problem. The flat could use a coffee-maker & a few other necessities for making meals, but perhaps by now it has them!
+
+File: 10467506.json 
+  id: 10467506
+  name: Superb Central Loft - 2 BD Sleeps 6
+  description: My 2-bedroom apartment with an additional sofa bed has excellent transport links to the centre of London in 15 minutes. You'll love the unique furniture, exposed brickwork and green plants in a former Victorian sugar mill. The beds are very comfortable and come with high quality white bed linen. Relax in the bath or excellent rain shower after a long day exploring the city, or cook a proper meal for your guests in the kitchen!<br /><br /><b>The space</b><br />This large flat sits in a former sugar mill and is on 3rd floor - but easy to walk up to or take the lift if you have heavy bags.<br /><br /><b>Guest access</b><br />You will have access to the entire flat during your stay. 2 bedrooms, 2 bathrooms and a large living space including kitchen, dining and relaxing areas.<br /><br /><b>Other things to note</b><br />There is no TV in the flat, though there is an iMac that you could watch films on if you have your own Amazon or Netflix account. You can also login to Spotify to play music
+REVIEWS:
+
+->This is a great Air BnB!<br/>Our best yet, a beautiful apartment with everything we needed, a very comfortable stay in a great location. The host was really helpful & just on the other end of the phone if we had any issues. We will certainly book this place again when next in London. 
+->The host was really precise and accurate, he wrote down all the instructions on a practical PDF document. <br/>The flat position was perfect because it was easy to reach the main tube and bus stations from there and also Tower bridge was very near, only 15 minutes walking. The place was clean, cosy and warm, very nicely furnished. <br/>We enjoyed our stay. Thanks Daniel :)<br/><br/>
+->Daniel is a great host. Very responsive and always happy to help. He also gave us lots of good tips for things to do and places to go in the neighborhood. The flat is gorgeous and perfectly situated. I definitely would recommend staying there!
+->Simply perfect. Every single thing was better than I had hoped for when I booked this loft apartment for my girlfriend and her family. Daniel was a great host, we never met him but he was always available if I had any questions. The apartment is situated in a perfect location, 5 minutes from the tube and the area is quiet.   The rooms and bedrooms are very very comfortable and it's a great place to relax in the evening after a long day sight seeing.<br/><br/>I would highly recommend this apartment for anyone who wants to spend time with there family in London.<br/><br/>Thank you Daniel for allowing us to enjoy your home!  It was the perfect weekend in the right apartment.<br/>
+->We really enjoyed our stay in Daniel's flat. All communication prior to stay was great, quick responses from Daniel to my questions and the guide he provided had relevant information 're tube stations etc that we needed. The location was very good, only 15 minutes walk to Tower Bridge and 5 minutes walk to the tube station. <br/>The flat was very clean when we arrived, with good quality bed linen. I'm being picky when I say I would have liked a few more towels.  Although nothing to do with Daniel, we were disturbed by the noise of several young men talking whilst standing outside one of the flats opposite until 1am on our last night.<br/>Would we stay here again? Absolutely!<br/>Thank you Daniel.
+->Myself and my family visited (5 people in our group) Daniels apartment/flat last weekend. From the very first interaction with Daniel we found him very easy to deal with and very pleasant. He gave us some great tips in terms of where to eat and the suggestions he included on the property page were so helpful. We were actually blown away by how beautiful the flat was. It was very clean and had everything included that you would need for your trip. The flat is conveniently located near to the tube station for easy access to all the attractions London has to offer. We certainly felt like we were in a home away from home and will be recommending this property to all our friends and family who are visiting London. We'll definitely be back again soon! 
+->客厅非常大，光线充足，离伦敦塔很近
+->Very welcoming  Daniel is a great communicator and access was easy comfortable beds great location
+->Daniel's flat is as gorgeous as it seems in the photos. There was definitely more than enough room for our group of four, two tidy bathrooms and the most comfortable beds ever. Everything went smoothly - the check-in was made really easy for us. The location is great too, with a relatively short walk to the nearest underground station. I definitely highly recommend Daniel's apartment!
+->wow wow wow!<br/><br/>Do not hesitate to stay at this amazing place!<br/><br/>We had such a great time here. Daniel is the most perfect host, great communication through out the stay. The place is furnished beautifully and a 10 min walk to to Aldgate east station. thank you to Daniel for making us feel so welcome :)<br/><br/>
 
 File: 50410317.json 
   id: 50410317
@@ -220,123 +305,39 @@ REVIEWS:
 ->nice clean spacious apartment right in the middle of Shoreditch.  Good find, thanks!
 ->This apartment was just what we needed (essentially a crash pad for four of us after a night out in Shoreditch) - great location, plenty big enough for us, comfy beds and two bathrooms. Check-in procedure and communication was very good.
 
-File: 7274152.json 
-  id: 7274152
-  name: Central London Canary Wharf Zone 2
-  description: LOCATION • LOCATION • LOCATION: Zone 2 Central London: Waterside 'designer' luxury apartment.<br />1. VISITORS: Excellent quick travel links for all Central London attractions.<br />2. WORKERS: Very short commute to City of London & Canary Wharf & Docklands.<br />5* SUPERIOR DESIGNER LUXURY WATERSIDE APARTMENT<br /><br /><b>The space</b><br />SORRY, NO ONE NIGHT BOOKINGS FOR EVENTS – social gathering of friends, Party's etc.<br />---<br />FEATURES<br />• DECADENT LIVING: Something different & unique, fully fitted with high-end expensive designer furnishings & quality appliances. Including RRP £9,000 Poltrona Frau Leather Sofa, £1,700 Foscarini floor lamp, £1,600 coffee table etc. etc. Leading brands inc. Harrods, Eames, Harvey Nicolas, Conran, Bugatti, Smeg, Alessi, Calligaris etc. etc.<br />• VIEWS & BALCONY: Floor-to-ceiling glass facia to living area. 180 degree views over the canal. Private balcony with designer floating table & comfy chairs from the TV show Big Brother. Accessible
+File: 31540995.json 
+  id: 31540995
+  name: 2231-STUNNING APARTMENT WALK TO TOWER BRIDGE
+  description: Fully equipped apartments in London ZONE 1<br />Located just 10mins walk to Tower bridge, Tower of London and City of London (Financial Area of London) and with 6 different underground and overground stations you will be really well connected and able to go anywhere in the city.<br />-Pay per hour / per day car and bicycles outside the building<br />-Easily accessible from all major airports<br /><br /><b>The space</b><br />Beautiful two bedrooms / two bathrooms apartments ,sofa bed with all you could ever need to feel at home.<br /><br />Your apartment includes: <br />-Internet Wi-Fi<br />-TV <br />-Dish Washer <br />-Washing Machine<br />-Iron and Iron Board<br />-Laundry and cleaning products<br />-Fully equipped kitchen and utensils <br />-Microwave, coffee machine, toaster and kettle<br />-Essentials such as coffee, variety of teas, spices and oil<br />-Toiletries <br />-Hair Dryer<br />-Bed Clothes and Towels<br />-UK Adapters <br />-Travel Cot and High Chair<br /><br /><b>Guest 
 REVIEWS:
 
-->We had an excellent stay at John's place. Comprehensive directions, hassle free check-in and excellently done up and very clean, we were comfortable in the apartment. Would recommend anybody who would consider staying in that area.<br/>All the best!
-->This flat is absolutely superb. Location is great, is very well equiped, and it's very cosy. Apart from that John was very accesible and took care of every detail. 100% recommended!
-->John answers a question before you even finish it. He's amazing! So helpful and kind.<br/>The apartment is very cool and it's awesome to have two bathrooms. 
-->Great location and apartment - made an excellent base for exploring London and returning to chill in the evening.  Apartment very clean and ticked all boxes.  John was extremely helpful and always on hand if needed.  Would use again.
-->Lovely neighbourhood, the host was exceptional and accommodated our early arrival. The description was spot on and the apartment looked as great in real life as it did on the advertisement. <br/><br/>We really loved the balcony!
-->The communication with John was very easy and he was very helpful when we had questions. <br/>The apartment was lovely and modern, it offers everything you need. There is good access to the city with the DRL-line.<br/>We had a great time!<br/><br/>Thanks John
-->Recently enjoyed a great stay in John's lovely flat. From the beginning, communication was frequent with plenty of info. The flat was easy to find and access, only a 10/15 min walk from DLR station with convenient cafe for breakfast halfway there. Safe and secure with friendly concierge security and locked access. Interior of flat stylishly decorated and cleaned to a high standard. Very well equipped with good quality appliances and equipment, great TV and good Wifi. Comfy beds and great shower with plenty of hot water, always lovely and warm when we returned from a day sightseeing. Very nice outlook from balcony overlooking canal basin. Corner shop very close  and larger supermarket only a 3 min walk away. Would definitely stay again if we needed a 2-bed flat in east London. All in all wonderful stay, thanks a lot. 
-->All in all, John is nice and so kind ,even if I went there very late. <br/>We did meet eachother, but his apartment has a nice view in the morning..if u go there, dont miss..
-->El anfitrión informó desde el inicio cómo llegar y la recepción estaba abierta las 24 hs.<br/>El barrio estaba alejado no obstante nos movíamos en metro y tren, muy bien.<br/>
-->John is a really kind person and he has done us all the useful informations for our trip in London: he provided us a taxi from the airport to his flat and gave us all the informations for public transports in London.<br/><br/>
+->Très bel appartement ......Week end fantastique en famille  à londres ......grand merci à nos hôtes
+->Pick this impeccable condo, you won't regret it....worth every penny....
+->We were in April for two nights in the great apartment. It is located on the 11th floor and offers a fantastic view of London's skyline. <br/>Personal, very friendly reception at the check in, unfortunately we didn't meet our host at the check out. <br/>The accommodation has everything you need. The nearest bus / train station is a few minutes walk away.<br/>Thank you very much for your hospitality.
+->The apartment is an excellent base for a stay in London with the added bonus of fantastic views of the London skyline. It is very clean and well equipped. The whole process from booking to leaving was faultless with excellent communication at all times.
+->Lovely place with everything you need and a great view!
+->Stunning view on the skyline of Banks! All required amenities available and very clean.
+->Attention l'annonce ne correspond pas à la réalité.<br/>Sale (murs, moquettes, sofa), bruyant (6 lignes de train au pied de l'immeuble), sofa inutilisable, difficile de dormir dans le salon car ni rideau ni store.
+->If you want a stunning view of London, a clean and well-maintained generously laid-out flat with two private bedrooms and two baths, this is the one to book!
+->Martin's place was perfect for a london trip. The location was great for quick access to the tube station. Very comfortable and clean with a great view. I would definitely stay here again. Thanks Martin for being a great host.
+->Matin’s place is modern and airy.  Angelo was great to deal with.  We enjoyed our stay
 
-File: 24669822.json 
-  id: 24669822
-  name: Two Bedroom Apt in the Heart of Shoreditch
-  description: A bright two bedroom apartment in the heart of the action! Shoreditch boasts an array of flare with plenty of street art, interesting shops, restaurants, bars and the famous Sunday Brick Lane Market that attracts tourists from around the world. <br />You won’t be short of places to see and do in East London or jump on a train or bus into the centre to visit the West End, Oxford Circus, River Thames and Buckingham Palace.<br /><br /><b>The space</b><br />This first floor apartment is situated just off Brick Lane close to transport, shops and restaurants. The apartment accommodates up to 8 guests with two bedrooms with a double bed in each, a living space with two double sofa beds, TV and free wifi, two bathrooms (1 is ensuite) and kitchen that comes ready to use with oven, stove top, fridge (freezer unavailable), microwave, kettle, toaster, pots and pans, crockery, glassware, cutlery and complimentary tea/coffee. <br />This apartment is centrally located so some street and surrounding n
+File: 19795420.json 
+  id: 19795420
+  name: 3 bedroom flat near Canary Wharf with outdoor area
+  description: This gorgeous flat is close to central London allowing you to explore & WALKING distance to CANARY WHARF.<br />PERFECT FOR WORKING FROM HOME <br /> A modern flat,  built to a very high standard.  3 bedrooms (two double, one single), with fantastic open plan kitchen, dining and living room, 2 bathrooms and large outdoor area. This would be the perfect flat if you're looking for a spacious place to stay, with good transport links.<br /><br /><b>The space</b><br />7 min walk (2 min bus) to Westferry DLR (7 mins to Bank). <br />10 minute walk (5 min bus) to Canary Wharf for Jubilee and Elizabeth line. <br />15 min walk (or 5 min bus) to Mile End (central line). <br />20 min bus to Victoria Park.<br />Buses go from immediately outside of the apartment and Santander Cycles are available near by.<br /><br />THE SPACE<br /><br />The flat is located in a secure residential building on the ground floor which you can access via a lift. Wonderfully relaxing, along the canal. Both the double bedroo
 REVIEWS:
 
-->Muy agradable en una zona fenomenal de Londres
-->Great location for our girls weekend, with loads of brilliant bars and restaurants on the doorstep. Check-in was very smooth. <br/>We were somewhat disappointed that there weren’t proper curtains in any of the rooms, which impacted the quality of sleep. The dishwasher also seemed to be permanently out of order. <br/>We also struggled with the welcome book and were a little confused as this appeared to be in the name of a completely different couple?!
-->place was great, convenient location and everything was as expected
-->Great location, clean and good value. A little loud but to be expected as an on street location
-->Perfect location and excellent apartment , definitely stay here again
-->This is the second time I have stayed at one of Hayley’s homes. Her homes are always of good standard (as the picture shows), great locations and Hayley is a great host! Will be booking again in the future!
-->Clean and very nice apartment. A bit noisy due to the 1st floor in the centre of Shoreditch, but perfect to get anywhere. We stayed very well.
-->Great place to stay
-->Great flat, spacious, sofa beds very easy to make, good amenities and very clean.
-->Great minimal space located next to a very vibrant district, highly recommended for short trips.
-
-File: 39547789.json 
-  id: 39547789
-  name: Liverpool Street 3 Bedrooms 2 Bathrooms up to 8!
-  description: 2 Bedrooms Wonderful Apartment! 2 full bathrooms and huge living/dining area. The Living area can be used as 3rd  bedroom, it comes with tv and fully equipped kitchen. It can host up to 8 people as there are also 2 comfortable double sofa beds. Children are welcome and we also provide cots upon request. Cleanliness is our strength, towels and bed linen are provided, as well as soap and toiletries. It is in a safe and central area, well connected 24 hours, walking distance from 3 tube stations.<br /><br /><b>The space</b><br />Live the dream in our newly refurbished apartment located in Liverpool street area, one of the safest and well linked areas of Central London. Self check in 24! <br />The apartment is on the fourth floor with lift of a lovely building, a prime location for your London's holiday. The apartment comes with 2 double bedrooms, 2 full bathrooms, one of them en-suite with shower, the other one with bathtub, a spacious living room (can be used as a third bedroom) with 2 c
-REVIEWS:
-
-->Great location, really nice apartment with loads of space. Great views from the windows!! You can see the city and at night it is astonishing!
-->Everything was perfect for my stay. Thank you Camilla.
-->Perfect communication and service. Very convenient localisation in London. Clean and ready.
-->the apartment is spacious, minimal but comfortable.  my family and I spent some pleasant days.
-->Great location good value communication with host very good would recommend
-->Really lovely place in great location.
-->It’s a nice experience of living in the flat. There is a good location to take public transport and shopping.
-->Pros: Easy check-in, the host is very responsive. Very convenient to have a washer and dryer inside the room. Very close to some supermarkets and restaurants. <br/>Cons: The apartment itself is not very modern or new, some furniture need repairing.  Need to exchange some light bulbs. The area is not so great but close to bus stops.
-->Many halal places to eat nearby as the population nearby is mostly of Bangladesh people. Many sweet shops and street vendors near by on the busy white chapel road. The Whitechapel and Aldgate/Aldgate East tube stations are a decent 15-20min walk. Bus stops close by on Commercial Road was convenient and McDonalds 24h nearby too. Unit was average clean. Sofa beds more comfortable than the spring mattress beds. Elevator was a plus!
-->Ausstattung könnte etwas erneuert werden,  aber im großen Ganzen alles ok
-
-File: 21932875.json 
-  id: 21932875
-  name: Two Bedroom Apt in the Heart of Shoreditch
-  description: Amazing location, two bedroom apartment on the 1st floor in the centre of vibrant Shoreditch filled with colourful bars & restaurants amongst art spaces and active graffiti scene.<br /><br />Free wifi, 1 towel per guest and linen are included.<br /><br />Shoreditch is lively at night so street noise is to be expected but you are situated in the heart of the action with plenty to offer right on your doorstep!<br /><br /><b>The space</b><br />The apartment is completely private and sleeps 8 with 2 bedrooms, 1 living space with 2 double sofa beds, 2 bathrooms (1 en-suite), TV, free wifi and a fully functional kitchen that comes complete with oven, stove top, fridge (no freezer), kettle, toaster, pots & pans, glassware, crockery and cutlery.  <br /><br />Please note: Infants must be included as a child when you are searching/booking as we charge per person regardless of age. <br /><br />In an attempt to limit our carbon footprint we provide: <br />- 1 towel per guest <br />- Toilet paper p
-REVIEWS:
-
-->The Flat was an amazing location!
-->Great location, east check-in, good amount of space. Well worth it, thanks!
-->Die Wohnung von June ist super sauber und die Lage perfekt. <br/>Man ist in wenigen Minuten sowohl zu Fuß oder mit der U-Bahn direkt in der Stadt bei den wichtigsten Sehenswürdigkeiten. In der Nachbarschaft sind sehr viele nette Restaurants, Bars und Pubs und der nächste Supermarkt ist auch nicht weit entfernt. Es waren wunderbare Tage in London!
-->Easy, convenient and great host!
-->Awesome location in the heart of Shoreditch. Will definitely look to use this apartment again. <br/>June was brilliant and responded to message within the hour. 
-->The apartment is beautiful, very nice, clean and with views from the neighbourhood. I went with a group of students and they really loved the place and the location of the apartment. Really good! The check in and check out were easy and very simple. 
-->Beautiful, stylish spot -- have stayed here multiple times, will continue to stay here.  Thank you June!
-->Very nice and clean apartment, however very very loud on a night as it is between two main streets. I recommend taking this into account if you are easily woken at night.
-->Great apartment and neighberhood but verry noisy in the apartment Sathurday night
-->Hola el departamento esta muy ubicado, hay mucho grafiti en la xona lo que nos des tanteo, pero todo salió bien y el departamento esta muy bien, muy limpio y centrivo
-
-File: 29940385.json 
-  id: 29940385
-  name: Airy & light home near Canary Wharf
-  description: Our lovely second-floor apartment in a converted industrial building is an ideal base for work or pleasure. It is a stone’s throw from Canary Wharf, a major London business and lifestyle hub. The nearest tube stop (DLR) is a two-minute walk with direct and speedy links to the city centre, Tower of London, historic Greenwich, London City airport, etc.<br /><br /><b>The space</b><br />This is a roomy three-bedroom flat with double-height ceilings and a fully-equipped industrial-style kitchen / diner. Bedroom 1 has a deliciously comfy waterbed and bedroom 2 has a full-size bunk-bed and a cot-bed for a child up to 5 years old. Bedroom 3 is on the mezzanine level and has a sofa-bed for two (140cm wide) and an en-suite shower/toilet. There are lovely sunset views from all rooms and a spacious roof terrace with a table and chairs. We live here all year round and only rent it out when we are away, so it has a ‘lived-in’ and homey feel. We hope you enjoy it as much as we do and only ask that yo
-REVIEWS:
-
-->The apartment was close to the tube station which made travelling around London easy. There was a lift which was extremely appreciated as we had a lot of luggage. The apartment was clean but also felt homely. The instructions for check in and out were clear and precise and Miranda was helpful with any questions we had. Would definitely recommend it.
-->Bon rapport qualité prix pour cet appartement à 2 mn à pied de la ligne DLR. Appartement propre, agréable et bien aménagé. Les propriétaires sont disponibles et agréables. Je recommande
-->Great place to stay as family. It has good energy, fully equipped kitchen, and plenty of space. Close to public transport.
-->Spent a week here during the summer as a family of four with two teenagers. Truly beautiful home at the eastern part of docklands, tube zone 2, very close DLR station, quick connection to "Bank" station every few minutes. The home has everything you could wish for and is furnished tastefully. The terrace is most beautiful and makes for great breakfast with view over London. Miranda and Sergey were most helpful with everything and quick communication. Highly recommended!
-->We loved our stay in this apartment. Sergey and Miranda are super nice and they really make sure that you have all the information needed to have a wonderful stay. <br/>The apartment is clean, very close to the DLR station and to a lot of supermarkets which makes it very convenient. I highly recommend this Airbnb!!!
-->Miranda y Sergey son unos anfitriones excelentes y el piso es genial. Hemos estado como en casa. Gracias!
-->The flat was really nice and my group and I had a great time there. <br/>The hospitality of the landlords and the great access to the city are particularly noteworthy. Only a few minutes to Canary Wharf, DLR station right outside the front door and grocery shops nearby. <br/>Thank you Miranda and Sergey - it was a pleasure to stay at your place.
-->Logement qui correspond au descriptif. très bien équipé, propre et linge mis à disposition.<br/>2 minutes à pied du tram+ 15 minutes pour arrivé au centre.<br/>idéal pour une famille de 4 - 5 personnes.<br/>Propritaire très réactif sur l'ensemble des questions, et donne de bon conseil.<br/>un grand merci à Sergey nous avons passé de très bonne vacances.
-->My friends and I were very happy to stay at Sergey's, we felt as part of the family. All the spaces were very useful and we found everything we needed. The space outside is very nice to relax after a day of visiting and walking, a corner of peace and calm. We really recommend it.
-
-File: 37039344.json 
-  id: 37039344
-  name: *Tulip 5* Two Bed apt w Balcony near Brick Lane
-  description: My two bedroom apartment with a balcony is near Brick Lane and Redchurch street. It is ideal for a family, friends or business travellers. Best for 4 guests, but can accomodate up to 8 guests using the sofa beds in the living room. Lively East London is a hot spot for street art, markets, shopping and nights out.<br /><br /><b>The space</b><br />- A balcony<br />- Two double beds<br />- Two double fold out sofa bed<br />- A bathroom + en-suite bathroom<br />- A Kitchen with a fridge, oven, stove, plates, cups, utensils, toaster, kettle <br />- TV <br />- Free WIFI<br />- We provide 1 Towel per guest<br />- A hairdryer<br />- Iron & Ironing Board.<br /><br /><b>Guest access</b><br />During your stay you will have access to the entire apartment and you can come and go as you please.<br /><br /><b>Other things to note</b><br />**COVID/Stay Restrictions**<br />If you make a reservation, then restrictions force you to abandon your stay, our Cancellation Policy remains as advertised. This is
-REVIEWS:
-
-->nice location. wide room. nice!<br/>(note:  no elevators)
-->Amazing location, perfect apartment for big groups. Interior is very good and apartment was clean x
-->Wohnung war super gelegen und Ausreichend Platz für 6 Leute .
-->Great place to stay just off of Brick Lane. Check in and out were straightforward and we'll communicated with the apartment just as it was advertised. Would recommend and stay again if needed.
-->Great location, nice space, cool balcony
-->Everthing was really nice. Just the Checkout wasnt that good. We got the advice to put the Keys Back through a Letterhole - but there were No Letterhole.
-->Very beautiful, clean apartment in the heart of Shoreditch. Great location and shops nearby. Be aware that check in is not that close to the apartment, about 7 minute walk, I expected it to be on the same street as the apartment.
-->Wonderful place to stay in
-->Very helpful and understanding host. Did his best to accommodate my needs
-->Excellent accommodation with affordable price! would totally recommend!
-
-File: 14020170.json 
-  id: 14020170
-  name: City of London-Whitechapel Retreat
-  description: In a secure, gated, development is suitable for travelling from abroad, for business purposes or from other UK cities for London sightseeing, events, etc.  On the doorstep of the City of London in historic Whitechapel.  Suited as a retreat after a day in the city,  at the financial centre of London and a short distance to London attractions.<br /><br />20 minute walk to City of London financial centre<br />7 minute walk to Whitechapel underground and overground<br />8 minute walk to Stepney Green underground<br /><br /><b>The space</b><br />On the doorstep of the City of London in historic Whitechapel.    It is in a very quiet secure gated development Ideally suited as a retreat after a day in the city,  at the doorstep of the financial centre of London and a short distance to London attractions.<br /><br /><b>Guest access</b><br />The entire apartment and the building terrace on the 4th floor is available.<br /><br /><b>Other things to note</b><br />It is in a very quiet secure gated 
-REVIEWS:
-
--> Nous avons été très bien accueillis par Olivia.<br/>Nous avons passé un séjour extra dans cet appartement totalement fonctionnel avec deux salles de bain et deux chambres réelles, contrairement à beaucoup d'autres annonces. Enfin l'équipement était très complet et neuf.<br/>Merci encore Olivia pour cet accueil.
-->Awesome place to stay. Close to major supermarket and public transportation. The flat is very quite and clean. I highly recommend it! 
-->My two friends and I had a great time at Oya's place. The flat was lovely and modern. The area was quiet at night. There are some nice pubs and bars nearby.
-->Nice, clean, small and convenient.
-->Nice clean flat in a quiet area. Big supermarket within easy walking distance. Unfortunately the washing machine was broken which made things difficult as we were on a work trip and brought very minimal clothing with us so had to wash everything by hand. 
-->The trip was un eventful. The apartment was perfectly clean. The second room is tiny but perfect for  family with 2 smaller kids. 
-->Host was very helpful.  The flat is perfect for a family.  Great place!!!!
-->Lovely appartment, very clean. The neighbourhood is very diverse and there are a lot of affordable restaurants around.  The underground is 5 mins away, but buses stop really close by. Great place!
-->Appart très propre, pratique pour un court séjour  (4 nuits) à 4  -voire à 6-, assez commode pour le métro  (10' à  pied) ... mais très complexe pour récupérer les clés  (~ 1h) quand on ne connait pas les lieux ni les métros. .. but where there is a will there is a way !
-->We were a group of four and spent three nights. The flat is close to Whitechapel Station. The rooms are a bit small but the flat is fully equipped. The beds are very comfy! It was clean and we felt cozy. There is even a small balcony. The only drawback was that I had to collect the keys in a different place and lost some time therefore. All in all we had a pleasant stay!
+->Je le conseille fortement des hôtes gentils  un accueil chaleureux à l'écoute est réactif en cas de soucis un endroit sécurisé cadre très agréable  je les remercie encore parce qu'on a passé un très bon séjour
+->Best place I've been to
+->Very confortable local, we'll furnished with a great welcoming.i'll cone back in that lovely place without hesitation.<br/>Cheers <br/>Robin
+->Excellent accommodation. Very clean and tidy. Would definitely recommend to other
+->Great host, very responsive. Nice place. Close to public transport.
+->Very nice apartment in east London. The host is super friendly and helps you if you have questions. Defenitely a good choice.
+->Really nice flat! Suitable for family~ <br/>There is a Tesco in the building, really convenient!<br/>适合家庭入住 门口就有个开到午夜的tesco 特别方便 小区很安静 还能看到河 里面的装修也非常好看 期待再来
+->Great apartment. Good communication. Good location near to Westferry DLR. In a quiet private complex next to the canal. Close to a tesco and lidl. Very comfy beds. The only downsides were that it was missing the plug for the bath and that you can't use the tv (although the listing states no tv but we hadn't seen that). Would recommend xx
+->Terrific 2 bed apartment close to Canary Wharf with great public transport links to Central London.
+->Best choice for family
 
 
 
