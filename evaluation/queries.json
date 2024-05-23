@@ -26,9 +26,7 @@
         "sentiments" : [
             "fear", "disgust", "sadness"
         ],
-        "relevant_documents" : [
-            14710355, 42663359, 45063091
-        ]
+        "relevant_documents" :  [42596722, 42597690, 42663424, 42663581, 42663359, 39855040, 39859449, 39859724, 604080492420319332, 42662104, 43378787, 7917989, 29702113, 5995648, 22611037, 34456203, 23707314, 46083892, 18446403, 16426265, 13183092]
     },
     {   
         
@@ -75,13 +73,13 @@
     },
     {   
         
-        "UIN": "I need a budget-friendly room in Hackney for one person, with access to a shared bathroom and a rating of at least 2 stars.",
+        "UIN": "I need a budget-friendly room in Hackney, with access to a shared bathroom and a rating of at least 2 stars.",
         "query": "(room shared-bath) AND neighbourhood_cleansed:\"Hackney\" AND review_scores_rating:[2 TO 5] AND price:[0 TO 99.9]",
         "sentiments": [
 
         ],
         "relevant_documents": [
-            8619605, 30591990, 37610047, 23315798, 11288078, 1056379, 72850003, 13309836
+            29988518,34851966,28713051,22306984,6781059,30952199,15885957,7754866,34900165,660005584660145845,8032080
         ]
     },
     {

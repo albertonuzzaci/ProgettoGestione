@@ -26,7 +26,7 @@ def getCampi(result, campi):
                     if campo != "reviews":
                         strReturn += f"  {campo}: {valore}\n"
                     else:
-                        strReturn += "REVIEWS:\n" +reduce(lambda x,y: "--"+x+"\n"+y,[elem["review"] for elem in valore], "")
+                        strReturn += "REVIEWS:\n" +reduce(lambda x,y: x+"\n->"+y,[elem["review"] for elem in valore], "")
                         
                 strReturn += "\n\n"  # Linea vuota per separare l'output dei file
         except FileNotFoundError:
