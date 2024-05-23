@@ -52,7 +52,7 @@
     {   
         
         "UIN": "I'm searching a place with a beautiful view. I need a bright apartment in Lambeth for two people",
-        "query": "(bright apartment with beatiful view) AND accommodates:2 AND neighbourhood_cleansed:\"Lambeth\"",
+        "query": "(bright apartment with beatiful view) AND accommodates:[2 TO 2.99] AND neighbourhood_cleansed:\"Lambeth\"",
         "sentiments": [
             "joy", "neutral"
         ],
@@ -61,14 +61,13 @@
         ] 
     },
     {   
-        
-        "UIN": "My partner and I are looking for a romantic getaway in Richmond upon Thames. We want an apartment rated at least 4 stars.",
-        "query": "(romantic apartment) AND neighbourhood_cleansed:\"Richmond upon Thames\" AND review_scores_rating:[4 TO 5] AND accommodates:2",
+        "UIN": "My partner and I are looking for a romantic getaway. We want an apartment rated at least 4 stars.",
+        "query": "(romantic apartment) AND review_scores_rating:[3.5 TO 5] AND accomodates:[2 TO 2.99]",
         "sentiments": [
             "joy", "surprise"
         ],
         "relevant_documents": [
-            24725264, 1279313, 10860216, 10328522, 46129954, 651150602588881254, 51757148, 45855166, 14152736, 37358151, 38303080
+            19099079, 33870155, 23998223,53655087,7928538,51791303,53030230,341714580,8168705,40894753,49852638,16331881, 137922116, 12925678,12038023,30722148, 11373658
         ]
     },
     {   
@@ -83,8 +82,8 @@
         ]
     },
     {
-        "UIN": "We are a group of friends looking for a large apartment in Tower Hamlets with at least 4 beds and 2 bathrooms. Budget is up to €500 per night.",
-        "query": "(apartment) AND neighbourhood_cleansed:\"Tower Hamlets\" AND beds:4 AND bathrooms:2 AND price:[0 TO 500]",
+        "UIN": "We are a group of friends looking for a large apartment in Tower Hamlets with at least 3 beds and 2 bathrooms. Budget is up to €500 per night.",
+        "query": "(apartment) AND neighbourhood_cleansed:\"Tower Hamlets\" AND beds:[3 TO] AND bathrooms:[2 TO 2.99] AND price:[0 TO 500]",
         "sentiments": [
             "joy"
         ],
@@ -93,14 +92,12 @@
         ]
     },
     {   
-        
         "UIN": "I'm searching a creepy and old place for an Halloween party. Looking for a budget-friendly place, rated at least 3 stars. Max budget is €80.",
-        "query": "(budget-friendly stay) AND review_scores_rating:[3 TO 5] AND price:[0 TO 80]",
+        "query": "(cheap stay) AND review_scores_rating:[3 TO 5] AND price:[0 TO 80]",
         "sentiments": [
             "fear", "disgust", "anger"
         ],
-        "relevant_documents": [
-            585197554531046860, 53278672, 40759313, 52957422, 33673820, 559983777823694157, 33310272, 20163887, 17403777
+        "relevant_documents": [446634,11849717,13629023,23852405,27424000,3960209,7164812,13512792,20223450,21449444,22970356,23991020,27107894,27848700,29419602
         ]
     }
 ]
