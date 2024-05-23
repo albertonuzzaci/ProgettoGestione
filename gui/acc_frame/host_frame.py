@@ -1,3 +1,4 @@
+import urllib.error
 import customtkinter as ctk
 from PIL import Image, ImageDraw
 import io
@@ -37,8 +38,12 @@ class HostFrame(ctk.CTkFrame):
     
 	@staticmethod
 	def readImage(img):
-		with urllib.request.urlopen(img) as u:
-			return u.read()
+		try:
+			with urllib.request.urlopen(img) as u:
+				return u.read()
+	
+		except urllib.error.HTTPError:
+			print("Immagine non trovata")
     
     
 	@staticmethod

@@ -53,7 +53,10 @@ class SentimentWeightingModel(BM25F):
         id = searcher.stored_fields(docnum)['id']
         sentiment_score = self.get_sentiment_score(id, self.user_sentiment)
 
-        return (score*sentiment_score)
+        return self.getFinalScore(score, sentiment_score)
+    
+    def getFinalScore(self, score, sentiment_score):
+        return score*sentiment_score
 
 
 class AdvancedSentimentWeightingModel(SentimentWeightingModel):
@@ -69,8 +72,20 @@ class AdvancedSentimentWeightingModel(SentimentWeightingModel):
         id = searcher.stored_fields(docnum)['id']
         sentiment_score = self.get_sentiment_score(id, self.user_sentiment)
         
-        return (score*sentiment_score*self.reviews_index.get_sentiment_len_for(id))
+        return self.getFinalScore(score,sentiment_score,self.reviews_index.get_sentiment_len_for(id))
 
+    def getFinalScore(self, score, sentiment_score, nReviews):
+        return score*sentiment_score*nReviews
+
+class SentimentWeightingModelWeightedAverage(SentimentWeightingModel):
+    
+    def getFinalScore(self, score, sentiment_score):
+        return ((score*80)+(sentiment_score*20))/2
+
+class AdvancedSentimentWeightingModelWeightedAverage(AdvancedSentimentWeightingModel):
+    
+    def getFinalScore(self, score, sentiment_score, nReviews):
+        return  ((score*80)+(sentiment_score*15)+(nReviews*5))/3
 
 if __name__=="__main__":
     classifier = ExtractEmotions()

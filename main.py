@@ -32,7 +32,7 @@ def setupParser() -> list:
 
 
 def main(model: str) -> None:
-    my_index = Index(forceBuildIndex=False)
+    my_index = Index()
     
     modelsDict = {
         'B' : (BM25F(), "Base Model"),

@@ -23,7 +23,7 @@ class Index():
             neighbourhood_cleansed = TEXT(stored=True),
             accomodates = NUMERIC(stored=True, numtype=float),
             bathrooms = NUMERIC(stored=True, numtype=float),
-            beds = NUMERIC(stored=True),
+            beds = NUMERIC(stored=True, numtype=float),
             price = NUMERIC(stored=True, numtype=float),
             review_scores_rating = NUMERIC(stored=True, numtype=float)
         )

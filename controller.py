@@ -46,22 +46,20 @@ class Controller():
         if Controller.inputSearch != "":
             inputQuery += f'({Controller.inputSearch})'
         if Controller.people != None and Controller.people != 0:
-            inputQuery += f' AND accomodates:{Controller.people}'
+                inputQuery += f' AND accomodates:[{Controller.people} TO {float(Controller.people)+0.99}]'
         if Controller.pricemax != None:
             inputQuery += f' AND price:[0 TO {Controller.pricemax}]'
         if Controller.scoremin != None:
             inputQuery += f' AND review_scores_rating:[{Controller.scoremin} TO 5]'
         if Controller.beds != None: 
             if Controller.beds != "3+":
-                inputQuery += f' AND beds:{Controller.beds}'
+                inputQuery += f' AND beds:[{Controller.beds} TO {float(Controller.beds)+0.99}]'
             else:
                 inputQuery += f' AND beds:[3 TO]'
         if Controller.bath != None:
-            if Controller.bath == "1":
-                inputQuery += f' AND bathrooms:[1.0 TO 1.99]'
-            elif Controller.bath == "2":
-                inputQuery += f' AND bathrooms:[2.0 TO 2.99]'
-            elif Controller.bath == "3+":
+            if Controller.bath != "3+":
+                inputQuery += f' AND bathrooms:[{Controller.bath} TO {float(Controller.bath)+0.99}]'
+            else:
                 inputQuery += f' AND bathrooms:[3.0 TO]'
         
         if len(Controller.neighborhood):
