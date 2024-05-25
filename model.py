@@ -24,7 +24,7 @@ class IRModel:
 			#qp = qparser.QueryParser("recipe_name", schema=my_index.schema)
 			qp = qparser.MultifieldParser(['name','description'], schema=self.index.schemaAcc, group=qparser.OrGroup)
 
-			
+   
 			parsedQ = qp.parse(query)
 			if(verbose):
 				print(f"Input: {query}")			

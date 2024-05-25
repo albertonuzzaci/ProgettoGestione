@@ -70,5 +70,60 @@ python main.py [-B | -S | -AS | -D2V] --build-index
 * ***config\.py***: stores configuration settings and parameters for the search-engine. 
 
 
+## Query Language
+
+All the version of the search-engine support **Natuarl Query Language**. Additionaly, when ```AdvancedSentimentWeightingModel``` rather than ```SentimentWeightingModel``` are launched a list of convenient *Sentiments* checkboxes will appear. Through this series of checkboxes an user can rank retrived documents based on *Sentiments* selected. 
+
+Furthermore, all the versions of the search-engine provide the following filters to the user in order to better personalize the search experience:
+* *#NResult* using this button It's possible to decrease and increase the number of the retrieved documents. 
+* *People* using this button It's possible to decrease and increase the number of people the accommodation must be able to accommodate.
+* *Price Max* through this scrollbar user can require accomodations specifying a maximum price
+* *Score Min* through this scrollbar user can require accomodations specifying a minimum score (not related to sentiment)
+* *Neighborhood* thorugh this series of checkboxes users can specify in which neighborhood is looking for an accomodation. 
+* *Beds* and *Baths* both the buttons allow users to specify how many beds and baths they need. 
+
+Moreover, It's also present slightly above the search-box a *"did you mean ... ?"* button in order to suggest to  users a possible correction about the formulated query. By a simple click on text in the search-box will be changed. 
 
 
+## GUI
+The GUI is the front-end of the search engine. The main views present follow. 
+
+This is the main view for the models ```Doc2VecModel``` and ```BM25F``` (without sentiments). 
+![image info](./assets/mainView.png)
+
+Instead, this is the main view for the models ```AdvancedSentimentWeightingModel``` and ```SentimentWeightingModel``` (with sentiments). It's possible to see also  ```did you mean '...'?``` tool. 
+![image info](./assets/mainView_S_didumean.png)
+
+When an accomodation is clicked this will be the view shown.
+![image info](./assets/accomodationView.png)
+
+## Dataset
+
+- **id**: The unique identifier for the listing.
+- **listing_url**: The URL link to the Airbnb listing page.
+- **name**: The title of the listing.
+- **description**: A detailed description of the property, including amenities and location information.
+- **host_name**: The name of the host offering the property.
+- **host_id**: The unique identifier for the host.
+- **host_url**: The URL link to the host's Airbnb profile page.
+- **host_picture_url**: The URL link to the host's profile picture.
+- **neighbourhood_cleansed**: The specific neighborhood where the property is located.
+- **latitude** and **longitude** : The geographical latitude and longitude coordinate of the property (used for map tool).
+- **property_type**: The type of property being offered (e.g., apartment, house, etc.).
+- **room_type**: The type of room being offered (e.g., entire place, private room, shared room).
+- **accommodates**: The number of guests the property can accommodate.
+- **bathrooms**: The number of bathrooms available to guests.
+- **beds**: The number of beds available to guests.
+- **price**: The nightly price for the property.
+- **numbers_of_review**: The total number of reviews the listing has received.
+- **review_scores_rating**: The overall rating score of the listing based on reviews.
+- **reviews**: A list of individual reviews left by guests, each including the reviewer's name, date of review, and the review text.
+
+The dataset was built from the data available on [Inside Airbnb](https://insideairbnb.com/get-the-data/) in the London section by using the `listing.csv` and `reviews.csv` files. After appropriate operations, these files were merged and transformed into approximately 39,000 JSON files.
+
+Accommodations with null (or NaN) values and those without reviews were removed.
+
+## Authors
+* Alberto Nuzzaci
+* Luca Lodesani
+* Riccardo Neri 
