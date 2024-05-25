@@ -90,7 +90,7 @@ The GUI is the front-end of the search engine. The main views present follow.
 
 This is the main view for the models ```Doc2VecModel``` and ```BM25F``` (without sentiments). 
 <p align="center">
-  <img src="./assets/mainView.png"/>
+  <img src="./assets/mainView.png" width="400"/>
 </p>
 
 Instead, this is the main view for the models ```AdvancedSentimentWeightingModel``` and ```SentimentWeightingModel``` (with sentiments). It's possible to see also  ```did you mean '...'?``` tool. 
