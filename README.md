@@ -89,15 +89,14 @@ Moreover, It's also present slightly above the search-box a *"did you mean ... ?
 The GUI is the front-end of the search engine. The main views present follow. 
 
 This is the main view for the models ```Doc2VecModel``` and ```BM25F``` (without sentiments). 
-<p align="center">
-  <img src="./assets/mainView.png" width="400"/>
-</p>
+
+![](./assets/mainView.png)
 
 Instead, this is the main view for the models ```AdvancedSentimentWeightingModel``` and ```SentimentWeightingModel``` (with sentiments). It's possible to see also  ```did you mean '...'?``` tool. 
-![image info](./assets/mainView_S_didumean.png)
+![](./assets/mainView_S_didumean.png)
 
 When an accomodation is clicked this will be the view shown.
-![image info](./assets/accomodationView.png)
+![](./assets/accomodationView.png)
 
 ## Dataset
 

@@ -10,7 +10,7 @@ class ReviewsIndex:
 		with open('./config.yaml','r') as file:
 			config_data = yaml.safe_load(file)
 		
-		path = f"./{config_data['REVIEWS']['FILE']}" 
+		path = f"./{config_data['DATA']['REVIEWS']}" 
 		if(not os.path.exists(path)):
 			self.setupReviewDB()
 		with open(path, "rb") as fp:
@@ -37,7 +37,7 @@ class ReviewsIndex:
 		with open('./config.yaml','r') as file:
 			config_data = yaml.safe_load(file)
 
-		dataDir = f"./{config_data['REVIEWS']['DATADIR']}" 
+		dataDir = f"./{config_data['DATA']['DATADIR']}" 
 		
 		reviewsDict = {}
 			
@@ -64,7 +64,7 @@ class ReviewsIndex:
 						for s in sent:
 							reviewsDict[data["id"]][0][s["label"]]+=(s["score"]/nrReview)
 
-		with open(f"./{config_data['REVIEWS']['FILE']}", mode='wb') as revF:
+		with open(f"./{config_data['DATA']['REVIEWS']}", mode='wb') as revF:
 			pickle.dump(reviewsDict, revF)
 		
 		print("Review pickle file created successfully! ")

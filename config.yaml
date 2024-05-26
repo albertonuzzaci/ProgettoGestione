@@ -2,9 +2,9 @@ INDEX:
     MAINDIR: indexdir
     ACCDIR: accomodationIndex
 
-REVIEWS:
+DATA:
     DATADIR: dataset/json
-    FILE: dataset/reviews.pickle
+    REVIEWS: dataset/reviews.pickle
 
 DOC2VEC:
     DATADIR: doc2vec

@@ -50,7 +50,7 @@ class Index():
         except FileExistsError:
             pass        
             
-        data_dir = f"./{config_data['DATASET']['DATADIR']}"
+        data_dir = f"./{config_data['DATA']['DATADIR']}"
         ix = index.create_in(f"{config_data['INDEX']['MAINDIR']}/{config_data['INDEX']['ACCDIR']}", self.schemaAcc)
         writer = ix.writer()
         
