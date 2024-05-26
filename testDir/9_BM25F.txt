@@ -1,257 +1,0 @@
-I'm searching a creepy and old place for an Halloween party. Looking for a budget-friendly place, rated at least 3 stars. Max budget is €80.
-BM25F
-	File: 42538727.json 
-  id: 42538727
-  name: Cheap comfortable room in Greater London
-  description: Comfortable cheap room with easy quick access to Central London<br />I invite you to stay at my lovely house in Chelsfield, in London transport zone 6. The house is located in a quiet safe area and only 8 minutes walk from the train station. The room is located on the 1st floor and has a single brand new bed that easily can be converted into a double bed. Shower and toilet are shared with the owner. Simple breakfast is served daily and included in the proom price.<br /><br /><b>The space</b><br />My house is rather small but very cozy and comfortable. The house has 2 floors with kitchen downstairs and 2 bedrooms upstairs. I have a big wonderful garden. The kitchen is fully equipped and guests can use it for breakfast and prepare light snacks during the day and in the evening. The bathroom and the toilet are located on the 2nd floor and shared with me. <br />I have a guest bed in the room that can be used as a single bed and can easily be assembled into a double bed. The bed is brand ne
-REVIEWS:
-
-->I couldn’t expect a better location for my weekend, the property has everything I expect. her place is warm, clean, peaceful and confortable, Natalia is so helpful too. I will definitely come back and choose stay here again. Everything was perfect! Thanks a lot!
-->Natalia is a great host, friendly and welcoming! She answered all my questions and gave useful advice when I was travelling to London. The house is spacious and the room is comfortable. Natalia’s house is only 8 minutes walk away from the station and it took only 20 minutes to travel to London Bridge. When the coronavirus outbreak is over, I’ll travel to London again and will book with Natalia!
-
-File: 23852405.json 
-  id: 23852405
-  name: Cheap, Cosy South-East LDN Room With Great View
-  description: A small, cosy, bright room with beautiful views of London skyline in fanstatsic south east London location. Simple decor with space to put your belongings out of the way. A shared kitchen and bathroom with two friendly housemates which are always kept clean. Good hot shower and bath. 7 minute walk from New Cross Gate station, easy to get to Peckham, Camberwell, Deptford, Greewhich. Also fantastic connections to east London, Shorditch, Hoxton and good connections to central London.<br /><br /><b>Other things to note</b><br />The room is small but is perfect for a person or couple who are looking for a clean, cheap place to stay while they explore the city.
-REVIEWS:
-
-->If I had a time I would definitely stay in Izzy's. thanks for sharing your house. nice to know you!
-->Izzy is an amazing host and her place is stylish, bright, comfortable and has a great view!!<br/>Highly recommended.
-->Izzy's place is in a very quiet neighbourhood which is also really nice.Our stay there was great because we had privacy in our room, it was easy anough to reach and we had all that we needed. The price is the best for what this place has to offer. We loved the view and the room in general. Everything was great!
-->Love the backyard view from the room!
-->A good adress ant place for sleep in London near center ! Thank you Izzy for everythinks !
-
-File: 35174338.json 
-  id: 35174338
-  name: Cheap Room for Self-Catering suit Medium/Long Stay
-  description: Simple comfortable single room in shared house. London Transport Zone 3.<br />Home from Home stay, you have keys for room/house. Room's on 2nd floor of 3 floors house. The room is suitable for 1 person. I have another single and double room available on Airbnb if you require accommodation for 2 or more people. I can be flexible with check in time also I can pick you up from Forest Hill station - please let me know in advance of arrival time.<br /><br /><b>The space</b><br />Single room in a 5 bedrooms house with bathroom, power shower room, 2 toilets, large kitchen/dining room, TV room. Wifi internet connection.<br />Washing Machine, dishwasher, gas hobs, electric oven, microwave oven. All crockery, cutlery, cooking equipment etc supplied. A nice clean comfortable self-catering accommodation.<br />10 minutes walks to Forest Hill Station for London Bridge, Victoria. London Overground Zone 3. Buses near by are: 185, 122, bus 172,  night bus N171  is 2 mins walk from house and many more f
-REVIEWS:
-
-->Excellent host.
-->Ming is very hostful and helpful, he always replies messages early. The accommodation was so appropriate for my long stay. The house is quiet. You can reach to London Bridge Station(center) around 35 minutes easily by 10 mins walking and 20-25 minutes overground. Kitchen is full equimented. Thank you so much Ming!
-->Thank yoy
-->Ming is a fabulous host, I highly recommend this place.
-->The host, Ming, is incredibly kind to guests and I loved my stays here. He is very considerate and understand guests' situations well. The place is very well maintained and my room was prefectly clean.<br/>I am sure you will love this place.
-->Ming’s place was great! The location was good with the train station nearby. The room was clean and the kitchen was well-equipped. Ming was an excellent host. I would highly recommend this place.
-->Mr. Ming has really given me all the support necessary. The bedroom is great, and I could use all the amenities available in the house.  Thank you so much for everything.
-->Located very conveniently with many shops and take-out restaurants around. House is very clean. Ming and long-term staying guests are very communicable, nice people. I was very much satisfied with my stay. Ming went out of his way to help me in my first week in UK. Highly recommended.
-->The room was comfortable, cleanliness and tranquility excellent, very good transport communication and kindness with details, the host is very friendly, I always recommend it.
-->Ming is an amazing host. I arrived too much earlier than expected (6AM) and my room was ready and Ming was waiting for me. <br/>I really loved his house, is clean, good organized, and with a full eckiped kitchen. I highly recommend Ming’s place!
-
-File: 13512792.json 
-  id: 13512792
-  name: Cheap and Cheerful! Private Double Bedroom
-  description: My place is good for solo adventurers and business travelers.  <br /><br />Please note that the flat is still being renovated thus the low price!  No workers will be there during your stay.  We are just missing some wallpaper and the toilet has yet to be painted.  <br /><br />Otherwise, you should enjoy your stay.  The room is VERY quiet and looks out over the rooftops of other homes and Canary Wharf.  Most of the bedroom furniture is brand new.  I have 2 female roommates that are quiet and friendly.<br /><br /><b>The space</b><br />New carpet, newly painted, new bed, wooden frame, nightstand, wardrobe and drawers in the bedroom.<br /><br /><b>Guest access</b><br />The bathroom and the toilet are in separate rooms.  The kitchen is large and has a washer and dryer free for guests to use.  Please help yourself to any food that is my larder/pantry.  There are breakfast items, soups, pasta, rice etc...  The living room is very comfortable.<br /><br /><b>Other things to note</b><br />The ov
-REVIEWS:
-
-->She is very responsible, energetic ,generous and considerate person who think about any aspect you may confront living here. I am very appreciated that she shared a nice, clean place! 
-->Monica was my first host from bnb in UK and she’s nice and helpful. The house is quite good except for the property repairing. Everything is organized and clean. The house is located in a very quiet neighbourhood. It’s very convenient to take the tube (only ~5 min walk). The sofa in lounge was exactly as shown on the photo, comfy and soft. The roommate in this house was wonderful and friendly. Definitely recommend a stay here.
-
-File: 7164812.json 
-  id: 7164812
-  name: Cosy Cheap Room in Central London
-  description: I love this flat because of the light flood into it and because it is all new, clean and tidy. And I love the area so much, with its pubs, the river Thames, the Hammersmith tube station only 7 min. away.<br />We are looking for someone to stay in August.<br /><br /><b>The space</b><br />The location is amazing. The best of the west especially in August.<br /><br /><b>Guest access</b><br />You will access your bedroom, your bathroom, the balcony, the kitchen, the living room, and the study.
-REVIEWS:
-
-->Lovely welcome! Thank you for having me! Clean, cosy room and very close to station. Would definitely recommend. 
-->Très bon accueil pour une chambre privée dans un mignon appartement ! Excellent rapport qualité/prix et pour ma 1ere expérience Airbnb, je suis enchantée !
-
-File: 20223450.json 
-  id: 20223450
-  name: Smart stay
-  description: Cozy and smart accommodation in a quiet road,  next to Piccadilly <br /> line train station in North London, with private toilet/shower with everything you need to have for a pleasant stay.
-REVIEWS:
-
-->Alex is a such a lovely person. He introdused me into his property. It was clean, everything in order. There wereall you need to have a great stay. <br/>I highly recommend to book when you are in London next time.<br/>Thank you Alex.
-
-File: 32956500.json 
-  id: 32956500
-  name: Cheap and Clean Single Bedroom
-  description: My place is perfect for travellers, it's a clean single bedroom - quite small but comfortable enough. <br />Easy access to central London. 5 minutes walk to Seven Sisters Station with Overground, Underground, Victoria line to Central London in 15 min, and 24h buses.<br /><br />All utilities and facilities necessary for your stay are included, such as tea, clean towel, shower gel, toothpaste. In the kitchen, there's a fridge with a freezer only for you. It's clean and tidy.<br /><br /><b>The space</b><br />- It's clean and tidy feels like home, a cozy place to chill out. Sometimes we get together in the living room to chat or eating, but definitively it's not a party house. We work odd hours, so we respect each other privacy. <br /><br />- My husband and I (Nina) rent out this spare room in our house. There's 1 flatmate living with us.<br />I'm a freelancer working mainly from home,  so you'll see me a lot and I can help you with any questions you might have :)<br /><br />- This room is
-REVIEWS:
-
-->Nina's place was just what I needed. <br/>You get a very small and basic room on the ground floor but it's clean and comfy - smells nice because of the little air freshener too.<br/>Soap, shampoo and moisturiser was an excellent touch - wouldn't expect that at this price range!<br/>Can't complain at all for the price and Nina was lovely. Would definitely recommend!
-->Great location! Small space, but really good value :)
-->Nina's house was nice, clean and cozy, and located at a pretty quiet residential area. She and her flatmate were friendly and kind. I'll definitely stay in Nina's house again next time I travel to London!
-->Clean, private, and affordable room.  Very close to train station. It was perfect for the weekend!
-->Muy acerca del metro que lleva al centro en 15 minutos. Los anfritiones son muy amables y colaborativos. La habitación esta muy estrecha, pero cuenta con calefacción, closet, y los servicios(toalla, wi-fi, té y etc) están buenísimos.
-->It was a good location close to Seven Sisters Station, bus, railway transport, and Victoria line convenient to the city centre, especially travelling from Stansted Airport. The basic room was small, clean and you could have a view from a roof window. Nina was friendly and sweet. One of the most important things, which the price was inexpensive.
-->Cuarto chico, limpio.<br/>Ubicación muy cerca del metro para ir al centro de Londres.<br/>Casi no vi a Nina.<br/>Lo recomiendo si es que solo vas a ir a dormir y tomar un baño.
-->This room is of great value. It’s in a good position. Just 10 minutes walk you can go to an underground station. It’s easy to check in. The room is clean. Nina is very kind and helpful.
-->Wer einen Schlafplatz sucht und innerhalb von 20 min in Zentral London sein möchte, hat hier die beste Möglichkeit.
-->The station feel a bit far roughly walking distance 7 - 10 mins. This area feel a bit not suitable for sole traveler lady to stay because feel unsafety area. The house only I feel uncomfortable is the mattress and only have once toilet on upstairs. The mattress have a long big hole, i'm unable to sleep well due to it. After I told the Nina, she immediately provide me the yoga map for top up the mattress hole area but still feel uncomfortable. I hope Nina will change it for future customer sleep better. Anyway thank a lot Nina.
-
-File: 23991020.json 
-  id: 23991020
-  name: Cheap Room for Young People
-  description: Comfortable room in Camberwell (SE5). 15 minutes from central London. Very close to Brixton, Peckham, Elephant and Castle, Vauxhall. <br /><br />The room is my bedroom - it's preferable to a boring, expensive hotel room.  <br /><br />Comfy double bed, en-suite toilet, hot shower, work desk, extra sofa bed & a shared kitchen (a cooker, microwave and kettle). <br /><br />Loads of great food within walking distance. <br /><br />The building is shared with many young people - artists, creatives etc - who are all very friendly.<br /><br /><b>The space</b><br />The room is most suitable for easy-going travellers in need of affordable accommodation while in London on a short-stay.  The area is close to the centre (Zone 2) and you will have access to my comfortable queen-sized bed, fast WIFI.<br /><br /><b>Guest access</b><br />You will be able to use a fully-equipped kitchen (with tea and coffee on offer). <br />The kitchen is shared with 10 others (students, artists etc. who are all incredib
-REVIEWS:
-
-->Good location for a great price. Nice size room and thoughtful little touches to make you feel at home
-->Jacobs room was exactly how he described it. He is a extremely nice guy and we felt super welcomed. It’s absolutely the right place if you don’t expect anything fancy, because you will get something real and lovely. I would recommend this place and definitely come again (but if you are picky and searching for something in a nice and clean tourist area it’s probably not the right place to stay). Here you get a small room with toilet, external and okay shower, a super helpful and nice contact, an authentic stay in a not wealthy London area.
-->Jacob was a sympatic host. He offered us to show us around and provided few city guide books of London. The room witch an attached toilet was clean and comfortable. We had access to a shared kitchen and shower. The location is quite nice. Close to few restaurants, supermarkets and a small but nice park.
-->A nice atmospheric place in an old nursing home that has been taken over by artistic types. Jacob has a nice idea about making this into a proper communal space. Great price for the location, a really comfy bed and Jacob is a really nice guy.
-->We had a great stay in Jacob’s place! Very quirky building, clean and good location. Super value for money and Jacob was very responsive, he was very flexible with check-in and check-out times. Would book to stay here again.
-->A very comfortable room with everything I need. People around the building all are very nice and lovely. That's a good place for single young man to stay.
-->Great host! He is very helpful in every situation and very flexible on check-in time. What is more, he responds immediately! I really recommend his place, people around are kind, the location is very convenient and the area is enjoyable.
-->Perfect host! Jacob is keen to give any tips for your trip and help with any issue in case you have. I loved the room. It has an artistic touch which I like. Highly recommended.
-->One of our employees stayed at Jacob's and found it to be clean and comfortable.  In a great location and ideal for a young person in the City.  We felt it was great value for money.
--> Jacob is a very nice and welcoming host that remains available for any question you have about the place/city 
-
-File: 629625021968616352.json 
-  id: 629625021968616352
-  name: A comfortable stay
-  description: Relax with the whole family at this peaceful place to stay.<br /><br />(Females only)<br /><br />Room is equipped with : kettle and mini fridge<br /><br />Iron available upon request<br /><br /><b>Other things to note</b><br />The place is only for females
-REVIEWS:
-
-->It was my first rime to use Airbnb,  but the family was very kind and friendly,  the room was clean and confortable. The house near the bus stop so easy to access.
-->Maryam is a great host, always respond for messages and really helpful.<br/>The room is clean and have a private bathroom.<br/>the area around the house is quite and nice.<br/>highly recommended to stay there.<br/>Thank you!
-->Lovely room with en-suite bathroom.  <br/>Nearest tube is Burnt Oak. About 10 minutes walk. <br/>Lovely family and very accommodating. Nothing too much trouble. Gave me a fan for my room as working in London in the heatwave. <br/>Due to family’s culture you can only buy Halal meat to eat there. There are butchers in Burnt Oak.  <br/>No residents parking which is rare in London. Would definitely stay again.
-->Great location for what I was looking for; quiet area but still close to everything you need. Spacious room and bathroom. Host family very helpful and friendly.
-->Very calm and quiet area, beautiful house and clean cozy room with individual bathroom. Maryam and her mom are great hosts, very kind and helpful. I really enjoyed the time I spent in their house.
-->Great location for my work and a spacious room and bathroom.  I stayed during 40 degree heat and Yasmin kindly greeted me with icy cold water on both days! Great communication and a comfortable stay.
-->It's my pleasure to stay in Maryam's house. They are helpful & so sweet
-->Lovely room and kind host! Appreciate for hosting me these days!
-->I was down for work purposes and I’ve had the most comfortable week. I wanted peace and quiet and that was exactly what I got. I had the best sleeps. It was home to home. Maryam and her daughter were approachable  when I asked a question. I could not have asked for a better experience as a single female.  Thank you!
-->I really enjoyed my stay there. Maryam and her daughter are very polite people. Very nice place, I recommend it.
-
-File: 3960209.json 
-  id: 3960209
-  name: Luxury Room (4 beds) for cheap price in London
-  description: Maximum 4 people can stay.<br /><br /><b>The space</b><br />Hi Viewers and INTEND TO BE OUR GUEST !<br /> We have many years experience in being a host family. Please can you take a bit of your time to look at our host profile. Without a doubt I’m sure that you will get an excellent service from us. Our house is located in zone 3(South west London).The nearest underground station is Tooting Broadway(6 Min away by bus) is only a short walk to the bus stop (2 Min).15 to 20 Min to central London. We are looking forward to hear from you We are here to give you not only accommodation but also help and support. The luxury room is very cosy, 4 guests can stay at the same time. Luxury room Facilities: Mini fridge, internet access, mirror and chest of drawers ,  London is very vibrant and you can do many things there such as: shopping, visiting attractions, going to restaurants etc We offer three rooms ( Triple room (4 guest) ,Luxury room(4 guest), Single room (1 guest) ) in our classic Victori
-REVIEWS:
-
-->We had a confortable stay during our stay.very quiet area and short drive to city centre.the house is undergoing Rénovation wich i am sûr it will make it more pleasant<br/>The owner of the house were very nice and friendly and  welcomed us warmly .<br/>The price is reasonable compare to hotel prices in london at this time
-->Host very welcoming, and helpful when needed.  Listing doesn't however mention a few important details.  This house is not smoke free, which we were not made aware of.  Due to health issues, this made our stay quite uncomfortable, and we would not have chosen it, if we had known.  There is currently significant re-modelling going on within the house, so there is no bathroom easily accessible with this room, as of yet.  Beds comfortable, bedroom clean.  No closets or storage within this bedroom.  Also, breakfast not included in price, additional cost.  Parking spaces along road side.
-->Virginett is an excellent host, really enjoyed my stay at their house. Thank you for your well received hospitality. 
-->V této rodině jsme strávily měsíc ve 4 lidech. Ihned po příjezdu nás majitelé domu vřele uvítali a zběžně nám ukázali dům. Náš pokoj byl pěkný, neb proč čtyři osoby velmi malý a stísněný. Je vybavený dvěmi dvoupatrovými postelemi, menší komodou a zrcadlem. Bohužel nám nebylo předem oznámeno, že v domě bude probíhat rekonstrukce, čímž bylo ovlivněno okolí domu. Interiér, který byl často zaprášený a pro jedince, kteří mají rádi svůj klid je tato rodina spíše nevhodná, neboť je poměrně hlučná a to i v pozdních nočních hodinách. Rodina bydlí v multikulturní čtvrti s veškerou občanskou vybaveností.
-->De buurt was goed. Ontvangst was erg vriendelijk. We moesten onze schoenen buiten laten. Dit vonden we niet leuk. Er was nog steeds een verbouwing gaande. Douche konden we niet gebruiken. Jammer. Wc en badmeubel waren niet schoon en stofvrij gemaakt. Bedden waren niet goed in elkaar gezet en piepten en kraakten vreselijk. Erg kleine kamer voor 4 personen. 3x3 meter. Geen tafel of stoel om je kleren op te leggen. Geen gordijn voor het raam. Erg slecht allemaal. Ontbijt was voor 4 pond per persoon erg minimaal. Alleen geroosterde toast met jam of honing of pasta en cornflakes. Met thee of koffie.
-->It was everything fine, Virginett and her husband very polite, and very friendly.<br/>The room it was clean and the beds good to sleep, the bathroom great,  just 5 min walk from de bus station, and 10 min by bus from the underground.<br/>There are too many shops in the center, and supermarkets.<br/>I recommend the house!
-->Virginett and her family was very nice, helpful and welcoming. The room was as descripted and perfectly corresponded to my expectations with comfortable beds and a really nice bathroom on the same floor.<br/>My friends and I really enjoyed our stay and would gladly recommend Virginett as a host.<br/>Thanks again for welcomming us !
-->Virginett and her family were really nice and welcoming, they made you feel like you were at home. The house was clean and comfortable. They were always ready to help and give advices. Their daughter was very nice and very helpful. The room, bathroom and kitchen are different from the pictures... they've renewed it and it's really nice and modern. Their back yard is also very nice. It was a really nice stay. Thank you!
-->It was my right decision to choose Virginett's place to stay. I was here along with my spouse and two kids and everyone was very comfortable and happy. We have been guided very accurately and all of our queries were immediately resolved without any time gap before and after our check-in. <br/>It was very pleasant stay we had and many thanks to Suresh and Virginett for making us home like feeling. We found this place is more convenient for commute to central London. We have all the reasons here to choose this option when we travel back to London. Thanks again!
-->Our hosts made us feel very welcome and were interested in what we were up to in London. The room was cosy and the beds comfortable (if rather squeaky!) but perhaps not the cleanest. There was a fridge for our use and access to the kitchen. <br/><br/>You get what you pay for: a nice room to stay in with a friendly family at a relatively affordable price. 
-
-File: 34830551.json 
-  id: 34830551
-  name: Affordable Single Room for short stay or long stay
-  description: Simple comfortable single room in shared house. suitable for self-catering stay with everything provided for a comfortable stay. London Transport Zone 3 but well connected by Overground/Underground and Rail. Max 40 minutes to get to central London from house,  about 8 to 10 mins walk to Forest Hill station, 12 mins to supermarkets, gym and swimming pools<br />Home from Home stay, you have keys for room/house. Room's on 2nd floor of a 3 floors house.<br /><br /><b>The space</b><br />Single room in a 5 bedrooms house with bathroom, power shower room, 2 toilets, Large kitchen/dining room, TV room. Wifi internet connection.<br />Washing Machine, dishwasher, gas hobs, electric oven, microwave oven. All crockery, cutleries etc supplied. A nice clean comfortable self-catering accommodation.<br />10 minutes walks to Forest Hill Station for London Bridge, Victoria. London Overground Zone 3, Buses - 185, 122, 172, Night bus N171 and many more from Forest Hill Station eg 176, 68 etc.<br />I'm nor
-REVIEWS:
-
-->The room is very nice, clean, bright and cosy. It was perfect for my short stay, Ming made me feel like at home, the room has a very useful desk and a big wardrobe (plenty of towels provided). The flat is extremely clean. Plenty of space in the fridges and the kitchen has got all needed cooking facilities, the house has got 2-3 toilets and 2 showers. It was everything so clean and very comfortable. It is a great value for money. Definitely recommended.
-->Perfect house for a short or long stay, the landlord Ming is really sympathetic and kind. All the facilities are included and a good place to make new friends. Easy way to get transport, supermarket, and also some leisure places, such as the Horniman Museum and Gardens. For sure I recommend Ming's home!!!
-->Ming's place is excellent for those who are trying to relocate to London, as the whole house is filled with people staying for an extended period of time (typically 7 days or more). Because of this, if you also stay for a longer time, you get to know the other house guests as well as Ming because the kitchen is, obviously, a common area. It's a really cool experience as, when I was here, it was very international. The house is also very close to a bus stop with at least three different bus routes, and Forest Hill station (Overground + National Rail Service) is a 10-12 minute walk away, depending on your pace. The only time I was a bit uncomfortable was walking home late at night, as the last couple of steps are poorly lit.<br/>This room is on the third floor, and shares a toilet and washroom with two other rooms on this level. The windows are huge and both open, and allow ample air circulation. The neighbourhood itself can be noisy at times, whether it's sirens or alarms, people playing music very loudly at strange times (I was woken up at 6am on a Saturday due to Adele remixes from the neighbours) or kids playing. This is fine so long as you either close the windows and/or have earplugs! <br/>Ming was also very accommodating. I gave myself about 10 days to find a room to live in which, unsurprisingly, was not enough. With Ming's help, I was able to quickly sort out alternative arrangements. <br/>I really cannot recommend this place enough!
-->Ming apartment is a perfect place for the London visitors. It is easily accessible by public transportations. As there are more rooms, chance to meet some cool traveler is high. Communication was really easy. Value for money!
-->Great experience!<br/>I went to London in september, and I'd lived one month in Ming's house. Mr Ming is a kind person, he has welcomed me when I was arrived, he has helped me with bagages because I'v rented a second floor room! <br/>Mr Ming provide necessary things, the kitchen are full of accessories to cook, there is a wash machine, and dishes machine, and if you want you can cook with microwave, also there is a shelf with a lots of intresting books, in the house there is an iron, a hair dryer.<br/>The house is very big, near the rail station (Forest Hill, overground orange line), and near the bus stop to Victoria station (line 185), and Crystal Palace (line 122). <br/>Near the house there are a lot of supermarkets, restaurants, pubs, and a museum... etc. <br/>There is a bathroom on the Ground floor, and one in the second floor. The kitchen is very big, and there is a room that you can use to dry your clothes, normally is a living room.  <br/>In the house generally live 5 persons, Mr Ming live in the first floor where there is a room to rent, I'd lived in the second floor where there were three rooms. My room was confortable, with a big window, with a big window on the garden, that you can me use during the beautiful days. <br/>I think that the house is perfect for a long stay or less, and if I had will return in London, I will choose Ming's house!<br/>Thank you!
-->Ming is very nice and helpful. All went well and smooth. I enjoyed my stay in this home a lot. Recommended!
-->A very clean and cozy cozy place to rest, two nearby stations and Ming makes it a very pleasant hospitality.  highly recommended
-->Ming’s place is a delight. Cozy, clean, with the most friendly landlord I have ever met. Ming always greets you with a smile, we chatted like long-met friends. I won’t hesitate to recommend this stay to anyone who looks for a home experience in SE23.
-->Very clean house. Ming is amazing host and takes a lot of care of the house. A great value for money - I definitely recommend this place
-->Mr. Ming is a really warm person and he is willing to help in every way he can. In general the place is good, but the cookware is not well taken care of. Apart from that the place and hospitality is great.
-
-File: 36859285.json 
-  id: 36859285
-  name: Convenient Place to stay
-  description: The lovely quite area waiting for your stay. Located in South East London with peaceful neighbourhood. Local shops and restaurants just 5 min away.
-REVIEWS:
-
-->Beautiful and clean place. Very cozy place and comfy bed.
-->Everything was good
-
-File: 27424000.json 
-  id: 27424000
-  name: London Summer Stay!
-  description: This House is super clean and tidy.We are all working professionals so if you visiting London and need somewhere comfortable, clean and mainly affordable to stay feel free to contact me.<br />The room has been newly painted, has a double bed which I can make in to two single beds too, wardrobe space and working table to be used.<br />I provide you with a clean blankets and sheets, towels and also coffee or tea for breakfast.<br />Toilet paper, shower gels and hair shampoo is included within your stay too.<br /><br /><b>The space</b><br />The kitchen, bathroom and a living room is shared space so feel free to use it before you go out to enjoy your cup of tea.
-REVIEWS:
-
-->Les résidents de la maison sont sympathiques. L’hôte est très gentille et souriante. <br/>Les commerces sont à proximité ce qui est un point fort, ainsi que l’arrêt de bus et une gare à 2 minutes à pied.
-
-File: 654164336164039415.json 
-  id: 654164336164039415
-  name: Small studio flat great for short stay in London
-  description: Hello this is a nice studio flat in Willesden green. The building has just been fully refurbish to a very high standard about 3 years ago <br /><br />Private kitchen <br />Private shower room with WC<br />DOUBLE BED <br />FREE WIFI <br />22" TV WITH FREEVIEW <br /><br />Don’t miss out!!<br /><br /><b>The space</b><br />Hello people of air bnb <br /><br />I have a New refurbish studio flat in Willesden green NW2 <br /><br /> kitchen <br /> shower room with WC <br />Free WIFI in the building <br /> double bed <br />Lots of Wardrobe space  <br />22" TV with Freeview <br /><br />I have developed the whole building to a very high standard <br /><br />The studio flats are small but very cosy with all you would need if you are here to explore this amazing city, business travel, or just need a cheap home away from home <br /><br />Look forward to meeting you all soon <br /><br />Thanks Gareth x<br /><br /><b>Guest access</b><br />At check in I will give you a key to the studio and the main bui
-REVIEWS:
-
-->Gareth is very accommodating. Close to transit as well.
-->All good, cute suburban area with shops and perfect underground connection. All you need for a weekend in London!
-->This room was suitable enough for my needs and the check-in/check out process was super straightforward. I only wish that there was some AC or a fan available to the guests, as it got super hot and stuffy in the room even with the windows open.
-->Nice studio and comfy. It could have been better cleaned.
-->Everything was great. The room was clean, quiet and really comfortable. The location was really close to the tube station and there were shops and restaurans close by. Gareth was quick to reply and provided us with an iron and extra towels upon request.
-->nice flat
-->Cozy and quiet place to stay. Great location.
-->The place was inviting, clean, and cozy and it was exactly as it was portrayed in the photos.  The location is very good.  There are lots of nice restaurants/cafes nearby and it's very pleasant to walk along Walm Lane, and it's very close to the metro so there's easy access to the rest of London.  Also it's in a quiet residential neighborhood so there's barely any noise at night.  I don't really have any complaints.  I would highly recommend it for anyone who's looking for a small, affordable place with easy access to the city.
-->The room is lovely and clean, everything is great! Recommend!
-->Tudo certo, estação próxima, anfitrião prestativo, ferro de passar roupa disponível me senti muito confortável! Obrigado.
-
-File: 487430.json 
-  id: 487430
-  name: Triple room  for cheap price in London
-  description: <b>The space</b><br />Hi Viewers and INTEND TO BE OUR GUEST ! <br />We have many years experience in being a host family. Please can you take a bit of your time to look at our host profile. Without a doubt I’m sure that you will get an excellent service from us. Our house is located in zone 3(South west London).The nearest underground station is Tooting Broadway(6 Min away by bus) is only a short walk to the bus stop (2 Min).15 to 20 Min to central London. We are looking forward to hear from you We are here to give you not only accommodation but also help and support.  <br />The triple room is very spacious and cosy  4 guests can stay at the same time. <br />Triple room Facilities: Mini fridge, internet access, mirror and wardrobe, Sofa<br /> London is very vibrant and you can do many things there such as: shopping, visiting attractions, going to restaurants etc<br /><br />We offer three rooms ( Triple room (4 guest) ,Luxury room(4 guest), Single room (1 guest) ) in our classic Victori
-REVIEWS:
-
-->Virginett and her husband were very friendly and accommodating. The listing is fairly accurate with a few renovations in their house. The neighbourhood is quiet and friendly. I had one of the best home cooked meals and it was free. I loved the family vibe and I hope to come and see you again.
-->Mrs. Virginette was very warm and welcoming when we first met her.The room was very clean and spacious enough for two people. At first when we moved in to the house we couldn't meet Mrs. Virginitte but her kids welcomed us very well and explained everything even about reaching to city center efficiently.<br/>The family was very kind and always offered us to have tea or dinner with them.<br/>The place is 20-25 mins from the center and would recommend it highly.
-->We stayed for 2 nights with the family. Our room was fine and the hosts were warm, friendly and most helpful. Renovations were in progress. Access to city is about 30 mins by bus and rail.
-->I can not recommend Virginett and her family enough. They welcomed us into their home despite it being after 3am when we arrived. The room was clean and the bed I slept in was comfortable. <br/>Having our own key to the house was a blessings, as we could come and go as we pleased. Virginett even lent us her Oyster card for a night after my partner lost his. <br/>There are renovations happening at the moment. The kitchen pictured in the add is now brand new kitchen and many other improvements are on the way. This house will keep getting better and better!<br/>The house is a bit out of the city. But there is a bus stop at the end of the street which takes you straight to an underground train station that will take you into the city. For travelers on a budget, it's worth traveling a little bit every day and pay less than 1/2 the amount of a backpacker dorm room.<br/>If we are coming back to London, we would stay again for sure.<br/>Thanks for hosting us!!!
-->We were welcomed very warm and friendly. The room was nice and cosy even though it wasn't as described<br/> since they had some renovations going on. The neighbourhood is nice and quiet and is very easily accessible.
-->I had a nice time staying with Virginette.  Unfortunately, we were only there for two nights and our schedules never really seemed to match so we didn't get to spend any time together.  Her kids met us at the door after a few knocks and we had the opportunity to talk to her husband briefly before we left.  He explained that they were in the middle of construction.  Everyone was nice.  There are a few places to get something to eat in walking distance (the Chinese take away was good), or you can hop on the bus and see a few sights.
-->Virginett seemed very nice.<br/>The room, however was not. The description did not match the actual. It was a very basic room and 'triple deluxe room' was in fact 2 bunk beds and a single at a higher price that I have paid for other rooms.<br/>I did not expect a single bed. There wasn't a TV in the room, no comforts at all and realistically it was a disgrace.<br/>The house is going through a re-decoration/renovation and the picture on the website is of their front room, which you don't get to see.<br/>There wasn't any option for cooking and the family started their evening meal at 10pm, so all the smells filtered up through the floorboards into my bedroom, along with cigarette smoke.<br/>The family constantly raised their voices to each other and stopped me from sleeping.<br/>The area itself is disgusting with rubbish and debris littering the street allowing vermin to eat from the food bags left on the street.<br/>I saw a fox and a rat in the week I was there.<br/>Incidentally, I had to park 2/300 meters away from the property at night.<br/>Overall a very unhappy experience. One which I wouldn't care to repeat.<br/>No issues with her.
-->nice spacious room and nice host. not far from city centre via public transportation.
-->The hosts were lovely, the only drawback was the bathroom in which the toilet didn't flush but we understand that was a temporary thing! 
-->Very nice people and very welcoming. Would recommend to people coming through.
-
-File: 16558131.json 
-  id: 16558131
-  name: Cheap place
-  description: Large, double sofabed, clean, cosy, affordable, within split level apartment, leafy residential street, excellent location, Zone 3. Free WiFi, close to tube, buses, cafes, restaurants, all 6/8 mins walk from apartment. Central London is 15 mins away, via London bridge, also within easy reach of business, shopping, theatre & tourist destinations.
-REVIEWS:
-
-->Gulia was very accommodating especially in the morning where she offered us tea and biscuits and also helped prepared our food. 100% would stay again and the balcony view is beautiful 
-
-File: 39263369.json 
-  id: 39263369
-  name: Kingswood S-Stay
-  description: This a double room recently renovated. It is located on a very quiet residential street but perfect for short stay for couple. It is very close to everything you could need within 5-10 min walk, including grocery shops, coffees, pubs, main bus stops (Brixton Hill) and main underground and overground trains (Clapham common, Clapham north and Brixton), and Clapham Common park.<br /><br /><b>The space</b><br />The kitchen comes equipped with all the utilities needed: sink, gas stove top, oven, extractor, washing machine .<br /><br /><b>Guest access</b><br />ROOM, KITCHEN, LOUNGE, GARDEN, KETTLE &  MICRO WAVE<br /><br />The are is very quiet and comfortable to live in. This is a great room.
-REVIEWS:
-
-->Très gentil 👌🏾
-->Nice quiet place, intimate atmosphere and good people. Nice kitchen and washing machine (with dryer).
-->Nice flat near by Brixton tube station. Room with private bathroom, nice kitchen with equipments and a living room. Probably one of the best Airbnb I had in London so far !
-->decent stay, nice bathroom and sleeping room. garden was a lifesaver
-
-File: 7238001.json 
-  id: 7238001
-  name: Nice Single Room for cheap price in London
-  description: This room accommodates 1 person.There is a good view of the street. There is access to a wardrobe.<br /><br /><b>The space</b><br />Hi Viewers and INTEND TO BE OUR GUEST ! We have many years experience in being a host family. Please can you take a bit of your time to look at our host profile. Without a doubt I’m sure that you will get an excellent service from us. Our house is located in zone 3(South west London).The nearest underground station is Tooting Broadway(6 Min away by bus) is only a short walk to the bus stop (3 Min).15 to 20 Min to central London. We are looking forward to hear from you We are here to give you not only accommodation but also help and support. The single room is  cosy and 1 guests can stay at the same time. Single room Facilities:  internet access, mirror and wardrobe, Table and chair. London is very vibrant and you can do many things there such as: shopping, visiting attractions, going to restaurants etc We offer three rooms ( Triple room (4 guest) ,Luxury r
-REVIEWS:
-
-->I could not be more thankful for a great experience with this family. It was my first time using air bnb and absolutely thank my host for making me feel right at home. They were helpful from the time I entered the door until I left. If I'm ever in London again I'm definitely staying with them again! 
-->Virginett's house was undergoing decoration but I was welcomed properly.<br/>i had a good chat with her husband on the final day and he kindly drove me to the bus stop, saving me from a 16 minute walk with a heavy bag.
-->I had a very pleasant stay - Virginett and her family were very nice and helpful, the room was good. Thank you very much for welcoming me!
-->I am so grateful to Virginett and her family. It was a last minute request and they were gracious enough to accept my booking.<br/>Their location was great for where I needed to travel to [I was heading to Kingston University], and is generally easy to get to. Virginett was also kind enough tot stay up and chat with me until 1 am Saturday! I really enjoyed the conversation; chats like these are the most enjoyable. <br/><br/>They're a family of musicians and dancers, of which I did not know until after I arrived. I'll stay longer next time. Hopefully then I'll be able to chat more about the arts and culture, and listen to the family play.<br/><br/>The room was exactly as you see it in the picture, and the house is spacious.
-->HOST:<br/><br/>Virginett and her entire family are incredibly warm and friendly people. I only stayed for a couple of nights while my permanent residence was being prepared, but they were very sweet to me during that time. They were eager to help with information on the surrounding area, letting me know the location of close-by routes and amenities. They made me feel at home the moment I walked through the door - they're just lovely friendly people.<br/><br/>THE ROOM: <br/><br/>Is as pictured. It's actually slightly bigger in person than it seems to be in the photo. It was very warm and comfortable and very clean. Peaceful street meant a well needed good night's rest.<br/><br/>The AREA:<br/><br/>Being a quiet neighbourhood down in Mitcham, there's limited choice for eating/shopping in the surrounding area. But it's London - everything is just a quick transit ride away. I enjoy walks and made it to Streatham in about 30mins walking. Otherwise there's frequent buses that can get you to Tooting Broadway in about 20mins.<br/><br/>Everything about this place is great! The two things that strike out are the incredibly warm and welcoming family (made me a little less homesick) and the insanely cheap  price for the room. I was so happy they took me on with such short notice. Peaceful, peaceful stay.<br/><br/>Thanks to the entire family!
-->2週間の滞在でした。<br/>彼らはとても親切なご家族です。<br/>彼らの国の伝統の料理「ストリングホッパー」(米粉で作られた麺をスパイシーな数種の野菜ソースでからめて食べる、もちろん手で食べる料理)をごちそうしてくださいました。<br/>部屋は思ったよりも大きくて、すこし独特の匂いがしましたが、ほとんど快適に過ごせました。<br/>特に、お父さんは非常に親切で心優しい方です。会うたびに、「Hello,Koki! How are you!」と声をかけて、世間話やさまざまな必要な情報を与えてくれました。<br/>また、頼んだらキッチンや机なども貸してくださり、不自由なく過ごせました。Wi-Fiもすべての部屋に届いています。<br/>近くにco-operativeのスーパーマーケットがあり、夜でもそこそこ遅くまでやってるので、食材はそこで安く買って調理しました。<br/>バス停からも徒歩3分ほど。<br/>素敵なロンドンライフをありがとうございました。<br/>I stayed in this room for 2 weeks.<br/>They are very kind family. They served me a dinner, string hoppers(which is the noodle with spicy vegetable sauce. the noodle is made of rice powder and tastes very very nice. it is the traditional dinner in their country).<br/>The room is larger than I thought, and I spend comfortable time.<br/>And they let me use kitchen and desk to use my RapTop.<br/>Wi-Fi is the service also you can use.<br/>And a co-operative supermarket is near by this house so that I could buy some foods to cook in the kitchen.<br/>Bus stop is near by here, just 3 minutes by walk.<br/>Thank you for very nice London Life, Virginet Family.<br/>(I'm sorry that my very poor English ability. I didn't use the Translation App.)
-->Virginett and her family were absolutely amazing! She helped me plan transportation to and from the airport, and was more than welcoming during my entire stay! I even had an issue with my flight and had to stay another night and they took me in free of charge! Like a home away from home! Very easy to get into London from this location and Virginett is very quick to respond to any questions or concerns. Highly recommend to anyone planning a trip to London!
-->It's always a pleasure staying with Virginett and her family.
-->I have stayed with Virginett and I would definitely recommend her to others.
-->I had a very pleasant stay for a fair price. The family were very welcoming and I would recommend staying with Virginett if in London for any reason.
-
-File: 17235009.json 
-  id: 17235009
-  name: Central London: Cheap and Spacious Double Room
-  description: The spacious room is on the 2nd floor of our 4 bedroom palace. Includes a double bed, 2 sets of draws, 1 cupboard, a chair and desk.<br /><br />Location: 7 minute walk to Bermondsey tube (zone 2 and night tube) &  South Bermondsey Overground on the Jubilee line. Next to countless grocery stores and restaurants. 20min walk to Tower Bridge and Bermondsey Street. <br /><br />The housemates: 3 friendly, fun working professionals.<br /><br />My place is good for couples, solo adventurers, and business travellers.<br /><br /><b>The space</b><br />Our space is clean and cosy with a homely vibe. Our home is fully furnished with kitchen, pots and pans, towels, bed linen and washing machine. Guests are free to use all these amenities.<br />This space is perfect of a short stay in London with great public transport connections.<br /><br /><b>Guest access</b><br />Guests will have access to all communal areas of the house such as the lounge room, bathroom, shower.
-REVIEWS:
-
-->L'alloggio è davvero vicinissimo alla stazione di bermondsey sulla jubilee, il che la rende facilmente accessibile a tutto, ovunque vogliate andare sarete a pochissimi minuti di metro ;) il quartiere è tranquillo e molto pratico, di fianco ha un fish&chips, di fronte un ristorante take away, e più supermercati a basso prezzo nei paraggi, le ragazze, lasciano casa al mattino e rientrano la sera, quindi si possono usare sia la doccia che la cucina con comodità. Sono ragazze inglesi e giovani, quindi non proprio ordinate, ma vi accorgerete che vivono un po' tutti così lì, quindi non aspettatevi un albergo,ma sono molto disponibili, sia a consigli su cosa fare, sia se vi manca qualcosa come il phon, o simili, nel complesso siamo stati bene.
-
-File: 37385906.json 
-  id: 37385906
-  name: Arty and relaxing place to stay
-  description: Victorian terraced house in a young arty family home where you can enjoy a peaceful stay in London.<br /><br /><b>The space</b><br />Clean and minimal bedroom with very large wardrobe and desk space. Relax in the living room and cook happily in the kitchen.
-REVIEWS:
-
-->Me and my boyfriend loved the house, the owner is just so nice, the house is perfect as it is in the photos even looks better in person, they have small touches of decoracion that are unics.<br/> We recomend the houae to everyone that wanta to take a small vacacion in a relaxed place!
-->Notre séjour chez Ondrej a été super, nous y reviendrons sans hésiter! Mis à part le quartier que nous avons trouvé sensible, la maison est juste totalement conforme à l'annonce! Thank you for all! :) <br/>xxx
-
-
-

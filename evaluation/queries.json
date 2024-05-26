@@ -207,5 +207,27 @@
             27848700,
             29419602
         ]
+    },
+    {
+        "UIN": "I need a luxurious studio in London City for a work trip, rated at least 4 stars",
+        "query": "(luxurious studio) AND review_scores_rating:[4 TO 5] AND neighbourhood_cleansed:\"City of London\"",
+        "sentiments": [
+            "joy"
+        ],
+        "relevant_documents": [
+            16485583,
+            46368632,
+            42081797, 
+            36137939,
+            46233904,
+            10064124,
+            53711693,
+            37385778,
+            37386139,
+            628051766302032972,
+            27626519,
+            42081759,
+            47846305
+        ]
     }
 ]
