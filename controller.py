@@ -38,7 +38,6 @@ class Controller():
         Controller.resultsDict = results
 
         return results
-
     
     @staticmethod
     def getInput():
