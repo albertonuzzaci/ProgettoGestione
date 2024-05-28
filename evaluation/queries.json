@@ -53,45 +53,43 @@
         "relevant_documents": [
             42596722,
             42597690,
-            42663424,
-            42663581,
             42663359,
-            39855040,
-            39859449,
             39859724,
-            604080492420319332,
-            42662104,
-            43378787,
+            42663424,
+            39855040,
+            42597637,
+            42596993,
+            39935085,
             7917989,
-            29702113,
-            5995648,
-            22611037,
-            34456203,
-            23707314,
-            46083892,
-            18446403,
-            16426265,
-            13183092
+            6164945,
+            10026158
         ]
     },
     {
         "UIN": "I'm looking for a luxurious apartment in Kensington for a family of four, with two bathrooms and a beautiful view.",
-        "query": "(luxurious apartment) AND neighbourhood_cleansed:\"Kensington and Chelsea\" AND accommodates:4 AND bathrooms:2",
+        "query": "(luxurious apartment) AND neighbourhood_cleansed:\"Kensington and Chelsea\" AND accomodates:[4 TO 4.99] AND bathrooms:[2 TO 2.99]",
         "sentiments": [
             "joy",
             "surprise"
         ],
         "relevant_documents": [
-            51459295,
+            39048039,
+            38541430,
             38659470,
-            710546079779664701,
-            583099393972148384,
-            597698539833715856,
-            653262566819815391,
-            8564444,
+            51459295,
+            51702623,
             16152793,
-            12539741,
-            17136801
+            53275573,
+            53494846,
+            21974024,
+            19719325,
+            19151150,
+            20531615,
+            21908992,
+            20174342,
+            13332981,
+            15696572,
+            19151150
         ]
     },
     {
@@ -109,46 +107,25 @@
         ]
     },
     {
-        "UIN": "I'm searching a place with a beautiful view. I need a bright apartment for two people",
-        "query": "(bright apartment with beatiful view) AND accommodates:[2 TO 2.99]",
-        "sentiments": [
-            "joy",
-            "neutral"
-        ],
-        "relevant_documents": [
-            42802816,
-            39853712,
-            624325481519589057,
-            14500973,
-            34269824,
-            21923107
-        ]
-    },
-    {
         "UIN": "My partner and I are looking for a romantic getaway. We want an apartment rated at least 4 stars.",
-        "query": "(romantic apartment) AND review_scores_rating:[3.5 TO 5] AND accomodates:[2 TO 2.99]",
+        "query": "(romantic getaway) AND review_scores_rating:[4 TO 5] AND accomodates:[2 TO 2.99]",
         "sentiments": [
             "joy",
             "surprise"
         ],
         "relevant_documents": [
             19099079,
+            36897818,
             33870155,
             23998223,
             53655087,
-            7928538,
-            51791303,
             53030230,
-            341714580,
-            8168705,
-            40894753,
-            49852638,
             16331881,
-            137922116,
+            4238813,
             12925678,
-            12038023,
-            30722148,
-            11373658
+            21706030,
+            13792116,
+            17775553
         ]
     },
     {
