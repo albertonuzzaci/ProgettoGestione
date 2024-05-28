@@ -29,12 +29,17 @@
         "relevant_documents": [
             45064897,
             38117059,
-            32380350,
+            23943901,
+            40361957,
+            691672575455761810,
+            44110507,
+            13314236,
+            3704294,
+            20225817,
             1786015,
-            640742764517662160,
-            29343901,
-            19362218,
-            652068305322889329
+            14124685,
+            11697213,
+            13314236
         ]
     },
     {
@@ -104,8 +109,8 @@
         ]
     },
     {
-        "UIN": "I'm searching a place with a beautiful view. I need a bright apartment in Lambeth for two people",
-        "query": "(bright apartment with beatiful view) AND accommodates:[2 TO 2.99] AND neighbourhood_cleansed:\"Lambeth\"",
+        "UIN": "I'm searching a place with a beautiful view. I need a bright apartment for two people",
+        "query": "(bright apartment with beatiful view) AND accommodates:[2 TO 2.99]",
         "sentiments": [
             "joy",
             "neutral"
@@ -160,31 +165,31 @@
             15885957,
             7754866,
             34900165,
-            660005584660145845,
-            8032080
+            660005584660145845
         ]
     },
     {
         "UIN": "We are a group of friends looking for a large apartment in Tower Hamlets with at least 3 beds and 2 bathrooms. Budget is up to €500 per night.",
-        "query": "(apartment) AND neighbourhood_cleansed:\"Tower Hamlets\" AND beds:[3 TO] AND bathrooms:[2 TO 2.99] AND price:[0 TO 500]",
+        "query": "(large apartment) AND neighbourhood_cleansed:\"Tower Hamlets\" AND beds:[3 TO] AND bathrooms:[2 TO 2.99] AND price:[0 TO 500]",
         "sentiments": [
-            "joy"
+            "joy", "surprise"
         ],
         "relevant_documents": [
-            17242615,
-            601467517755771808,
-            31844876,
-            50410317,
-            50408941,
             49622716,
-            21932875,
-            16699637,
-            28513020
+            9455879,
+            8483407,
+            22935747,
+            36631407,
+            24821021,
+            17818933,
+            18871461,
+            32708396,
+            675104480010244688
         ]
     },
     {
         "UIN": "I'm searching a creepy and old place for an Halloween party. Looking for a budget-friendly place, rated at least 3 stars. Max budget is €80.",
-        "query": "(cheap stay) AND review_scores_rating:[3 TO 5] AND price:[0 TO 80]",
+        "query": "(cheap stay) AND price:[0 TO 80] AND review_scores_rating:[3 TO 5]",
         "sentiments": [
             "fear",
             "disgust",
@@ -202,8 +207,8 @@
             38534772,
             10245161,
             44134466,
+
             18522557,
-            
             11849717,
             35700935,
             446634,
@@ -214,6 +219,12 @@
             487430,
             654164336164039415,
 
+            23991020,
+            629625021968616352,
+
+            23220187,
+            660315502888719857,
+            50707857
 
         ]
     },

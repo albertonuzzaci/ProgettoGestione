@@ -53,7 +53,6 @@ class Benchmark():
             print(f'Recall values: {recallValues}')
         
         return recallValues
-   
     def getSRLValues(self, precision, recall, verbose = False):
         levels = [i / 10 for i in range(11)] 
         srlValues = []
@@ -73,8 +72,9 @@ class Benchmark():
         
         if verbose:
             print(f'Standard Recall-Precision Values {srlValues}')
-            
-        return srlValues
+        return srlValues 
+        
+    
     
     def getNIapAvgPrecision(self, precision, recall, verbose = False):
         NIapAvgP = [precision[i] for i in range(len(recall)) if i == 0 or recall[i] != recall[i-1]]

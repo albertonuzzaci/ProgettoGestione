@@ -75,7 +75,7 @@ def main(buildInd, model: str) -> None:
         
     control = Controller(my_index, customModel)
     MyGUI(control, modelsDict[model][1])
-    
+
 
 if __name__ == "__main__":
     forceBuildIndex, model = setupParser()
