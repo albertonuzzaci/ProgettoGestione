@@ -101,7 +101,7 @@ class AdvancedSentimentWeightingModel(SentimentWeightingModel):
 class SentimentWeightingModelWeightedAverage(SentimentWeightingModel):
     
     def getFinalScoreBaseSent(self, score, sentiment_score):
-        return ((score/30*80)+(sentiment_score*20))/2
+        return ((score/30*70)+(sentiment_score*30))/2
 
 class AdvancedSentimentWeightingModelWeightedAverage(AdvancedSentimentWeightingModel):
     
