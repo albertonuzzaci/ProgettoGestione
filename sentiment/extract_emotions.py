@@ -23,6 +23,6 @@ class ExtractEmotions:
 
 if __name__ == "__main__":
     classifier = ExtractEmotions()
-    text = "We had a great (3-week) stay. The house is exactly as presented in the photos, and is in an excellent location - the road itself is very quiet, but is just around the corner from the increasingly buzzing action of Parson's Green. Camilla was a great host - very quick to reply to any messages, and she made checking in and checking out extremely easy. Would definitely stay here again."
+    text = "What a wonderful accomodation! I loved staying there. Although people outside were a little bit scary, the stay was pleasant."
     results = classifier.extract(text)
     print(results)

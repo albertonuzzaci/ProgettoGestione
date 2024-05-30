@@ -1,15 +1,7 @@
-#import usefull classes
 from index import Index
 from model import IRModel
 from functools import reduce
 
-
-### ! cancellare dopo
-from whoosh.scoring import BM25F
-from doc2vec.doc2vec_model import Doc2VecModel
-from sentiment.sentiment_model import SentimentWeightingModel, AdvancedSentimentWeightingModel
-import os, json
-### ! ----------------
 
 class Benchmark():
     
@@ -128,28 +120,3 @@ class Benchmark():
     
     def __str__(self) -> str:
         return f'UIN: {self.query["UIN"]}\nQuery: {self.query["query"]}\nSentiments: {self.query["sentiments"]}\nRelevant documents: {self.query["relevant_documents"]} '
-
-
-if __name__ == "__main__":
-    # file containing benchmark queries
-    file_path = os.path.join("evaluation", "queries.json")
-
-    # loades the queries
-    with open(file_path) as f:
-        queries = json.load(f)
-
-    # Models that need to be tested. 
-    models = [
-        (BM25F(), "BM25F"),
-        (Doc2VecModel(), "Doc2Vec"),
-        (SentimentWeightingModel(), "Base Sentiment"),
-        (AdvancedSentimentWeightingModel(), "Advanced Sentiment" ) 
-    ]
-    
-    b = Benchmark(queries[1])
-    
-    for model, model_name in models:
-        result = b.getResults(20, model)
-        print(model_name)
-        #print(1-b.FMeasure(result))
-        print(b.getEMeasure(result,0.5))

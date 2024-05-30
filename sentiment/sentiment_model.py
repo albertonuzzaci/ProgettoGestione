@@ -3,11 +3,7 @@ import math
 from sentiment.reviews import ReviewsIndex
 from sentiment.extract_emotions import ExtractEmotions
 
-#----- CANCELLA STA ROBA
-import bisect, json
 
-listScore = []
-#----
 class SentimentWeightingModel(BM25F):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -54,9 +50,7 @@ class SentimentWeightingModel(BM25F):
         global listScore
         
         score = super().final(searcher, docnum, score)
-        
-        bisect.insort(listScore, score/30) ###!!!!! CANCELLA QUESTA LINEA
-                    
+                            
         if not self.user_sentiment:
             return score
 
@@ -64,18 +58,6 @@ class SentimentWeightingModel(BM25F):
         sentiment_score = self.get_sentiment_score(id, self.user_sentiment)
         
         return self.getFinalScoreBaseSent(score, sentiment_score)
-    
-    #-----! CANCELLA QUESTI DUE METODI DOPO
-    def getListLen(self):
-        global listScore
-        print(f"Now list is len {len(listScore)} elements")
-    
-    
-    def saveScoreListOnFile(self):
-        global listScore
-        with open("scoreList.json", 'w') as file:
-            json.dump(listScore, file)
-    #-----
  
     def getFinalScoreBaseSent(self, score, sentiment_score, nReviews=None):
         return score*sentiment_score
@@ -107,9 +89,3 @@ class AdvancedSentimentWeightingModelWeightedAverage(AdvancedSentimentWeightingM
     
     def getFinalScoreAdvSent(self, score, sentiment_score, nReviews):
         return  ((score/30*70)+(sentiment_score*20)+(nReviews*10))/3
-
-if __name__=="__main__":
-    classifier = ExtractEmotions()
-    text = "What a wonderful accomodation! I loved staying there. Although people outside were a little bit scary, the stay was pleasant."
-    results = classifier.extract(text)
-    print(results)
