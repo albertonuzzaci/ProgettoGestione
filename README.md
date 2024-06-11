@@ -61,7 +61,7 @@ python main.py [-B | -S | -RS | -D2V] --build-index
 * ***evaluation***: this package contains functions and queries for *benchmarks.ipynb*.
 * ***gui***: this package contains the GUI code. 
 * ***indexdir***: directory containing the index. 
-* ***sentiment***: this package contains the implementation of ```AdvancedSentimentWeightingModel``` and ```SentimentWeightingModel```
+* ***sentiment***: this package contains the implementation of ```SentimentModelARWA``` and ```SentimentModelWA```
 * ***benchmarks.ipynb***: notebook to run benchmarks
 * ***controller\.py***: file serves as the central hub for interacting with and orchestrating the functionalities of various other files within a software project. 
 * ***index\.py***: this file builds setup the *schema* and then build the *index* which is stored in the *indexdir* directory. 
