@@ -36,10 +36,6 @@ def doc2vec_creation():
     model.train(tagged_docs,
                 total_examples=model.corpus_count,
                 epochs=model.epochs)
-    
-    """ # get the document vectors
-    document_vectors = [model.infer_vector(
-        word_tokenize(doc.lower())) for doc in docs] """
 
     model.save(f'./{config_data["DOC2VEC"]["DATADIR"]}/doc2vec.model')
     print("Model created and stored succesfully!")
