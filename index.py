@@ -4,11 +4,6 @@ import json
 from whoosh.fields import Schema, TEXT, ID, NUMERIC
 from whoosh import index
 
-import nltk
-from nltk.corpus import stopwords
-from nltk.stem.porter import PorterStemmer
-
-
 class Index():
     
     def __init__(self, forceBuildIndex=False, limit=None):
@@ -74,24 +69,8 @@ class Index():
                     break
         writer.commit()
         return ix
-            
-    @staticmethod
-    def preprocessing(text):
-        tokens = nltk.word_tokenize(str(text))
-        porter = PorterStemmer()
-        tagged = nltk.pos_tag(tokens)
-        stop_words = set(stopwords.words('english'))
-        text_processed = set()
-        for t in tokens:
-            if t not in stop_words:
-                tt = nltk.pos_tag([t])
-                if tt[0][1][0:2] == 'NN':
-                    text_processed.add(porter.stem(t))
-        text_stemmed = " ".join(text_processed) 
-        return text_stemmed
   
 
 if __name__ == '__main__':
     my_index = Index(forceBuildIndex=False, limit=1000)
-    #r = searchAcc(my_index, "bed AND (neighbourhood_cleansed:(\"Westminster\" OR \"Waltham Forest\"))", 10)
 

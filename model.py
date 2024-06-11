@@ -1,7 +1,7 @@
 from index import Index
 from whoosh import qparser
 from whoosh.scoring import WeightingModel
-from sentiment.sentiment_model import SentimentWeightingModel, AdvancedSentimentWeightingModel
+from sentiment.sentiment_model import SentimentModelWA
 from doc2vec.doc2vec_model import Doc2VecModel
 from functools import reduce
 from whoosh.scoring import BM25F
@@ -16,12 +16,11 @@ class IRModel:
 		resDict = {}
 		correctedString = ""
 		try:
-			if isinstance(self.model, SentimentWeightingModel):
+			if isinstance(self.model, SentimentModelWA):
 				self.model.set_user_sentiment(sentiments)
 			elif isinstance(self.model, Doc2VecModel):
 				self.model.set_query(query)
 			s = self.index.indexAcc.searcher(weighting = self.model)
-			#qp = qparser.QueryParser("recipe_name", schema=my_index.schema)
 			qp = qparser.MultifieldParser(['name','description'], schema=self.index.schemaAcc, group=qparser.OrGroup)
 
    
@@ -32,9 +31,7 @@ class IRModel:
     
 			results = s.search(parsedQ, terms=True, limit=resLimit)
 			for i in results:
-				#print(i.matched_terms())
 				resDict[i["id"]] = [ i["name"], i["price"]]
-				#print(i.score)
 			
 			corrected = s.correct_query(parsedQ, query)
 			if corrected.query != parsedQ:

@@ -4,7 +4,7 @@ from sentiment.reviews import ReviewsIndex
 from sentiment.extract_emotions import ExtractEmotions
 
 
-class SentimentWeightingModel(BM25F):
+class SentimentModelWA(BM25F): # Sentiment Model Weighted Average
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.user_sentiment = None
@@ -57,13 +57,9 @@ class SentimentWeightingModel(BM25F):
         id = searcher.stored_fields(docnum)['id']
         sentiment_score = self.get_sentiment_score(id, self.user_sentiment)
         
-        return self.getFinalScoreBaseSent(score, sentiment_score)
+        return ((score/30*70)+(sentiment_score*30))/2
  
-    def getFinalScoreBaseSent(self, score, sentiment_score, nReviews=None):
-        return score*sentiment_score
-
-
-class AdvancedSentimentWeightingModel(SentimentWeightingModel):
+class SentimentModelARWA(SentimentModelWA): # Sentiment Model Len Review Weighted Average
     '''
     Modello che differisce dal primo poichè premia i documenti con più recensioni penalizzando
     pesantemente quelli che ne hanno poche. 
@@ -75,17 +71,4 @@ class AdvancedSentimentWeightingModel(SentimentWeightingModel):
         id = searcher.stored_fields(docnum)['id']
         sentiment_score = self.get_sentiment_score(id, self.user_sentiment)
         
-        return self.getFinalScoreAdvSent(score, sentiment_score, self.reviews_index.get_sentiment_len_for(id))
-    
-    def getFinalScoreAdvSent(self, score, sentiment_score, nReviews):
-        return score*sentiment_score*nReviews
-
-class SentimentWeightingModelWeightedAverage(SentimentWeightingModel):
-    
-    def getFinalScoreBaseSent(self, score, sentiment_score):
-        return ((score/30*70)+(sentiment_score*30))/2
-
-class AdvancedSentimentWeightingModelWeightedAverage(AdvancedSentimentWeightingModel):
-    
-    def getFinalScoreAdvSent(self, score, sentiment_score, nReviews):
-        return  ((score/30*70)+(sentiment_score*20)+(nReviews*10))/3
+        return ((score/30*70)+(sentiment_score*20)+(self.reviews_index.get_sentiment_len_for(id)*10))/3

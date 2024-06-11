@@ -36,9 +36,6 @@ class AccomodationFrame(ctk.CTkFrame):
         
         reviewF = review_frame.ReviewFrame(self, self.data["reviews"])
         reviewF.grid(row=3, column=0, columnspan=2, sticky="SEW", padx=10, pady=10)
-    # def setupTitleFrame(self):
-    #     tFrame = ctk.CTkFrame(self)s
-    #     return tFrame
   
     def setupLeftFrame(self):
         lFrame = ctk.CTkFrame(self)

@@ -34,14 +34,12 @@ def updateInputsearch(value, valueList, control):
 def increase(lbl, valueList, control):
     lbl.configure(text=int(lbl.cget("text"))+1)
     control.updatePeople(int(lbl.cget("text")))
-    #if(control.inputSearch != ""): 
     searchFunction(valueList, control)
     
 def decrease(lbl, valueList, control):
     if(int(lbl.cget("text"))>0):
         lbl.configure(text=int(lbl.cget("text"))-1)
         control.updatePeople(int(lbl.cget("text"))) 
-        #if(control.inputSearch != ""):
         searchFunction(valueList, control)
     
 def onselect(evt, listbox, mainView):
@@ -51,7 +49,7 @@ def onselect(evt, listbox, mainView):
         try:
             newTab = mainView.add(f'{selected_item.strip()[:10]}{"..." if len(selected_item)>10 else ""}')
         except ValueError:
-            print("Pagina già aperta") # METTERSI D'ACCORDO SU COME GESTIRE IL CASO
+            print("Pagina già aperta")
         
 def slider_ev(sliderValue, label, info, valueList, control):
     if info.cget("text")=="Price Max":

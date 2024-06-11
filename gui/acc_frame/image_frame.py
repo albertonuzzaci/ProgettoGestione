@@ -37,10 +37,6 @@ class ImageFrame(ctk.CTkFrame):
                 emptyLabel.grid(column=i, row=1, sticky="nsew", padx=5, pady=(0,10))
 
 
-        # imgLabel = ctk.CTkLabel(master=self, text="Show Images", font=ctk.CTkFont(family="Montserrat", size=15, weight="bold"),cursor="hand2")
-        # imgLabel.bind("<Button-1>", lambda e: self.callback(imgs, imgLabel))
-        # imgLabel.grid(row=0, column=0, sticky="W", padx=10, pady=10)  
-
 
     def readImages(self,img,i):
 
