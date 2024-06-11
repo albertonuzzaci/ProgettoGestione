@@ -36,8 +36,8 @@ Options:
 * ```--build-index``` build again the index. 
 * ```[-B | -S | -AS | -D2V]``` choose the weighting model to run. 
 	* ```-B``` run the search engine using the ```BM25F``` weighting model. This model is the default used in ```whoosh```. Without any option it will be taken as the **default** model. 
-	* ```-S``` run the search engine using the ```SentimentWeightingModel``` weighting model. During the search a user can sort the results based on the feelings searched for. 
-	* ```-AS```run the search engine using the ```AdvancedSentimentWeightingModel``` weighting model. During the search a user can sort the results based on the feelings searched for and at the same time on the quantity of reviews.
+	* ```-S``` run the search engine using the ```SentimentModelWA``` weighting model. During the search a user can sort the results based on the feelings searched for. 
+	* ```-RS```run the search engine using the ```SentimentModelARWA``` weighting model. During the search a user can sort the results based on the feelings searched for and at the same time on the amount of reviews.
 	* ```-D2V``` run the search engine using the ```Doc2VecModel``` weighting model. It use *doc2vec* which is a technique for generating vector representations of documents, allowing for efficient comparison and analysis of their semantic meanings.
 
 Running requires
@@ -50,7 +50,7 @@ Therefore, a pre-built version of every file is provided so, if everything downl
 
 **Please note that an error related to the searcher object may occur. In that case try to build again index running:** 
 ```
-python main.py [-B | -S | -AS | -D2V] --build-index
+python main.py [-B | -S | -RS | -D2V] --build-index
 ```
 
 ## Project Structure
@@ -72,7 +72,7 @@ python main.py [-B | -S | -AS | -D2V] --build-index
 
 ## Query Language
 
-All the version of the search-engine support **Natuarl Query Language**. Additionaly, when ```AdvancedSentimentWeightingModel``` rather than ```SentimentWeightingModel``` are launched a list of convenient *Sentiments* checkboxes will appear. Through this series of checkboxes an user can rank retrived documents based on *Sentiments* selected. 
+All the version of the search-engine support **Natuarl Query Language**. Additionaly, when ```SentimentModelARWA``` rather than ```SentimentModelWA``` are launched a list of convenient *Sentiments* checkboxes will appear. Through this series of checkboxes an user can rank retrived documents based on *Sentiments* selected. 
 
 Furthermore, all the versions of the search-engine provide the following filters to the user in order to better personalize the search experience:
 * *#NResult* using this button It's possible to decrease and increase the number of the retrieved documents. 
@@ -92,7 +92,7 @@ This is the main view for the models ```Doc2VecModel``` and ```BM25F``` (without
 
 ![](./assets/mainView.png)
 
-Instead, this is the main view for the models ```AdvancedSentimentWeightingModel``` and ```SentimentWeightingModel``` (with sentiments). It's possible to see also  ```did you mean '...'?``` tool. 
+Instead, this is the main view for the models ```SentimentModelARWA``` and ```SentimentModelWA``` (with sentiments). It's possible to see also  ```did you mean '...'?``` tool. 
 ![](./assets/mainView_S_didumean.png)
 
 When an accomodation is clicked this will be the view shown.
