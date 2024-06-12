@@ -28,13 +28,13 @@ pip install -r requirements.txt
 ## Usage
 Run the search engine
 ```
-python main.py [-h] [--build-index] [-B | -S | -AS | -D2V]
+python main.py [-h] [--build-index] [-B | -S | -RS | -D2V]
 ```  
 
 Options: 
 * ```-h, --help``` show an help message and exit. 
 * ```--build-index``` build again the index. 
-* ```[-B | -S | -AS | -D2V]``` choose the weighting model to run. 
+* ```[-B | -S | -RS | -D2V]``` choose the weighting model to run. 
 	* ```-B``` run the search engine using the ```BM25F``` weighting model. This model is the default used in ```whoosh```. Without any option it will be taken as the **default** model. 
 	* ```-S``` run the search engine using the ```SentimentModelWA``` weighting model. During the search a user can sort the results based on the feelings searched for. 
 	* ```-RS```run the search engine using the ```SentimentModelARWA``` weighting model. During the search a user can sort the results based on the feelings searched for and at the same time on the amount of reviews.
