@@ -45,8 +45,8 @@ Running requires
 * **Reviews file**: file used in model that enable ranking by sentiment. 
 * **Doc2Vec model** and **vector in a json file**: file used by  ```Doc2VecModel```.
 
-If It's the first time all the needed file will be generated. However, this could take a long time.
-Therefore, a pre-built version of every file is provided so, if everything downloaded correctly, it should be instant. 
+If It's the first time you run this project, all the needed file will be generated. However, this could take a long time.
+Therefore, a pre-built version of every file is provided so, if everything downloaded correctly, the project should starts istantly. 
 
 **Please note that an error related to the searcher object may occur. In that case try to build again index running:** 
 ```
