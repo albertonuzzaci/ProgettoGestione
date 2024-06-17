@@ -47,7 +47,6 @@ class SentimentModelWA(BM25F): # Sentiment Model Weighted Average
 
 
     def final(self, searcher, docnum, score):
-        global listScore
         
         score = super().final(searcher, docnum, score)
                             

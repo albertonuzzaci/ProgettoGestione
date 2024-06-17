@@ -46,7 +46,6 @@ def to_json():
     with open('./config.yaml','r') as file:
         config_data = yaml.safe_load(file)
         
-        
     model = Doc2Vec.load(f'./{config_data["DOC2VEC"]["DATADIR"]}/doc2vec.model')  # load the model
     docs_vector = {}
     
