@@ -72,7 +72,7 @@ python main.py [-B | -S | -RS | -D2V] --build-index
 
 ## Query Language
 
-All the version of the search-engine support **Natuarl Query Language**. Additionaly, when ```SentimentModelARWA``` rather than ```SentimentModelWA``` are launched a list of convenient *Sentiments* checkboxes will appear. Through this series of checkboxes an user can rank retrived documents based on *Sentiments* selected. 
+All the version of the search-engine support **Natural Query Language**. Additionaly, when ```SentimentModelARWA``` rather than ```SentimentModelWA``` are launched a list of convenient *Sentiments* checkboxes will appear. Through this series of checkboxes an user can rank retrived documents based on *Sentiments* selected. 
 
 Furthermore, all the versions of the search-engine provide the following filters to the user in order to better personalize the search experience:
 * *#NResult* using this button It's possible to decrease and increase the number of the retrieved documents. 
